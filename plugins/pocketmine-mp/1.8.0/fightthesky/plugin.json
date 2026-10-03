@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "fightthesky",
+  "name": "FightTheSky",
+  "display_name": "斗破苍穹",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.7",
+  "author": [
+    "guestc"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "斗破苍穹",
+  "website": null,
+  "main": "FightTheSky\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fts",
+      "description": "斗破苍穹",
+      "usage": "/fts",
+      "permission": "FightTheSky.Command.fts",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "FightTheSky.Command.fts",
+      "description": "斗破苍穹",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/fightthesky/FightTheSky-1.0.7.phar",
+      "file_name": "FightTheSky-1.0.7.phar",
+      "sha256": "48f75fe8bdb46eeaf941f386d465c4725e9cad519dd32277fad81142004cd227",
+      "size": 68451,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/fightthesky/FightTheSky-1.0.7.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/斗破苍穹/斗破苍穹.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "ztalent",
+  "name": "ZTalent",
+  "display_name": "加密",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.2",
+  "author": [
+    "ZeroY"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "ZTalent主指令",
+  "website": null,
+  "main": "ZTalent\\ZTalent",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "天赋",
+      "description": "ZTalent主指令",
+      "usage": "/天赋",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "耐久",
+      "description": "ZTalent耐久度指令",
+      "usage": "/耐久",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "世界",
+      "description": "ZTalent世界指令",
+      "usage": "/世界",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/ztalent/ZTalent-2.2.phar",
+      "file_name": "ZTalent-2.2.phar",
+      "sha256": "2f269f042c7845d78ead61ba666ccfc073a61ad7af4bfe1431a23c9a38395f67",
+      "size": 25200,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/ztalent/ZTalent-2.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/天赋 - 加密/[天赋]ZTalent.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

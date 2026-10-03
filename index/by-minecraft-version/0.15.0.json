@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-minecraft-version",
+  "minecraft_version": "0.15.0",
+  "count": 23,
+  "plugins": [
+    {
+      "id": "awtmessage",
+      "name": "AwtMessage",
+      "display_name": "AwtMessage",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "0.0.2-SNAPSNOT",
+      "path": "plugins/nukkit/0.15.0/awtmessage/plugin.json",
+      "file": "plugins/nukkit/0.15.0/awtmessage/AwtMessage-0.0.2-SNAPSNOT.jar",
+      "sha256": "d4eabf31d40830e291baa57b9233995832ea5833f2cdc0fa194a4972a18e85fa",
+      "size": 6270,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/awtmessage/AwtMessage-0.0.2-SNAPSNOT.jar"
+      }
+    },
+    {
+      "id": "leettp",
+      "name": "LeetTP",
+      "display_name": "LeetTP",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.2.1-b22",
+      "path": "plugins/nukkit/0.15.0/leettp/plugin.json",
+      "file": "plugins/nukkit/0.15.0/leettp/LeetTP-1.2.1-b22.jar",
+      "sha256": "f272ea1f7937e61dbd65cdff4b975f868be5555e9adcd6af70a0afa04fbc911a",
+      "size": 57461,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/leettp/LeetTP-1.2.1-b22.jar"
+      }
+    },
+    {
+      "id": "mcsgui-manager",
+      "name": "mcsgui_manager",
+      "display_name": "mcsgui_manager",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0",
+      "path": "plugins/nukkit/0.15.0/mcsgui-manager/plugin.json",
+      "file": "plugins/nukkit/0.15.0/mcsgui-manager/mcsgui_manager-2.0.jar",
+      "sha256": "c52c901c02cb9a57b094d28489826ef93887d09e1c8cb0afc0e188dbfcc7f072",
+      "size": 3314,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/mcsgui-manager/mcsgui_manager-2.0.jar"
+      }
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "display_name": "Money",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/nukkit/0.15.0/money/plugin.json",
+      "file": "plugins/nukkit/0.15.0/money/Money-1.3.0.jar",
+      "sha256": "3130c20a3d1dd2302a0b77bc785aa133eab5545b3ff5e514a90f0edeef5ec76a",
+      "size": 32310,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/money/Money-1.3.0.jar"
+      }
+    },
+    {
+      "id": "moneyland",
+      "name": "MoneyLand",
+      "display_name": "MoneyLand",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/0.15.0/moneyland/plugin.json",
+      "file": "plugins/nukkit/0.15.0/moneyland/MoneyLand-1.1.0.jar",
+      "sha256": "64e4c0b1c0c7c2c9ee973b384079beac1908f221b9c0df66d1beacc98cf1df7a",
+      "size": 18044,
+      "tags": [
+        "economy",
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/moneyland/MoneyLand-1.1.0.jar"
+      }
+    },
+    {
+      "id": "mylock",
+      "name": "MyLock",
+      "display_name": "MyLock",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.4",
+      "path": "plugins/nukkit/0.15.0/mylock/plugin.json",
+      "file": "plugins/nukkit/0.15.0/mylock/MyLock-1.0.4.jar",
+      "sha256": "e0d147bcac89970602eb674993cf89a5236bc980d4654c85c819f9187b21bd4a",
+      "size": 6958,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/mylock/MyLock-1.0.4.jar"
+      }
+    },
+    {
+      "id": "nessentials",
+      "name": "NEssentials",
+      "display_name": "NEssentials",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "0.0.1-SNAPSHOT",
+      "path": "plugins/nukkit/0.15.0/nessentials/plugin.json",
+      "file": "plugins/nukkit/0.15.0/nessentials/NEssentials-0.0.1-SNAPSHOT.jar",
+      "sha256": "36dd204892888a01137aa68a65c42d7dbf84e4311e204b19d92f2dd15ae220b4",
+      "size": 15371,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/nessentials/NEssentials-0.0.1-SNAPSHOT.jar"
+      }
+    },
+    {
+      "id": "rsfunction",
+      "name": "RsFunction",
+      "display_name": "RsFunction",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/0.15.0/rsfunction/plugin.json",
+      "file": "plugins/nukkit/0.15.0/rsfunction/RsFunction-1.0.2.jar",
+      "sha256": "59d22b9b37452dbaca7b2bd2764390e39d1e8f1af403e1886a34f7119144a2b9",
+      "size": 13329,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/rsfunction/RsFunction-1.0.2.jar"
+      }
+    },
+    {
+      "id": "rsshop",
+      "name": "RsShop",
+      "display_name": "RsShop",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/0.15.0/rsshop/plugin.json",
+      "file": "plugins/nukkit/0.15.0/rsshop/RsShop-1.0.0.jar",
+      "sha256": "458ea4a0b75d4e96d2c7aa6995ec46990b099b2055845800fa804419223704c0",
+      "size": 13758,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/rsshop/RsShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "sntuauth",
+      "name": "SntuAuth",
+      "display_name": "SntuAuth",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.2",
+      "path": "plugins/nukkit/0.15.0/sntuauth/plugin.json",
+      "file": "plugins/nukkit/0.15.0/sntuauth/SntuAuth-1.2.jar",
+      "sha256": "8785e21c64469629faa9b0b0f412304482291e99bce1401e1d51809867d7e7e4",
+      "size": 15525,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/sntuauth/SntuAuth-1.2.jar"
+      }
+    },
+    {
+      "id": "worldplus",
+      "name": "WorldPlus",
+      "display_name": "WorldPlus",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.5",
+      "path": "plugins/nukkit/0.15.0/worldplus/plugin.json",
+      "file": "plugins/nukkit/0.15.0/worldplus/WorldPlus-1.5.jar",
+      "sha256": "4b551f5985379f5b25e601c3d803aa8ada24fa7b1d0bdefc40481102b55ada00",
+      "size": 28127,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/worldplus/WorldPlus-1.5.jar"
+      }
+    },
+    {
+      "id": "worlds",
+      "name": "Worlds",
+      "display_name": "Worlds",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/0.15.0/worlds/plugin.json",
+      "file": "plugins/nukkit/0.15.0/worlds/Worlds-1.1.0.jar",
+      "sha256": "331c83399aa8d8d4c2c0088f3836efc74dcb2b7790c539fd8949bd2fcc1e8910",
+      "size": 2906,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/worlds/Worlds-1.1.0.jar"
+      }
+    },
+    {
+      "id": "economyproperty",
+      "name": "EconomyProperty",
+      "display_name": "件套",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.15.0/economyproperty/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/economyproperty/EconomyProperty-2.0.2.phar",
+      "sha256": "9c18c51335ed7e8a3bebe3cd1d224ea39302fd48f7d284fa198ce92d5b1c8d83",
+      "size": 5751,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/economyproperty/EconomyProperty-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economyproperty-v2",
+      "name": "EconomyProperty",
+      "display_name": "经济房地产",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.15.0/economyproperty-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/economyproperty-v2/EconomyProperty-2.0.2.phar",
+      "sha256": "10c1f769e2a8f2d291416b4c2078b3884adad8da7288a92ce4d19aeb8b38679a",
+      "size": 17466,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/economyproperty-v2/EconomyProperty-2.0.2.phar"
+      }
+    },
+    {
+      "id": "godintegral",
+      "name": "GodIntegral",
+      "display_name": "积分插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.15.0/godintegral/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/godintegral/GodIntegral-1.0.0.phar",
+      "sha256": "09189ed8d885712370b7b5c70cc51f7352a797b6a8ffd22587532ae713e378cc",
+      "size": 29132,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/godintegral/GodIntegral-1.0.0.phar"
+      }
+    },
+    {
+      "id": "greentreehand",
+      "name": "GreenTreeHand",
+      "display_name": "终极造树手",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0.0",
+      "path": "plugins/pocketmine-mp/0.15.0/greentreehand/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/greentreehand/GreenTreeHand-2.0.0.phar",
+      "sha256": "bccb5b901e7dc36aea8df51a102b2d204d44d398d63b4c5860874e4d00bad811",
+      "size": 3870,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/greentreehand/GreenTreeHand-2.0.0.phar"
+      }
+    },
+    {
+      "id": "killhead",
+      "name": "KillHead",
+      "display_name": "杀人掉头",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.15.0/killhead/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/killhead/KillHead-1.0.0.phar",
+      "sha256": "4ae8321971733c0d1e6be91114580c09c407659ee5418a2b8b7a91a4fb92f383",
+      "size": 1725,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/killhead/KillHead-1.0.0.phar"
+      }
+    },
+    {
+      "id": "luckybox",
+      "name": "Luckybox",
+      "display_name": "幸运方块",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.15.0/luckybox/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/luckybox/Luckybox-1.0.0.phar",
+      "sha256": "98c4d5ca6d1f121975006846f75323a9177fe8136967c6d0febf847142278d99",
+      "size": 2729,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/luckybox/Luckybox-1.0.0.phar"
+      }
+    },
+    {
+      "id": "sendtip",
+      "name": "sendtip",
+      "display_name": "底部信息插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.15.0/sendtip/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/sendtip/sendtip-1.0.0.phar",
+      "sha256": "b9fad279f6b1a58504f35dab841431821d69c3fdb4fd29767cb29205e4845a52",
+      "size": 3064,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/sendtip/sendtip-1.0.0.phar"
+      }
+    },
+    {
+      "id": "tntban",
+      "name": "tntban",
+      "display_name": "自动",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.15.0/tntban/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/tntban/tntban-1.0.0.phar",
+      "sha256": "cd75ff7fdeb8115488b37c4105e937a78b7d4e6f1d20413c5787427155593610",
+      "size": 1268,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/tntban/tntban-1.0.0.phar"
+      }
+    },
+    {
+      "id": "touchhome",
+      "name": "TouchHome",
+      "display_name": "回家",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0",
+      "path": "plugins/pocketmine-mp/0.15.0/touchhome/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/touchhome/TouchHome-2.0.phar",
+      "sha256": "6e6d31cf39d55331ef8d2fb40e1d50b09ca734744c2c89c9b614ab57cba7c478",
+      "size": 2818,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/touchhome/TouchHome-2.0.phar"
+      }
+    },
+    {
+      "id": "touchhome-v2",
+      "name": "TouchHome",
+      "display_name": "回家",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0",
+      "path": "plugins/pocketmine-mp/0.15.0/touchhome-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/touchhome-v2/TouchHome-2.0.phar",
+      "sha256": "0f1edbf932898028a80efe6acd3fe57139fc4be4ccdb2992deadd0175bf86445",
+      "size": 2879,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/touchhome-v2/TouchHome-2.0.phar"
+      }
+    },
+    {
+      "id": "xk",
+      "name": "XK",
+      "display_name": "自动返回主城",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.5.0",
+      "path": "plugins/pocketmine-mp/0.15.0/xk/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/xk/XK-1.5.0.phar",
+      "sha256": "adfe3ada34e3b7a1d04a9077e7c11f8edcd79101aeed976c435312488a34975c",
+      "size": 2216,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/xk/XK-1.5.0.phar"
+      }
+    }
+  ]
+}

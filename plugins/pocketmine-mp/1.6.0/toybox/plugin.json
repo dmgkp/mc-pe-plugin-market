@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "toybox",
+  "name": "ToyBox",
+  "display_name": "移动光源",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.1",
+  "author": [
+    "aliuly"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A box full of fun toys and tools",
+  "website": null,
+  "main": "aliuly\\toybox\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "toybox.torch",
+      "description": "Can use floating torch",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/toybox/ToyBox-1.2.1.phar",
+      "file_name": "ToyBox-1.2.1.phar",
+      "sha256": "3f162269c76e5fd7a50ee5cff00a11f6c8c96c84343f449c5d4d3f3dd46798c8",
+      "size": 24540,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/toybox/ToyBox-1.2.1.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.1.0": [
+      {
+        "file_name": "ToyBox-1.1.0.phar",
+        "sha256": "c865d5fa5d4c098db18025cda3964d8d62908b2ad8179e675b94bdbb6b0450ef",
+        "size": 19553
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/移动光源/移动光源.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:20+08:00",
+  "minecraft_version_source": "api-inferred"
+}

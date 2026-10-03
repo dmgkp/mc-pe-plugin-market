@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "worldprotect",
+  "name": "WorldProtect",
+  "display_name": "世界保护",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.1.0",
+    "1.5.0",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Smile"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A plugin that let you protect your worlds",
+  "website": null,
+  "main": "com.smile.WorldProtect.WorldProtect",
+  "tags": [
+    "world",
+    "protection",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "wp",
+      "description": "add a level to the protect list",
+      "usage": "/wp protect <level name>",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/worldprotect/WorldProtect-1.0.0.jar",
+      "file_name": "WorldProtect-1.0.0.jar",
+      "sha256": "92ad223463b236267443ba1b024e6ac711590fc29c7d2d9183dc0297f96dadbb",
+      "size": 3367,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/worldprotect/WorldProtect-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/世界保护/世界保护.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "id": "randomspawn",
+  "name": "RandomSpawn",
+  "display_name": "随机出生点",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Angus"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "spawn Random",
+  "website": null,
+  "main": "RandomSpawn\\RandomSpawn",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "setspawn1",
+      "description": "set spawn 1",
+      "usage": "/setspawn1",
+      "permission": "randomspawn.command.setspawn1",
+      "aliases": []
+    },
+    {
+      "name": "setspawn2",
+      "description": "set spawn 2",
+      "usage": "/setspawn2",
+      "permission": "randomspawn.command.setspawn2",
+      "aliases": []
+    },
+    {
+      "name": "setspawn3",
+      "description": "set spawn 3",
+      "usage": "/setspawn3",
+      "permission": "randomspawn.command.setspawn3",
+      "aliases": []
+    },
+    {
+      "name": "setspawn4",
+      "description": "set spawn 4",
+      "usage": "/setspawn4",
+      "permission": "randomspawn.command.setspawn4",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "randomspawn.command.setspawn1",
+      "description": "set spawn 2",
+      "default": "op"
+    },
+    {
+      "name": "randomspawn.command.setspawn3",
+      "description": "set spawn 3",
+      "default": "op"
+    },
+    {
+      "name": "randomspawn.command.setspawn4",
+      "description": "set spawn 4",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/randomspawn/RandomSpawn-1.0.0.phar",
+      "file_name": "RandomSpawn-1.0.0.phar",
+      "sha256": "349286641acff215d8744d6c9f48e31c16aa8aed4894afa1c04fc38e77659333",
+      "size": 5112,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/randomspawn/RandomSpawn-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/随机出生点/随机出生点.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:24+08:00",
+  "minecraft_version_source": "api-inferred"
+}

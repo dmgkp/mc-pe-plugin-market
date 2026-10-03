@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "pureentitiesx",
+  "name": "PureEntitiesX",
+  "display_name": "更新",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.2.2_dev",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Implement all MCPE entities into your worlds",
+  "website": null,
+  "main": "revivalpmmp\\pureentities\\PureEntities",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pesummon",
+      "description": "Summons a creature",
+      "usage": "/pesummon <mob-name> [playername] [isBaby(true|false)]",
+      "permission": "pureentities.command.pesummon",
+      "aliases": []
+    },
+    {
+      "name": "peremove",
+      "description": "Removes all entities from the current level",
+      "usage": "/peremove",
+      "permission": "pureentities.command.peremove",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "pureentities",
+      "description": "Allows remove of all entities in current level",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/pureentitiesx/PureEntitiesX-0.2.2_dev.phar",
+      "file_name": "PureEntitiesX-0.2.2_dev.phar",
+      "sha256": "6f4f2d1867b8a5cd3c8a081c99019d5895e003aaa5a0d141270712b1c2b10a6e",
+      "size": 184629,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/pureentitiesx/PureEntitiesX-0.2.2_dev.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "alpha",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/PureEntitiesX--优秀的生物AI[更新]/PureEntitiesX#94--优秀的生物AI(更新).phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:48+08:00",
+  "minecraft_version_source": "api-inferred"
+}

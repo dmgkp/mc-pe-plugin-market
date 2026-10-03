@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "id": "jail",
+  "name": "Jail",
+  "display_name": "监狱",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.9.0",
+  "minecraft_versions": [
+    "1.9.0"
+  ],
+  "minecraft_version_range": ">=1.9.0 <1.10.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.13.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.3",
+  "author": [
+    "hoyinm14mc"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Command to jail a player (/jail <player> ..) OR Help page of the plugin (/jail help)",
+  "website": null,
+  "main": "hoyinm14mc\\jail\\Jail",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "SimpleAuth",
+    "EconomyAPI",
+    "MassiveEconomy",
+    "PocketMoney"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "jail",
+      "description": "Command to jail a player (/jail <player> ..) OR Help page of the plugin (/jail help)",
+      "usage": "/jail <player> <jail> <time(minutes)> <reason..>",
+      "permission": "jail.command.jail",
+      "aliases": []
+    },
+    {
+      "name": "unjail",
+      "description": "Command to unjail(release) a player",
+      "usage": "/unjail <player>",
+      "permission": "jail.command.unjail",
+      "aliases": []
+    },
+    {
+      "name": "setjail",
+      "description": "Sets a jail at sender's location",
+      "usage": "/setjail <jail>",
+      "permission": "jail.command.setjail",
+      "aliases": [
+        "createjail"
+      ]
+    },
+    {
+      "name": "deljail",
+      "description": "Deletes a jail",
+      "usage": "/deljail <jail>",
+      "permission": "jail.command.deljail",
+      "aliases": [
+        "rmjail",
+        "remjail"
+      ]
+    },
+    {
+      "name": "jailed",
+      "description": "Get a list of jailed players",
+      "usage": "/jailed",
+      "permission": "jail.command.jailed",
+      "aliases": []
+    },
+    {
+      "name": "jails",
+      "description": "Get a list of jails",
+      "usage": "/jails",
+      "permission": "jail.command.jails",
+      "aliases": [
+        "jaillist"
+      ]
+    },
+    {
+      "name": "jailtp",
+      "description": "Teleport to a jail",
+      "usage": "/jailtp <jail>",
+      "permission": "jail.command.jailtp",
+      "aliases": [
+        "tpjail"
+      ]
+    },
+    {
+      "name": "jailmute",
+      "description": "Mute/Unmute players in the jail",
+      "usage": "/jailmute <jail>",
+      "permission": "jail.command.jailmute",
+      "aliases": [
+        "mutejail"
+      ]
+    },
+    {
+      "name": "jailswitch",
+      "description": "Switch a player from original jail to another",
+      "usage": "/jailswitch <player> <jail>",
+      "permission": "jail.command.jailswitch",
+      "aliases": [
+        "switchjail"
+      ]
+    },
+    {
+      "name": "jailclear",
+      "description": "To unjail all prisoners in the jail",
+      "usage": "/jailclear <jail>",
+      "permission": "jail.command.jailclear",
+      "aliases": [
+        "clearjail"
+      ]
+    },
+    {
+      "name": "jailversion",
+      "description": "To check the version and info of the Jail plugin using",
+      "usage": "/jailversion",
+      "permission": "jail.command.jailversion",
+      "aliases": []
+    },
+    {
+      "name": "jailconfig",
+      "description": "To set the properties of a jail",
+      "usage": "/jailconfig help",
+      "permission": "jail.command.jailconfig",
+      "aliases": [
+        "jailcfg"
+      ]
+    },
+    {
+      "name": "prisonerconfig",
+      "description": "To set the properties of a prisoner",
+      "usage": "/prisonerconfig help",
+      "permission": "jail.command.prisonerconfig",
+      "aliases": [
+        "prisonercfg"
+      ]
+    },
+    {
+      "name": "bail",
+      "description": "Bail to release from jail!",
+      "usage": "/bail",
+      "permission": "jail.command.bail",
+      "aliases": [
+        "jailbail",
+        "jailpay"
+      ]
+    },
+    {
+      "name": "votejail",
+      "description": "Vote a player to be jailed",
+      "usage": "/votejail <player>",
+      "permission": "jail.command.votejail",
+      "aliases": [
+        "jailvote"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "jail.command",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "jail.sign",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "jail.protect.override",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "votejail.override",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.9.0/jail/Jail-2.0.3.phar",
+      "file_name": "Jail-2.0.3.phar",
+      "sha256": "82b30ab273c91b9ef7fc5a479f3d2006f5b9a923808df10b61c12bb154f8a239",
+      "size": 160357,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/jail/Jail-2.0.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/监狱/监狱.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:20+08:00",
+  "minecraft_version_source": "api-inferred"
+}

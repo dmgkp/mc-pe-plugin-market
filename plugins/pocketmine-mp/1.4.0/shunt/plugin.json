@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "shunt",
+  "name": "Shunt",
+  "display_name": "武器药水附魔",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.4.0",
+  "minecraft_versions": [
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=1.4.0 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.8.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.3.3",
+  "author": [
+    "cpera"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "我爱装逼",
+  "website": null,
+  "main": "cpera\\kill",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fumo",
+      "description": "我爱装逼",
+      "usage": "/fumo <name> <name hunt> <effect>",
+      "permission": "fuckbear.xxo",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "fuckbear.xxo",
+      "description": "oo",
+      "default": "op"
+    },
+    {
+      "name": "fuckbear.xxp",
+      "description": "oo",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.4.0/shunt/Shunt-2.3.3.phar",
+      "file_name": "Shunt-2.3.3.phar",
+      "sha256": "23d2cda5c472f15be16f860d1e6eee509ccb6ce33312d82eb520bb3a27a3490d",
+      "size": 3635,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.4.0/shunt/Shunt-2.3.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/武器药水附魔/武器药水附魔.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:19+08:00",
+  "minecraft_version_source": "api-inferred"
+}

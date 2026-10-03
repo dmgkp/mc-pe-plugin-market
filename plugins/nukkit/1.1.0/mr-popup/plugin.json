@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "mr-popup",
+  "name": "Mr_Popup",
+  "display_name": "多接口底部显示",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.3.1",
+  "author": [
+    "Mr_sky"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "底部",
+  "website": null,
+  "main": "top.ascserver.mr_popup.lihaile",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "popup",
+      "description": "Mr_Popup主命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/mr-popup/Mr_Popup-1.3.1.jar",
+      "file_name": "Mr_Popup-1.3.1.jar",
+      "sha256": "87c2dde5ea95144ecbf491c7c88c694257378481b8ede73be5c168ad1c059fae",
+      "size": 5115,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-popup/Mr_Popup-1.3.1.jar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "Mr_Popup-1.0.0.jar",
+        "sha256": "e0d04fa3b7979c9f07d5723ad32f80ca39cb65fb89e78fa3dd36b2a37a85b979",
+        "size": 4362
+      }
+    ],
+    "1.0.1": [
+      {
+        "file_name": "Mr_Popup-1.0.1.jar",
+        "sha256": "021b3d57bf00f8e90f9dd180243905715a316f0cfcfdc8419d3837db630683d1",
+        "size": 4511
+      }
+    ],
+    "1.1.0": [
+      {
+        "file_name": "Mr_Popup-1.1.0.jar",
+        "sha256": "2cfff600de393ba84389f093f012d1ac76d0c7efe533883182fd4379b569e87b",
+        "size": 4503
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/Nukkit插件/Mr系列/[多接口底部显示]Mr_Popup/Mr_Popup v1.3.1.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

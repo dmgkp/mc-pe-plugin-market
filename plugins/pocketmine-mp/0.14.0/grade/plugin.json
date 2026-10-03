@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "id": "grade",
+  "name": "Grade",
+  "display_name": "等级",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.6",
+  "author": [
+    "Him188"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A EXP Plugin",
+  "website": null,
+  "main": "Grade\\Grade",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "exp",
+      "description": "等级插件命令",
+      "usage": "/exp",
+      "permission": "Grade.command.exp",
+      "aliases": [
+        "grade"
+      ]
+    },
+    {
+      "name": "convert",
+      "description": "用节操兑换物品",
+      "usage": "/convert <编号> [数量]",
+      "permission": "Grade.command.convert",
+      "aliases": [
+        "兑换"
+      ]
+    },
+    {
+      "name": "setfix",
+      "description": "设置昵称",
+      "usage": "/setfix <目标玩家> [昵称]",
+      "permission": "Grade.command.setfix",
+      "aliases": [
+        "设置昵称"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Grade.command.exp",
+      "description": "等级插件命令",
+      "default": "true"
+    },
+    {
+      "name": "Grade.command.convert",
+      "description": "兑换物品",
+      "default": "true"
+    },
+    {
+      "name": "Grade.command.setfix",
+      "description": "设置昵称",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/grade/Grade-1.0.6.phar",
+      "file_name": "Grade-1.0.6.phar",
+      "sha256": "12b87ae3f121d1b48ae50684a284d6483f1ed6dff08adbc909bdffadb0890cbd",
+      "size": 9176,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/grade/Grade-1.0.6.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "Grade-1.0.0.phar",
+        "sha256": "bfd57faf382ba17dce50606d042fb14c3b4c54ff4dbcf6c392969e43cfbb8e94",
+        "size": 25628
+      }
+    ],
+    "1.0.1": [
+      {
+        "file_name": "Grade-1.0.1.phar",
+        "sha256": "5d418bdc867e2d710b780820409bf9c7397af5b78c24beb0ada15efc10d40f58",
+        "size": 30342
+      }
+    ],
+    "1.0.2": [
+      {
+        "file_name": "Grade-1.0.2.phar",
+        "sha256": "6df2a914aec73035c9c8463c51b4d247af962ce8747637a80db4fc6539004019",
+        "size": 30343
+      }
+    ],
+    "1.0.3": [
+      {
+        "file_name": "Grade-1.0.3.phar",
+        "sha256": "042045428f04c67e69745432cb2e6a76bdc3e92d2b2bdc9927bfe6bd19e0f1bc",
+        "size": 30346
+      }
+    ],
+    "1.0.4": [
+      {
+        "file_name": "Grade-1.0.4.phar",
+        "sha256": "d1a15d2705e11d827ec8710285b6f06251b887bb6ca7ad6c8e1b8910e47b52cc",
+        "size": 30612
+      },
+      {
+        "file_name": "Grade-1.0.4.phar",
+        "sha256": "f54e4362458232bf4ca72b4bc988cf6074999b0aca93e3dea05f5a2b70413b1f",
+        "size": 12534
+      },
+      {
+        "file_name": "Grade-1.0.4.phar",
+        "sha256": "4f248fe7d66c4b2d4fde63b8edd4efdb788c090a3e547cc77ff1d3461b991a22",
+        "size": 39552
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/合集/等级 - Grade/Grade_v1.0.6.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:30+08:00",
+  "minecraft_version_source": "api-inferred"
+}

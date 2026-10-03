@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "pvpworlds",
+  "name": "PvPWorlds",
+  "display_name": "世界",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Disables PvP on Certain Worlds!",
+  "website": null,
+  "main": "Samueljh1\\PvPWorlds\\main",
+  "tags": [
+    "world",
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/pvpworlds/PvPWorlds-1.0.phar",
+      "file_name": "PvPWorlds-1.0.phar",
+      "sha256": "3c45b429e4fbc51e4ac258de3aab3d05479ad8d894a956dcd97babe217799a92",
+      "size": 8610,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/pvpworlds/PvPWorlds-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/PVP世界/PVP世界.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

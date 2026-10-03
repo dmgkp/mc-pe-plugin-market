@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "goawayanna",
+  "name": "GoAwayAnna",
+  "display_name": "满人传送",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.1",
+  "author": [
+    "ChalkPE"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "GoAwayAnna - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "chalk\\goawayanna\\GoAwayAnna",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "okaybye",
+      "description": "",
+      "usage": "/okaybye [<ip> [port]]",
+      "permission": "goawananna.okaybye",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "goawananna.okaybye",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/goawayanna/GoAwayAnna-0.1.phar",
+      "file_name": "GoAwayAnna-0.1.phar",
+      "sha256": "74ef472c4090e5133d7bb161671f35bfa7591b9088a925a6c70c62aca23c274a",
+      "size": 4593,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/goawayanna/GoAwayAnna-0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/满人传送/满人传送.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

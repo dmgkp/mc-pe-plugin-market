@@ -1,0 +1,646 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-tag",
+  "tag": "player",
+  "count": 35,
+  "plugins": [
+    {
+      "id": "sntuauth",
+      "name": "SntuAuth",
+      "display_name": "SntuAuth",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.2",
+      "path": "plugins/nukkit/0.15.0/sntuauth/plugin.json",
+      "file": "plugins/nukkit/0.15.0/sntuauth/SntuAuth-1.2.jar",
+      "sha256": "8785e21c64469629faa9b0b0f412304482291e99bce1401e1d51809867d7e7e4",
+      "size": 15525,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/sntuauth/SntuAuth-1.2.jar"
+      }
+    },
+    {
+      "id": "leetauth",
+      "name": "LeetAuth",
+      "display_name": "登录插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.0-b7",
+      "path": "plugins/nukkit/1.1.0/leetauth/plugin.json",
+      "file": "plugins/nukkit/1.1.0/leetauth/LeetAuth-1.1.0-b7.jar",
+      "sha256": "1a3e6fa012bad838bc054e318ed57cf5be535126dca348dd5b95f09641eea137",
+      "size": 290664,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/leetauth/LeetAuth-1.1.0-b7.jar"
+      }
+    },
+    {
+      "id": "myskin",
+      "name": "MySkin",
+      "display_name": "皮肤插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "2.0.0",
+      "path": "plugins/nukkit/1.1.0/myskin/plugin.json",
+      "file": "plugins/nukkit/1.1.0/myskin/MySkin-2.0.0.jar",
+      "sha256": "8a7b59743f4d2b5fd234f468792c4e1f8b8133adaa9a38f8eb950fc8a1624559",
+      "size": 4259,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/myskin/MySkin-2.0.0.jar"
+      }
+    },
+    {
+      "id": "sntuauth",
+      "name": "SntuAuth",
+      "display_name": "登录",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.2",
+      "path": "plugins/nukkit/1.1.0/sntuauth/plugin.json",
+      "file": "plugins/nukkit/1.1.0/sntuauth/SntuAuth-1.3.2.jar",
+      "sha256": "ec6eeea51252772064f56edb12f535293df360a09bbe2902b83baed2e499958d",
+      "size": 51789,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/sntuauth/SntuAuth-1.3.2.jar"
+      }
+    },
+    {
+      "id": "welcome",
+      "name": "Welcome",
+      "display_name": "欢迎登录插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.6",
+      "path": "plugins/nukkit/1.1.0/welcome/plugin.json",
+      "file": "plugins/nukkit/1.1.0/welcome/Welcome-0.0.6.jar",
+      "sha256": "83d378de8ca0b5092ce36e42eae4721e3672cac028d0b12ab50b3aac4125a3d7",
+      "size": 52214,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/welcome/Welcome-0.0.6.jar"
+      }
+    },
+    {
+      "id": "zqlogin",
+      "name": "ZQLogin",
+      "display_name": "登陆插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/nukkit/1.1.0/zqlogin/plugin.json",
+      "file": "plugins/nukkit/1.1.0/zqlogin/ZQLogin-1.0.1.jar",
+      "sha256": "62e209f1b3eb431c35a5efe754dce5317cad9394308930ec2520fe8788064c73",
+      "size": 1046458,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/zqlogin/ZQLogin-1.0.1.jar"
+      }
+    },
+    {
+      "id": "limitlogin",
+      "name": "LimitLogin",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.0",
+      "path": "plugins/nukkit/unknown/limitlogin/plugin.json",
+      "file": "plugins/nukkit/unknown/limitlogin/LimitLogin-1.0.jar",
+      "sha256": "8cc330381caf79c8d39602840b4da5251aa8bf7878d50b5fe5b947c5d5e3fc56",
+      "size": 6502,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/limitlogin/LimitLogin-1.0.jar"
+      }
+    },
+    {
+      "id": "loginmessage",
+      "name": "LoginMessage",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.1",
+      "path": "plugins/nukkit/unknown/loginmessage/plugin.json",
+      "file": "plugins/nukkit/unknown/loginmessage/LoginMessage-1.1.jar",
+      "sha256": "59d2cb3ec6c12c39cacb37c155e7394c56b4543d585c29417e061cfb41063036",
+      "size": 4301,
+      "tags": [
+        "chat",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/loginmessage/LoginMessage-1.1.jar"
+      }
+    },
+    {
+      "id": "authme",
+      "name": "AuthMe",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "3.4",
+      "path": "plugins/other/unknown/authme/plugin.json",
+      "file": "plugins/other/unknown/authme/AuthMe-3.4.jar",
+      "sha256": "0c7800f95da22e2d7e2dbf6255919d74cf20009a1ea06b3777ea19e32bba2733",
+      "size": 1076298,
+      "tags": [
+        "admin",
+        "protection",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/authme/AuthMe-3.4.jar"
+      }
+    },
+    {
+      "id": "marriagemaster",
+      "name": "MarriageMaster",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.24",
+      "path": "plugins/other/unknown/marriagemaster/plugin.json",
+      "file": "plugins/other/unknown/marriagemaster/MarriageMaster-1.24.jar",
+      "sha256": "65d5549fde1fc92429a9e6cc7cf5ac6bd3e9501be3ea0653d6561fea0f2a64e7",
+      "size": 397293,
+      "tags": [
+        "admin",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/marriagemaster/MarriageMaster-1.24.jar"
+      }
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "display_name": "Love",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/0.11.0/love/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/love/Love-1.0.phar",
+      "sha256": "90cb5145d33b98be5042fd499d63c724e054f5cb0bbd9b2115d0866d3c938982",
+      "size": 5682,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/love/Love-1.0.phar"
+      }
+    },
+    {
+      "id": "designation",
+      "name": "Designation",
+      "display_name": "称号商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/0.11.1/designation/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/designation/Designation-1.0.phar",
+      "sha256": "506ffec7f117656fe6bd0f0176cac3d56728d9397149952b2851f326def77568",
+      "size": 3419,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/designation/Designation-1.0.phar"
+      }
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "display_name": "结婚插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/0.11.1/love/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/love/Love-1.0.phar",
+      "sha256": "90cb5145d33b98be5042fd499d63c724e054f5cb0bbd9b2115d0866d3c938982",
+      "size": 5682,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/love/Love-1.0.phar"
+      }
+    },
+    {
+      "id": "simpleauth",
+      "name": "SimpleAuth",
+      "display_name": "的",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.7.1",
+      "path": "plugins/pocketmine-mp/0.11.1/simpleauth/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/simpleauth/SimpleAuth-1.7.1.phar",
+      "sha256": "2bf77884a65ac9c33577e54c837225b695a94adb5faa758bee683d4db7efae36",
+      "size": 59447,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/simpleauth/SimpleAuth-1.7.1.phar"
+      }
+    },
+    {
+      "id": "simplemarry",
+      "name": "SimpleMarry",
+      "display_name": "称号商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.1.3",
+      "path": "plugins/pocketmine-mp/0.11.1/simplemarry/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/simplemarry/SimpleMarry-1.1.3.phar",
+      "sha256": "2a6b00898c079972bdbe0147a3d9c3ed7b765e18359d2f17c7ee56fe752cd720",
+      "size": 22261,
+      "tags": [
+        "gameplay",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/simplemarry/SimpleMarry-1.1.3.phar"
+      }
+    },
+    {
+      "id": "authmepe",
+      "name": "AuthMePE",
+      "display_name": "登录插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.1.4",
+      "path": "plugins/pocketmine-mp/0.14.0/authmepe/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/authmepe/AuthMePE-0.1.4.phar",
+      "sha256": "667906b04b6b14d36e101c29cd89c72c2b25a9a829fb1c9dad2ea1e952de3107",
+      "size": 46408,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/authmepe/AuthMePE-0.1.4.phar"
+      }
+    },
+    {
+      "id": "authorization",
+      "name": "Authorization",
+      "display_name": "授权插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.5",
+      "path": "plugins/pocketmine-mp/0.14.0/authorization/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/authorization/Authorization-1.0.5.phar",
+      "sha256": "73f1e4e4fdfd1645aef2a1e862991d9061c3f4ce5acce2c3935ff0c9d330ee9b",
+      "size": 39134,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/authorization/Authorization-1.0.5.phar"
+      }
+    },
+    {
+      "id": "facelogin",
+      "name": "FaceLogin",
+      "display_name": "靠脸吃饭",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/facelogin/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/facelogin/FaceLogin-1.0.0.phar",
+      "sha256": "be3da5ec93be2fd777991611a36d51876dd0ace539073f13b9ff90c4bf5a2d4f",
+      "size": 8085,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/facelogin/FaceLogin-1.0.0.phar"
+      }
+    },
+    {
+      "id": "facelogin-v2",
+      "name": "FaceLogin",
+      "display_name": "靠脸吃饭",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/facelogin-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/facelogin-v2/FaceLogin-1.0.0.phar",
+      "sha256": "369e6eb1d7ebd7b48db7b9ac2b2c77f38d50f9bb3d735b51135b98a46cb54836",
+      "size": 8059,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/facelogin-v2/FaceLogin-1.0.0.phar"
+      }
+    },
+    {
+      "id": "mtransferserverlogin",
+      "name": "MTransferServerLogin",
+      "display_name": "跨服登录",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/mtransferserverlogin/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/mtransferserverlogin/MTransferServerLogin-1.0.0.phar",
+      "sha256": "d13e78b76420ede38d835fc11cc70b8f9be4fdcd6e856fff01e2acefe72ce538",
+      "size": 15167,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/mtransferserverlogin/MTransferServerLogin-1.0.0.phar"
+      }
+    },
+    {
+      "id": "rsprefix",
+      "name": "RsPrefix",
+      "display_name": "研究用",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/rsprefix/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/rsprefix/RsPrefix-1.0.0.phar",
+      "sha256": "0bc5259512731608791bac9c9b1949dbb25ab24b6820f53a1b9cef34bda01db9",
+      "size": 2854,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/rsprefix/RsPrefix-1.0.0.phar"
+      }
+    },
+    {
+      "id": "simpleauth",
+      "name": "SimpleAuth",
+      "display_name": "SimpleAuth",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/pocketmine-mp/0.14.0/simpleauth/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/simpleauth/SimpleAuth-1.2.0.phar",
+      "sha256": "8bb1f20ce32dc871e38cbdbdf1fc23ad76a5fae547985dec2168e0afdfb09978",
+      "size": 19168,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/simpleauth/SimpleAuth-1.2.0.phar"
+      }
+    },
+    {
+      "id": "simplemarry",
+      "name": "SimpleMarry",
+      "display_name": "结婚插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/pocketmine-mp/0.14.0/simplemarry/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/simplemarry/SimpleMarry-1.3.0.phar",
+      "sha256": "d0e78672cc9b4569ae24fe60ac913ed85fb6a53deb58974a94cacbdd21df7972",
+      "size": 21788,
+      "tags": [
+        "gameplay",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/simplemarry/SimpleMarry-1.3.0.phar"
+      }
+    },
+    {
+      "id": "ssend",
+      "name": "[底部]Ssend",
+      "display_name": "版",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/ssend/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/ssend/Ssend-1.0.0.phar",
+      "sha256": "b4c7985c1f1b077618452cc5e6d3b57b17918224605805327e398c2793c83706",
+      "size": 30434,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/ssend/Ssend-1.0.0.phar"
+      }
+    },
+    {
+      "id": "piggyauth",
+      "name": "PiggyAuth",
+      "display_name": "原创汉化",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "3.0.0.20",
+      "path": "plugins/pocketmine-mp/0.16.0/piggyauth/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/piggyauth/PiggyAuth-3.0.0.20.phar",
+      "sha256": "ec6b677568445bd2c81b59401e74052636188e9688eee5eb89d5ea5cbdc139f1",
+      "size": 67186,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/piggyauth/PiggyAuth-3.0.0.20.phar"
+      }
+    },
+    {
+      "id": "piggyauth-v2",
+      "name": "PiggyAuth",
+      "display_name": "原创汉化",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "3.0.0.20",
+      "path": "plugins/pocketmine-mp/0.16.0/piggyauth-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/piggyauth-v2/PiggyAuth-3.0.0.20.phar",
+      "sha256": "eedf17887bc927009e6ab6a00bcd4dee29549d80486932514aa9f0c4391845d8",
+      "size": 67193,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/piggyauth-v2/PiggyAuth-3.0.0.20.phar"
+      }
+    },
+    {
+      "id": "simpleauth",
+      "name": "SimpleAuth",
+      "display_name": "的",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.4.0",
+      "plugin_version": "1.6.0",
+      "path": "plugins/pocketmine-mp/1.4.0/simpleauth/plugin.json",
+      "file": "plugins/pocketmine-mp/1.4.0/simpleauth/SimpleAuth-1.6.0.phar",
+      "sha256": "5af22db00c29745266520fb2672a823886e3665d590af0e1ed1189033931a066",
+      "size": 55539,
+      "tags": [
+        "protection",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.4.0/simpleauth/SimpleAuth-1.6.0.phar"
+      }
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "display_name": "研究用",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/love/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/love/Love-1.0.phar",
+      "sha256": "90cb5145d33b98be5042fd499d63c724e054f5cb0bbd9b2115d0866d3c938982",
+      "size": 5682,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/love/Love-1.0.phar"
+      }
+    },
+    {
+      "id": "authmepe",
+      "name": "AuthMePE",
+      "display_name": "登录系统插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "0.1.4",
+      "path": "plugins/pocketmine-mp/1.8.0/authmepe/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/authmepe/AuthMePE-0.1.4.phar",
+      "sha256": "4d5f4c4fb1fadeb75ef66a45d54c4c085a3da802ceeac566f2eee456c8d37f3f",
+      "size": 45942,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/authmepe/AuthMePE-0.1.4.phar"
+      }
+    },
+    {
+      "id": "bcrafttouchauthlight",
+      "name": "BcraftTouchAuthLight",
+      "display_name": "密码门",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.8.0/bcrafttouchauthlight/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/bcrafttouchauthlight/BcraftTouchAuthLight-1.0.0.phar",
+      "sha256": "36bda078b167b089b5edd7051ec070227e3d5a328bdaaac83da623e099f847c5",
+      "size": 14787,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/bcrafttouchauthlight/BcraftTouchAuthLight-1.0.0.phar"
+      }
+    },
+    {
+      "id": "designation",
+      "name": "Designation",
+      "display_name": "称号商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.8.0/designation/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/designation/Designation-1.0.phar",
+      "sha256": "0597f4d6904b7bd687a6e20d72e518cf077ccaca21615506baa72b63e106b134",
+      "size": 4652,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/designation/Designation-1.0.phar"
+      }
+    },
+    {
+      "id": "designation-v2",
+      "name": "Designation",
+      "display_name": "Designation",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.8.0/designation-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/designation-v2/Designation-1.0.phar",
+      "sha256": "506ffec7f117656fe6bd0f0176cac3d56728d9397149952b2851f326def77568",
+      "size": 3419,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/designation-v2/Designation-1.0.phar"
+      }
+    },
+    {
+      "id": "simpleauth",
+      "name": "SimpleAuth",
+      "display_name": "史蒂夫大战僵尸",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.7.1",
+      "path": "plugins/pocketmine-mp/1.8.0/simpleauth/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/simpleauth/SimpleAuth-1.7.1.phar",
+      "sha256": "a3fe61fdf54cc6676df990abbb4a0fad2f3cfc23911c2c77ba0d6a5d52c88ca0",
+      "size": 59682,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/simpleauth/SimpleAuth-1.7.1.phar"
+      }
+    },
+    {
+      "id": "simpleauth-v2",
+      "name": "SimpleAuth",
+      "display_name": "SimpleAuth",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.7.1",
+      "path": "plugins/pocketmine-mp/1.8.0/simpleauth-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/simpleauth-v2/SimpleAuth-1.7.1.phar",
+      "sha256": "2bf77884a65ac9c33577e54c837225b695a94adb5faa758bee683d4db7efae36",
+      "size": 59447,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/simpleauth-v2/SimpleAuth-1.7.1.phar"
+      }
+    },
+    {
+      "id": "loginprompt",
+      "name": "LoginPrompt",
+      "display_name": "宠物蛋插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.9.0/loginprompt/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/loginprompt/LoginPrompt-1.1.0.phar",
+      "sha256": "33bc514bca340b3ca0e157c1bf6f75f11666ce9a1c8cf90bc9dc2c5ab09aa2b7",
+      "size": 24374,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/loginprompt/LoginPrompt-1.1.0.phar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "touchhome",
+  "name": "TouchHome",
+  "display_name": "回家",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <0.16.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.1.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0",
+  "author": [
+    "LDX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Teleports you to your home.",
+  "website": null,
+  "main": "LDX\\TouchHome\\Main",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "home",
+      "description": "Teleports you to your home.",
+      "usage": "/home",
+      "permission": "touchhome.command.home",
+      "aliases": []
+    },
+    {
+      "name": "sethome",
+      "description": "Sets your home.",
+      "usage": "/sethome",
+      "permission": "touchhome.command.sethome",
+      "aliases": []
+    },
+    {
+      "name": "delhome",
+      "description": "Deletes your home.",
+      "usage": "/delhome",
+      "permission": "touchhome.command.delhome",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "touchhome",
+      "description": "Allows access to delete other's homes.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.15.0/touchhome/TouchHome-2.0.phar",
+      "file_name": "TouchHome-2.0.phar",
+      "sha256": "6e6d31cf39d55331ef8d2fb40e1d50b09ca734744c2c89c9b614ab57cba7c478",
+      "size": 2818,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/touchhome/TouchHome-2.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/回家/回家无汉化指令版.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:30+08:00",
+  "minecraft_version_source": "api-inferred"
+}

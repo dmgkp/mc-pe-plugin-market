@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "hexagon",
+  "name": "Hexagon",
+  "display_name": "多功能",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "SoleMemory"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Hexagon 管理主命令",
+  "website": null,
+  "main": "sole.memory.Communication",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [
+    "[\"Money\"]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "admin",
+      "description": "Hexagon 管理主命令",
+      "usage": "",
+      "permission": "sole.memory.admincommand",
+      "aliases": []
+    },
+    {
+      "name": "v",
+      "description": "Uninvited VIP主命令",
+      "usage": "",
+      "permission": "sole.memory.vipcommand",
+      "aliases": []
+    },
+    {
+      "name": "公会",
+      "description": "Hexagon 公会主命令",
+      "usage": "",
+      "permission": "sole.memory.factioncommand",
+      "aliases": []
+    },
+    {
+      "name": "结婚",
+      "description": "Hexagon 结婚主命令",
+      "usage": "",
+      "permission": "sole.memory.marrycommand",
+      "aliases": []
+    },
+    {
+      "name": "称号",
+      "description": "Hexagon 称号主命令",
+      "usage": "",
+      "permission": "sole.memory.prefixcommand",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "sole.memory.admincommand",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "sole.memory.vipcommand",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sole.memory.factioncommand",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sole.memory.marrycommand",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sole.memory.prefixcommand",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/hexagon/Hexagon-1.0.0.jar",
+      "file_name": "Hexagon-1.0.0.jar",
+      "sha256": "b28b40e3398c628802c2fd469e8bb457c1d94e2608dc0e2daf34ca2e2f3efcc8",
+      "size": 18028,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/hexagon/Hexagon-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/Nukkit插件/多功能/[多功能]Hexagon.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:06+08:00",
+  "minecraft_version_source": "api-inferred"
+}

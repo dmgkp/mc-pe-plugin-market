@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "id": "chatmode",
+  "name": "ChatMode",
+  "display_name": "聊天管理",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "Smile"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "一个好用聊天管理插件",
+  "website": null,
+  "main": "ChatMode\\ChatMode",
+  "tags": [
+    "chat",
+    "admin",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cm",
+      "description": "设置自己的聊天模式",
+      "usage": "/cm <0|1|2>",
+      "permission": "ChatMode.Command.cm",
+      "aliases": []
+    },
+    {
+      "name": "mute",
+      "description": "禁言一个玩家",
+      "usage": "/mute <玩家名字> <禁言秒数>",
+      "permission": "ChatMode.Command.mute",
+      "aliases": []
+    },
+    {
+      "name": "unmute",
+      "description": "解除一个玩家的禁言",
+      "usage": "/unmute <玩家名字>",
+      "permission": "ChatMode.Command.unmute",
+      "aliases": []
+    },
+    {
+      "name": "l",
+      "description": "发出一些只有自己世界中的玩家才可收到的信息",
+      "usage": "/l <信息>",
+      "permission": "ChatMode.Command.l",
+      "aliases": []
+    },
+    {
+      "name": "sl",
+      "description": "和一个玩家私聊",
+      "usage": "/sl <私聊目标> <信息>",
+      "permission": "ChatMode.Command.sl",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ChatMode.Command.cm",
+      "description": "允许玩家设置自己的聊天模式",
+      "default": "true"
+    },
+    {
+      "name": "ChatMode.Command.mute",
+      "description": "允许禁言玩家",
+      "default": "true"
+    },
+    {
+      "name": "ChatMode.Command.unmute",
+      "description": "允许解除禁言玩家",
+      "default": "true"
+    },
+    {
+      "name": "ChatMode.Command.l",
+      "description": "允许玩家发出世界中的信息",
+      "default": "true"
+    },
+    {
+      "name": "ChatMode.Command.sl",
+      "description": "允许玩家和别人私聊",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/chatmode/ChatMode-1.0.2.phar",
+      "file_name": "ChatMode-1.0.2.phar",
+      "sha256": "47b0af9a727db7c67ad0af7a66fdc784af0c5e291378eb105908e8e2535cb6fb",
+      "size": 17505,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/chatmode/ChatMode-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/聊天管理/聊天管理.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:22+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "misworld",
+  "name": "MiSWorld",
+  "display_name": "指定进入地图插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "mikasa"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "MiSWorld插件主命令",
+  "website": null,
+  "main": "MiSWorld\\Main",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "miw",
+      "description": "MiSWorld插件主命令",
+      "usage": "/miw",
+      "permission": "MiSWorld.miw",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "MiSWorld.miw",
+      "description": "all",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/misworld/MiSWorld-1.0.0.phar",
+      "file_name": "MiSWorld-1.0.0.phar",
+      "sha256": "2c02b34b5dac191e20d347a4f9a96a298dd962095453ad9ee46e448eef34bc4c",
+      "size": 8404,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/misworld/MiSWorld-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/MiSWorld指定进入地图插件/MiSWorld_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:22+08:00",
+  "minecraft_version_source": "api-inferred"
+}

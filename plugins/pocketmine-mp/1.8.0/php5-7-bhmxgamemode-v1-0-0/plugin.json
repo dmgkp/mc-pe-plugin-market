@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "php5-7-bhmxgamemode-v1-0-0",
+  "name": "[PHP5&7]BHMXGamemode_v1.0.0--进服玩家模式更改",
+  "display_name": "进服玩家模式更改",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Bhao"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "-BHMXGamemode-进服玩家模式更改系统-总指令",
+  "website": null,
+  "main": "BHMXGamemode\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "bhmxgm",
+      "description": "-BHMXGamemode-进服玩家模式更改系统-总指令",
+      "usage": "/bhmxgm",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/php5-7-bhmxgamemode-v1-0-0/PHP5_7_BHMXGamemode_v1.0.0---1.0.0.phar",
+      "file_name": "PHP5_7_BHMXGamemode_v1.0.0---1.0.0.phar",
+      "sha256": "d82902ba15546e3d911ca9c41691b8e1dbb60d348b87923c80c51109a5c9b11e",
+      "size": 2098,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/php5-7-bhmxgamemode-v1-0-0/PHP5_7_BHMXGamemode_v1.0.0---1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/BHMXGamemode--进服玩家模式更改/[PHP5&7]BHMXGamemode_v1.0.0--进服玩家模式更改.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

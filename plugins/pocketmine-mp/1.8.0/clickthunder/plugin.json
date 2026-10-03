@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "clickthunder",
+  "name": "ClickThunder",
+  "display_name": "雷神",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.4.2",
+  "author": [
+    "Developer_Ken"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "ClickThunder - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "ClickThunder\\ClickThunder",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/clickthunder/ClickThunder-1.4.2.phar",
+      "file_name": "ClickThunder-1.4.2.phar",
+      "sha256": "6e35c20088bf9b9af312087e48746f69cd649c28291bb5ba6d8383a43fd5f91e",
+      "size": 5635,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/clickthunder/ClickThunder-1.4.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/雷神/雷神.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:24+08:00",
+  "minecraft_version_source": "api-inferred"
+}

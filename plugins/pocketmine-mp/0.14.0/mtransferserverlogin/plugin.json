@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "mtransferserverlogin",
+  "name": "MTransferServerLogin",
+  "display_name": "跨服登录",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "mdzz"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "修改密码总指令",
+  "website": null,
+  "main": "MTransferServerLogin\\MTransferServerLogin",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "修改密码",
+      "description": "修改密码总指令",
+      "usage": "/修改密码 [旧密码] [新密码]",
+      "permission": "修改密码.command",
+      "aliases": []
+    },
+    {
+      "name": "跨服",
+      "description": "跨服总指令",
+      "usage": "/跨服",
+      "permission": "跨服.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "修改密码.command",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "跨服.command",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/mtransferserverlogin/MTransferServerLogin-1.0.0.phar",
+      "file_name": "MTransferServerLogin-1.0.0.phar",
+      "sha256": "d13e78b76420ede38d835fc11cc70b8f9be4fdcd6e856fff01e2acefe72ce538",
+      "size": 15167,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/mtransferserverlogin/MTransferServerLogin-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/MTransferServerLogin--跨服登录/MTransferServerLogin_v1.0.0--跨服登录.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

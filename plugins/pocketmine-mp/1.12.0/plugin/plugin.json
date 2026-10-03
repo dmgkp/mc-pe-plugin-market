@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "plugin",
+  "name": "伪装",
+  "display_name": "伪装生物",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "0.16.0",
+    "1.2.0",
+    "1.6.0",
+    "1.8.0",
+    "1.9.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "anseEND"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "伪装插件指令",
+  "website": null,
+  "main": "伪装\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "wz",
+      "description": "伪装插件指令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/plugin/file-1.0.0.phar",
+      "file_name": "file-1.0.0.phar",
+      "sha256": "ece807ab4f740cd1a7c51b9885a57a952809e84c93d3ad5f217245373896498f",
+      "size": 2215,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/plugin/file-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/伪装生物Like/伪装生物Like.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "zmusicbox",
+  "name": "ZMusicBox",
+  "display_name": "音乐插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.5.0",
+  "author": [
+    "Zzm"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Music~~",
+  "website": null,
+  "main": "ZMusicBox\\ZMusicBox",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "music",
+      "description": "ZMusicBox's main command",
+      "usage": "/music <next|start|stop>",
+      "permission": "ZMusicBox.music",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ZMusicBox",
+      "description": "ZMusicBox Commands",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/zmusicbox/ZMusicBox-2.5.0.phar",
+      "file_name": "ZMusicBox-2.5.0.phar",
+      "sha256": "79fe1afdba75f19ed01e00721aa1a996e032bcf4bfb6416192554c9a39b1769e",
+      "size": 10757,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/zmusicbox/ZMusicBox-2.5.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/ZMusicBox音乐插件/ZMusicBox_v2.5.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:28+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "sendjoke",
+  "name": "SendJoke",
+  "display_name": "给玩家发送笑话",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.0",
+  "author": [
+    "linger"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SendJoke - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "SendJoke\\SendJoke",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/sendjoke/SendJoke-2.0.0.phar",
+      "file_name": "SendJoke-2.0.0.phar",
+      "sha256": "2af6c2bb6b47fd20b9928314f773fab285474ac6e7fc63094bc761c32e3bf854",
+      "size": 942,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/sendjoke/SendJoke-2.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/SendJoke--给玩家发送笑话/SendJoke v2.0.0--给玩家发送笑话.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:54+08:00",
+  "minecraft_version_source": "api-inferred"
+}

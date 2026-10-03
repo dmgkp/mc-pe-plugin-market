@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "question",
+  "name": "Question",
+  "display_name": "金钱审问",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Smile"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "一个简单的问答插件",
+  "website": null,
+  "main": "Question\\Question",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "q",
+      "description": "关于本插件的一切指令",
+      "usage": "<ask[问题][奖金]>||<answer[发出问题的玩家名字][回答]>||<right[答对的玩家名字]>||<cancell>",
+      "permission": "Question.command.q",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Question.command.q",
+      "description": "是否允许玩家使用本插件的指令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/question/Question-1.0.0.phar",
+      "file_name": "Question-1.0.0.phar",
+      "sha256": "a2455ce77f9be78c729d410e0856af6bb17c032e93ffd1e926ca5d5b8df3c3ac",
+      "size": 6640,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/question/Question-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/金钱审问/金钱审问.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:23+08:00",
+  "minecraft_version_source": "api-inferred"
+}

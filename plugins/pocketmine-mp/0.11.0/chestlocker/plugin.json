@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "chestlocker",
+  "name": "ChestLocker",
+  "display_name": "ChestLocker",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.8.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2",
+  "author": [
+    "EvolSoft"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Lock/Unlock Chests.",
+  "website": "https://www.evolsoft.tk",
+  "main": "ChestLocker\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "chestlocker",
+      "description": "ChestLocker commands.",
+      "usage": "",
+      "permission": "",
+      "aliases": [
+        "chlock",
+        "chl",
+        "chestlock",
+        "cl"
+      ]
+    },
+    {
+      "name": "锁",
+      "description": "锁箱子.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "开",
+      "description": "开箱子.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "chestlocker",
+      "description": "ChestLocker command UnlockChest permission.",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/chestlocker/ChestLocker-1.2.phar",
+      "file_name": "ChestLocker-1.2.phar",
+      "sha256": "67729139977d96c53659a4d8db7c0c094db0e3c2f2dcaa981e4fc607f7f2605f",
+      "size": 21810,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/chestlocker/ChestLocker-1.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/锁箱子指令全汉化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

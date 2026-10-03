@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "touchhome-v2",
+  "name": "TouchHome",
+  "display_name": "回家",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <0.16.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.1.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0",
+  "author": [
+    "LDX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "成家立业.",
+  "website": null,
+  "main": "LDX\\TouchHome\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "家",
+      "description": "成家立业.",
+      "usage": "/家",
+      "permission": "touchhome.command.家",
+      "aliases": []
+    },
+    {
+      "name": "成家",
+      "description": "设立你的家.",
+      "usage": "/成家",
+      "permission": "touchhome.command.成家",
+      "aliases": []
+    },
+    {
+      "name": "弃家",
+      "description": "把你的家丢掉.",
+      "usage": "/弃家",
+      "permission": "touchhome.command.弃家",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "touchhome",
+      "description": "Allows access to delete other's homes.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.15.0/touchhome-v2/TouchHome-2.0.phar",
+      "file_name": "TouchHome-2.0.phar",
+      "sha256": "0f1edbf932898028a80efe6acd3fe57139fc4be4ccdb2992deadd0175bf86445",
+      "size": 2879,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/touchhome-v2/TouchHome-2.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/回家/回家汉化指令版.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:30+08:00",
+  "minecraft_version_source": "api-inferred"
+}

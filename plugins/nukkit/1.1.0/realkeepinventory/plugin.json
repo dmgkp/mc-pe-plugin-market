@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "realkeepinventory",
+  "name": "RealKeepInventory",
+  "display_name": "死亡不掉落",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.1.0",
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.8.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.0",
+  "author": [
+    "uuuuone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "死亡不掉落",
+  "website": null,
+  "main": "RealKeepInventory.RealKeepInventory",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "dropworld",
+      "description": "dropworld命令集",
+      "usage": "/dropworld [add/del/list/on/off/set] [world/money]",
+      "permission": "dropworld.command.dropworld",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "dropworld.command.dropworld",
+      "description": "允许OP运行/banitem 命令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/realkeepinventory/RealKeepInventory-1.2.0.jar",
+      "file_name": "RealKeepInventory-1.2.0.jar",
+      "sha256": "3966671dd4b194a1504d15f63b8d782d118cde893faf9be44d7464d7f8086aca",
+      "size": 5061,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/realkeepinventory/RealKeepInventory-1.2.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK死亡不掉落/NK死亡不掉落.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "rsprefix",
+  "name": "RsPrefix",
+  "display_name": "研究用",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "zmdd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "RVIP称号指令",
+  "website": null,
+  "main": "RsPrefix\\RsPrefix",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "prefix",
+      "description": "RVIP称号指令",
+      "usage": "/point add/remove 玩家名字 称号",
+      "permission": "RVIP.command.point",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "RVIP.command.prefix",
+      "description": "RVIP点卷主权限",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/rsprefix/RsPrefix-1.0.0.phar",
+      "file_name": "RsPrefix-1.0.0.phar",
+      "sha256": "0bc5259512731608791bac9c9b1949dbb25ab24b6820f53a1b9cef34bda01db9",
+      "size": 2854,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/rsprefix/RsPrefix-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/多功能/api1.8版 - 研究用/[称号]RsPrefix.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "itemcloud",
+  "name": "ItemCloud",
+  "display_name": "云端储物",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.4.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows player to use all permissions",
+  "website": null,
+  "main": "onebone\\itemcloud\\MainClass",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ic",
+      "description": "",
+      "usage": "/itemcloud(/ic) <reg(ister) | up(load) | down(load) | ls(list) | c(ount)> [物品ID[:特殊值]]",
+      "permission": "itemcloud.command.register;itemcloud.command.upload;itemcloud.command.download;itemcloud.command.list;itemcloud.command.count",
+      "aliases": []
+    },
+    {
+      "name": "itemcloud",
+      "description": "",
+      "usage": "/itemcloud(/ic) <reg(ister) | up(load) | down(load) | ls(list) | c(ount)> [物品ID[:特殊值]]",
+      "permission": "itemcloud.command.register;itemcloud.command.upload;itemcloud.command.download;itemcloud.command.list;itemcloud.command.count",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "itemcloud.*",
+      "description": "Allows player to use command /itemcloud count",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/itemcloud/ItemCloud-1.1.phar",
+      "file_name": "ItemCloud-1.1.phar",
+      "sha256": "b435132bbe4a228df5de1b90950bd3afb098d9b5c331469e12d8e296390ac510",
+      "size": 11690,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/itemcloud/ItemCloud-1.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/云端储物/云端储物.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

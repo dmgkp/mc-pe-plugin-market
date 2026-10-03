@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.12.",
+  "count": 4,
+  "plugins": [
+    {
+      "id": "exp",
+      "name": "Exp",
+      "display_name": "等级插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.2",
+      "path": "plugins/pocketmine-mp/0.11.0/exp/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/exp/Exp-1.2.phar",
+      "sha256": "aa7140499bbea00bc0077a8f5517ad7fc3e51947a5ea2bb49011d5ba669dc81d",
+      "size": 21026,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/exp/Exp-1.2.phar"
+      }
+    },
+    {
+      "id": "exp",
+      "name": "Exp",
+      "display_name": "等级插件最新版",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.2.1",
+      "path": "plugins/pocketmine-mp/0.11.1/exp/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/exp/Exp-2.2.1.phar",
+      "sha256": "95596407b7483d7654623af715fb2b1547f23432bc08fd247a70e981e1697997",
+      "size": 43830,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/exp/Exp-2.2.1.phar"
+      }
+    },
+    {
+      "id": "exp",
+      "name": "Exp",
+      "display_name": "百度贴吧",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.2",
+      "path": "plugins/pocketmine-mp/0.14.0/exp/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/exp/Exp-1.2.phar",
+      "sha256": "aa7140499bbea00bc0077a8f5517ad7fc3e51947a5ea2bb49011d5ba669dc81d",
+      "size": 21026,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/exp/Exp-1.2.phar"
+      }
+    },
+    {
+      "id": "exp",
+      "name": "Exp",
+      "display_name": "等级插件最新版",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.2.1",
+      "path": "plugins/pocketmine-mp/1.8.0/exp/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/exp/Exp-2.2.1.phar",
+      "sha256": "95596407b7483d7654623af715fb2b1547f23432bc08fd247a70e981e1697997",
+      "size": 43830,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/exp/Exp-2.2.1.phar"
+      }
+    }
+  ]
+}

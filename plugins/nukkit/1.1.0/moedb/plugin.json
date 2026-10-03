@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "moedb",
+  "name": "MoeDB",
+  "display_name": "经济",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.0",
+  "author": [
+    "Mamoe Tech"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "MoeDB - Minecraft Bedrock plugin for nukkit.",
+  "website": null,
+  "main": "net.mamoe.moedb.MoeDB",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/moedb/MoeDB-2.0.0.jar",
+      "file_name": "MoeDB-2.0.0.jar",
+      "sha256": "e5fcc2a36a16d24fabb91a5e0f74a1135ae84cef094237f0a16f12b682c6265c",
+      "size": 695657,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/moedb/MoeDB-2.0.0.jar"
+      }
+    }
+  ],
+  "history": {
+    "1.1.0": [
+      {
+        "file_name": "MoeDB-1.1.0.jar",
+        "sha256": "03d202ea75bd7b821fb034d606a6efcf3bfb9a2a8db122e0ea67063c28936b1f",
+        "size": 697838
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/Nukkit插件/Money--经济/MoeDB_v2.0.0--经济配套.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:51+08:00",
+  "minecraft_version_source": "api-inferred"
+}

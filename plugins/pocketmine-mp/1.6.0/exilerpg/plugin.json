@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "exilerpg",
+  "name": "ExileRPG",
+  "display_name": "放任职业",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=1.6.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.5",
+  "author": [
+    "super dell"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "一个简单的ROG插件",
+  "website": null,
+  "main": "ExileRPG\\ExileRPG",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "rpg",
+      "description": "关于所有ExileRPG插件的指令都必须用该字开头",
+      "usage": "/rpg {指令}",
+      "permission": "ExileRPG.rpg",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ExileRPG.rpg",
+      "description": "允许玩家使用一切关于本插件的指令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/exilerpg/ExileRPG-1.1.5.phar",
+      "file_name": "ExileRPG-1.1.5.phar",
+      "sha256": "a37921f2a07dff6514ad6547a0776ebd55af00b351027b6d94326336b7caf456",
+      "size": 21249,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/exilerpg/ExileRPG-1.1.5.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/放任职业/放任职业.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "id": "authmepe",
+  "name": "AuthMePE",
+  "display_name": "登录系统插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.1.4",
+  "author": [
+    "hoyinm & CyberCube-HK™"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Port of most features of Bukkit's AuthMe_Reloaded",
+  "website": null,
+  "main": "AuthMePE\\AuthMePE",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "unregister",
+      "description": "移除自己的密码.包括ip .简化命令:/ur",
+      "usage": "/unregister",
+      "permission": "authmepe.command.unregister",
+      "aliases": [
+        "ur"
+      ]
+    },
+    {
+      "name": "changepass",
+      "description": "改变你的密码.简化命令:/mima",
+      "usage": "/changepass <old> <new> <new>",
+      "permission": "authmepe.command.changepass",
+      "aliases": [
+        "mima",
+        "changepw"
+      ]
+    },
+    {
+      "name": "chgemail",
+      "description": "设置你的邮箱.简化命令:/email",
+      "usage": "/chgemail <email>",
+      "permission": "authmepe.command.chgemail",
+      "aliases": [
+        "email"
+      ]
+    },
+    {
+      "name": "logout",
+      "description": "退出登录状态",
+      "usage": "/logout",
+      "permission": "authmepe.command.logout",
+      "aliases": []
+    },
+    {
+      "name": "authme",
+      "description": "SAuth管理员命令",
+      "usage": "/authme help",
+      "permission": "authmepe.command.authme",
+      "aliases": [
+        "ah"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "authmepe.command.unregister",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "authmepe.command.changepass",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "authmepe.command.chgemail",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "authmepe.command.logout",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "authmepe.command.authme",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "authmepe.login.bypass",
+      "description": "",
+      "default": "false"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/authmepe/AuthMePE-0.1.4.phar",
+      "file_name": "AuthMePE-0.1.4.phar",
+      "sha256": "4d5f4c4fb1fadeb75ef66a45d54c4c085a3da802ceeac566f2eee456c8d37f3f",
+      "size": 45942,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/authmepe/AuthMePE-0.1.4.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/登录系统插件/登陆系统插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:20+08:00",
+  "minecraft_version_source": "api-inferred"
+}

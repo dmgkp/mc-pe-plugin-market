@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "killcash",
+  "name": "KillCash",
+  "display_name": "杀人得钱",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "[Praxthisnovcht]"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Give Money vs Kill",
+  "website": null,
+  "main": "Praxthisnovcht\\KillCash\\Main",
+  "tags": [
+    "economy"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/killcash/KillCash-1.0.1.phar",
+      "file_name": "KillCash-1.0.1.phar",
+      "sha256": "a6ed3c8e75b1f3e636a0fcd521a3a4322153fce00f59414e23bab13e4aa76b9f",
+      "size": 15125,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/killcash/KillCash-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/杀人得钱/杀人得钱.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

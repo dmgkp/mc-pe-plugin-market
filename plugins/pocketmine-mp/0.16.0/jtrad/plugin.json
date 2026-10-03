@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "jtrad",
+  "name": "Jtrad",
+  "display_name": "交易",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "Tanatos"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "交易插件",
+  "website": null,
+  "main": "trad\\trad",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "trad",
+      "description": "交易插件",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/jtrad/Jtrad-1.1.0.phar",
+      "file_name": "Jtrad-1.1.0.phar",
+      "sha256": "7dea7c36acb18e16d3a3502a343b9ec46cf0db70198e02b1ebfd22a0f378e162",
+      "size": 6794,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/jtrad/Jtrad-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/Jtrad--面对面py交易/Jtrad_v1.1.0--面对面py交易.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

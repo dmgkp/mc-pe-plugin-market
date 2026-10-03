@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "worldgm",
+  "name": "WorldGM",
+  "display_name": "多世界模式",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.7.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.8.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.11.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "7.0",
+  "author": [
+    "Exxarion"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Set different gamemodes for certain worlds",
+  "website": "http://aplus-craft.tk",
+  "main": "WorldGM\\WorldGM",
+  "tags": [
+    "world",
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "wgm",
+      "description": "为不同的世界设置不同的游戏模式。",
+      "usage": "/wgm set <游戏模式> (世界)\\n/wgm <include/exclude> <游戏模式>\\n/wgm version\\n/wgm check\\n/wgm gm\\n/wgm update",
+      "permission": "worldgm.use",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "worldgm.use",
+      "description": "允许用户使用该插件的功能",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/worldgm/WorldGM-7.0.phar",
+      "file_name": "WorldGM-7.0.phar",
+      "sha256": "c519d501ee27014e1acb0027ec6eb04feb2c2f749b1103c4dee1d02996896618",
+      "size": 17153,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/worldgm/WorldGM-7.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/多世界模式/WorldGM_v7_汉化版.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:27+08:00",
+  "minecraft_version_source": "path"
+}

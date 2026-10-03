@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "qwicktree",
+  "name": "QwickTree",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.1.1",
+  "author": [
+    "gorbb"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Quickly chop down trees with the swing of an axe!",
+  "website": "http://dev.bukkit.org/bukkit-plugins/qwicktree/",
+  "main": "uk.co.gorbb.qwicktree.QwickTree",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[CoreProtect]"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "qt",
+      "description": "QwickTree admin/debug command",
+      "usage": "Try /<command> for help.",
+      "permission": "",
+      "aliases": [
+        "qwicktree"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "qwicktree.*",
+      "description": "Lets the player see and clear the list of players for who the plugin is disabled for.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/other/unknown/qwicktree/QwickTree-2.1.1.jar",
+      "file_name": "QwickTree-2.1.1.jar",
+      "sha256": "1c3086a620cc1507f8c0e65355b9d4ed94a443ac519d07214b3c6a98b020e130",
+      "size": 59271,
+      "download_paths": {
+        "github": "plugins/other/unknown/qwicktree/QwickTree-2.1.1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/QwickTree.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

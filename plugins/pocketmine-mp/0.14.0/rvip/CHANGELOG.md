@@ -1,0 +1,11 @@
+# Changelog - RVIP
+
+## 3.0.0 (current)
+
+- indexed from original pack; file `RVIP-3.0.0.phar`
+
+## bate 1.0.0
+- archived: RVIP-bate_1.0.0.phar
+
+
+_Changelog entries are derived from bundled version files, not release notes._

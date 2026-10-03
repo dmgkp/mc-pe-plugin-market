@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "blocksniper",
+  "name": "BlockSniper",
+  "display_name": "高能",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=1.12.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=3.0.0-ALPHA7"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.3.0",
+  "author": [
+    "BlockHorizons"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows bypassing MyPlot plot borders with BlockSniper.",
+  "website": null,
+  "main": "BlockHorizons\\BlockSniper\\Loader",
+  "tags": [
+    "world",
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "MyPlot"
+  ],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "blocksniper-myplot-bypass",
+      "description": "Allows bypassing MyPlot plot borders with BlockSniper.",
+      "default": "op"
+    },
+    {
+      "name": "blocksniper",
+      "description": "Allows access to the schematic paste type.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/blocksniper/BlockSniper-2.3.0.phar",
+      "file_name": "BlockSniper-2.3.0.phar",
+      "sha256": "e129e9a100da3f76279e615aa93cdab6eb2be7b13a77c8cbb885a8981f80ea26",
+      "size": 100370,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/blocksniper/BlockSniper-2.3.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/BlockSniper--GUI世界编辑器[高能]/BlockSniper_v2.3.0--GUI世界编辑器.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:51+08:00",
+  "minecraft_version_source": "api-inferred"
+}

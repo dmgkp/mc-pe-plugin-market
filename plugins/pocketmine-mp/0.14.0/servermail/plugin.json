@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "servermail",
+  "name": "ServerMail",
+  "display_name": "邮件插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1",
+  "author": [
+    "tschrock (tschrock123@gmail.com)"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Mail for your server! :D",
+  "website": "http://www.tschrock.net",
+  "main": "tschrock\\ServerMail\\ServerMail",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mail",
+      "description": "Main command.",
+      "usage": "Usage: /mail <read|view|clear> or /mail send <player> <message>",
+      "permission": "tschrock.servermail.command.mail",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "tschrock.servermail.command.mail",
+      "description": "Allows the user to run the mail command",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/servermail/ServerMail-0.0.1.phar",
+      "file_name": "ServerMail-0.0.1.phar",
+      "sha256": "382146d2cddc7550ab7a92c22fd9828499f3cd917a6c625b0cb0cd84c41b3e3d",
+      "size": 4430,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/servermail/ServerMail-0.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/邮件插件/邮件插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:23+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "letitle",
+  "name": "LeTitle",
+  "display_name": "称号插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1",
+  "author": [
+    "littlele"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "This is a plugin about Title",
+  "website": null,
+  "main": "cn.Le.Title.TitleMain",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "t",
+      "description": "The conmands of LeTitle",
+      "usage": "/t",
+      "permission": "",
+      "aliases": [
+        "t"
+      ]
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/letitle/LeTitle-0.0.1.jar",
+      "file_name": "LeTitle-0.0.1.jar",
+      "sha256": "1c15979a214786493095f0d26a001d7d4fc4f3250055e85b5eae87825beb64bb",
+      "size": 6215,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/letitle/LeTitle-0.0.1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK称号插件/NK称号插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

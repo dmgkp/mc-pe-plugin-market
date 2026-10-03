@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "supertools",
+  "name": "SuperTools",
+  "display_name": "合集",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.1.0",
+  "author": [
+    "Him188"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Concentration is the essence",
+  "website": null,
+  "main": "Him188\\SuperTools\\SuperTools",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "stools",
+      "description": "设置",
+      "usage": "设置分支的命令: /stools set <分支名> <命令(不带/)> || 手动更新: /stools update || 禁用分支: /stools dis <分支名> || 查看分支列表: /stools list",
+      "permission": "SuperTools.stools",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "SuperTools.stools",
+      "description": "SuperTools",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/supertools/SuperTools-2.1.0.phar",
+      "file_name": "SuperTools-2.1.0.phar",
+      "sha256": "b81f068d9e0aebbd0ca741726124cb6fd278bb7f7c5350bae8ecdb87f950be71",
+      "size": 45118,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/supertools/SuperTools-2.1.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "SuperTools-1.0.0.phar",
+        "sha256": "37d98f9f8e054765584c1d99a90ed5eeb2a1bc629ee20845471b5844ea9ec9e4",
+        "size": 439703
+      }
+    ],
+    "1.0.1": [
+      {
+        "file_name": "SuperTools-1.0.1.phar",
+        "sha256": "24eaf5dcb68a40cca468b76f01da70e82024a48a1ba421098ea4777f2743a142",
+        "size": 439704
+      }
+    ],
+    "1.1.0": [
+      {
+        "file_name": "SuperTools-1.1.0.phar",
+        "sha256": "10186f4a7d9acf68a88373ea70d4412a66563c4f4e73bf28a982265403d67035",
+        "size": 426151
+      }
+    ],
+    "2.0.0": [
+      {
+        "file_name": "SuperTools-2.0.0.phar",
+        "sha256": "61ee3cb70656c419e103c44530fb24017688e536cfcbfae36b4f768eda050d19",
+        "size": 48727
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/合集/合集 - SuperTools/SuperTools_v2.1.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:30+08:00",
+  "minecraft_version_source": "api-inferred"
+}

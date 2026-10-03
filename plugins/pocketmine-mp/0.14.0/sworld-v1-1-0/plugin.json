@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "sworld-v1-1-0",
+  "name": "SWorld_v1.1.0",
+  "display_name": "多世界插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "18WYJ2 & boybook"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Change world",
+  "website": null,
+  "main": "SWorld\\SWorld",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "w",
+      "description": "Change world",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "lw",
+      "description": "See list of worlds",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "load",
+      "description": "Load a world",
+      "usage": "",
+      "permission": "World.load",
+      "aliases": []
+    },
+    {
+      "name": "unload",
+      "description": "Unload a world",
+      "usage": "",
+      "permission": "World.unload",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "World",
+      "description": "unload a world",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/sworld-v1-1-0/SWorld_v1.1.0-1.1.0.phar",
+      "file_name": "SWorld_v1.1.0-1.1.0.phar",
+      "sha256": "55640443e97f12fb876bf55c7c07c73ed4fe156abae3c48af3c5ab87881becd5",
+      "size": 6668,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/sworld-v1-1-0/SWorld_v1.1.0-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/SWorld多世界插件/SWorld_v1.1.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:25+08:00",
+  "minecraft_version_source": "api-inferred"
+}

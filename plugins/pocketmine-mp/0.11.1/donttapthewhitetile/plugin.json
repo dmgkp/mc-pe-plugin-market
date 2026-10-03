@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "donttapthewhitetile",
+  "name": "DontTapTheWhiteTile",
+  "display_name": "别踩白块",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.1.2",
+  "author": [
+    "MUedsa"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A Named 'Dont Tap The White Tile' Mini Game",
+  "website": "http://www.cattery.cn",
+  "main": "MUedsa\\DontTapTheWhiteTile",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "dttt",
+      "description": "DontTapTheWhiteTile Command",
+      "usage": "Usage: /dttt <set/del> 设置/删除小游戏",
+      "permission": "muedsa.command.dttt",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "muedsa.command.dttt",
+      "description": "Only OP can use CMD : /dttt ",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/donttapthewhitetile/DontTapTheWhiteTile-0.1.2.phar",
+      "file_name": "DontTapTheWhiteTile-0.1.2.phar",
+      "sha256": "70f52f4d25a66f490556dc65bda1b86009c0c4a17376458b7923f5a25234ca97",
+      "size": 29439,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/donttapthewhitetile/DontTapTheWhiteTile-0.1.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/别踩白块/别踩白方块流星优化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:27+08:00",
+  "minecraft_version_source": "path"
+}

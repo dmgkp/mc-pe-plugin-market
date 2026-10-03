@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "zkit",
+  "name": "ZKit",
+  "display_name": "礼包插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "领取指定礼包",
+  "website": null,
+  "main": "ZKit\\ZKit",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "礼包",
+      "description": "领取指定礼包",
+      "usage": "/礼包 <礼包>",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "zkit.command.kit",
+      "description": "允许玩家领取礼包",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/zkit/ZKit-1.0.0.phar",
+      "file_name": "ZKit-1.0.0.phar",
+      "sha256": "5cc6c103b64d6fb7078b7e9bb50b4bedc16a96b8dc693fa0f9b8202169234db5",
+      "size": 2089,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/zkit/ZKit-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/礼包插件/ZKit_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:31+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "id": "itpa",
+  "name": "ITpa",
+  "display_name": "传送插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.2",
+  "author": [
+    "Ibook"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Maked by Ibook A Great Plugin",
+  "website": null,
+  "main": "ITpa\\ITpa",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "地标",
+      "description": "输入/地标 地标ID 传送到这个地标",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "warp",
+      "description": "输入/warp 地标ID 传送到这个地标",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "设置地标",
+      "description": "输入/设置地标 地标名 设置一个地标",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "setwarp",
+      "description": "输入/setwarp 地标名 设置一个地标",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "地标列表",
+      "description": "输入/地标列表 查看地标信息",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "warplist",
+      "description": "输入/warplist 查看地标信息",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "传送帮助",
+      "description": "输入/传送帮助 查看本传送插件的所有功能",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpahelp",
+      "description": "输入/tpahere 查看本传送插件的所有功能",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "随机传送",
+      "description": "输入/随机传送 随机流放到当前世界",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "wild",
+      "description": "输入/wild 随机流放到当前世界",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "传送到这",
+      "description": "输入/传送到这 玩家名称 即可请求玩家传送到你当前的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpahere",
+      "description": "输入/tphere 玩家名称 即可请求玩家传送到你当前的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "传送",
+      "description": "输入/传送 玩家名称 请求家传送到该玩家的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpa",
+      "description": "输入/tpa 玩家名称 请求家传送到该玩家的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "安家",
+      "description": "输入/安家 设置家的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "sethome",
+      "description": "输入/sethome 设置家的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "回家",
+      "description": "输入/回家 回到设置的家的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "home",
+      "description": "输入/home 回到设置的家的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "返回",
+      "description": "输入/返回 回到上次死亡点",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "back",
+      "description": "输入/back 回到上次死亡点",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "同意",
+      "description": "输入/同意 同意当前的请求",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "拒绝",
+      "description": "输入/拒绝 拒绝当前的请求",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "全体传送",
+      "description": "输入/全体传送 请求所有玩家传送到你的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpall",
+      "description": "输入/tpall 请求所有玩家传送到你的位置",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/itpa/ITpa-1.2.2.phar",
+      "file_name": "ITpa-1.2.2.phar",
+      "sha256": "9f36a50f4221df3088e172176e534155107d8ce20feeda9236747b7cfadaf44b",
+      "size": 30748,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/itpa/ITpa-1.2.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/[Go!]ITpa传送插件/ITpa_v1.2.2.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:29+08:00",
+  "minecraft_version_source": "api-inferred"
+}

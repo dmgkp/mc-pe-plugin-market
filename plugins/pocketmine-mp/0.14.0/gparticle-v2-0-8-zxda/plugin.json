@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "gparticle-v2-0-8-zxda",
+  "name": "GParticle_v2.0.8_zxda",
+  "display_name": "百度贴吧",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.8",
+  "author": [
+    "Einreiz_zxda"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "一个由gwj写的粒子插件",
+  "website": null,
+  "main": "GParticle\\Main",
+  "tags": [
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "gp",
+      "description": "一个由gwj写的粒子插件",
+      "usage": "",
+      "permission": "gparticle.command.gp",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "gparticle.command.gp",
+      "description": "粒子商店",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/gparticle-v2-0-8-zxda/GParticle_v2.0.8_zxda-2.0.8.phar",
+      "file_name": "GParticle_v2.0.8_zxda-2.0.8.phar",
+      "sha256": "9b62a12d44a00020adfaf8379b6bb2dc6826482577df81af921c7d57fc249cd8",
+      "size": 71159,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/gparticle-v2-0-8-zxda/GParticle_v2.0.8_zxda-2.0.8.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/GParticle_v2.0.8_zxda.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:32+08:00",
+  "minecraft_version_source": "api-inferred"
+}

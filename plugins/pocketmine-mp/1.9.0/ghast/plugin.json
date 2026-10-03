@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "ghast",
+  "name": "Ghast",
+  "display_name": "恶魂",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.9.0",
+  "minecraft_versions": [
+    "1.9.0"
+  ],
+  "minecraft_version_range": ">=1.9.0 <1.10.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.13.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.1",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Ghast - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "Ghast\\main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.9.0/ghast/Ghast-0.1.phar",
+      "file_name": "Ghast-0.1.phar",
+      "sha256": "1849c7cf6851eb3ec3c4667ac3398760592e351c79fb35595393cfc43b92ff90",
+      "size": 3548,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/ghast/Ghast-0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/恶魂/恶魂.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:17+08:00",
+  "minecraft_version_source": "api-inferred"
+}

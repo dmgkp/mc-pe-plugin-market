@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "keepinventory",
+  "name": "KeepInventory",
+  "display_name": "饥饿游戏",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0_风鸟优化[FSurvivalGame适配]",
+  "author": [
+    "boybook"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Keep Inventory like PC !",
+  "website": null,
+  "main": "KeepInventory\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/keepinventory/KeepInventory-1.1.0__FSurvivalGame.phar",
+      "file_name": "KeepInventory-1.1.0__FSurvivalGame.phar",
+      "sha256": "e41dfd816576c6654e7b9c68d6a1d6865457a1e26a39f8ee30aeb8ddf6095863",
+      "size": 1540,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/keepinventory/KeepInventory-1.1.0__FSurvivalGame.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/饥饿游戏/饥饿游戏适配死亡不掉落.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:25+08:00",
+  "minecraft_version_source": "api-inferred"
+}

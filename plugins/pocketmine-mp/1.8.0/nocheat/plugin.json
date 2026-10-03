@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "nocheat",
+  "name": "NoCheat",
+  "display_name": "防作弊",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.7",
+  "author": [
+    "PeratX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "AntiFly&AntiSprinting.",
+  "website": null,
+  "main": "NoCheat\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/nocheat/NoCheat-1.1.7.phar",
+      "file_name": "NoCheat-1.1.7.phar",
+      "sha256": "1ded4d434ada728918e3ae81770c0e52aea5e9ffb1006b08bb2e51dc6bccd632",
+      "size": 9651,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/nocheat/NoCheat-1.1.7.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/防作弊/防作弊.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:24+08:00",
+  "minecraft_version_source": "api-inferred"
+}

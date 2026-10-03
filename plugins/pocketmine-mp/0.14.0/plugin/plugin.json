@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "id": "plugin",
+  "name": "粒子商店",
+  "display_name": "粒子商店",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "0.16.0",
+    "1.2.0",
+    "1.6.0",
+    "1.8.0",
+    "1.9.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.5",
+  "author": [
+    "Einreiz"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "一个由gwj写的粒子插件",
+  "website": null,
+  "main": "GParticle\\Main",
+  "tags": [
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "gp",
+      "description": "一个由gwj写的粒子插件",
+      "usage": "",
+      "permission": "gparticle.command.gp",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "gparticle.command.gp",
+      "description": "粒子商店",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/plugin/file-2.0.5.phar",
+      "file_name": "file-2.0.5.phar",
+      "sha256": "db07c96047892adc73723bedefc422ecb21e2c8d3e40c07cb0b8aecef96e7329",
+      "size": 33225,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/plugin/file-2.0.5.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "Plugin-1.0.0.phar",
+        "sha256": "d4cbb66e84d683edd2faf9421ab7d1049c0f64233ca26b78935379d7d54be19a",
+        "size": 10699
+      }
+    ],
+    "1.0.4": [
+      {
+        "file_name": "Plugin-1.0.4.phar",
+        "sha256": "036949893d45c014c4fd1b66fbf8d17ea2fb8b2f7f626b69e1e965041e0691df",
+        "size": 11738
+      }
+    ],
+    "1.0.7": [
+      {
+        "file_name": "Plugin-1.0.7.phar",
+        "sha256": "2eb7e320fea61ca74a53470b07f119b9c8197e3bd71c6c99dab83373028be6c8",
+        "size": 63301
+      }
+    ],
+    "1.1.0": [
+      {
+        "file_name": "file-1.1.0.phar",
+        "sha256": "a893e23d0d975775e16688e9dc422e055cf1dcd1ebef9f86e132ce8be5bc17d0",
+        "size": 5506
+      },
+      {
+        "file_name": "file-1.1.0.phar",
+        "sha256": "4b015d82b628aaf7f70bfa0bbb30fbc8612be8a1ab15111c73e35b387fce4a74",
+        "size": 2451
+      },
+      {
+        "file_name": "file-1.1.0.phar",
+        "sha256": "2461ac831c682409dbf63e43e0131d5f41404d2df8d5ed9f0a622a34b620cd95",
+        "size": 2479
+      }
+    ],
+    "1.1.1": [
+      {
+        "file_name": "file-1.1.1.phar",
+        "sha256": "77becd15c52a8c98dc0a7dc4d84e7770e7de0e4f493414387ed529cdddb40943",
+        "size": 8648
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/粒子商店/粒子商店.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:21+08:00",
+  "minecraft_version_source": "api-inferred"
+}

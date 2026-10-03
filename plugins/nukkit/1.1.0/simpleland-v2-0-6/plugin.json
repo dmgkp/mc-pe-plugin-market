@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "simpleland-v2-0-6",
+  "name": "SimpleLand_v2.0.6--地皮插件",
+  "display_name": "地皮插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "SoleMemory"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SimpleLand 地皮命令",
+  "website": null,
+  "main": "sole.memory.SimpleLand",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "land",
+      "description": "SimpleLand 地皮命令",
+      "usage": "",
+      "permission": "simpleland.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "simpleland.command",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/simpleland-v2-0-6/SimpleLand_v2.0.6---1.0.0.jar",
+      "file_name": "SimpleLand_v2.0.6---1.0.0.jar",
+      "sha256": "4a1da6fb9d9d065841976733d4341a2a15ccf5dc0c669efa47a6d86ce5fbc945",
+      "size": 32882,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/simpleland-v2-0-6/SimpleLand_v2.0.6---1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/Nukkit插件/SimpleLand--地皮插件/SimpleLand_v2.0.6--地皮插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

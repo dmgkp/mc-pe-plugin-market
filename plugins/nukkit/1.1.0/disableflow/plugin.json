@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "disableflow",
+  "name": "DisableFlow",
+  "display_name": "禁止流动",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.1.0",
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.8.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.0",
+  "author": [
+    "uuuuone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "禁止液体流动",
+  "website": null,
+  "main": "DisableFlow.DisableFlow",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "flow",
+      "description": "flow命令集",
+      "usage": "/flow [on/off]",
+      "permission": "DisableFlow.command.flow",
+      "aliases": []
+    },
+    {
+      "name": "cflow",
+      "description": "cflow命令集",
+      "usage": "/cflow [add/del/list] [world]",
+      "permission": "DisableFlow.command.flow",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "DisableFlow.command.flow",
+      "description": "允许OP运行/flow 命令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/disableflow/DisableFlow-1.2.0.jar",
+      "file_name": "DisableFlow-1.2.0.jar",
+      "sha256": "26c373ae978c7dba5023713bfefb55c742b60d412f17628863423d5bb690422d",
+      "size": 4143,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/disableflow/DisableFlow-1.2.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK禁止流动/NK禁止流动.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

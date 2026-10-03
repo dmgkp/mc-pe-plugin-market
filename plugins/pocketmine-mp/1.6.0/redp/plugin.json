@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "redp",
+  "name": "REDP",
+  "display_name": "REDP",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=1.6.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "V1.3.5",
+  "author": [
+    "PiZzle_zZau"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "啦啦啦啦啦",
+  "website": null,
+  "main": "PiZzle_zZau\\REDP",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "REDPON",
+      "description": "啦啦啦啦啦",
+      "usage": "/REDPON",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "REDPOFF",
+      "description": "啦啦啦啦啦",
+      "usage": "/REDPOFF",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "REDP1",
+      "description": "啦啦啦啦啦",
+      "usage": "/REDP1",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "REDP2",
+      "description": "啦啦啦啦啦",
+      "usage": "/REDP2",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "REDP3",
+      "description": "啦啦啦啦啦",
+      "usage": "RRRR",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "REDPSET",
+      "description": "sdasd",
+      "usage": "sadasd",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/redp/REDP-V1.3.5.phar",
+      "file_name": "REDP-V1.3.5.phar",
+      "sha256": "856ad3616bc91a48d4ec56a7cd5e11b7806877e682f5163c87ff0e5a9ebbc1a3",
+      "size": 14887,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/redp/REDP-V1.3.5.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/REDP/REDP.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

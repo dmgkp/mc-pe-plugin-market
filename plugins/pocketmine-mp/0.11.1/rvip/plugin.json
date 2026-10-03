@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "rvip",
+  "name": "RVIP",
+  "display_name": "RVIP",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "bate 1.0.0",
+  "author": [
+    "zmdd&zzz"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "vip插件主命令",
+  "website": null,
+  "main": "rvip\\main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "vip",
+      "description": "vip插件主命令",
+      "usage": "",
+      "permission": "Rvip.command.vip",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Rvip.command.vip",
+      "description": "VIP插件主权限",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/rvip/RVIP-bate_1.0.0.phar",
+      "file_name": "RVIP-bate_1.0.0.phar",
+      "sha256": "b276ded1a4d53bcc779e7c68594407c90d1fa824fdd2eb306b0f8a3b66766555",
+      "size": 3505,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/rvip/RVIP-bate_1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/RVIP/RVIP主插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

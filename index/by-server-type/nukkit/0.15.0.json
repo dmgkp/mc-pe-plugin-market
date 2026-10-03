@@ -1,0 +1,228 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-type/version",
+  "server_type": "nukkit",
+  "minecraft_version": "0.15.0",
+  "count": 12,
+  "plugins": [
+    {
+      "id": "awtmessage",
+      "name": "AwtMessage",
+      "display_name": "AwtMessage",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "0.0.2-SNAPSNOT",
+      "path": "plugins/nukkit/0.15.0/awtmessage/plugin.json",
+      "file": "plugins/nukkit/0.15.0/awtmessage/AwtMessage-0.0.2-SNAPSNOT.jar",
+      "sha256": "d4eabf31d40830e291baa57b9233995832ea5833f2cdc0fa194a4972a18e85fa",
+      "size": 6270,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/awtmessage/AwtMessage-0.0.2-SNAPSNOT.jar"
+      }
+    },
+    {
+      "id": "leettp",
+      "name": "LeetTP",
+      "display_name": "LeetTP",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.2.1-b22",
+      "path": "plugins/nukkit/0.15.0/leettp/plugin.json",
+      "file": "plugins/nukkit/0.15.0/leettp/LeetTP-1.2.1-b22.jar",
+      "sha256": "f272ea1f7937e61dbd65cdff4b975f868be5555e9adcd6af70a0afa04fbc911a",
+      "size": 57461,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/leettp/LeetTP-1.2.1-b22.jar"
+      }
+    },
+    {
+      "id": "mcsgui-manager",
+      "name": "mcsgui_manager",
+      "display_name": "mcsgui_manager",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0",
+      "path": "plugins/nukkit/0.15.0/mcsgui-manager/plugin.json",
+      "file": "plugins/nukkit/0.15.0/mcsgui-manager/mcsgui_manager-2.0.jar",
+      "sha256": "c52c901c02cb9a57b094d28489826ef93887d09e1c8cb0afc0e188dbfcc7f072",
+      "size": 3314,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/mcsgui-manager/mcsgui_manager-2.0.jar"
+      }
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "display_name": "Money",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/nukkit/0.15.0/money/plugin.json",
+      "file": "plugins/nukkit/0.15.0/money/Money-1.3.0.jar",
+      "sha256": "3130c20a3d1dd2302a0b77bc785aa133eab5545b3ff5e514a90f0edeef5ec76a",
+      "size": 32310,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/money/Money-1.3.0.jar"
+      }
+    },
+    {
+      "id": "moneyland",
+      "name": "MoneyLand",
+      "display_name": "MoneyLand",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/0.15.0/moneyland/plugin.json",
+      "file": "plugins/nukkit/0.15.0/moneyland/MoneyLand-1.1.0.jar",
+      "sha256": "64e4c0b1c0c7c2c9ee973b384079beac1908f221b9c0df66d1beacc98cf1df7a",
+      "size": 18044,
+      "tags": [
+        "economy",
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/moneyland/MoneyLand-1.1.0.jar"
+      }
+    },
+    {
+      "id": "mylock",
+      "name": "MyLock",
+      "display_name": "MyLock",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.4",
+      "path": "plugins/nukkit/0.15.0/mylock/plugin.json",
+      "file": "plugins/nukkit/0.15.0/mylock/MyLock-1.0.4.jar",
+      "sha256": "e0d147bcac89970602eb674993cf89a5236bc980d4654c85c819f9187b21bd4a",
+      "size": 6958,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/mylock/MyLock-1.0.4.jar"
+      }
+    },
+    {
+      "id": "nessentials",
+      "name": "NEssentials",
+      "display_name": "NEssentials",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "0.0.1-SNAPSHOT",
+      "path": "plugins/nukkit/0.15.0/nessentials/plugin.json",
+      "file": "plugins/nukkit/0.15.0/nessentials/NEssentials-0.0.1-SNAPSHOT.jar",
+      "sha256": "36dd204892888a01137aa68a65c42d7dbf84e4311e204b19d92f2dd15ae220b4",
+      "size": 15371,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/nessentials/NEssentials-0.0.1-SNAPSHOT.jar"
+      }
+    },
+    {
+      "id": "rsfunction",
+      "name": "RsFunction",
+      "display_name": "RsFunction",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/0.15.0/rsfunction/plugin.json",
+      "file": "plugins/nukkit/0.15.0/rsfunction/RsFunction-1.0.2.jar",
+      "sha256": "59d22b9b37452dbaca7b2bd2764390e39d1e8f1af403e1886a34f7119144a2b9",
+      "size": 13329,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/rsfunction/RsFunction-1.0.2.jar"
+      }
+    },
+    {
+      "id": "rsshop",
+      "name": "RsShop",
+      "display_name": "RsShop",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/0.15.0/rsshop/plugin.json",
+      "file": "plugins/nukkit/0.15.0/rsshop/RsShop-1.0.0.jar",
+      "sha256": "458ea4a0b75d4e96d2c7aa6995ec46990b099b2055845800fa804419223704c0",
+      "size": 13758,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/rsshop/RsShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "sntuauth",
+      "name": "SntuAuth",
+      "display_name": "SntuAuth",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.2",
+      "path": "plugins/nukkit/0.15.0/sntuauth/plugin.json",
+      "file": "plugins/nukkit/0.15.0/sntuauth/SntuAuth-1.2.jar",
+      "sha256": "8785e21c64469629faa9b0b0f412304482291e99bce1401e1d51809867d7e7e4",
+      "size": 15525,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/sntuauth/SntuAuth-1.2.jar"
+      }
+    },
+    {
+      "id": "worldplus",
+      "name": "WorldPlus",
+      "display_name": "WorldPlus",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.5",
+      "path": "plugins/nukkit/0.15.0/worldplus/plugin.json",
+      "file": "plugins/nukkit/0.15.0/worldplus/WorldPlus-1.5.jar",
+      "sha256": "4b551f5985379f5b25e601c3d803aa8ada24fa7b1d0bdefc40481102b55ada00",
+      "size": 28127,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/worldplus/WorldPlus-1.5.jar"
+      }
+    },
+    {
+      "id": "worlds",
+      "name": "Worlds",
+      "display_name": "Worlds",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/0.15.0/worlds/plugin.json",
+      "file": "plugins/nukkit/0.15.0/worlds/Worlds-1.1.0.jar",
+      "sha256": "331c83399aa8d8d4c2c0088f3836efc74dcb2b7790c539fd8949bd2fcc1e8910",
+      "size": 2906,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/worlds/Worlds-1.1.0.jar"
+      }
+    }
+  ]
+}

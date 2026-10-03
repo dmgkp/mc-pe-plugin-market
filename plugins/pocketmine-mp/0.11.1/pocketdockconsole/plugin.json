@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "pocketdockconsole",
+  "name": "PocketDockConsole",
+  "display_name": "网页控制",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.14",
+  "author": [
+    "humerusj"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A web console that uses WebSockets",
+  "website": null,
+  "main": "PocketDockConsole\\Main",
+  "tags": [
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "consoleclients",
+      "description": "List the connected PocketDockConsole clients",
+      "usage": "Usage: /consoleclients",
+      "permission": "pocketdockconsole.command.consoleclients",
+      "aliases": [
+        "cc",
+        "conclients",
+        "showclients"
+      ]
+    },
+    {
+      "name": "killclient",
+      "description": "Kill a certain client from connection",
+      "usage": "Usage: /killclient <ip:port>",
+      "permission": "pocketdockconsole.command.killclient",
+      "aliases": [
+        "kc",
+        "killc"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "pocketdockconsole.command.consoleclients",
+      "description": "Allows a player to show the connected console clients",
+      "default": "op"
+    },
+    {
+      "name": "pocketdockconsole.command.killclient",
+      "description": "Allows a player to kill a connected console client",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/pocketdockconsole/PocketDockConsole-0.0.14.phar",
+      "file_name": "PocketDockConsole-0.0.14.phar",
+      "sha256": "c14f16d27de8919fe5abc8291a51470deae1740a34ba87a2533c8b05db0b58a2",
+      "size": 268074,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/pocketdockconsole/PocketDockConsole-0.0.14.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/网页控制/网页控制.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:31+08:00",
+  "minecraft_version_source": "path"
+}

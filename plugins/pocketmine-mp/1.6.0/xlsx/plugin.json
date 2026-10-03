@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "xlsx",
+  "name": "XLSX",
+  "display_name": "通过人头数来购买血量上限",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=1.6.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "V1.3.5",
+  "author": [
+    "PiZzle_zZau"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "www",
+  "website": null,
+  "main": "PiZzle_zZau\\XLSX",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "RT",
+      "description": "www",
+      "usage": "/RT",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "RTB",
+      "description": "sda",
+      "usage": "sd",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/xlsx/XLSX-V1.3.5.phar",
+      "file_name": "XLSX-V1.3.5.phar",
+      "sha256": "c3d47e2eeb21305a41def9a95c4b3b4e663580b53b752fee59f6412eef6e824c",
+      "size": 3666,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/xlsx/XLSX-V1.3.5.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/通过人头数来购买血量上限/通过人头数来购买血量上限.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:23+08:00",
+  "minecraft_version_source": "api-inferred"
+}

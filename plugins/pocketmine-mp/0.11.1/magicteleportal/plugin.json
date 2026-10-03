@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "magicteleportal",
+  "name": "MagicTelePortal",
+  "display_name": "星门插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.3.2 didou汉化",
+  "author": [
+    "aliuly"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A simple portal plugin",
+  "website": null,
+  "main": "aliuly\\mtp\\Main",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mtp",
+      "description": "Create a portal",
+      "usage": "/mtp [world|addr:port] [x y z]",
+      "permission": "mtp.cmd.mtp",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "mtp.cmd.mtp",
+      "description": "Allow to create portal",
+      "default": "op"
+    },
+    {
+      "name": "mtp.destroy",
+      "description": "Allow destruction of portals",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/magicteleportal/MagicTelePortal-1.3.2_didou.phar",
+      "file_name": "MagicTelePortal-1.3.2_didou.phar",
+      "sha256": "d104150dfde12570c1126e40c762e24632cad8aa44b6411a5a137a2ff43d83e1",
+      "size": 23026,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/magicteleportal/MagicTelePortal-1.3.2_didou.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/星门插件/汉化星门.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:28+08:00",
+  "minecraft_version_source": "path"
+}

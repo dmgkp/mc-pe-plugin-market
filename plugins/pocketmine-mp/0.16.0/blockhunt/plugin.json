@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "blockhunt",
+  "name": "BlockHunt",
+  "display_name": "百度贴吧",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.2.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.1.1",
+  "author": [
+    "homenear"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "N/A",
+  "website": null,
+  "main": "BlockHunt\\BlockHunt",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "BlockHunt",
+      "description": "N/A",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "bh",
+        "blockhunt"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "BlockHunt",
+      "description": "All the permissions to use the BlockHunt",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/blockhunt/BlockHunt-0.1.1.phar",
+      "file_name": "BlockHunt-0.1.1.phar",
+      "sha256": "01029eaf4291115f6eb7d5d2383314a670261c6cb4780ef3693d2138abb65a39",
+      "size": 31942,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/blockhunt/BlockHunt-0.1.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/躲猫猫.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:33+08:00",
+  "minecraft_version_source": "api-inferred"
+}

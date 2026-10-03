@@ -1,0 +1,184 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-minecraft-version",
+  "minecraft_version": "1.0.0",
+  "count": 9,
+  "plugins": [
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "京东商城出售插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economysell/EconomySell-2.0.3.phar",
+      "sha256": "5557bdb773cbffff8c78895aa66fb6556eb7c90fc279ac46381c555e97270e09",
+      "size": 5873,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economysell/EconomySell-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economysell-v2",
+      "name": "EconomySell",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economysell-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economysell-v2/EconomySell-2.0.3.phar",
+      "sha256": "f08518c65507ecd5e2f5c1eb866b9cb8638ceb97c5e9cd6f8c5c5ef719ef5347",
+      "size": 16481,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economysell-v2/EconomySell-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economysell-v3",
+      "name": "EconomySell",
+      "display_name": "经济回收商店木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economysell-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economysell-v3/EconomySell-2.0.3.phar",
+      "sha256": "e77f5c4fa929cf2889b5bf098538f8af67fb69043158ee68c67d221f52cb28bb",
+      "size": 17300,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economysell-v3/EconomySell-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "件套",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop/EconomyShop-2.0.3.phar",
+      "sha256": "b1ca4732f0d07a730d5f5353e868383f84ac40deed4973d79114060adaf82c9b",
+      "size": 6381,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v2",
+      "name": "EconomyShop",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v2/EconomyShop-2.0.3.phar",
+      "sha256": "cf9fdd56f205d2f137c10598c7d1e564d0bf416a062376fca6b83f505c97856d",
+      "size": 18132,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v2/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v3",
+      "name": "EconomyShop",
+      "display_name": "仙术插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v3/EconomyShop-2.0.3.phar",
+      "sha256": "96e091e26fc0f8b4cff74023a1f2bc63767e44cc105ff463891dc1cbafe14375",
+      "size": 7482,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v3/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v4",
+      "name": "EconomyShop",
+      "display_name": "经济出售商店木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v4/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v4/EconomyShop-2.0.3.phar",
+      "sha256": "660dc750097f6cc457194d2ac95d15d9f6c5ede883d612b4192a176cfe875756",
+      "size": 18969,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v4/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v5",
+      "name": "EconomyShop",
+      "display_name": "百度贴吧",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v5/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v5/EconomyShop-2.0.3.phar",
+      "sha256": "77e909a873eb0e5cf18409213ee9bc82b36b7af790cc2c2d319f0d47e4b8fd48",
+      "size": 18971,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v5/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "pc",
+      "name": "清除PC方块",
+      "display_name": "方块",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.0.0/pc/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/pc/PC-1.0.1.phar",
+      "sha256": "86a8e3bef3a49dcb0382a905aa613918364ee8bea3fb439bbb3a4f1cda280d1b",
+      "size": 2695,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/pc/PC-1.0.1.phar"
+      }
+    }
+  ]
+}

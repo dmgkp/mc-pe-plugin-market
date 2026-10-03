@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "economytax-v2",
+  "name": "EconomyTax",
+  "display_name": "EconomyTax",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.3",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "The permission that allows player to avoid paying tax",
+  "website": null,
+  "main": "onebone\\economytax\\EconomyTax",
+  "tags": [
+    "economy",
+    "admin",
+    "cosmetic"
+  ],
+  "dependencies": [
+    "[EconomyAPI]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "economytax.tax.avoid",
+      "description": "The permission that allows player to avoid paying tax",
+      "default": ""
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/economytax-v2/EconomyTax-2.0.3.phar",
+      "file_name": "EconomyTax-2.0.3.phar",
+      "sha256": "9be786e115a6a6122b88553a04453e9a8f2c87bda2c7166399109cbad22e51a4",
+      "size": 5058,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economytax-v2/EconomyTax-2.0.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/005/EconomyTax_v2.0.3.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "api-inferred"
+}

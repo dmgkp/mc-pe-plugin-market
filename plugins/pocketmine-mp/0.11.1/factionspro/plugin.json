@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "factionspro",
+  "name": "FactionsPro",
+  "display_name": "新版公会汉化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.1.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.3.1",
+  "author": [
+    "Tethered_"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A Plugin For Easily Managing Factions",
+  "website": null,
+  "main": "FactionsPro\\FactionMain",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "f",
+      "description": "use /f help for all parameters",
+      "usage": "",
+      "permission": "f.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "f.command",
+      "description": "Allow use of all faction commands",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/factionspro/FactionsPro-1.3.1.phar",
+      "file_name": "FactionsPro-1.3.1.phar",
+      "sha256": "d4c80b8e150c3b3ecdeee78bb57c88c2ad3e82f9da71183916235a9e1bf5382d",
+      "size": 54467,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/factionspro/FactionsPro-1.3.1.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.1": [
+      {
+        "file_name": "FactionsPro-1.0.1.phar",
+        "sha256": "b918a288fd4e7ab61eb7d76483c4ed888248ac8fa12a92d14ff6e3e3cc877190",
+        "size": 26908
+      },
+      {
+        "file_name": "FactionsPro-1.0.1.phar",
+        "sha256": "baf144aaee34fbb1797dcdd3a4ccf0e343c847d8e0b1a401a822d4ccbd422c5d",
+        "size": 32225
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/新版公会汉化/新版工会汉化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:28+08:00",
+  "minecraft_version_source": "path"
+}

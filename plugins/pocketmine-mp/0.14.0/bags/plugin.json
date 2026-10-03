@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "bags",
+  "name": "Bags",
+  "display_name": "多世界背包插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1",
+  "author": [
+    "kinglegend"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "demo",
+  "website": null,
+  "main": "Bags\\Bags",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "bags",
+      "description": "bags",
+      "usage": "/bags",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "createworld",
+      "description": "createworld",
+      "usage": "/createworld",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/bags/Bags-0.0.1.phar",
+      "file_name": "Bags-0.0.1.phar",
+      "sha256": "70135bf03ba7f9209f10c82fc85abdb5271012316322056dd191732fd643c3cd",
+      "size": 2994,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bags/Bags-0.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/多世界背包插件/多世界背包.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

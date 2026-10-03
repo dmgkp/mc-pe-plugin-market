@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "dontdropinthespace",
+  "name": "DontDropInTheSpace",
+  "display_name": "极致整合",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "a1345687498"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "防止掉入虚空",
+  "website": null,
+  "main": "DDITS\\DDITS",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/dontdropinthespace/DontDropInTheSpace-1.0.phar",
+      "file_name": "DontDropInTheSpace-1.0.phar",
+      "sha256": "a65287e60329e385d375cd5804e7a08767e77a004559c45af58ca09f313c74d2",
+      "size": 1814,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/dontdropinthespace/DontDropInTheSpace-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "极致整合/『防掉入虚空』DontDropInTheSpace.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

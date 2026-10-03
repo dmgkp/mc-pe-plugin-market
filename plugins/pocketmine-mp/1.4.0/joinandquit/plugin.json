@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "joinandquit",
+  "name": "JOINandQUIT",
+  "display_name": "插件预装",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.4.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1",
+  "author": [
+    "MUedsa"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "JOINandQUIT - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": "http://www.cattery.cn",
+  "main": "MUedsa\\JOINandQUIT",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.4.0/joinandquit/JOINandQUIT-0.0.1.phar",
+      "file_name": "JOINandQUIT-0.0.1.phar",
+      "sha256": "ab6489b5342afab52c81771bfeb43b0b39be5b5568addafda4eb3954f8d4f749",
+      "size": 7684,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.4.0/joinandquit/JOINandQUIT-0.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "mcidea插件预装/[登录和退出提示]JOINandQUIT.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:10+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "clearinv",
+  "name": "ClearInv",
+  "display_name": "进服背包清理",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "古董"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "一个简单的进服清包插件！",
+  "website": null,
+  "main": "ClearInv\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/clearinv/ClearInv-1.0.0.phar",
+      "file_name": "ClearInv-1.0.0.phar",
+      "sha256": "024bf64ca831e8ff1a25a86589cbaa514c210c5d71b2cf15cf0747ba40676a05",
+      "size": 706,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/clearinv/ClearInv-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/InvClear--进服背包清理/InvClear--进服背包清理.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:54+08:00",
+  "minecraft_version_source": "api-inferred"
+}

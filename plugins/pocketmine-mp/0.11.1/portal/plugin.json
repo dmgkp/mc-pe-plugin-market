@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "portal",
+  "name": "Portal",
+  "display_name": "传送门",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.1",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "build your portal!hoho!",
+  "website": null,
+  "main": "Portal\\PortalMainClass",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "portal",
+      "description": "portal command",
+      "usage": "Usage: /portal [Parameters]",
+      "permission": "portal.command.portal",
+      "aliases": [
+        "por"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "portal",
+      "description": "Commands to build portal",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/portal/Portal-3.0.1.phar",
+      "file_name": "Portal-3.0.1.phar",
+      "sha256": "1bcb3264bd390335cdf7d175e4a2c1e24c779c3cb175e0e5eb83f6d1ba9f3dc0",
+      "size": 5658,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/portal/Portal-3.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/传送门/传送门.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

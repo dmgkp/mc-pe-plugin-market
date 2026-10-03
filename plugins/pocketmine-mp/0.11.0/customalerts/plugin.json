@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "customalerts",
+  "name": "CustomAlerts",
+  "display_name": "显示插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.12.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.4",
+  "author": [
+    "EvolSoft"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Customize alerts (join/leave messages, etc...)",
+  "website": "http://www.evolsoft.tk",
+  "main": "CustomAlerts\\CustomAlerts",
+  "tags": [
+    "chat"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "customalerts",
+      "description": "CustomAlerts Commands.",
+      "usage": "",
+      "permission": "customalerts",
+      "aliases": [
+        "calerts"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "customalerts",
+      "description": "CustomAlerts command Reload permission.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/customalerts/CustomAlerts-1.4.phar",
+      "file_name": "CustomAlerts-1.4.phar",
+      "sha256": "6109115653142655a48a9815160df7f43816de9df24b3a95c0936e6fee876ead",
+      "size": 13188,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/customalerts/CustomAlerts-1.4.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/customalerts_v1.4【显示插件】(1)/CustomAlerts_v1.4.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

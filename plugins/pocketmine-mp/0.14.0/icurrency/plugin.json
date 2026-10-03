@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "icurrency",
+  "name": "ICurrency",
+  "display_name": "核心插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "ibook"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "IC货币",
+  "website": null,
+  "main": "ICurrency\\ICurrency",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ic",
+      "description": "IC货币指令",
+      "usage": "",
+      "permission": "ICurrency.command.ic",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ICurrency.command.ic",
+      "description": "ICurrency{IC}指令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/icurrency/ICurrency-1.0.2.phar",
+      "file_name": "ICurrency-1.0.2.phar",
+      "sha256": "2567e7ca6b5e4d32f911ffaa3cc96d7468d2c38bc9a0af277e7fa2cc94e1967f",
+      "size": 11096,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/icurrency/ICurrency-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/[Go!]ICurrency核心插件/ICurrency_v1.0.2.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:28+08:00",
+  "minecraft_version_source": "api-inferred"
+}

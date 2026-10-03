@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "id": "basiscommands",
+  "name": "BasisCommands",
+  "display_name": "传送插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.4.33",
+  "author": [
+    "to2mbn"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A Nukkit plugin which adds some useful commands in game like '/sethome",
+  "website": null,
+  "main": "org.to2mbn.basiscommands.BasisCommands",
+  "tags": [
+    "admin",
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "sethome",
+      "description": "Set your home position",
+      "usage": "/sethome <home name>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "home",
+      "description": "Teleport to your home or list all your homes",
+      "usage": "/home [home name]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "delhome",
+      "description": "Delete your home",
+      "usage": "/delhome <home name>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpa",
+      "description": "Ask a player to accept you to teleport to him",
+      "usage": "/tpa <player name>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpahere",
+      "description": "Ask a player to teleport to you",
+      "usage": "/tpahere <player name>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpaccept",
+      "description": "Accept a teleporting request",
+      "usage": "/tpaccept",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tp",
+      "description": "Teleport to a player",
+      "usage": "/tp <player name>",
+      "permission": "basiscommands.tp",
+      "aliases": []
+    },
+    {
+      "name": "tpall",
+      "description": "Teleport all the players to you",
+      "usage": "/tpall",
+      "permission": "basiscommands.tp",
+      "aliases": []
+    },
+    {
+      "name": "addnotice",
+      "description": "Add a notice to show",
+      "usage": "/addnotice <notice>",
+      "permission": "basiscommands.notice",
+      "aliases": []
+    },
+    {
+      "name": "delnotice",
+      "description": "Delete a notice",
+      "usage": "/delnotice <notice id>",
+      "permission": "basiscommands.notice",
+      "aliases": []
+    },
+    {
+      "name": "noticelist",
+      "description": "List all the notices with ids",
+      "usage": "/noticelist",
+      "permission": "basiscommands.notice",
+      "aliases": []
+    },
+    {
+      "name": "setwarp",
+      "description": "Set a global warp point",
+      "usage": "/setwarp <name>",
+      "permission": "basiscommands.warp",
+      "aliases": []
+    },
+    {
+      "name": "warp",
+      "description": "Teleport to a global warp point",
+      "usage": "/warp <name>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "delwarp",
+      "description": "Delete a global warp point",
+      "usage": "/delwarp <name>",
+      "permission": "basiscommands.warp",
+      "aliases": []
+    },
+    {
+      "name": "warplist",
+      "description": "List all the available global warp points",
+      "usage": "/warplist",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "back",
+      "description": "Teleport back to the last teleport point (including death position)",
+      "usage": "/back",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "suicide",
+      "description": "Kill your self",
+      "usage": "/suicide",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "spawn",
+      "description": "Teleport to the global spawn point",
+      "usage": "/spawn",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "setspawn",
+      "description": "",
+      "usage": "/setspawn",
+      "permission": "basiscommands.setspawn",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "basiscommands.tpa",
+      "description": "Allows players to use tpa commands",
+      "default": "true"
+    },
+    {
+      "name": "basiscommands.home",
+      "description": "Allows players to use home commands",
+      "default": "true"
+    },
+    {
+      "name": "basiscommands.tp",
+      "description": "Allows players to use teleport commands",
+      "default": "op"
+    },
+    {
+      "name": "basiscommands.notice",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "basiscommands.warp",
+      "description": "Allows players to set and remove the global warp points",
+      "default": "op"
+    },
+    {
+      "name": "basiscommands.setspawn",
+      "description": "Allows players to set the global spawn point",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/basiscommands/BasisCommands-0.0.4.33.jar",
+      "file_name": "BasisCommands-0.0.4.33.jar",
+      "sha256": "f501d74a19f963c9f6bf9dcc2860485c02446e7960c7dc571237ab5b3e889e26",
+      "size": 60955,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/basiscommands/BasisCommands-0.0.4.33.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK传送插件/NK传送插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

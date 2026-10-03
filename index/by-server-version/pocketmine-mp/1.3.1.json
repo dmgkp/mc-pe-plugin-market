@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.3.1",
+  "count": 6,
+  "plugins": [
+    {
+      "id": "healthstats",
+      "name": "HealthStats",
+      "display_name": "HealthStats",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.1.1",
+      "path": "plugins/pocketmine-mp/0.11.0/healthstats/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/healthstats/HealthStats-1.1.1.phar",
+      "sha256": "b94e205383755b33bf8725e46999bc63b3ec2bb55f572d66e17bfc10df5a5cca",
+      "size": 1940,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/healthstats/HealthStats-1.1.1.phar"
+      }
+    },
+    {
+      "id": "peacefulspawn",
+      "name": "PeacefulSpawn",
+      "display_name": "PeacefulSpawn",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.4",
+      "path": "plugins/pocketmine-mp/0.11.0/peacefulspawn/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/peacefulspawn/PeacefulSpawn-2.4.phar",
+      "sha256": "6f52865eb878fffa273c5e99944a6a52acc8c55a13aad1f02f71a1ecef3cb322",
+      "size": 7888,
+      "tags": [
+        "world",
+        "gameplay",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/peacefulspawn/PeacefulSpawn-2.4.phar"
+      }
+    },
+    {
+      "id": "healthstats",
+      "name": "HealthStats",
+      "display_name": "他人名字右边显示血量",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.1.1",
+      "path": "plugins/pocketmine-mp/0.11.1/healthstats/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/healthstats/HealthStats-1.1.1.phar",
+      "sha256": "b94e205383755b33bf8725e46999bc63b3ec2bb55f572d66e17bfc10df5a5cca",
+      "size": 1940,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/healthstats/HealthStats-1.1.1.phar"
+      }
+    },
+    {
+      "id": "peacefulspawn",
+      "name": "PeacefulSpawn",
+      "display_name": "禁止",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.4",
+      "path": "plugins/pocketmine-mp/0.11.1/peacefulspawn/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/peacefulspawn/PeacefulSpawn-2.4.phar",
+      "sha256": "6f52865eb878fffa273c5e99944a6a52acc8c55a13aad1f02f71a1ecef3cb322",
+      "size": 7888,
+      "tags": [
+        "world",
+        "gameplay",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/peacefulspawn/PeacefulSpawn-2.4.phar"
+      }
+    },
+    {
+      "id": "healthstats",
+      "name": "HealthStats",
+      "display_name": "他人名字右边显示血量",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1.1",
+      "path": "plugins/pocketmine-mp/0.14.0/healthstats/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/healthstats/HealthStats-1.1.1.phar",
+      "sha256": "b94e205383755b33bf8725e46999bc63b3ec2bb55f572d66e17bfc10df5a5cca",
+      "size": 1940,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/healthstats/HealthStats-1.1.1.phar"
+      }
+    },
+    {
+      "id": "peacefulspawn",
+      "name": "PeacefulSpawn",
+      "display_name": "禁止",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.4",
+      "path": "plugins/pocketmine-mp/0.14.0/peacefulspawn/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/peacefulspawn/PeacefulSpawn-2.4.phar",
+      "sha256": "6f52865eb878fffa273c5e99944a6a52acc8c55a13aad1f02f71a1ecef3cb322",
+      "size": 7888,
+      "tags": [
+        "world",
+        "gameplay",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/peacefulspawn/PeacefulSpawn-2.4.phar"
+      }
+    }
+  ]
+}

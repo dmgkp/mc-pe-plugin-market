@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "id": "worldborder",
+  "name": "WorldBorder",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.8.1",
+  "author": [
+    "Brettflan"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Efficient, feature-rich plugin for limiting the size of your worlds.",
+  "website": null,
+  "main": "com.wimbli.WorldBorder.WorldBorder",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "dynmap"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "wborder",
+      "description": "Primary command for WorldBorder.",
+      "usage": "|",
+      "permission": "",
+      "aliases": [
+        "worldborder",
+        "wb"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "worldborder.*",
+      "description": "Grants all WorldBorder permissions",
+      "default": ""
+    },
+    {
+      "name": "worldborder.bypass",
+      "description": "Can enable bypass mode to go beyond the border",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.bypasslist",
+      "description": "Can get list of players with border bypass enabled",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.clear",
+      "description": "Can remove any border",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.debug",
+      "description": "Can enable/disable debug output to console",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.delay",
+      "description": "Can set the frequency at which the plugin checks for border crossings",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.denypearl",
+      "description": "Can enable/disable direct cancellation of ender pearls thrown past border",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.dynmap",
+      "description": "Can enable/disable DynMap border display integration",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.dynmapmsg",
+      "description": "Can set the label text for borders shown in DynMap",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.fill",
+      "description": "Can fill in (generate) any missing map chunks out to the border",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.fillautosave",
+      "description": "Can set the world save interval for the Fill process",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.getmsg",
+      "description": "Can view the border crossing message",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.help",
+      "description": "Can view the command reference help pages",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.knockback",
+      "description": "Can set the knockback distance for border crossings",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.list",
+      "description": "Can view a list of all borders",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.portal",
+      "description": "Can enable/disable portal redirection to be inside border",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.radius",
+      "description": "Can set the radius of an existing border",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.reload",
+      "description": "Can force the plugin to reload from the config file",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.remount",
+      "description": "Can set the delay before remounting a player to their vehicle after knockback",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.set",
+      "description": "Can set borders for any world",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.setmsg",
+      "description": "Can set the border crossing message",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.shape",
+      "description": "Can set the default shape (round or square) for all borders",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.trim",
+      "description": "Can trim (remove) any excess map chunks outside of the border",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.whoosh",
+      "description": "Can enable/disable \"whoosh\" knockback effect",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.wrap",
+      "description": "Can set border crossings to wrap around to the other side of the world",
+      "default": "op"
+    },
+    {
+      "name": "worldborder.wshape",
+      "description": "Can set an overriding border shape for a single world",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/worldborder/WorldBorder-1.8.1.jar",
+      "file_name": "WorldBorder-1.8.1.jar",
+      "sha256": "427c4eea85a3efd91a7015b0ed7daeda80e1f57a0b97722eb4e91b33e5f23cb5",
+      "size": 110088,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/worldborder/WorldBorder-1.8.1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[边界]WorldBorder.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

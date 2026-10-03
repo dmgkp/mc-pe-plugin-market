@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "wfeedback",
+  "name": "WFeedback",
+  "display_name": "反馈插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.5",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "§6[WFeedback]正式版总指令",
+  "website": null,
+  "main": "feedback\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fe",
+      "description": "§6[WFeedback]正式版总指令",
+      "usage": "/fe",
+      "permission": "wfeedback.fe",
+      "aliases": []
+    },
+    {
+      "name": "fadmin",
+      "description": "§6[WFeedback]一个小彩蛋",
+      "usage": "/fadmin",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "par",
+      "description": "§6[WFeedback]FloatingText",
+      "usage": "/par",
+      "permission": "wfeedback.broad",
+      "aliases": []
+    },
+    {
+      "name": "setchat",
+      "description": "222",
+      "usage": "/setchat",
+      "permission": "wfeedback.re",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "wfeedback.re",
+      "description": "222",
+      "default": "true"
+    },
+    {
+      "name": "wfeedback.fe",
+      "description": "§6[WFeedback]正式版总指令",
+      "default": "true"
+    },
+    {
+      "name": "wfeedback.fadmin",
+      "description": "§6[WFeedback]正式版管理员指令",
+      "default": "true"
+    },
+    {
+      "name": "wfeedback.broad",
+      "description": "§6[WFeedback]正式版公告指令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/wfeedback/WFeedback-3.0.5.phar",
+      "file_name": "WFeedback-3.0.5.phar",
+      "sha256": "a93b0fe24c83dd2d8ff1cda97b9a6e134bd4014dcd2213be5b00c19dae59073d",
+      "size": 10282,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/wfeedback/WFeedback-3.0.5.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/WFeedback--反馈插件/WFeedback_v3.0.5--反馈插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

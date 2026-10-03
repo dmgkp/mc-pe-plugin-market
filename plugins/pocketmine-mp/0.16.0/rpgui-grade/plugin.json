@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "id": "rpgui-grade",
+  "name": "RPGUI_Grade",
+  "display_name": "多功能自定义等级",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.4",
+  "author": [
+    "ZeroY"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "RPGUI_Grade主指令",
+  "website": null,
+  "main": "RPGUI_Grade\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "ZXDAKernel"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "Grade",
+      "description": "RPGUI_Grade主指令",
+      "usage": "/Grade help",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "等级",
+      "description": "RPGUI_Grade主指令",
+      "usage": "/等级 帮助",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "Fix",
+      "description": "RPGUI_Grade修复耐久度指令",
+      "usage": "/Fix",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "修复",
+      "description": "RPGUI_Grade修复耐久度指令",
+      "usage": "/修复",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "World",
+      "description": "RPGUI_Grade限制世界等级指令",
+      "usage": "/World help",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "世界",
+      "description": "RPGUI_Grade限制世界等级指令",
+      "usage": "/世界 帮助",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/rpgui-grade/RPGUI_Grade-1.4.phar",
+      "file_name": "RPGUI_Grade-1.4.phar",
+      "sha256": "6fdb2cee90f6352a6eba669894dfc00a07c41292c871d226235c269c65536499",
+      "size": 8992,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/rpgui-grade/RPGUI_Grade-1.4.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/RPGUI-ZGrade--多功能自定义等级/RPGUI-ZGrade--多功能自定义等级.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

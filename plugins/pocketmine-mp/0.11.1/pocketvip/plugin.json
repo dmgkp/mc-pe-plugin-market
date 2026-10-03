@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "pocketvip",
+  "name": "PocketVIP",
+  "display_name": "多功能",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "Him188"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "To those who sponsored the server!",
+  "website": null,
+  "main": "PocketVIP\\PocketVIP",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "vip",
+      "description": "VIP主命令",
+      "usage": "/vip",
+      "permission": "PocketVIP.command.vip",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "PocketVIP.command.vip",
+      "description": "VIP主命令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/pocketvip/PocketVIP-1.1.0.phar",
+      "file_name": "PocketVIP-1.1.0.phar",
+      "sha256": "6249f11820655b47caca50a6d36ab4bd49a25383d66cc335072b8280b74ebafa",
+      "size": 48172,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/pocketvip/PocketVIP-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/多功能vip/多功能VIP.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:27+08:00",
+  "minecraft_version_source": "path"
+}

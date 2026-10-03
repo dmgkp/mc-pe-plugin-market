@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "fnpc",
+  "name": "FNPC",
+  "display_name": "FNPC",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.6",
+  "author": [
+    "FENGberd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A simple NPC plugin.",
+  "website": null,
+  "main": "net.FENGberd.Nukkit.FNPC.Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "FNPC.*",
+      "description": "根权限",
+      "default": "op"
+    },
+    {
+      "name": "FNPC.command.*",
+      "description": "使用命令权限",
+      "default": "op"
+    },
+    {
+      "name": "FNPC.command.fnpc",
+      "description": "NPC命令使用权限",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/fnpc/FNPC-1.1.6.jar",
+      "file_name": "FNPC-1.1.6.jar",
+      "sha256": "210f3b582706df1a77f23cea3c40ae671582f76e5fe6a06e162877b09df77c48",
+      "size": 12850,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/fnpc/FNPC-1.1.6.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/Nukkit插件/NPC/[NPC]FNPC.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:06+08:00",
+  "minecraft_version_source": "api-inferred"
+}

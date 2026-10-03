@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "iprotector",
+  "name": "iProtector",
+  "display_name": "保护世界",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.5.0",
+  "minecraft_versions": [
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=1.5.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.1a",
+  "author": [
+    "LDX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows you to manage areas.",
+  "website": null,
+  "main": "LDX\\iProtector\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "area",
+      "description": "Allows you to manage areas.",
+      "usage": "/area <pos1/pos2/create/list/flag/whitelist/delete>",
+      "permission": "iprotector.command.area",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "iprotector",
+      "description": "Allows access to the iProtector whitelist subcommand.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.5.0/iprotector/iProtector-3.1a.phar",
+      "file_name": "iProtector-3.1a.phar",
+      "sha256": "f02d47aef68e828e64b2c37cc90b420476d2c3fa4ccbe6319621be3d14a0f3f2",
+      "size": 4680,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/iprotector/iProtector-3.1a.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/保护世界/保护世界.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

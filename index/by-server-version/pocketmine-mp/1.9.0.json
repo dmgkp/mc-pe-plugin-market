@@ -1,0 +1,968 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.9.0",
+  "count": 53,
+  "plugins": [
+    {
+      "id": "allvip",
+      "name": "ALLVIP",
+      "display_name": "等级插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.0/allvip/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/allvip/ALLVIP-1.0.0.phar",
+      "sha256": "e78cd29628680b5203aab36993bf3ec8affe66bbb77ef80e595e26f156b5bdd4",
+      "size": 18914,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/allvip/ALLVIP-1.0.0.phar"
+      }
+    },
+    {
+      "id": "allvip-v2",
+      "name": "ALLVIP",
+      "display_name": "ALLVIP",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.0/allvip-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/allvip-v2/ALLVIP-1.0.0.phar",
+      "sha256": "76e04143b136a47dfcff0a8762d96683c4531b8c990ebda39d75efadb4ebf34a",
+      "size": 5086,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/allvip-v2/ALLVIP-1.0.0.phar"
+      }
+    },
+    {
+      "id": "banitemadd",
+      "name": "BanItemAdd",
+      "display_name": "禁用物品插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.2.1",
+      "path": "plugins/pocketmine-mp/0.11.0/banitemadd/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/banitemadd/BanItemAdd-1.2.1.phar",
+      "sha256": "86cb9ddbd9c1b5dca394efc708ee5075e00983307874074a8e3b8063063d5b8a",
+      "size": 2192,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/banitemadd/BanItemAdd-1.2.1.phar"
+      }
+    },
+    {
+      "id": "bouncyblocks",
+      "name": "BouncyBlocks",
+      "display_name": "蹦床插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/0.11.0/bouncyblocks/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/bouncyblocks/BouncyBlocks-1.0.phar",
+      "sha256": "aea0643bd52174fae82717ba76d85eff8e285176615b27951e7a2eb1c303ace6",
+      "size": 8826,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/bouncyblocks/BouncyBlocks-1.0.phar"
+      }
+    },
+    {
+      "id": "floatingtext",
+      "name": "FloatingText",
+      "display_name": "浮空字与坐标插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/pocketmine-mp/0.11.0/floatingtext/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/floatingtext/FloatingText-1.0.2.phar",
+      "sha256": "37376cd91f97003978c9046699f846e655a0c4ed0c2fae5c59736aac89d31f86",
+      "size": 1766,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/floatingtext/FloatingText-1.0.2.phar"
+      }
+    },
+    {
+      "id": "gamemodeinvsave",
+      "name": "GamemodeInvSave",
+      "display_name": "GamemodeInvSave",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.0/gamemodeinvsave/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/gamemodeinvsave/GamemodeInvSave-1.0.0.phar",
+      "sha256": "8aa059bc47bd0ab5374a4b8ea439e904290366d78d03bff52c152215253df70b",
+      "size": 2632,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/gamemodeinvsave/GamemodeInvSave-1.0.0.phar"
+      }
+    },
+    {
+      "id": "killcash",
+      "name": "KillCash",
+      "display_name": "KillCash",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.0/killcash/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/killcash/KillCash-1.0.1.phar",
+      "sha256": "a6ed3c8e75b1f3e636a0fcd521a3a4322153fce00f59414e23bab13e4aa76b9f",
+      "size": 15125,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/killcash/KillCash-1.0.1.phar"
+      }
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "display_name": "Love",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/0.11.0/love/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/love/Love-1.0.phar",
+      "sha256": "90cb5145d33b98be5042fd499d63c724e054f5cb0bbd9b2115d0866d3c938982",
+      "size": 5682,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/love/Love-1.0.phar"
+      }
+    },
+    {
+      "id": "magicarmor",
+      "name": "MagicArmor",
+      "display_name": "魔法插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.1.3",
+      "path": "plugins/pocketmine-mp/0.11.0/magicarmor/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/magicarmor/MagicArmor-1.1.3.phar",
+      "sha256": "9c5ca2650be2b4b7060327130324fbdfacca7ce5b624e9b0a9093e666b0f0aa7",
+      "size": 4114,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/magicarmor/MagicArmor-1.1.3.phar"
+      }
+    },
+    {
+      "id": "protection",
+      "name": "Protection",
+      "display_name": "Protection",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.8.0",
+      "path": "plugins/pocketmine-mp/0.11.0/protection/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/protection/Protection-1.8.0.phar",
+      "sha256": "d142a2d93aeb90d7936bed7eccea0ecb74e93a637f4f77549d9aecbef84dafb2",
+      "size": 6489,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/protection/Protection-1.8.0.phar"
+      }
+    },
+    {
+      "id": "survivalflych",
+      "name": "SurvivalFlyCH",
+      "display_name": "SurvivalFlyCH",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.6",
+      "path": "plugins/pocketmine-mp/0.11.0/survivalflych/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/survivalflych/SurvivalFlyCH-1.0.6.phar",
+      "sha256": "c4d2db3db12069b2881187798771ab4e322699c7a22c8fd37416a4956ae0fb32",
+      "size": 2722,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/survivalflych/SurvivalFlyCH-1.0.6.phar"
+      }
+    },
+    {
+      "id": "voidtp",
+      "name": "VoidTP",
+      "display_name": "VoidTP",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0",
+      "path": "plugins/pocketmine-mp/0.11.0/voidtp/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/voidtp/VoidTP-2.0.phar",
+      "sha256": "6ed07ada1909b656e45a1761308e67b9862cfd885e6173f18f09b8d67ba2bc19",
+      "size": 3143,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/voidtp/VoidTP-2.0.phar"
+      }
+    },
+    {
+      "id": "worldspermission",
+      "name": "WorldsPermission",
+      "display_name": "WorldsPermission",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.4.0.0_JCB",
+      "path": "plugins/pocketmine-mp/0.11.0/worldspermission/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/worldspermission/WorldsPermission-1.4.0.0_JCB.phar",
+      "sha256": "7b1480133a58200cb254a25f0fcd4e08769667b06d69d22191c7f65319e4503d",
+      "size": 7264,
+      "tags": [
+        "world",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/worldspermission/WorldsPermission-1.4.0.0_JCB.phar"
+      }
+    },
+    {
+      "id": "allvip",
+      "name": "ALLVIP",
+      "display_name": "等级插件最新版",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.1/allvip/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/allvip/ALLVIP-1.0.0.phar",
+      "sha256": "e78cd29628680b5203aab36993bf3ec8affe66bbb77ef80e595e26f156b5bdd4",
+      "size": 18914,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/allvip/ALLVIP-1.0.0.phar"
+      }
+    },
+    {
+      "id": "asr",
+      "name": "ASR",
+      "display_name": "自动重启",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/asr/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/asr/ASR-2.0.1.phar",
+      "sha256": "b80d6e7dc68b39815b3aa311932688d22cc92f399e038f5c7f099e141be22102",
+      "size": 15228,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/asr/ASR-2.0.1.phar"
+      }
+    },
+    {
+      "id": "banitemadd",
+      "name": "BanItemAdd",
+      "display_name": "禁用物品插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.2.1",
+      "path": "plugins/pocketmine-mp/0.11.1/banitemadd/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/banitemadd/BanItemAdd-1.2.1.phar",
+      "sha256": "86cb9ddbd9c1b5dca394efc708ee5075e00983307874074a8e3b8063063d5b8a",
+      "size": 2192,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/banitemadd/BanItemAdd-1.2.1.phar"
+      }
+    },
+    {
+      "id": "bouncyblocks",
+      "name": "BouncyBlocks",
+      "display_name": "蹦床插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/0.11.1/bouncyblocks/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/bouncyblocks/BouncyBlocks-1.0.phar",
+      "sha256": "aea0643bd52174fae82717ba76d85eff8e285176615b27951e7a2eb1c303ace6",
+      "size": 8826,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/bouncyblocks/BouncyBlocks-1.0.phar"
+      }
+    },
+    {
+      "id": "chestprotect",
+      "name": "ChestProtect",
+      "display_name": "禁用大箱子插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/0.11.1/chestprotect/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/chestprotect/ChestProtect-1.1.0.phar",
+      "sha256": "a7a3e5a50a2e5f1bb7dcf5ba71185d00a8ffdfdfd6555f425cd56047b0917ebd",
+      "size": 881,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/chestprotect/ChestProtect-1.1.0.phar"
+      }
+    },
+    {
+      "id": "floatingtext",
+      "name": "FloatingText",
+      "display_name": "浮空字与坐标插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.2",
+      "path": "plugins/pocketmine-mp/0.11.1/floatingtext/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/floatingtext/FloatingText-1.0.2.phar",
+      "sha256": "37376cd91f97003978c9046699f846e655a0c4ed0c2fae5c59736aac89d31f86",
+      "size": 1766,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/floatingtext/FloatingText-1.0.2.phar"
+      }
+    },
+    {
+      "id": "gamemodeinvsave",
+      "name": "GamemodeInvSave",
+      "display_name": "切换模式保存背包",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.1/gamemodeinvsave/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/gamemodeinvsave/GamemodeInvSave-1.0.0.phar",
+      "sha256": "8aa059bc47bd0ab5374a4b8ea439e904290366d78d03bff52c152215253df70b",
+      "size": 2632,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/gamemodeinvsave/GamemodeInvSave-1.0.0.phar"
+      }
+    },
+    {
+      "id": "killcash",
+      "name": "KillCash",
+      "display_name": "杀人得钱",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/killcash/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/killcash/KillCash-1.0.1.phar",
+      "sha256": "a6ed3c8e75b1f3e636a0fcd521a3a4322153fce00f59414e23bab13e4aa76b9f",
+      "size": 15125,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/killcash/KillCash-1.0.1.phar"
+      }
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "display_name": "结婚插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/0.11.1/love/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/love/Love-1.0.phar",
+      "sha256": "90cb5145d33b98be5042fd499d63c724e054f5cb0bbd9b2115d0866d3c938982",
+      "size": 5682,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/love/Love-1.0.phar"
+      }
+    },
+    {
+      "id": "mf",
+      "name": "mf",
+      "display_name": "魔法插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "lx",
+      "path": "plugins/pocketmine-mp/0.11.1/mf/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/mf/mf-lx.phar",
+      "sha256": "31cbf6cb1f619038d6bf276a2d1c592b5b322a188458a05435925f79f88d3fbc",
+      "size": 15422,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/mf/mf-lx.phar"
+      }
+    },
+    {
+      "id": "playerflow",
+      "name": "PlayerFlow",
+      "display_name": "玩家流量统计插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.1/playerflow/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/playerflow/PlayerFlow-1.0.0.phar",
+      "sha256": "59dd4f37c94f74f375296d04e143ac29efc9caa29c581cf2d41812bfceef1908",
+      "size": 6480,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/playerflow/PlayerFlow-1.0.0.phar"
+      }
+    },
+    {
+      "id": "prizewin",
+      "name": "PrizeWin",
+      "display_name": "跑酷奖励汉化",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.3",
+      "path": "plugins/pocketmine-mp/0.11.1/prizewin/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/prizewin/PrizeWin-1.0.3.phar",
+      "sha256": "11a26e25510e9c99ed56045933c5a4d5e2332d606f06d5bcfc3505cf4826b213",
+      "size": 4439,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/prizewin/PrizeWin-1.0.3.phar"
+      }
+    },
+    {
+      "id": "survivalflych",
+      "name": "SurvivalFlyCH",
+      "display_name": "飞行插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.6",
+      "path": "plugins/pocketmine-mp/0.11.1/survivalflych/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/survivalflych/SurvivalFlyCH-1.0.6.phar",
+      "sha256": "c4d2db3db12069b2881187798771ab4e322699c7a22c8fd37416a4956ae0fb32",
+      "size": 2722,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/survivalflych/SurvivalFlyCH-1.0.6.phar"
+      }
+    },
+    {
+      "id": "voidtp",
+      "name": "VoidTP",
+      "display_name": "创造模式禁止进入地图插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0",
+      "path": "plugins/pocketmine-mp/0.11.1/voidtp/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/voidtp/VoidTP-2.0.phar",
+      "sha256": "6ed07ada1909b656e45a1761308e67b9862cfd885e6173f18f09b8d67ba2bc19",
+      "size": 3143,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/voidtp/VoidTP-2.0.phar"
+      }
+    },
+    {
+      "id": "worldspermission",
+      "name": "WorldsPermission",
+      "display_name": "世界白名单",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.4.0.0_JCB",
+      "path": "plugins/pocketmine-mp/0.11.1/worldspermission/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/worldspermission/WorldsPermission-1.4.0.0_JCB.phar",
+      "sha256": "7b1480133a58200cb254a25f0fcd4e08769667b06d69d22191c7f65319e4503d",
+      "size": 7264,
+      "tags": [
+        "world",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/worldspermission/WorldsPermission-1.4.0.0_JCB.phar"
+      }
+    },
+    {
+      "id": "allvip",
+      "name": "ALLVIP",
+      "display_name": "插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.5.0/allvip/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/allvip/ALLVIP-1.0.0.phar",
+      "sha256": "a18e5d2dd68b7c0befb8b64c5a5de9e2fe5848e1fbd44f02f667188a1463448a",
+      "size": 3496,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/allvip/ALLVIP-1.0.0.phar"
+      }
+    },
+    {
+      "id": "allvip-v2",
+      "name": "ALLVIP",
+      "display_name": "等级插件最新版",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.5.0/allvip-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/allvip-v2/ALLVIP-1.0.0.phar",
+      "sha256": "e78cd29628680b5203aab36993bf3ec8affe66bbb77ef80e595e26f156b5bdd4",
+      "size": 18914,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/allvip-v2/ALLVIP-1.0.0.phar"
+      }
+    },
+    {
+      "id": "asr",
+      "name": "ASR",
+      "display_name": "自动重启",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "2.0.1",
+      "path": "plugins/pocketmine-mp/1.5.0/asr/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/asr/ASR-2.0.1.phar",
+      "sha256": "b80d6e7dc68b39815b3aa311932688d22cc92f399e038f5c7f099e141be22102",
+      "size": 15228,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/asr/ASR-2.0.1.phar"
+      }
+    },
+    {
+      "id": "asr-v2",
+      "name": "ASR",
+      "display_name": "百度贴吧",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "2.0.1",
+      "path": "plugins/pocketmine-mp/1.5.0/asr-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/asr-v2/ASR-2.0.1.phar",
+      "sha256": "6f7388f3f17834498f7fcefecfc854d35f30ca2d970c938b18dc54631d96e2eb",
+      "size": 5196,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/asr-v2/ASR-2.0.1.phar"
+      }
+    },
+    {
+      "id": "banitemadd",
+      "name": "BanItemAdd",
+      "display_name": "禁用物品插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.2.1",
+      "path": "plugins/pocketmine-mp/1.5.0/banitemadd/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/banitemadd/BanItemAdd-1.2.1.phar",
+      "sha256": "86cb9ddbd9c1b5dca394efc708ee5075e00983307874074a8e3b8063063d5b8a",
+      "size": 2192,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/banitemadd/BanItemAdd-1.2.1.phar"
+      }
+    },
+    {
+      "id": "bouncyblocks",
+      "name": "BouncyBlocks",
+      "display_name": "蹦床插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/bouncyblocks/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/bouncyblocks/BouncyBlocks-1.0.phar",
+      "sha256": "aea0643bd52174fae82717ba76d85eff8e285176615b27951e7a2eb1c303ace6",
+      "size": 8826,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/bouncyblocks/BouncyBlocks-1.0.phar"
+      }
+    },
+    {
+      "id": "chestprotect",
+      "name": "ChestProtect",
+      "display_name": "禁用大箱子",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/chestprotect/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/chestprotect/ChestProtect-1.1.0.phar",
+      "sha256": "680b773b70a8b6b3bbd66f38e337edd01534eb343a1b22dd7a8bb6682165f0c3",
+      "size": 1930,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/chestprotect/ChestProtect-1.1.0.phar"
+      }
+    },
+    {
+      "id": "chestprotect-v2",
+      "name": "ChestProtect",
+      "display_name": "禁用大箱子插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/chestprotect-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/chestprotect-v2/ChestProtect-1.1.0.phar",
+      "sha256": "a7a3e5a50a2e5f1bb7dcf5ba71185d00a8ffdfdfd6555f425cd56047b0917ebd",
+      "size": 881,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/chestprotect-v2/ChestProtect-1.1.0.phar"
+      }
+    },
+    {
+      "id": "cjchat",
+      "name": "CJChat",
+      "display_name": "超级称号",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/cjchat/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/cjchat/CJChat-1.0.phar",
+      "sha256": "48bf651b9621ea07e804a2fb3a6b03a91681b505a7482e8d0c62611b693da6e9",
+      "size": 2576,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/cjchat/CJChat-1.0.phar"
+      }
+    },
+    {
+      "id": "cq",
+      "name": "CQ",
+      "display_name": "自定义权限命令",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/cq/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/cq/CQ-1.1.0.phar",
+      "sha256": "62a16fed8584e056f8b0b72b871f39fae75d8f7c0462a6c3ac81aba411bc3134",
+      "size": 4332,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/cq/CQ-1.1.0.phar"
+      }
+    },
+    {
+      "id": "floatingtext",
+      "name": "FloatingText",
+      "display_name": "浮空字与坐标插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/pocketmine-mp/1.5.0/floatingtext/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/floatingtext/FloatingText-1.0.2.phar",
+      "sha256": "37376cd91f97003978c9046699f846e655a0c4ed0c2fae5c59736aac89d31f86",
+      "size": 1766,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/floatingtext/FloatingText-1.0.2.phar"
+      }
+    },
+    {
+      "id": "gamemodeinvsave",
+      "name": "GamemodeInvSave",
+      "display_name": "切换模式保存背包",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.5.0/gamemodeinvsave/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/gamemodeinvsave/GamemodeInvSave-1.0.0.phar",
+      "sha256": "8aa059bc47bd0ab5374a4b8ea439e904290366d78d03bff52c152215253df70b",
+      "size": 2632,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/gamemodeinvsave/GamemodeInvSave-1.0.0.phar"
+      }
+    },
+    {
+      "id": "hinventory",
+      "name": "HInventory",
+      "display_name": "多服登录同步",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.3b",
+      "path": "plugins/pocketmine-mp/1.5.0/hinventory/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/hinventory/HInventory-1.3b.phar",
+      "sha256": "0d7c4d6748c1f0249ee77ef28294ab8c559ada6f4d60aa889f00529454dd783e",
+      "size": 5410,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/hinventory/HInventory-1.3b.phar"
+      }
+    },
+    {
+      "id": "iprotector",
+      "name": "iProtector",
+      "display_name": "保护世界",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "3.1a",
+      "path": "plugins/pocketmine-mp/1.5.0/iprotector/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/iprotector/iProtector-3.1a.phar",
+      "sha256": "f02d47aef68e828e64b2c37cc90b420476d2c3fa4ccbe6319621be3d14a0f3f2",
+      "size": 4680,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/iprotector/iProtector-3.1a.phar"
+      }
+    },
+    {
+      "id": "killcash",
+      "name": "KillCash",
+      "display_name": "杀人得钱",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.5.0/killcash/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/killcash/KillCash-1.0.1.phar",
+      "sha256": "a6ed3c8e75b1f3e636a0fcd521a3a4322153fce00f59414e23bab13e4aa76b9f",
+      "size": 15125,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/killcash/KillCash-1.0.1.phar"
+      }
+    },
+    {
+      "id": "love",
+      "name": "Love",
+      "display_name": "研究用",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/love/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/love/Love-1.0.phar",
+      "sha256": "90cb5145d33b98be5042fd499d63c724e054f5cb0bbd9b2115d0866d3c938982",
+      "size": 5682,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/love/Love-1.0.phar"
+      }
+    },
+    {
+      "id": "magicarmor",
+      "name": "MagicArmor",
+      "display_name": "神器",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "乌兰托娅万岁z1",
+      "path": "plugins/pocketmine-mp/1.5.0/magicarmor/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/magicarmor/MagicArmor-z1.phar",
+      "sha256": "f92ec77fc192414e8a972959faa7cbb9dc7afcef3862745f3f86c9aa0f7de03f",
+      "size": 4627,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/magicarmor/MagicArmor-z1.phar"
+      }
+    },
+    {
+      "id": "mf",
+      "name": "mf",
+      "display_name": "魔法插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "lx",
+      "path": "plugins/pocketmine-mp/1.5.0/mf/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/mf/mf-lx.phar",
+      "sha256": "31cbf6cb1f619038d6bf276a2d1c592b5b322a188458a05435925f79f88d3fbc",
+      "size": 15422,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/mf/mf-lx.phar"
+      }
+    },
+    {
+      "id": "playerflow",
+      "name": "PlayerFlow",
+      "display_name": "极致整合",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.5.0/playerflow/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/playerflow/PlayerFlow-1.0.0.phar",
+      "sha256": "59dd4f37c94f74f375296d04e143ac29efc9caa29c581cf2d41812bfceef1908",
+      "size": 6480,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/playerflow/PlayerFlow-1.0.0.phar"
+      }
+    },
+    {
+      "id": "prizewin",
+      "name": "PrizeWin",
+      "display_name": "跑酷奖励汉化",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.3",
+      "path": "plugins/pocketmine-mp/1.5.0/prizewin/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/prizewin/PrizeWin-1.0.3.phar",
+      "sha256": "11a26e25510e9c99ed56045933c5a4d5e2332d606f06d5bcfc3505cf4826b213",
+      "size": 4439,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/prizewin/PrizeWin-1.0.3.phar"
+      }
+    },
+    {
+      "id": "protection",
+      "name": "Protection",
+      "display_name": "有",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.8.6",
+      "path": "plugins/pocketmine-mp/1.5.0/protection/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/protection/Protection-1.8.6.phar",
+      "sha256": "4f1b06d1f9b29275a59a5f4c8b527384fe1321cd9b67aeb80b5123b6445891a6",
+      "size": 8363,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/protection/Protection-1.8.6.phar"
+      }
+    },
+    {
+      "id": "survivalflych",
+      "name": "SurvivalFlyCH",
+      "display_name": "飞行插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.6",
+      "path": "plugins/pocketmine-mp/1.5.0/survivalflych/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/survivalflych/SurvivalFlyCH-1.0.6.phar",
+      "sha256": "c4d2db3db12069b2881187798771ab4e322699c7a22c8fd37416a4956ae0fb32",
+      "size": 2722,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/survivalflych/SurvivalFlyCH-1.0.6.phar"
+      }
+    },
+    {
+      "id": "voidtp",
+      "name": "VoidTP",
+      "display_name": "创造模式禁止进入地图插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "2.0",
+      "path": "plugins/pocketmine-mp/1.5.0/voidtp/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/voidtp/VoidTP-2.0.phar",
+      "sha256": "6ed07ada1909b656e45a1761308e67b9862cfd885e6173f18f09b8d67ba2bc19",
+      "size": 3143,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/voidtp/VoidTP-2.0.phar"
+      }
+    },
+    {
+      "id": "worldspermission",
+      "name": "WorldsPermission",
+      "display_name": "世界白名单",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.4.0.0_JCB",
+      "path": "plugins/pocketmine-mp/1.5.0/worldspermission/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/worldspermission/WorldsPermission-1.4.0.0_JCB.phar",
+      "sha256": "7b1480133a58200cb254a25f0fcd4e08769667b06d69d22191c7f65319e4503d",
+      "size": 7264,
+      "tags": [
+        "world",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/worldspermission/WorldsPermission-1.4.0.0_JCB.phar"
+      }
+    },
+    {
+      "id": "prizewin",
+      "name": "PrizeWin",
+      "display_name": "胜利奖励",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.6.0",
+      "plugin_version": "1.0.6",
+      "path": "plugins/pocketmine-mp/1.6.0/prizewin/plugin.json",
+      "file": "plugins/pocketmine-mp/1.6.0/prizewin/PrizeWin-1.0.6.phar",
+      "sha256": "c0613b74e9acb426ca9c06d466ac2da104a285f219fa3f626990669de8d135ec",
+      "size": 8044,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/prizewin/PrizeWin-1.0.6.phar"
+      }
+    }
+  ]
+}

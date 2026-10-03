@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "backquit",
+  "name": "BackQUIT",
+  "display_name": "百度贴吧",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.0",
+  "author": [
+    "fxxk"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Back to player death location.",
+  "website": null,
+  "main": "BackQUIT\\BackQUIT",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "bq",
+      "description": "Back to player death location.",
+      "usage": "",
+      "permission": "backquit.back",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "backquit",
+      "description": "Back to player death location.",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/backquit/BackQUIT-2.0.0.phar",
+      "file_name": "BackQUIT-2.0.0.phar",
+      "sha256": "101c5d29b75550d804f403db484f08774761425f3e1524dea0f12962c99ec956",
+      "size": 2751,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/backquit/BackQUIT-2.0.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "BackQUIT-1.0.0.phar",
+        "sha256": "83f570cd8fda1680c5e6bca3909f8df425172dc6a118132e5f98dc37b2c13adf",
+        "size": 1632
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/返回退出位置.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:33+08:00",
+  "minecraft_version_source": "api-inferred"
+}

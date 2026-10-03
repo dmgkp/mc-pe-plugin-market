@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "commandshop",
+  "name": "CommandShop",
+  "display_name": "花费金钱或物品执行命令",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "BoxOfDevs Team"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Create, manage and remove 'buyable' commands",
+  "website": null,
+  "main": "BoxOfDevs\\CommandShop\\CommandShop",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "EconomyAPI"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cshop",
+      "description": "Create, manage and remove 'buyable' commands",
+      "usage": "/cshop <add|remove|setprice|sign|buycmd|addcmd|list|info|help> <args>",
+      "permission": "cshop.command.manage",
+      "aliases": []
+    },
+    {
+      "name": "buycmd",
+      "description": "Buy' a command",
+      "usage": "/buycmd <command>",
+      "permission": "cshop.buy.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "cshop",
+      "description": "Permission for 'buying' commands via signs",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/commandshop/CommandShop-1.0.0.phar",
+      "file_name": "CommandShop-1.0.0.phar",
+      "sha256": "8b37c60dc2ec9c1abb47756f15ae7c1227bc9ded4fd2202c9844570b45ace77d",
+      "size": 26367,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/commandshop/CommandShop-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/CommandShop--花费金钱或物品执行命令/CommandShop--花费金钱或物品执行命令.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

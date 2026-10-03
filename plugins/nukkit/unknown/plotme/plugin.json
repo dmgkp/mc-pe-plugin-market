@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "id": "plotme",
+  "name": "[地皮]PlotMe",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.13e",
+  "author": [
+    "ZachBora"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": ">",
+  "website": "http://dev.bukkit.org/server-mods/plotme/",
+  "main": "com.worldcretornica.plotme.PlotMe",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[WorldEdit, Vault, LWC]"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "plotme",
+      "description": "列出PlotMe的所有命令",
+      "usage": "/plotme",
+      "permission": "",
+      "aliases": [
+        "p",
+        "plot"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "plotme.use",
+      "description": "Gives default user commands",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin",
+      "description": "Gives default administrator commands",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.buy",
+      "description": "Gives the buy command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.sell",
+      "description": "Gives the sell command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.auction",
+      "description": "Gives the auction command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.bid",
+      "description": "Gives the bid command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.dispose",
+      "description": "Gives the dispose command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.done",
+      "description": "Gives the done command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.claim",
+      "description": "Gives the claim command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.auto",
+      "description": "Gives the auto claim command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.home",
+      "description": "Gives the home command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.info",
+      "description": "Gives the info command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.comment",
+      "description": "Gives the comment command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.comments",
+      "description": "Gives the comments command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.biome",
+      "description": "Gives the biome and biomelist command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.clear",
+      "description": "Gives the clear command for plots owned",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.list",
+      "description": "Gives the list command",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.add",
+      "description": "Gives the add command for plots owned",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.deny",
+      "description": "Gives the deny command for plots owned",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.remove",
+      "description": "Gives the remove command for plots owned",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.undeny",
+      "description": "Gives the undeny command for plots owned",
+      "default": ""
+    },
+    {
+      "name": "plotme.use.protect",
+      "description": "Gives the protect command",
+      "default": ""
+    },
+    {
+      "name": "plotme.limit.*",
+      "description": "Gives unlimited plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.limit.1",
+      "description": "Gives 1 plot",
+      "default": ""
+    },
+    {
+      "name": "plotme.limit.2",
+      "description": "Gives 2 plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.limit.3",
+      "description": "Gives 3 plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.limit.4",
+      "description": "Gives 4 plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.limit.5",
+      "description": "Gives 5 plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.limit.10",
+      "description": "Gives 10 plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.claim.other",
+      "description": "Gives the claim command for any player",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.home.other",
+      "description": "Gives the home command for any players",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.tp",
+      "description": "Gives the tp command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.id",
+      "description": "Gives the id command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.clear",
+      "description": "Gives the clear command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.reset",
+      "description": "Gives the reset command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.add",
+      "description": "Gives the add command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.deny",
+      "description": "Gives the deny command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.remove",
+      "description": "Gives the remove command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.undeny",
+      "description": "Gives the undeny command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.bypassdeny",
+      "description": "Allows to enter denied plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.setowner",
+      "description": "Gives the setowner command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.move",
+      "description": "Gives the move command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.weanywhere",
+      "description": "Gives the weanywhere command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.list",
+      "description": "Gives the list command for any players",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.reload",
+      "description": "Gives the reload command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.buy",
+      "description": "Gives the buy command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.sell",
+      "description": "Gives the sell command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.auction",
+      "description": "Gives the auction command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.dispose",
+      "description": "Gives the dispose command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.done",
+      "description": "Gives the done command for any plots and the donelist command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.addtime",
+      "description": "Gives the addtime command for any plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.expired",
+      "description": "Gives the expired command",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.resetexpired",
+      "description": "Resets expired plots",
+      "default": ""
+    },
+    {
+      "name": "plotme.admin.buildanywhere",
+      "description": "Allows to build anywhere in the plot world",
+      "default": ""
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/plotme/PlotMe-0.13e.jar",
+      "file_name": "PlotMe-0.13e.jar",
+      "sha256": "c99a96256ae3b293113ec148af271ae3ab082f3662981d67c4ffb62203343751",
+      "size": 160870,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/plotme/PlotMe-0.13e.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[地皮]PlotMe.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "economyland",
+  "name": "EconomyLand",
+  "display_name": "经济",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.8.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.7",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows player to use all functions in EconomyLand",
+  "website": null,
+  "main": "onebone\\economyland\\EconomyLand",
+  "tags": [
+    "economy",
+    "world",
+    "library"
+  ],
+  "dependencies": [
+    "[EconomyAPI]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "startp",
+      "description": "Sets start position",
+      "usage": "/startp",
+      "permission": "economyland.command.startp",
+      "aliases": []
+    },
+    {
+      "name": "endp",
+      "description": "Sets second position",
+      "usage": "/endp",
+      "permission": "economyland.command.endp",
+      "aliases": []
+    },
+    {
+      "name": "land",
+      "description": "Manage land",
+      "usage": "/land <buy|move|list|whose|give|here>",
+      "permission": "economyland.command.land;economyland.command.land.list;economyland.command.land.buy;economyland.command.land.whose;economyland.command.land.move;economyland.land.give;economyland.command.land.whose;economyland.command.land.here",
+      "aliases": []
+    },
+    {
+      "name": "landsell",
+      "description": "Sell land",
+      "usage": "/landsell <here|land num>",
+      "permission": "economyland.command.landsell;economyland.command.landsell.here;economyland.command.landsell.number",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "economyland.*",
+      "description": "Allows player to sell land with numbers",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/economyland/EconomyLand-2.0.7.phar",
+      "file_name": "EconomyLand-2.0.7.phar",
+      "sha256": "03b4b8947c47236887bada709c7a85a65e4a1fd6d4e3ee5c229c6c6a3154187b",
+      "size": 51199,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyland/EconomyLand-2.0.7.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/经济5.5/EconomyLand_v2.0.7.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:30+08:00",
+  "minecraft_version_source": "path"
+}

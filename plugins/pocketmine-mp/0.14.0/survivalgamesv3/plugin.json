@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "survivalgamesv3",
+  "name": "SurvivalGamesV3",
+  "display_name": "饥饿游戏",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.3",
+  "author": [
+    "ImagicalGamer (汉化by Wshape1)"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "§c[§eSG§c]§a饥饿游戏§4指令",
+  "website": null,
+  "main": "SurvivalGamesV3\\SurvivalGamesV3",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "sg",
+      "description": "§c[§eSG§c]§a饥饿游戏§4指令",
+      "usage": "/sg create",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "setrank",
+      "description": "§eRank-Commands",
+      "usage": "/setrank",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/survivalgamesv3/SurvivalGamesV3-3.0.3.phar",
+      "file_name": "SurvivalGamesV3-3.0.3.phar",
+      "sha256": "64c5f974806147d2aa3253d190d9d9c6eb6a924d5f9d355e29fd16e9d6cd0e14",
+      "size": 10338,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/survivalgamesv3/SurvivalGamesV3-3.0.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/[小游戏]SG--饥饿游戏!/SG--饥饿游戏.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:29+08:00",
+  "minecraft_version_source": "api-inferred"
+}

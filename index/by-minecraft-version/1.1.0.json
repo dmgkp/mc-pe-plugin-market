@@ -1,0 +1,1519 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-minecraft-version",
+  "minecraft_version": "1.1.0",
+  "count": 83,
+  "plugins": [
+    {
+      "id": "anticheat",
+      "name": "AntiCheat",
+      "display_name": "反作弊",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/anticheat/plugin.json",
+      "file": "plugins/nukkit/1.1.0/anticheat/AntiCheat-1.0.0.jar",
+      "sha256": "922eb99ecb47306394eb99cc45ac2652ba41c37ddcf8c8154fb5737b10de7fa8",
+      "size": 26443,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/anticheat/AntiCheat-1.0.0.jar"
+      }
+    },
+    {
+      "id": "asign",
+      "name": "Asign",
+      "display_name": "多用木牌",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/asign/plugin.json",
+      "file": "plugins/nukkit/1.1.0/asign/Asign-1.0.0.jar",
+      "sha256": "4def8d0647111c720ccb6ebf535b95bd56822814d6551968b2f53dc0f4fc453f",
+      "size": 2791,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/asign/Asign-1.0.0.jar"
+      }
+    },
+    {
+      "id": "banitem",
+      "name": "Banitem",
+      "display_name": "禁止物品",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.2.1",
+      "path": "plugins/nukkit/1.1.0/banitem/plugin.json",
+      "file": "plugins/nukkit/1.1.0/banitem/Banitem-1.2.1.jar",
+      "sha256": "e2a05c8d9678f5ff34163d14815b9c85992698623c17043e52ac776a0e57e6e2",
+      "size": 4965,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/banitem/Banitem-1.2.1.jar"
+      }
+    },
+    {
+      "id": "basiscommands",
+      "name": "BasisCommands",
+      "display_name": "传送插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.4.33",
+      "path": "plugins/nukkit/1.1.0/basiscommands/plugin.json",
+      "file": "plugins/nukkit/1.1.0/basiscommands/BasisCommands-0.0.4.33.jar",
+      "sha256": "f501d74a19f963c9f6bf9dcc2860485c02446e7960c7dc571237ab5b3e889e26",
+      "size": 60955,
+      "tags": [
+        "admin",
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/basiscommands/BasisCommands-0.0.4.33.jar"
+      }
+    },
+    {
+      "id": "borders",
+      "name": "Borders",
+      "display_name": "边界插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/nukkit/1.1.0/borders/plugin.json",
+      "file": "plugins/nukkit/1.1.0/borders/Borders-0.0.1.jar",
+      "sha256": "b24decf786c4402dd31d98f3f9177313b388c57298bd954697be0ea9bad75982",
+      "size": 36389,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/borders/Borders-0.0.1.jar"
+      }
+    },
+    {
+      "id": "bottomshow",
+      "name": "BottomShow",
+      "display_name": "底部显示",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/bottomshow/plugin.json",
+      "file": "plugins/nukkit/1.1.0/bottomshow/BottomShow-1.0.0.jar",
+      "sha256": "a45444778a03f4f75248007cf525d3796e9ca11c8589c9608885c427c350e243",
+      "size": 3078,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/bottomshow/BottomShow-1.0.0.jar"
+      }
+    },
+    {
+      "id": "bxflight",
+      "name": "BxFlight",
+      "display_name": "浮空字",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/bxflight/plugin.json",
+      "file": "plugins/nukkit/1.1.0/bxflight/BxFlight-1.0.0.jar",
+      "sha256": "743e1d1552fc2c561d70c7c14d54093b772b431de4800e6e6cc712417bfa354e",
+      "size": 3831,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/bxflight/BxFlight-1.0.0.jar"
+      }
+    },
+    {
+      "id": "cleaner",
+      "name": "Cleaner",
+      "display_name": "清道夫",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/cleaner/plugin.json",
+      "file": "plugins/nukkit/1.1.0/cleaner/Cleaner-1.0.0.jar",
+      "sha256": "3565b31bb9810fa63fc0c1b1e1fedf20983ee188a0b26d8961d7167f7614395a",
+      "size": 3810,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/cleaner/Cleaner-1.0.0.jar"
+      }
+    },
+    {
+      "id": "colorfullcloth",
+      "name": "ColorfullCloth",
+      "display_name": "彩色服装",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/nukkit/1.1.0/colorfullcloth/plugin.json",
+      "file": "plugins/nukkit/1.1.0/colorfullcloth/ColorfullCloth-0.0.1.jar",
+      "sha256": "02cc25717cba7ccd9dfe857dee79c685cd6bf8d6cf52545f961a25a3282423a7",
+      "size": 127700,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/colorfullcloth/ColorfullCloth-0.0.1.jar"
+      }
+    },
+    {
+      "id": "commandsign",
+      "name": "CommandSign",
+      "display_name": "命令木牌",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/commandsign/plugin.json",
+      "file": "plugins/nukkit/1.1.0/commandsign/CommandSign-1.0.0.jar",
+      "sha256": "ef969f53d383a55fba0fc26b09a83bca4c68a188903830bb537f85358899bd69",
+      "size": 2130,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/commandsign/CommandSign-1.0.0.jar"
+      }
+    },
+    {
+      "id": "disableflow",
+      "name": "DisableFlow",
+      "display_name": "禁止流动",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/nukkit/1.1.0/disableflow/plugin.json",
+      "file": "plugins/nukkit/1.1.0/disableflow/DisableFlow-1.2.0.jar",
+      "sha256": "26c373ae978c7dba5023713bfefb55c742b60d412f17628863423d5bb690422d",
+      "size": 4143,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/disableflow/DisableFlow-1.2.0.jar"
+      }
+    },
+    {
+      "id": "dropitemtag",
+      "name": "DropItemTag",
+      "display_name": "掉落物显示自义定名字",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/dropitemtag/plugin.json",
+      "file": "plugins/nukkit/1.1.0/dropitemtag/DropItemTag-1.0.0.jar",
+      "sha256": "54fa4bfb1eabba0efccf085020598b0b6401ffd0080d642b5b61382aaa79cf82",
+      "size": 2153,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/dropitemtag/DropItemTag-1.0.0.jar"
+      }
+    },
+    {
+      "id": "economy-leet",
+      "name": "Economy-LEET",
+      "display_name": "经济插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1-b2",
+      "path": "plugins/nukkit/1.1.0/economy-leet/plugin.json",
+      "file": "plugins/nukkit/1.1.0/economy-leet/Economy-LEET-1.0.1-b2.jar",
+      "sha256": "778d12536094addd739dd2420a6f0d4501e98bcfb682d58bdd51615406b4a8fd",
+      "size": 25099,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/economy-leet/Economy-LEET-1.0.1-b2.jar"
+      }
+    },
+    {
+      "id": "fakename",
+      "name": "FakeName",
+      "display_name": "假名插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0",
+      "path": "plugins/nukkit/1.1.0/fakename/plugin.json",
+      "file": "plugins/nukkit/1.1.0/fakename/FakeName-1.0.jar",
+      "sha256": "cbcbb87aab24476fc19b9ed29c1462c1d092b5ffcd24901ebcd13e0124df528d",
+      "size": 2676,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/fakename/FakeName-1.0.jar"
+      }
+    },
+    {
+      "id": "fnpc",
+      "name": "FNPC",
+      "display_name": "FNPC",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.6",
+      "path": "plugins/nukkit/1.1.0/fnpc/plugin.json",
+      "file": "plugins/nukkit/1.1.0/fnpc/FNPC-1.1.6.jar",
+      "sha256": "210f3b582706df1a77f23cea3c40ae671582f76e5fe6a06e162877b09df77c48",
+      "size": 12850,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/fnpc/FNPC-1.1.6.jar"
+      }
+    },
+    {
+      "id": "healbed",
+      "name": "HealBed",
+      "display_name": "睡觉恢复血",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/healbed/plugin.json",
+      "file": "plugins/nukkit/1.1.0/healbed/HealBed-1.0.0.jar",
+      "sha256": "d0ba4629b5c7e8a85beed3a3f84e7d14ca59e8a7d7caaf2348b548efe35c8e09",
+      "size": 2759,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/healbed/HealBed-1.0.0.jar"
+      }
+    },
+    {
+      "id": "hexagon",
+      "name": "Hexagon",
+      "display_name": "多功能",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/hexagon/plugin.json",
+      "file": "plugins/nukkit/1.1.0/hexagon/Hexagon-1.0.0.jar",
+      "sha256": "b28b40e3398c628802c2fd469e8bb457c1d94e2608dc0e2daf34ca2e2f3efcc8",
+      "size": 18028,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/hexagon/Hexagon-1.0.0.jar"
+      }
+    },
+    {
+      "id": "hub",
+      "name": "HUB+",
+      "display_name": "核心拓展",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1",
+      "path": "plugins/nukkit/1.1.0/hub/plugin.json",
+      "file": "plugins/nukkit/1.1.0/hub/HUB-1.1.jar",
+      "sha256": "0f2bcb62043050c690009cdc4e502a2b6777831e243e025f023dc50a8b409d37",
+      "size": 3201,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/hub/HUB-1.1.jar"
+      }
+    },
+    {
+      "id": "island",
+      "name": "IsLand",
+      "display_name": "空岛插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/island/plugin.json",
+      "file": "plugins/nukkit/1.1.0/island/IsLand-1.0.0.jar",
+      "sha256": "12340b24c2434c3c0a5137b03cf7d47ba63f2493f68f1c0ab8967a21cdb7f55a",
+      "size": 29150,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/island/IsLand-1.0.0.jar"
+      }
+    },
+    {
+      "id": "leetauth",
+      "name": "LeetAuth",
+      "display_name": "登录插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.0-b7",
+      "path": "plugins/nukkit/1.1.0/leetauth/plugin.json",
+      "file": "plugins/nukkit/1.1.0/leetauth/LeetAuth-1.1.0-b7.jar",
+      "sha256": "1a3e6fa012bad838bc054e318ed57cf5be535126dca348dd5b95f09641eea137",
+      "size": 290664,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/leetauth/LeetAuth-1.1.0-b7.jar"
+      }
+    },
+    {
+      "id": "letitle",
+      "name": "LeTitle",
+      "display_name": "称号插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/nukkit/1.1.0/letitle/plugin.json",
+      "file": "plugins/nukkit/1.1.0/letitle/LeTitle-0.0.1.jar",
+      "sha256": "1c15979a214786493095f0d26a001d7d4fc4f3250055e85b5eae87825beb64bb",
+      "size": 6215,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/letitle/LeTitle-0.0.1.jar"
+      }
+    },
+    {
+      "id": "lockette",
+      "name": "Lockette",
+      "display_name": "锁箱子插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/lockette/plugin.json",
+      "file": "plugins/nukkit/1.1.0/lockette/Lockette-1.0.0.jar",
+      "sha256": "38cc708bf1693e61cb699b9bb5e8523c7ff176c85389c89fc8f0921c46eeccbd",
+      "size": 5389,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/lockette/Lockette-1.0.0.jar"
+      }
+    },
+    {
+      "id": "magicalshop",
+      "name": "MagicalShop",
+      "display_name": "超级商店配套本插件包经济核心",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/magicalshop/plugin.json",
+      "file": "plugins/nukkit/1.1.0/magicalshop/MagicalShop-1.0.0.jar",
+      "sha256": "5db7d1f93c498c1aed192fda841bdaf68c82af8533b628df80b1dd9e711f3cca",
+      "size": 57427,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/magicalshop/MagicalShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "menu",
+      "name": "Menu",
+      "display_name": "箱子菜单",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/menu/plugin.json",
+      "file": "plugins/nukkit/1.1.0/menu/Menu-1.0.0.jar",
+      "sha256": "0551ef67bfe7ac395759d9e3bf76e1ac138ff38e199e89f4c580933e850b83f9",
+      "size": 389560,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/menu/Menu-1.0.0.jar"
+      }
+    },
+    {
+      "id": "mobplugin",
+      "name": "MobPlugin",
+      "display_name": "中能",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0",
+      "path": "plugins/nukkit/1.1.0/mobplugin/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mobplugin/MobPlugin-1.0.jar",
+      "sha256": "25bf64747e0c18d2ebebbd4758a2a0aa4ba30ebc39dc7705a3d0be908351bfbf",
+      "size": 203359,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mobplugin/MobPlugin-1.0.jar"
+      }
+    },
+    {
+      "id": "mobplugin-v2",
+      "name": "MobPlugin",
+      "display_name": "生物",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0",
+      "path": "plugins/nukkit/1.1.0/mobplugin-v2/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mobplugin-v2/MobPlugin-1.0.jar",
+      "sha256": "3800debc84ef4018a57bc4d7510f705b5c0c7ac4704be35ca18228f378f0c261",
+      "size": 2408960,
+      "tags": [
+        "world",
+        "admin",
+        "gameplay",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mobplugin-v2/MobPlugin-1.0.jar"
+      }
+    },
+    {
+      "id": "moedb",
+      "name": "MoeDB",
+      "display_name": "经济",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "2.0.0",
+      "path": "plugins/nukkit/1.1.0/moedb/plugin.json",
+      "file": "plugins/nukkit/1.1.0/moedb/MoeDB-2.0.0.jar",
+      "sha256": "e5fcc2a36a16d24fabb91a5e0f74a1135ae84cef094237f0a16f12b682c6265c",
+      "size": 695657,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/moedb/MoeDB-2.0.0.jar"
+      }
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "display_name": "经济",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "2.1.0",
+      "path": "plugins/nukkit/1.1.0/money/plugin.json",
+      "file": "plugins/nukkit/1.1.0/money/Money-2.1.0.jar",
+      "sha256": "10656091eafea4e481f63968bcf4d9b9ae5ac139116047d97bc6e95fed7b28c7",
+      "size": 87688,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/money/Money-2.1.0.jar"
+      }
+    },
+    {
+      "id": "moneyland",
+      "name": "MoneyLand",
+      "display_name": "经济领地",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.1",
+      "path": "plugins/nukkit/1.1.0/moneyland/plugin.json",
+      "file": "plugins/nukkit/1.1.0/moneyland/MoneyLand-1.3.1.jar",
+      "sha256": "690bedf843b2064f1589e6d3d8538ce8d0f5ca2bc197af2c70c18cd3257815f1",
+      "size": 19373,
+      "tags": [
+        "economy",
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/moneyland/MoneyLand-1.3.1.jar"
+      }
+    },
+    {
+      "id": "moneyshop",
+      "name": "MoneyShop",
+      "display_name": "经济商店",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/moneyshop/plugin.json",
+      "file": "plugins/nukkit/1.1.0/moneyshop/MoneyShop-1.0.0.jar",
+      "sha256": "20576cb231e23faba0e10d2d3a182c342d15fe937f6322b7345763516fd2ce94",
+      "size": 13434,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/moneyshop/MoneyShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "mr-cdk",
+      "name": "Mr_CDK",
+      "display_name": "兑换",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/mr-cdk/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-cdk/Mr_CDK-1.0.0.jar",
+      "sha256": "76dd4a8f0554d68d7b4b5f52281a1562aace30917a25281533fd504e49519a01",
+      "size": 2369,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-cdk/Mr_CDK-1.0.0.jar"
+      }
+    },
+    {
+      "id": "mr-chat",
+      "name": "Mr_Chat",
+      "display_name": "多接口彩色聊天",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.3",
+      "path": "plugins/nukkit/1.1.0/mr-chat/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-chat/Mr_Chat-1.1.3.jar",
+      "sha256": "f8dbf85606db72977cf95fa62baec09fa2aafcf3704829d0281c096b9509a530",
+      "size": 3494,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-chat/Mr_Chat-1.1.3.jar"
+      }
+    },
+    {
+      "id": "mr-coff",
+      "name": "Mr_COFF",
+      "display_name": "系列",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/1.1.0/mr-coff/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-coff/Mr_COFF-1.1.0.jar",
+      "sha256": "ee2f13f7557a12bfd5453ac709c7e490f9e45c11770372cada77ead317169a4f",
+      "size": 1485,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-coff/Mr_COFF-1.1.0.jar"
+      }
+    },
+    {
+      "id": "mr-core",
+      "name": "Mr_CORE",
+      "display_name": "插件核心",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/nukkit/1.1.0/mr-core/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-core/Mr_CORE-1.2.0.jar",
+      "sha256": "6ca171fdc9f06b2c37de579110827e1734d6fee9ed49e2ab22178c6575f22409",
+      "size": 4629,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-core/Mr_CORE-1.2.0.jar"
+      }
+    },
+    {
+      "id": "mr-csign",
+      "name": "Mr_CSign",
+      "display_name": "随意修改木牌",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.1",
+      "path": "plugins/nukkit/1.1.0/mr-csign/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-csign/Mr_CSign-1.1.1.jar",
+      "sha256": "01a10b3cc2aaca3ac99402f37ec282743cb06823c57c70b0fbb8a74028272a08",
+      "size": 2639,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-csign/Mr_CSign-1.1.1.jar"
+      }
+    },
+    {
+      "id": "mr-join",
+      "name": "Mr_Join",
+      "display_name": "系列",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/1.1.0/mr-join/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-join/Mr_Join-1.1.0.jar",
+      "sha256": "77209ad177a554ee840cb85a0896a0e63dd89c2530c8cf6357329328d86c245b",
+      "size": 2326,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-join/Mr_Join-1.1.0.jar"
+      }
+    },
+    {
+      "id": "mr-popup",
+      "name": "Mr_Popup",
+      "display_name": "多接口底部显示",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.1",
+      "path": "plugins/nukkit/1.1.0/mr-popup/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-popup/Mr_Popup-1.3.1.jar",
+      "sha256": "87c2dde5ea95144ecbf491c7c88c694257378481b8ede73be5c168ad1c059fae",
+      "size": 5115,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-popup/Mr_Popup-1.3.1.jar"
+      }
+    },
+    {
+      "id": "mr-popup-v2",
+      "name": "Mr_Popup",
+      "display_name": "多接口底部显示",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.1",
+      "path": "plugins/nukkit/1.1.0/mr-popup-v2/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-popup-v2/Mr_Popup-1.3.1.jar",
+      "sha256": "36efa7a05ed0b3c26c79d07cce90618377fbd902e08fc23f346f87429f5b1b78",
+      "size": 5249,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-popup-v2/Mr_Popup-1.3.1.jar"
+      }
+    },
+    {
+      "id": "mr-quit",
+      "name": "Mr_Quit",
+      "display_name": "系列",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/1.1.0/mr-quit/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-quit/Mr_Quit-1.1.0.jar",
+      "sha256": "e897069b1d3ca4d9885900e2e48fd73392784f86d795664cd45ff2b905427d0a",
+      "size": 2338,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-quit/Mr_Quit-1.1.0.jar"
+      }
+    },
+    {
+      "id": "mr-sign",
+      "name": "Mr_Sign",
+      "display_name": "命令木牌",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/mr-sign/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-sign/Mr_Sign-1.0.0.jar",
+      "sha256": "8941bde04517e88555f09dcaad9d2719b3289150db20c075fe228ceeffc8db6d",
+      "size": 2297,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-sign/Mr_Sign-1.0.0.jar"
+      }
+    },
+    {
+      "id": "myregion",
+      "name": "MyRegion",
+      "display_name": "保护服务器主城或者玩家自己的重要建筑",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0",
+      "path": "plugins/nukkit/1.1.0/myregion/plugin.json",
+      "file": "plugins/nukkit/1.1.0/myregion/MyRegion-1.0.jar",
+      "sha256": "cf06e7d99cb245580a29ef49611ba5093703f7e1d80a69dc9a59a61c83ff22e2",
+      "size": 15178,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/myregion/MyRegion-1.0.jar"
+      }
+    },
+    {
+      "id": "myskin",
+      "name": "MySkin",
+      "display_name": "皮肤插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "2.0.0",
+      "path": "plugins/nukkit/1.1.0/myskin/plugin.json",
+      "file": "plugins/nukkit/1.1.0/myskin/MySkin-2.0.0.jar",
+      "sha256": "8a7b59743f4d2b5fd234f468792c4e1f8b8133adaa9a38f8eb950fc8a1624559",
+      "size": 4259,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/myskin/MySkin-2.0.0.jar"
+      }
+    },
+    {
+      "id": "novamobsx",
+      "name": "NovaMobsX",
+      "display_name": "生物",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1",
+      "path": "plugins/nukkit/1.1.0/novamobsx/plugin.json",
+      "file": "plugins/nukkit/1.1.0/novamobsx/NovaMobsX-1.1.jar",
+      "sha256": "1d4c298a76994363643cd6cbd0776f4517ee2d187637d70c2822755984e9613a",
+      "size": 153055,
+      "tags": [
+        "world",
+        "admin",
+        "gameplay",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/novamobsx/NovaMobsX-1.1.jar"
+      }
+    },
+    {
+      "id": "nuclearmusic",
+      "name": "NuclearMusic",
+      "display_name": "音乐插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1",
+      "path": "plugins/nukkit/1.1.0/nuclearmusic/plugin.json",
+      "file": "plugins/nukkit/1.1.0/nuclearmusic/NuclearMusic-1.jar",
+      "sha256": "eb6553b519132320a6eb5ae32259cb9a24202edf98dd54ae2733a453bac33d0c",
+      "size": 25538,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/nuclearmusic/NuclearMusic-1.jar"
+      }
+    },
+    {
+      "id": "pickupanddropitemtip",
+      "name": "PickupAndDropItemTip",
+      "display_name": "丢捡记录",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/nukkit/1.1.0/pickupanddropitemtip/plugin.json",
+      "file": "plugins/nukkit/1.1.0/pickupanddropitemtip/PickupAndDropItemTip-0.0.1.jar",
+      "sha256": "8cc33a39c2a0ef8806a13815d57ac8569267c1f68ad32859c0c259654f3112bc",
+      "size": 3671,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/pickupanddropitemtip/PickupAndDropItemTip-0.0.1.jar"
+      }
+    },
+    {
+      "id": "pvpworlds",
+      "name": "PVPWorlds",
+      "display_name": "世界",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/pvpworlds/plugin.json",
+      "file": "plugins/nukkit/1.1.0/pvpworlds/PVPWorlds-1.0.0.jar",
+      "sha256": "7f9fce2ce885f975bc0dc9d734fc479c517600fa6e023296ccdacfb22ff7acb1",
+      "size": 3700,
+      "tags": [
+        "world",
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/pvpworlds/PVPWorlds-1.0.0.jar"
+      }
+    },
+    {
+      "id": "realkeepinventory",
+      "name": "RealKeepInventory",
+      "display_name": "死亡不掉落",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/nukkit/1.1.0/realkeepinventory/plugin.json",
+      "file": "plugins/nukkit/1.1.0/realkeepinventory/RealKeepInventory-1.2.0.jar",
+      "sha256": "3966671dd4b194a1504d15f63b8d782d118cde893faf9be44d7464d7f8086aca",
+      "size": 5061,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/realkeepinventory/RealKeepInventory-1.2.0.jar"
+      }
+    },
+    {
+      "id": "regions",
+      "name": "Regions",
+      "display_name": "Regions",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/nukkit/1.1.0/regions/plugin.json",
+      "file": "plugins/nukkit/1.1.0/regions/Regions-0.0.1.jar",
+      "sha256": "74a6923c07fd585e11a2de903f7fefc874a7f0642cb41e56c80bbaacd06f4946",
+      "size": 122926,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/regions/Regions-0.0.1.jar"
+      }
+    },
+    {
+      "id": "reward",
+      "name": "Reward",
+      "display_name": "挖矿获取食物",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/nukkit/1.1.0/reward/plugin.json",
+      "file": "plugins/nukkit/1.1.0/reward/Reward-0.0.1.jar",
+      "sha256": "c7c3c5244a915e49feed3affa85046daf24d14f6dd95d146d9d2fbd2a3f05272",
+      "size": 3485,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/reward/Reward-0.0.1.jar"
+      }
+    },
+    {
+      "id": "rsauto",
+      "name": "RsAuto",
+      "display_name": "多语言登录插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.8",
+      "path": "plugins/nukkit/1.1.0/rsauto/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsauto/RsAuto-1.3.8.jar",
+      "sha256": "df75c11ac9955083751f8c18d3d1b58fbc097a13265a33b0d24f6d886cde9feb",
+      "size": 15450,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsauto/RsAuto-1.3.8.jar"
+      }
+    },
+    {
+      "id": "rsfunction",
+      "name": "RsFunction",
+      "display_name": "多语言",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/1.1.0/rsfunction/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsfunction/RsFunction-1.0.2.jar",
+      "sha256": "59d22b9b37452dbaca7b2bd2764390e39d1e8f1af403e1886a34f7119144a2b9",
+      "size": 13329,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsfunction/RsFunction-1.0.2.jar"
+      }
+    },
+    {
+      "id": "rsfunction-v2",
+      "name": "RsFunction",
+      "display_name": "多语言",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/1.1.0/rsfunction-v2/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsfunction-v2/RsFunction-1.0.2.jar",
+      "sha256": "667a842586e780c5c22fe53e0c153f4490caea519c8fe84b6a55f471bc48fc4d",
+      "size": 13836,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsfunction-v2/RsFunction-1.0.2.jar"
+      }
+    },
+    {
+      "id": "rsmoney",
+      "name": "RsMoney",
+      "display_name": "经济插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/nukkit/1.1.0/rsmoney/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsmoney/RsMoney-1.0.1.jar",
+      "sha256": "091decb17658aa0033ab83580b963c10b18a843beb7bbaec8f2c824dff00a233",
+      "size": 8399,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsmoney/RsMoney-1.0.1.jar"
+      }
+    },
+    {
+      "id": "rssell",
+      "name": "RsSell",
+      "display_name": "回收插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/rssell/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rssell/RsSell-1.0.0.jar",
+      "sha256": "7e9faf92658087a9e5e35b358d530224719edd17cc8d7f474673f937584539ea",
+      "size": 13599,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rssell/RsSell-1.0.0.jar"
+      }
+    },
+    {
+      "id": "rsshop",
+      "name": "RsShop",
+      "display_name": "商店插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/rsshop/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsshop/RsShop-1.0.0.jar",
+      "sha256": "458ea4a0b75d4e96d2c7aa6995ec46990b099b2055845800fa804419223704c0",
+      "size": 13758,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsshop/RsShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "runplugin",
+      "name": "RunPlugin",
+      "display_name": "跑酷关卡",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/nukkit/1.1.0/runplugin/plugin.json",
+      "file": "plugins/nukkit/1.1.0/runplugin/RunPlugin-0.0.1.jar",
+      "sha256": "c894ef9e24a5e8cb89f765ee3f32b43ebe8a1d4746358ee537e7d182eddbbede",
+      "size": 5399,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/runplugin/RunPlugin-0.0.1.jar"
+      }
+    },
+    {
+      "id": "rvip",
+      "name": "RVIP",
+      "display_name": "插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/rvip/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rvip/RVIP-1.0.0.jar",
+      "sha256": "29fe19d73ee2da902e232c0063c26946395e7e957310a693e2cc88ceebe5d6b8",
+      "size": 3083248,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rvip/RVIP-1.0.0.jar"
+      }
+    },
+    {
+      "id": "sbedwars",
+      "name": "SBedWars",
+      "display_name": "起床战争",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/sbedwars/plugin.json",
+      "file": "plugins/nukkit/1.1.0/sbedwars/SBedWars-1.0.0.jar",
+      "sha256": "9e40787e5c4f230c7dfa4a91fb20cb49629f61019779dac5702ed296ad2c3d63",
+      "size": 49837,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/sbedwars/SBedWars-1.0.0.jar"
+      }
+    },
+    {
+      "id": "simpleland",
+      "name": "[地皮]SimpleLand+",
+      "display_name": "地皮",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/simpleland/plugin.json",
+      "file": "plugins/nukkit/1.1.0/simpleland/SimpleLand-1.0.0.jar",
+      "sha256": "6c21998572dd7930120dc8c38b4ba1f3d27c74bdf3db8b566e34ac3448f426dc",
+      "size": 22348,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/simpleland/SimpleLand-1.0.0.jar"
+      }
+    },
+    {
+      "id": "simpleland-v2-0-6",
+      "name": "SimpleLand_v2.0.6--地皮插件",
+      "display_name": "地皮插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/simpleland-v2-0-6/plugin.json",
+      "file": "plugins/nukkit/1.1.0/simpleland-v2-0-6/SimpleLand_v2.0.6---1.0.0.jar",
+      "sha256": "4a1da6fb9d9d065841976733d4341a2a15ccf5dc0c669efa47a6d86ce5fbc945",
+      "size": 32882,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/simpleland-v2-0-6/SimpleLand_v2.0.6---1.0.0.jar"
+      }
+    },
+    {
+      "id": "skyisland",
+      "name": "SkyIsLand",
+      "display_name": "空岛生存",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/skyisland/plugin.json",
+      "file": "plugins/nukkit/1.1.0/skyisland/SkyIsLand-1.0.0.jar",
+      "sha256": "ac245d7fb9d3697de8d4d7a3ae60dbba10bfa2c80456dffefb950fff4f7aac95",
+      "size": 464333,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/skyisland/SkyIsLand-1.0.0.jar"
+      }
+    },
+    {
+      "id": "smusic",
+      "name": "SMusic",
+      "display_name": "红石音乐",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/smusic/plugin.json",
+      "file": "plugins/nukkit/1.1.0/smusic/SMusic-1.0.0.jar",
+      "sha256": "583bbeb3e1471a258c205782296526aeea0f937530f3025199fcb5339839c5bc",
+      "size": 31426,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/smusic/SMusic-1.0.0.jar"
+      }
+    },
+    {
+      "id": "sntuauth",
+      "name": "SntuAuth",
+      "display_name": "登录",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.2",
+      "path": "plugins/nukkit/1.1.0/sntuauth/plugin.json",
+      "file": "plugins/nukkit/1.1.0/sntuauth/SntuAuth-1.3.2.jar",
+      "sha256": "ec6eeea51252772064f56edb12f535293df360a09bbe2902b83baed2e499958d",
+      "size": 51789,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/sntuauth/SntuAuth-1.3.2.jar"
+      }
+    },
+    {
+      "id": "space2slash",
+      "name": "Space2Slash",
+      "display_name": "去除杠",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/nukkit/1.1.0/space2slash/plugin.json",
+      "file": "plugins/nukkit/1.1.0/space2slash/Space2Slash-0.0.1.jar",
+      "sha256": "f88a11a8fa9c1221ce42f2b1eb169365a3cb632787d72f126d8669335831421c",
+      "size": 1549,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/space2slash/Space2Slash-0.0.1.jar"
+      }
+    },
+    {
+      "id": "targetserver",
+      "name": "TargetServer",
+      "display_name": "跨服插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/targetserver/plugin.json",
+      "file": "plugins/nukkit/1.1.0/targetserver/TargetServer-1.0.0.jar",
+      "sha256": "0c34dc80982a401dc0ade845a64be170eb0dd92e5f91d8a54675d95f2cf6c006",
+      "size": 3560,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/targetserver/TargetServer-1.0.0.jar"
+      }
+    },
+    {
+      "id": "ugps",
+      "name": "UGPS",
+      "display_name": "坐标定位",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0",
+      "path": "plugins/nukkit/1.1.0/ugps/plugin.json",
+      "file": "plugins/nukkit/1.1.0/ugps/UGPS-1.0.jar",
+      "sha256": "ce94d796554501a21d42727b36754579880abc9cd11e6d6134cd5092b6feb0ed",
+      "size": 3572,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/ugps/UGPS-1.0.jar"
+      }
+    },
+    {
+      "id": "vampirez",
+      "name": "VampireZ",
+      "display_name": "吸血鬼小游戏",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.1 BETA",
+      "path": "plugins/nukkit/1.1.0/vampirez/plugin.json",
+      "file": "plugins/nukkit/1.1.0/vampirez/VampireZ-0.1_BETA.jar",
+      "sha256": "9d01084e353cf6689e35320545d34598adc341678d17b9b69d6317d27837bba0",
+      "size": 34388,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/vampirez/VampireZ-0.1_BETA.jar"
+      }
+    },
+    {
+      "id": "welcome",
+      "name": "Welcome",
+      "display_name": "欢迎登录插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.6",
+      "path": "plugins/nukkit/1.1.0/welcome/plugin.json",
+      "file": "plugins/nukkit/1.1.0/welcome/Welcome-0.0.6.jar",
+      "sha256": "83d378de8ca0b5092ce36e42eae4721e3672cac028d0b12ab50b3aac4125a3d7",
+      "size": 52214,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/welcome/Welcome-0.0.6.jar"
+      }
+    },
+    {
+      "id": "worldplus",
+      "name": "WorldPlus",
+      "display_name": "创世神",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.5",
+      "path": "plugins/nukkit/1.1.0/worldplus/plugin.json",
+      "file": "plugins/nukkit/1.1.0/worldplus/WorldPlus-1.5.jar",
+      "sha256": "4b551f5985379f5b25e601c3d803aa8ada24fa7b1d0bdefc40481102b55ada00",
+      "size": 28127,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/worldplus/WorldPlus-1.5.jar"
+      }
+    },
+    {
+      "id": "worldprotect",
+      "name": "WorldProtect",
+      "display_name": "世界保护",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/worldprotect/plugin.json",
+      "file": "plugins/nukkit/1.1.0/worldprotect/WorldProtect-1.0.0.jar",
+      "sha256": "92ad223463b236267443ba1b024e6ac711590fc29c7d2d9183dc0297f96dadbb",
+      "size": 3367,
+      "tags": [
+        "world",
+        "protection",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/worldprotect/WorldProtect-1.0.0.jar"
+      }
+    },
+    {
+      "id": "worlds",
+      "name": "Worlds",
+      "display_name": "多世界",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/1.1.0/worlds/plugin.json",
+      "file": "plugins/nukkit/1.1.0/worlds/Worlds-1.1.0.jar",
+      "sha256": "331c83399aa8d8d4c2c0088f3836efc74dcb2b7790c539fd8949bd2fcc1e8910",
+      "size": 2906,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/worlds/Worlds-1.1.0.jar"
+      }
+    },
+    {
+      "id": "wssendinfo",
+      "name": "WsSendInfo",
+      "display_name": "底部显示",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/wssendinfo/plugin.json",
+      "file": "plugins/nukkit/1.1.0/wssendinfo/WsSendInfo-1.0.0.jar",
+      "sha256": "cee256637610220e625df4f95d1334182a6ccf08fe159fba6134d1b931229d37",
+      "size": 4675,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/wssendinfo/WsSendInfo-1.0.0.jar"
+      }
+    },
+    {
+      "id": "xhelp",
+      "name": "xhelp",
+      "display_name": "自定义帮助",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "0.0.2",
+      "path": "plugins/nukkit/1.1.0/xhelp/plugin.json",
+      "file": "plugins/nukkit/1.1.0/xhelp/xhelp-0.0.2.jar",
+      "sha256": "80b4cc362d140dc7c5942a6ff86ffd0b49036f8f5bea8c59a70475f32d8588e5",
+      "size": 2411,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/xhelp/xhelp-0.0.2.jar"
+      }
+    },
+    {
+      "id": "yourdynamicmotd",
+      "name": "YourDynamicMotd",
+      "display_name": "自订",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.8",
+      "path": "plugins/nukkit/1.1.0/yourdynamicmotd/plugin.json",
+      "file": "plugins/nukkit/1.1.0/yourdynamicmotd/YourDynamicMotd-1.8.jar",
+      "sha256": "2bd7e928ce683a5aa53ceabeba614d25f804ac7d3e1a1bdc6668cb37705a6b46",
+      "size": 5348,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/yourdynamicmotd/YourDynamicMotd-1.8.jar"
+      }
+    },
+    {
+      "id": "zqlogin",
+      "name": "ZQLogin",
+      "display_name": "登陆插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/nukkit/1.1.0/zqlogin/plugin.json",
+      "file": "plugins/nukkit/1.1.0/zqlogin/ZQLogin-1.0.1.jar",
+      "sha256": "62e209f1b3eb431c35a5efe754dce5317cad9394308930ec2520fe8788064c73",
+      "size": 1046458,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/zqlogin/ZQLogin-1.0.1.jar"
+      }
+    },
+    {
+      "id": "zqportal",
+      "name": "ZQPortal",
+      "display_name": "自定义传送门",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.4.1",
+      "path": "plugins/nukkit/1.1.0/zqportal/plugin.json",
+      "file": "plugins/nukkit/1.1.0/zqportal/ZQPortal-1.4.1.jar",
+      "sha256": "2fa4f8b2f5f533a21d29cf256a12f4158d6a0bb9d859c64a687292b17484707a",
+      "size": 16494,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/zqportal/ZQPortal-1.4.1.jar"
+      }
+    },
+    {
+      "id": "colortext",
+      "name": "ColorText",
+      "display_name": "颜色插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/pocketmine-mp/1.1.0/colortext/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/colortext/ColorText-1.3.0.phar",
+      "sha256": "5eda9541619d8163c132acda22474c2854c7f2d317944066557197afa360512d",
+      "size": 2336,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/colortext/ColorText-1.3.0.phar"
+      }
+    },
+    {
+      "id": "factionspro",
+      "name": "FactionsPro",
+      "display_name": "研究用",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.1.0/factionspro/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/factionspro/FactionsPro-1.0.1.phar",
+      "sha256": "b918a288fd4e7ab61eb7d76483c4ed888248ac8fa12a92d14ff6e3e3cc877190",
+      "size": 26908,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/factionspro/FactionsPro-1.0.1.phar"
+      }
+    },
+    {
+      "id": "factionspro-v2",
+      "name": "FactionsPro",
+      "display_name": "另一种工会",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.1.0/factionspro-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/factionspro-v2/FactionsPro-1.0.1.phar",
+      "sha256": "baf144aaee34fbb1797dcdd3a4ccf0e343c847d8e0b1a401a822d4ccbd422c5d",
+      "size": 32225,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/factionspro-v2/FactionsPro-1.0.1.phar"
+      }
+    },
+    {
+      "id": "factionspro-v3",
+      "name": "FactionsPro",
+      "display_name": "FactionsPro",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.1.0/factionspro-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/factionspro-v3/FactionsPro-1.0.1.phar",
+      "sha256": "0f68fc55268c1e0df148ad9ded354ac89a0febde1b3add3c5dc1dbf0fb9315ae",
+      "size": 10616,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/factionspro-v3/FactionsPro-1.0.1.phar"
+      }
+    },
+    {
+      "id": "gcwfactionspro",
+      "name": "GCWFactionsPro",
+      "display_name": "乌兰托娅快乐广场广场舞插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.1.0/gcwfactionspro/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/gcwfactionspro/GCWFactionsPro-1.0.1.phar",
+      "sha256": "66c1c3de8c746351a310776738338855d8b6c84635968ddc671e0caee4b7e8bd",
+      "size": 27264,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/gcwfactionspro/GCWFactionsPro-1.0.1.phar"
+      }
+    },
+    {
+      "id": "itemcloud",
+      "name": "ItemCloud",
+      "display_name": "云端储物",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1",
+      "path": "plugins/pocketmine-mp/1.1.0/itemcloud/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/itemcloud/ItemCloud-1.1.phar",
+      "sha256": "b435132bbe4a228df5de1b90950bd3afb098d9b5c331469e12d8e296390ac510",
+      "size": 11690,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/itemcloud/ItemCloud-1.1.phar"
+      }
+    },
+    {
+      "id": "magicrpg",
+      "name": "MagicRPG",
+      "display_name": "魔法职业",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "2.4.1",
+      "path": "plugins/pocketmine-mp/1.1.0/magicrpg/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/magicrpg/MagicRPG-2.4.1.phar",
+      "sha256": "ba27f256625f3626ce1beefb1d97405c692b626b8228d28807a9f0965d7255c6",
+      "size": 6382,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/magicrpg/MagicRPG-2.4.1.phar"
+      }
+    }
+  ]
+}

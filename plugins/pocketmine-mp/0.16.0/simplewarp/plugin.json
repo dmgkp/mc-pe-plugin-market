@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "simplewarp",
+  "name": "SimpleWarp",
+  "display_name": "定点传送",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.3.4",
+  "author": [
+    "Falkirks"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Recieve messages when their is warp conflict in Essentials",
+  "website": null,
+  "main": "falkirks\\simplewarp\\SimpleWarp",
+  "tags": [
+    "chat",
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "FastTransfer",
+    "SlowTransfer",
+    "EssentialsPE"
+  ],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "simplewarp",
+      "description": "Allows usage of all warps",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/simplewarp/SimpleWarp-3.3.4.phar",
+      "file_name": "SimpleWarp-3.3.4.phar",
+      "sha256": "3742b70e06b99ff04d571517b746f928a35e7fc60d4aaf41841dee39b21a9c8a",
+      "size": 30349,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/simplewarp/SimpleWarp-3.3.4.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/SimpleWarp--定点传送/SimpleWarp V3.3.4--定点传送.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

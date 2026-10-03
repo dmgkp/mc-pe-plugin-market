@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "eggwars",
+  "name": "EggWars",
+  "display_name": "龙蛋大战",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=1.12.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=3.0.0-ALPHA7"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "VixikCZ"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "EggWars minigame plugin",
+  "website": null,
+  "main": "eggwars\\EggWars",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "ew.cmd",
+      "description": "Permission to /ew level set",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/eggwars/EggWars-1.0.0.phar",
+      "file_name": "EggWars-1.0.0.phar",
+      "sha256": "0ec35fc701e6f60a0ef4f3d4479dd0b1a4b77bcf550c4086f07ffe6791a05920",
+      "size": 210041,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/eggwars/EggWars-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/[小游戏] EggWars--龙蛋大战/EggWars--龙蛋大战.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

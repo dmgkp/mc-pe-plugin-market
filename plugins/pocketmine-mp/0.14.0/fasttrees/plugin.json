@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "fasttrees",
+  "name": "FastTrees",
+  "display_name": "种树即长插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "xin"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "FastTrees - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "FastTrees\\FastTrees",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/fasttrees/FastTrees-1.0.phar",
+      "file_name": "FastTrees-1.0.phar",
+      "sha256": "39d31bbc94731b8628285a67c22468f0e0eadb137a765e0469b95dc15bde6a6f",
+      "size": 2308,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/fasttrees/FastTrees-1.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0-alpha": [
+      {
+        "file_name": "FastTrees-1.0-alpha.phar",
+        "sha256": "409548db932b5e64a87b2d61c5ab7a7a0f6b18c895e4f87bb12aa21ff453a03c",
+        "size": 1866
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/Tree快捷种树插件-系列/FastTree种树即长插件/FastTrees_v1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:26+08:00",
+  "minecraft_version_source": "api-inferred"
+}

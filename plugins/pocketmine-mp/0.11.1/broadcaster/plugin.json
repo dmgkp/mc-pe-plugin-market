@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "broadcaster",
+  "name": "Broadcaster",
+  "display_name": "公告插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.4.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.13",
+  "author": [
+    "EvolSoft"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Broadcast Plugin",
+  "website": "https://www.evolsoft.tk",
+  "main": "Broadcaster\\Main",
+  "tags": [
+    "chat"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "broadcaster",
+      "description": "Broadcaster Commands.",
+      "usage": "",
+      "permission": "broadcaster",
+      "aliases": [
+        "bc",
+        "broadcast"
+      ]
+    },
+    {
+      "name": "sendmessage",
+      "description": "Send message to specified player (* for all players)",
+      "usage": "",
+      "permission": "broadcaster.sendmessage",
+      "aliases": [
+        "sm",
+        "smsg"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "broadcaster",
+      "description": "Allows sending messages to players with /sendmessage command.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/broadcaster/Broadcaster-1.13.phar",
+      "file_name": "Broadcaster-1.13.phar",
+      "sha256": "e043ab5937f0690ce9677c4a24c56d5ad7f6bb43e7519b87dc94ee3798bde9f5",
+      "size": 5046,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/broadcaster/Broadcaster-1.13.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/公告插件/公告插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:27+08:00",
+  "minecraft_version_source": "path"
+}

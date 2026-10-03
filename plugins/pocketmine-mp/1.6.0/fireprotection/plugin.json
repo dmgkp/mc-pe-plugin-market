@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "fireprotection",
+  "name": "FireProtection",
+  "display_name": "火焰保护",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "LDX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "FireProtection - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "LDX\\FireProtection\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/fireprotection/FireProtection-1.0.phar",
+      "file_name": "FireProtection-1.0.phar",
+      "sha256": "c4f268ad4eea8c9249551185025b3f71f47120f4daba4aef783287304ced7291",
+      "size": 1619,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/fireprotection/FireProtection-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/火焰保护/火焰保护.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:19+08:00",
+  "minecraft_version_source": "api-inferred"
+}

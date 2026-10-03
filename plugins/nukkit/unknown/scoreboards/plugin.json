@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "scoreboards",
+  "name": "Scoreboards",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "sjj118"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Scoreboards - Minecraft Bedrock plugin for nukkit.",
+  "website": null,
+  "main": "io.github.sjj118.scoreboards.Scoreboards",
+  "tags": [
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[Vault,Credit,VIP]"
+  ],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/scoreboards/Scoreboards-1.0.2.jar",
+      "file_name": "Scoreboards-1.0.2.jar",
+      "sha256": "aecd2f7c14e233dda21298b74876574e1ddfaefd3d57f53e948e91609d24b018",
+      "size": 15894,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/scoreboards/Scoreboards-1.0.2.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[个人信息]Scoreboards+1.0.2+全版本支持.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

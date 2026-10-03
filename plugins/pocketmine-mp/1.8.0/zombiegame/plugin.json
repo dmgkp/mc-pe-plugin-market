@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "zombiegame",
+  "name": "ZombieGame",
+  "display_name": "生化游戏",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.3 alpha",
+  "author": [
+    "Khinenw"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "The Genius S1E4 Main Match into PocketMine-MP!",
+  "website": null,
+  "main": "Khinenw\\ZombieGame\\GameGenius",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "setspawnpos",
+      "description": "Set spawnposition for ZombieGame",
+      "usage": "/setspawnpos",
+      "permission": "zombiegame.spawnpos",
+      "aliases": []
+    },
+    {
+      "name": "setresetpos",
+      "description": "Set resetposition for ZombieGame",
+      "usage": "/setresetpos",
+      "permission": "zombiegame.resetpos",
+      "aliases": []
+    },
+    {
+      "name": "explanation",
+      "description": "Explain Zombie Game",
+      "usage": "/explanation [page number]",
+      "permission": "zombiegame.explanation",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "zombiegame.*",
+      "description": "The permission for using zombie game commands",
+      "default": "true"
+    },
+    {
+      "name": "zombiegame.spawnpos",
+      "description": "The permission for setting spawn position",
+      "default": "op"
+    },
+    {
+      "name": "zombiegame.resetpos",
+      "description": "The permission for setting reset position",
+      "default": "op"
+    },
+    {
+      "name": "zombiegame.explanation",
+      "description": "The permission for explain zombie game",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/zombiegame/ZombieGame-0.0.3_alpha.phar",
+      "file_name": "ZombieGame-0.0.3_alpha.phar",
+      "sha256": "80ae86abebbea7556444e1ceb0b2dd928f53b57f524d14da50db04300489ead8",
+      "size": 99560,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/zombiegame/ZombieGame-0.0.3_alpha.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "alpha",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/生化游戏/生化游戏.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:19+08:00",
+  "minecraft_version_source": "api-inferred"
+}

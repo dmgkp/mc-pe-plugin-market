@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "asign-v2",
+  "name": "Asign",
+  "display_name": "我木牌",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "1.1.0",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.4",
+  "author": [
+    "Kirt"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "此生无悔入东方，来世愿生幻想乡。一乡一梦愁怨长，入坑生死两茫茫。",
+  "website": null,
+  "main": "Asign\\Asign",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/asign-v2/Asign-1.4.phar",
+      "file_name": "Asign-1.4.phar",
+      "sha256": "319c9566929d15ad9341d738904ebe669ddd1fb0d65c5ab0f9ab0c190e561ecf",
+      "size": 7701,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/asign-v2/Asign-1.4.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/我木牌/我木牌.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:17+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "skyisland",
+  "name": "SkyIsLand",
+  "display_name": "空岛生存",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "创建一个空岛",
+  "website": null,
+  "main": "cn.zrhdwz.nukkit.a",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "is",
+      "description": "创建一个空岛",
+      "usage": "/is",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpworld",
+      "description": "传送到世界",
+      "usage": "/tpworld",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "addbanworld",
+      "description": "添加一个禁止传送的世界",
+      "usage": "/addbanworld",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "delbanworld",
+      "description": "删除一个禁止传送的世界",
+      "usage": "/delbanworld",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/skyisland/SkyIsLand-1.0.0.jar",
+      "file_name": "SkyIsLand-1.0.0.jar",
+      "sha256": "ac245d7fb9d3697de8d4d7a3ae60dbba10bfa2c80456dffefb950fff4f7aac95",
+      "size": 464333,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/skyisland/SkyIsLand-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/Nukkit插件/SkyIsLand--空岛生存/SkyIsLand--空岛生存.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:51+08:00",
+  "minecraft_version_source": "api-inferred"
+}

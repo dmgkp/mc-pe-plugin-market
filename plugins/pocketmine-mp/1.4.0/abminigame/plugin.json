@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "abminigame",
+  "name": "ABMiniGame",
+  "display_name": "猜数字",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.4.0",
+  "minecraft_versions": [
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=1.4.0 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.8.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Mico"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "1A2B Mini Game",
+  "website": null,
+  "main": "Mico\\ABMiniGame",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "AOB",
+      "description": "ABMiniGame OP Command",
+      "usage": "/AOB <create/remove> 設定或刪除遊戲",
+      "permission": "AB.command.op",
+      "aliases": []
+    },
+    {
+      "name": "1A2B",
+      "description": "ABMiniGame Command",
+      "usage": "/1A2B 查詢1A2B遊玩方式",
+      "permission": "AB.command.player",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "AB.command.op",
+      "description": "Only OP can use this CMD",
+      "default": "op"
+    },
+    {
+      "name": "AB.command.player",
+      "description": "Any Player can use this CMD",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.4.0/abminigame/ABMiniGame-1.0.0.phar",
+      "file_name": "ABMiniGame-1.0.0.phar",
+      "sha256": "fc4a163e761f8e70d943be6767a45cbf7d54ff51f94e2ff3dffad6e48f5335a9",
+      "size": 161225,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.4.0/abminigame/ABMiniGame-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/猜数字/猜数字.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:19+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "mr-csign",
+  "name": "Mr_CSign",
+  "display_name": "随意修改木牌",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.1",
+  "author": [
+    "Mr_sky"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Mr_CSign更改木牌",
+  "website": null,
+  "main": "top.ascserver.mr_csign.Mr_CSign",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "csign",
+      "description": "Mr_CSign的主命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/mr-csign/Mr_CSign-1.1.1.jar",
+      "file_name": "Mr_CSign-1.1.1.jar",
+      "sha256": "01a10b3cc2aaca3ac99402f37ec282743cb06823c57c70b0fbb8a74028272a08",
+      "size": 2639,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-csign/Mr_CSign-1.1.1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/Nukkit插件/Mr系列/[Mr随意修改木牌]Mr_CSign/Mr_CSign v1.1.1.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

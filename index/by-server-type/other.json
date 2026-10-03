@@ -1,0 +1,291 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-type",
+  "server_type": "other",
+  "count": 15,
+  "plugins": [
+    {
+      "id": "authme",
+      "name": "AuthMe",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "3.4",
+      "path": "plugins/other/unknown/authme/plugin.json",
+      "file": "plugins/other/unknown/authme/AuthMe-3.4.jar",
+      "sha256": "0c7800f95da22e2d7e2dbf6255919d74cf20009a1ea06b3777ea19e32bba2733",
+      "size": 1076298,
+      "tags": [
+        "admin",
+        "protection",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/authme/AuthMe-3.4.jar"
+      }
+    },
+    {
+      "id": "cclearchat",
+      "name": "CClearChat",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.7",
+      "path": "plugins/other/unknown/cclearchat/plugin.json",
+      "file": "plugins/other/unknown/cclearchat/CClearChat-1.7.jar",
+      "sha256": "0e422f55da78c5186c41bb115e0f46dd6f4a6851ee6682b9af9f9b9309975f86",
+      "size": 7438,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/cclearchat/CClearChat-1.7.jar"
+      }
+    },
+    {
+      "id": "essentials",
+      "name": "Essentials",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "Pre2.13.1.2",
+      "path": "plugins/other/unknown/essentials/plugin.json",
+      "file": "plugins/other/unknown/essentials/Essentials-Pre2.13.1.2.jar",
+      "sha256": "afdbcf091cbc20ea4a20f9770159990eb07901777069c77c151118f9c243a836",
+      "size": 954052,
+      "tags": [
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/essentials/Essentials-Pre2.13.1.2.jar"
+      }
+    },
+    {
+      "id": "essentialsantibuild",
+      "name": "EssentialsAntiBuild",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "Pre2.13.1.2",
+      "path": "plugins/other/unknown/essentialsantibuild/plugin.json",
+      "file": "plugins/other/unknown/essentialsantibuild/EssentialsAntiBuild-Pre2.13.1.2.jar",
+      "sha256": "a8992e0a68c17bea68717ceaa585eb6fc9696c73ca49ac4e6a550c6aceabfac2",
+      "size": 14519,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/essentialsantibuild/EssentialsAntiBuild-Pre2.13.1.2.jar"
+      }
+    },
+    {
+      "id": "essentialschat",
+      "name": "EssentialsChat",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "Pre2.13.1.2",
+      "path": "plugins/other/unknown/essentialschat/plugin.json",
+      "file": "plugins/other/unknown/essentialschat/EssentialsChat-Pre2.13.1.2.jar",
+      "sha256": "661b8d3918ce54f09dda0bc2d3a1473608522e519b60763169d37abd83034c04",
+      "size": 12712,
+      "tags": [
+        "chat",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/essentialschat/EssentialsChat-Pre2.13.1.2.jar"
+      }
+    },
+    {
+      "id": "essentialsprotect",
+      "name": "EssentialsProtect",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "Pre2.13.1.2",
+      "path": "plugins/other/unknown/essentialsprotect/plugin.json",
+      "file": "plugins/other/unknown/essentialsprotect/EssentialsProtect-Pre2.13.1.2.jar",
+      "sha256": "39d5d65cca06c9f3a3ecb5b98bef881f7e005c67fbdc5993fb6c55cec75f040e",
+      "size": 19324,
+      "tags": [
+        "world",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/essentialsprotect/EssentialsProtect-Pre2.13.1.2.jar"
+      }
+    },
+    {
+      "id": "essentialsspawn",
+      "name": "EssentialsSpawn",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "Pre2.13.1.2",
+      "path": "plugins/other/unknown/essentialsspawn/plugin.json",
+      "file": "plugins/other/unknown/essentialsspawn/EssentialsSpawn-Pre2.13.1.2.jar",
+      "sha256": "ed41f7282125a683a4f58b55ab9b8e115e4eab93037f83c60300cb88124fb207",
+      "size": 16261,
+      "tags": [
+        "world",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/essentialsspawn/EssentialsSpawn-Pre2.13.1.2.jar"
+      }
+    },
+    {
+      "id": "groupmanager",
+      "name": "GroupManager",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.0 (2.12.1) (Phoenix)",
+      "path": "plugins/other/unknown/groupmanager/plugin.json",
+      "file": "plugins/other/unknown/groupmanager/GroupManager-2.0_2.12.1_Phoenix.jar",
+      "sha256": "fbb6a37c509eae5cdfaace859010dc5c8edfb228fbe26eb4a1d3fc937a1ace1b",
+      "size": 121881,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/groupmanager/GroupManager-2.0_2.12.1_Phoenix.jar"
+      }
+    },
+    {
+      "id": "marriagemaster",
+      "name": "MarriageMaster",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.24",
+      "path": "plugins/other/unknown/marriagemaster/plugin.json",
+      "file": "plugins/other/unknown/marriagemaster/MarriageMaster-1.24.jar",
+      "sha256": "65d5549fde1fc92429a9e6cc7cf5ac6bd3e9501be3ea0653d6561fea0f2a64e7",
+      "size": 397293,
+      "tags": [
+        "admin",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/marriagemaster/MarriageMaster-1.24.jar"
+      }
+    },
+    {
+      "id": "minepacks",
+      "name": "MinePacks",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.13",
+      "path": "plugins/other/unknown/minepacks/plugin.json",
+      "file": "plugins/other/unknown/minepacks/MinePacks-1.13.jar",
+      "sha256": "9fbb360b303beb7cc5364b1a8662b4a5da90320f013354395db193002dff80ed",
+      "size": 64226,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/minepacks/MinePacks-1.13.jar"
+      }
+    },
+    {
+      "id": "multiverse-core",
+      "name": "Multiverse-Core",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.5-b678",
+      "path": "plugins/other/unknown/multiverse-core/plugin.json",
+      "file": "plugins/other/unknown/multiverse-core/Multiverse-Core-2.5-b678.jar",
+      "sha256": "7e9e33bad4cc53715e234ac24e2c1c5ead0506009346b3193e7c2df8b273e5c4",
+      "size": 1643924,
+      "tags": [
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/multiverse-core/Multiverse-Core-2.5-b678.jar"
+      }
+    },
+    {
+      "id": "protocollib",
+      "name": "ProtocolLib",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "3.6.4",
+      "path": "plugins/other/unknown/protocollib/plugin.json",
+      "file": "plugins/other/unknown/protocollib/ProtocolLib-3.6.4.jar",
+      "sha256": "cb7aff23ea7206e4e5df7646a68181e1a82f4d11257bb158989ed4c69805a204",
+      "size": 1448394,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/protocollib/ProtocolLib-3.6.4.jar"
+      }
+    },
+    {
+      "id": "qwicktree",
+      "name": "QwickTree",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.1.1",
+      "path": "plugins/other/unknown/qwicktree/plugin.json",
+      "file": "plugins/other/unknown/qwicktree/QwickTree-2.1.1.jar",
+      "sha256": "1c3086a620cc1507f8c0e65355b9d4ed94a443ac519d07214b3c6a98b020e130",
+      "size": 59271,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/qwicktree/QwickTree-2.1.1.jar"
+      }
+    },
+    {
+      "id": "residence",
+      "name": "Residence",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.6.6.6",
+      "path": "plugins/other/unknown/residence/plugin.json",
+      "file": "plugins/other/unknown/residence/Residence-2.6.6.6.jar",
+      "sha256": "4c59502c798ffc3d61d8f07d5b45bc262eccde01215fd517cfcb5d056d6f7fad",
+      "size": 400157,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/residence/Residence-2.6.6.6.jar"
+      }
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.4.1-b436",
+      "path": "plugins/other/unknown/vault/plugin.json",
+      "file": "plugins/other/unknown/vault/Vault-1.4.1-b436.jar",
+      "sha256": "21ed1c2cd4a5b531b73056fb5c8a445e17486bc7c7649eb58e4417c7cc1fc01a",
+      "size": 337004,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/vault/Vault-1.4.1-b436.jar"
+      }
+    }
+  ]
+}

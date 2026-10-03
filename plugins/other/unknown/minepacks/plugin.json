@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "id": "minepacks",
+  "name": "MinePacks",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.13",
+  "author": [
+    "GeorgH93"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Minepacks is a backpack plugin with different backpack sizes, multilanguage and MySQL storage support. It is a simple plugin, but still has a lot of functions.",
+  "website": "http://dev.bukkit.org/bukkit-plugins/minepacks/",
+  "main": "at.pcgamingfreaks.georgh.MinePacks.MinePacks",
+  "tags": [
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "backpack",
+      "description": "Main command",
+      "usage": "/backpack",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "backpack.*",
+      "description": "Gives access to the full MinePacks functionality.",
+      "default": ""
+    },
+    {
+      "name": "backpack.use",
+      "description": "Allows a player to open the backpack.",
+      "default": ""
+    },
+    {
+      "name": "backpack",
+      "description": "Allows a player to open the backpack.",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.1",
+      "description": "Mini size for a backpack, if the player has backpack permission he will also have at least a backpack with the size 1.",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.2",
+      "description": "2*9 backpack",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.3",
+      "description": "3*9 backpack",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.4",
+      "description": "4*9 backpack",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.5",
+      "description": "5*9 backpack",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.6",
+      "description": "6*9 backpack",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.7",
+      "description": "7*9 backpack (broken gui)",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.8",
+      "description": "8*9 backpack (broken gui)",
+      "default": "false"
+    },
+    {
+      "name": "backpack.size.9",
+      "description": "9*9 backpack (broken gui)",
+      "default": "false"
+    },
+    {
+      "name": "backpack.clean",
+      "description": "Allows the player to clean their own backpack.",
+      "default": "false"
+    },
+    {
+      "name": "backpack.fullpickup",
+      "description": "",
+      "default": ""
+    },
+    {
+      "name": "backpack.clean.other",
+      "description": "Allows the player to clean other players backpacks.",
+      "default": "op"
+    },
+    {
+      "name": "backpack.others",
+      "description": "Allows the player open backpacks of other players.",
+      "default": "op"
+    },
+    {
+      "name": "backpack.others.edit",
+      "description": "Allows the player to edit backpacks of other players.",
+      "default": "op"
+    },
+    {
+      "name": "backpack.KeepOnDeath",
+      "description": "Allows the player to keep their items in their backpack on death.",
+      "default": "op"
+    },
+    {
+      "name": "backpack.noCooldown",
+      "description": "Allows to bypass the cooldown to open the backpack.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/other/unknown/minepacks/MinePacks-1.13.jar",
+      "file_name": "MinePacks-1.13.jar",
+      "sha256": "9fbb360b303beb7cc5364b1a8662b4a5da90320f013354395db193002dff80ed",
+      "size": 64226,
+      "download_paths": {
+        "github": "plugins/other/unknown/minepacks/MinePacks-1.13.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/MinePacks.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

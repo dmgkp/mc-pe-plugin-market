@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "3.0.0-ALPHA1",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "profileui",
+      "name": "ProfileUI",
+      "display_name": "高能",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "4.1.1",
+      "path": "plugins/pocketmine-mp/1.12.0/profileui/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/profileui/ProfileUI-4.1.1.phar",
+      "sha256": "df4056a3f2e2641aa5e14c22104aa3928ee0976da0780f9df174956bb57d599f",
+      "size": 5243,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/profileui/ProfileUI-4.1.1.phar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "id": "status",
+  "name": "Status",
+  "display_name": "信息查看",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.4.0",
+  "author": [
+    "plus"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Status, 发布论坛: mcpe.tw",
+  "website": null,
+  "main": "Status\\Status",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "status",
+      "description": "Status, 发布论坛: mcpe.tw",
+      "usage": "/status <-你的状态. /status [玩家名] <-玩家的状态",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "displayname",
+      "description": "displayname,发布论坛: mcpe.tw",
+      "usage": "/displayname [玩家名] [要修改的名字]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "announcement",
+      "description": "announcement, 发布论坛: mcpe.tw",
+      "usage": "1. /announcement no@p [消息]  2. /announcement @p [消息] 3. /announcement [消息1] @p [消息2]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "nametag",
+      "description": "nametag, 发布论坛: mcpe.tw",
+      "usage": "/nametag [玩家名] [要修改的名字]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "onlineplayers",
+      "description": "onlineplayers, 发布论坛: mcpe.tw",
+      "usage": "/onlineplayers",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "status",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "displayname",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "announcement",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "nametag",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/status/Status-1.4.0.phar",
+      "file_name": "Status-1.4.0.phar",
+      "sha256": "2578b7a3ab5c42005d59411a00bbd0b38551a998ee3f6ef3323b267e5ea2fa8d",
+      "size": 15105,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/status/Status-1.4.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.1.2": [
+      {
+        "file_name": "Status-1.1.2.phar",
+        "sha256": "cb1ecb729f7135c35e6115fbcad50a929ff2c6862e1bdcb6683075adc4a8bc35",
+        "size": 14622
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/信息查看/信息查看.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:15+08:00",
+  "minecraft_version_source": "api-inferred"
+}

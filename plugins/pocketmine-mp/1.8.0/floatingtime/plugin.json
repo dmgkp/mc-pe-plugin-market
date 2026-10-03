@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "floatingtime",
+  "name": "FloatingTime",
+  "display_name": "浮空时钟",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "RexRed6802"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "浮空時鐘",
+  "website": null,
+  "main": "FloatingTime\\FloatingTime",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ft",
+      "description": "浮空時鐘",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/floatingtime/FloatingTime-1.0.phar",
+      "file_name": "FloatingTime-1.0.phar",
+      "sha256": "fc27fab1e8d5cc5876a8273bde1e7ec801c34042d4a3c3677ebbc7b5f4b3e8e4",
+      "size": 3700,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/floatingtime/FloatingTime-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/浮空时钟/浮空时钟.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:19+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "id": "quickshop",
+  "name": "QuickShop",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "4.5 #Beta",
+  "author": [
+    "Netherfoam"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Economy Shops plugin",
+  "website": "http://maxgamer.org",
+  "main": "org.maxgamer.QuickShop.QuickShop",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[Herochat, Vault, Spout]"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "qs",
+      "description": "QuickShop command",
+      "usage": "/qs",
+      "permission": "",
+      "aliases": [
+        "shop"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "quickshop.create.sell",
+      "description": "Allows a player to sell from a shop",
+      "default": "op"
+    },
+    {
+      "name": "quickshop.create.buy",
+      "description": "Allows a player to buy from a shop",
+      "default": "op"
+    },
+    {
+      "name": "quickshop.create.double",
+      "description": "Allows a player to create a double shop",
+      "default": "op"
+    },
+    {
+      "name": "quickshop.use",
+      "description": "Allows a player to buy/sell using other players shops",
+      "default": "true"
+    },
+    {
+      "name": "quickshop.unlimited",
+      "description": "Allows a Staff Member to use /qs unlimited and make a shop infinite",
+      "default": ""
+    },
+    {
+      "name": "quickshop.bypass.<itemID>",
+      "description": "Allows a player to sell <itemID>, even if its blacklisted",
+      "default": ""
+    },
+    {
+      "name": "quickshop.other.destroy",
+      "description": "Allows a Staff Member to destroy other players shops if they are locked in the config",
+      "default": ""
+    },
+    {
+      "name": "quickshop.other.open",
+      "description": "Allows a Staff Member to open someone elses shop if they are locked in the config",
+      "default": ""
+    },
+    {
+      "name": "quickshop.other.price",
+      "description": "Allows a Staff Member to change the price of someone elses shop",
+      "default": ""
+    },
+    {
+      "name": "quickshop.setowner",
+      "description": "Allows a Staff Member to change the owner of any shop",
+      "default": ""
+    },
+    {
+      "name": "quickshop.find",
+      "description": "Allows a player to locate the nearest shop of a specific item type. Works in a 3 chunk radius.",
+      "default": "true"
+    },
+    {
+      "name": "quickshop.refill",
+      "description": "Allows a Staff Member to refill the shop theyre looking at with the given number of items.",
+      "default": "op"
+    },
+    {
+      "name": "quickshop.empty",
+      "description": "Allows a Staff Member to empty the shop theyre looking at of all items.",
+      "default": "op"
+    },
+    {
+      "name": "quickshop.debug",
+      "description": "Enables debug info to console",
+      "default": "op"
+    },
+    {
+      "name": "quickshop.export",
+      "description": "Allows exporting database to mysql or sqlite",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/quickshop/QuickShop-4.5_Beta.jar",
+      "file_name": "QuickShop-4.5_Beta.jar",
+      "sha256": "bf782a278e9fe6592f816ce5688afb61776b688f9286960a6a08e0ffaf85b8ba",
+      "size": 119051,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/quickshop/QuickShop-4.5_Beta.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "beta",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[商店]QuickShop.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

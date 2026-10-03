@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "touchit",
+  "name": "TouchIt",
+  "display_name": "智能木牌",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.4.1"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1 Alpha",
+  "author": [
+    "Marcus"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "This is a powerful sign plugin.",
+  "website": null,
+  "main": "TouchIt\\TouchIt",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "touchit",
+      "description": "TouchIt commands permission",
+      "default": "operator"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/touchit/TouchIt-1.1_Alpha.phar",
+      "file_name": "TouchIt-1.1_Alpha.phar",
+      "sha256": "6d81aa2819ead82685af32d243f1912daca52c8f3fbb4e0a66f42b33ce59627c",
+      "size": 17267,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/touchit/TouchIt-1.1_Alpha.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "alpha",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/智能木牌/智能木牌.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

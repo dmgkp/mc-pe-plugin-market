@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "cutdowntree-v2",
+  "name": "CutDownTree",
+  "display_name": "正式版科学砍树",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "linger"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "一键砍树开关",
+  "website": null,
+  "main": "CutDownTree\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ctree",
+      "description": "一键砍树开关",
+      "usage": "/ctree",
+      "permission": "CutDownTree.",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "CutDownTree.",
+      "description": "op",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/cutdowntree-v2/CutDownTree-1.1.0.phar",
+      "file_name": "CutDownTree-1.1.0.phar",
+      "sha256": "f2ec6699b651eee26c4716475bcdc920f005508144c89b9ca8a1cdec9b485137",
+      "size": 3893,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/cutdowntree-v2/CutDownTree-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/正式版科学砍树/1.1.0正式版科学砍树.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:54+08:00",
+  "minecraft_version_source": "api-inferred"
+}

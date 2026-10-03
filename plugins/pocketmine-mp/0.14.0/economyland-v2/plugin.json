@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "economyland-v2",
+  "name": "EconomyLand",
+  "display_name": "插件预装",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.8.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.5",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows player to use all functions in EconomyLand",
+  "website": null,
+  "main": "onebone\\economyland\\EconomyLand",
+  "tags": [
+    "economy",
+    "world",
+    "library"
+  ],
+  "dependencies": [
+    "[EconomyAPI]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "起点",
+      "description": "设置领地的起始位置",
+      "usage": "/起点",
+      "permission": "economyland.command.startp",
+      "aliases": []
+    },
+    {
+      "name": "终点",
+      "description": "设置领地的结束位置",
+      "usage": "/终点",
+      "permission": "economyland.command.endp",
+      "aliases": []
+    },
+    {
+      "name": "领地",
+      "description": "管理领地",
+      "usage": "/领地 <购买|转移|列表|查看|给予|拥有者>",
+      "permission": "economyland.command.land;economyland.command.land.list;economyland.command.land.buy;economyland.command.land.whose;economyland.command.land.move;economyland.land.give;economyland.command.land.whose;economyland.command.land.here",
+      "aliases": []
+    },
+    {
+      "name": "卖地",
+      "description": "卖掉自己的领地",
+      "usage": "/卖地 <此地|领地编号>",
+      "permission": "economyland.command.landsell;economyland.command.landsell.here;economyland.command.landsell.number",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "economyland.*",
+      "description": "Allows player to sell land with numbers",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/economyland-v2/EconomyLand-2.0.5.phar",
+      "file_name": "EconomyLand-2.0.5.phar",
+      "sha256": "fdc002b4416f1759581e7d0341e59a3fa53f3eaf1778c481ce81148765329a32",
+      "size": 42604,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyland-v2/EconomyLand-2.0.5.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "mcidea插件预装/经济领地插件指令全汉化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:10+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "plugin-v2",
+  "name": "签到箱",
+  "display_name": "签到箱",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "0.16.0",
+    "1.2.0",
+    "1.6.0",
+    "1.8.0",
+    "1.9.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.7.0",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "设置签到箱子位置.",
+  "website": null,
+  "main": "签到箱\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "qd",
+      "description": "设置签到箱子位置.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/plugin-v2/file-2.7.0.phar",
+      "file_name": "file-2.7.0.phar",
+      "sha256": "cfd9d1b895cbc537630a37e4f51e9114c6bde937fb5013ff0d706aa1a5a43293",
+      "size": 2766,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/plugin-v2/file-2.7.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/签到箱/[签到箱]QDBox.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

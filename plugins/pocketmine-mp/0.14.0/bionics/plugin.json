@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "bionics",
+  "name": "Bionics",
+  "display_name": "Bionics",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.0",
+  "author": [
+    "Spiderman"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Bionics - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "Bionics\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ill",
+      "description": "",
+      "usage": "/ill 查看药物列表",
+      "permission": "illness.command.ill",
+      "aliases": []
+    },
+    {
+      "name": "rlset",
+      "description": "",
+      "usage": "/rlset true/false [type]",
+      "permission": "illness.command.cmd",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "illness.command.ill",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "illness.command.cmd",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/bionics/Bionics-3.0.0.phar",
+      "file_name": "Bionics-3.0.0.phar",
+      "sha256": "dcbe76f53826f36e2a7b220b9f91097510f73b2108f290f1fb9f4fdde90a28e5",
+      "size": 9021,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bionics/Bionics-3.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/RealLife系列整合包[高能强势]/RealLife系列整合包/Bionics/Bionics_v3.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:48+08:00",
+  "minecraft_version_source": "api-inferred"
+}

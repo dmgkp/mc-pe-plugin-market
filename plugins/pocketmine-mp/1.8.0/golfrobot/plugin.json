@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "golfrobot",
+  "name": "GolfRobot",
+  "display_name": "聊天机器人",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.0",
+  "author": [
+    "golf"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "GolfRobot - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "GolfRobot\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/golfrobot/GolfRobot-2.0.0.phar",
+      "file_name": "GolfRobot-2.0.0.phar",
+      "sha256": "555e3a65d454eecfa3a0ea2793cae983954a21357f53ec2545053279951ffc09",
+      "size": 2195,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/golfrobot/GolfRobot-2.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/聊天机器人/聊天机器人.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:22+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "worldeditor",
+  "name": "WorldEditor",
+  "display_name": "翻新",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.2.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.3",
+  "author": [
+    "Kagehis4"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "切换魔杖的功能,使之生效(变成创世魔杖)或失效(变成普通破铁锄).",
+  "website": null,
+  "main": "WorldEditor\\WorldEditor",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "魔法",
+      "description": "切换魔杖的功能,使之生效(变成创世魔杖)或失效(变成普通破铁锄).",
+      "usage": "/魔法",
+      "permission": "worldeditor",
+      "aliases": []
+    },
+    {
+      "name": "剪切",
+      "description": "剪切当前选中的方块编辑区域.",
+      "usage": "/剪切",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "复制",
+      "description": "复制当前选中的方块编辑区域.",
+      "usage": "/复制",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "粘贴",
+      "description": "把剪切或复制的方块编辑区域粘贴到当前位置.",
+      "usage": "/粘贴",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "实心",
+      "description": "自动生成半径为r的实心球形方块区域.",
+      "usage": "/实心 <方块ID> <实心球形方块区域的半径r>",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "空心",
+      "description": "自动生成半径为r的空心球形方块区域.",
+      "usage": "/空心 <方块ID> <空心球形方块区域的半径r>",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "清除",
+      "description": "清除当前选择的方块编辑区域起点坐标和终点坐标.",
+      "usage": "/清除",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "限制",
+      "description": "设置可编辑的方块数目上限.",
+      "usage": "/限制 <可编辑的方块数目上限>",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "坐标1",
+      "description": "把你当前所站的位置设为方块编辑区域的起点坐标.",
+      "usage": "/坐标1",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "坐标2",
+      "description": "把你当前所站的位置设为方块编辑区域的终点坐标.",
+      "usage": "/坐标2",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "置换",
+      "description": "把选中的方块编辑区域内所有方块替换为给定ID的方块(点石成金)",
+      "usage": "/置换 <方块ID>",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "替换",
+      "description": "把选中的方块编辑区域内的某种方块ID替换为特定的方块ID(局部替换).",
+      "usage": "/替换 <需要被替换的某种方块ID> <替换为特定的方块ID>",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "创世神",
+      "description": "列出创世神插件相关的常用命令",
+      "usage": "/创世神",
+      "permission": "worldeditor.command",
+      "aliases": []
+    },
+    {
+      "name": "魔杖",
+      "description": "上帝赋予建筑师们的神之手:创世魔杖.",
+      "usage": "/魔杖",
+      "permission": "worldeditor.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "worldeditor",
+      "description": "Allow the usage of the WorldEditor command",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/worldeditor/WorldEditor-1.0.3.phar",
+      "file_name": "WorldEditor-1.0.3.phar",
+      "sha256": "66524ada330aa02e91321dd0db324c34c24010a13569a56406381d0b1912ae24",
+      "size": 43835,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/worldeditor/WorldEditor-1.0.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/WorldEdit--创世神[翻新]/WorldEdit--创世神.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

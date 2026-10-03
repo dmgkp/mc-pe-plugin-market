@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "devtools",
+  "name": "DevTools",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.8.0_bingshen优化",
+  "author": [
+    "PocketMine Team"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Helps develop and distribute PocketMine-MP plugins",
+  "website": null,
+  "main": "DevTools\\DevTools",
+  "tags": [
+    "admin",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ms",
+      "description": "创建一个 Phar 格式的 PocketMine-MP 核心文件",
+      "usage": "/ms",
+      "permission": "devtools.command.makeserver",
+      "aliases": []
+    },
+    {
+      "name": "mp",
+      "description": "从插件的源码创建一个 Phar 格式的插件",
+      "usage": "/mp <插件名>",
+      "permission": "devtools.command.makeplugin",
+      "aliases": []
+    },
+    {
+      "name": "cp",
+      "description": "检查发送端或玩家的权限值",
+      "usage": "/cp <值> [玩家名]",
+      "permission": "devtools.command.checkperm;devtools.command.checkperm.other",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "devtools",
+      "description": "Allows checking others permission value",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/devtools/DevTools-1.8.0_bingshen.phar",
+      "file_name": "DevTools-1.8.0_bingshen.phar",
+      "sha256": "58bc2d35c16a17c0cb0a7066484dc05da54c902f92db715cb2da6a5994fbd015",
+      "size": 7414,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/devtools/DevTools-1.8.0_bingshen.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/Devtools插件/devtools插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

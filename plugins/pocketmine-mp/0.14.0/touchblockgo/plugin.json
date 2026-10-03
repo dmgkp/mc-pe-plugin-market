@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "touchblockgo",
+  "name": "TouchBlockGo!",
+  "display_name": "传送门",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "HyperLife"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "TouchBlockGo!主命令",
+  "website": null,
+  "main": "TouchBlockGo\\TouchBlockGo",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "tb",
+      "description": "TouchBlockGo!主命令",
+      "usage": "",
+      "permission": "tb.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "tb.command",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/touchblockgo/TouchBlockGo-1.0.0.phar",
+      "file_name": "TouchBlockGo-1.0.0.phar",
+      "sha256": "fc35b3f0b1390ab45ba87a477d1d3ed2205e2d604610980f13dd9e6b92b1fc34",
+      "size": 3177,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/touchblockgo/TouchBlockGo-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/TouchBlockGo!--传送门/TouchBlockGo!--传送门.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

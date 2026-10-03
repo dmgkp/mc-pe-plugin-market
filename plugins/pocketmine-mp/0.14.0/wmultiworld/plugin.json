@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "id": "wmultiworld",
+  "name": "WMultiWorld",
+  "display_name": "多功能世界",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "Whale"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "§6多世界传送指令",
+  "website": null,
+  "main": "WMultiWorld\\WMultiWorld",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "w",
+      "description": "§6多世界传送指令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "lw",
+      "description": "§6查看世界列表",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "makemap",
+      "description": "§6新地图生成器",
+      "usage": "",
+      "permission": "wmw.command.op",
+      "aliases": []
+    },
+    {
+      "name": "setworld",
+      "description": "§6多世界其他功能",
+      "usage": "",
+      "permission": "wmw.command.op",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "wmw.command.op",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/wmultiworld/WMultiWorld-1.1.0.phar",
+      "file_name": "WMultiWorld-1.1.0.phar",
+      "sha256": "44bce645c18797814ccbba9e0070c1999b57ccc7e2316fcc6573b1a64d714e8d",
+      "size": 12761,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/wmultiworld/WMultiWorld-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/多功能世界/[多功能世界]WMultiWorld.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "cq",
+  "name": "CQ",
+  "display_name": "自定义权限命令",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.5.0",
+  "minecraft_versions": [
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=1.5.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "自定义玩家指令权限",
+  "website": null,
+  "main": "CQ\\CQ",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "givecmd",
+      "description": "自定义玩家指令权限",
+      "usage": "/givecmd",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "delcmd",
+      "description": "取消玩家指令权限",
+      "usage": "/delcmd",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.5.0/cq/CQ-1.1.0.phar",
+      "file_name": "CQ-1.1.0.phar",
+      "sha256": "62a16fed8584e056f8b0b72b871f39fae75d8f7c0462a6c3ac81aba411bc3134",
+      "size": 4332,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/cq/CQ-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/CQ--自定义权限命令/CQ_v1.1.0--自定义权限命令.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "id": "multiverse-core",
+  "name": "Multiverse-Core",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.5-b678",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Generic Multiverse Command",
+  "website": null,
+  "main": "com.onarandombox.MultiverseCore.MultiverseCore",
+  "tags": [
+    "admin",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mv",
+      "description": "Generic Multiverse Command",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvcreate",
+      "description": "World create command",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvc",
+      "description": "World create command",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvimport",
+      "description": "World import command",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvim",
+      "description": "World import command",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvremove",
+      "description": "World remove command",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvdelete",
+      "description": "World delete command",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvunload",
+      "description": "World unload command",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvmodify",
+      "description": "Modify the settings of an existing world",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvmset",
+      "description": "Modify the settings of an existing world",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvmadd",
+      "description": "Modify the settings of an existing world",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvmremove",
+      "description": "Modify the settings of an existing world",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvmclear",
+      "description": "Modify the settings of an existing world",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvm",
+      "description": "Modify the settings of an existing world",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvtp",
+      "description": "Command to teleport between Worlds",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvlist",
+      "description": "Print list of loaded Worlds",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvl",
+      "description": "Print list of loaded Worlds",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvsetspawn",
+      "description": "Set the spawn area for a particular world",
+      "usage": "/<command> -- Sets the spawn area of the current world to your location.",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvset",
+      "description": "Set the spawn area for a particular world",
+      "usage": "/<command> -- Sets the spawn area of the current world to your location.",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvss",
+      "description": "Set the spawn area for a particular world",
+      "usage": "/<command> -- Sets the spawn area of the current world to your location.",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvspawn",
+      "description": "Teleport to the spawn area",
+      "usage": "/<command> -- Teleports you to the spawn area of your current world.",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvs",
+      "description": "Teleport to the spawn area",
+      "usage": "/<command> -- Teleports you to the spawn area of your current world.",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvcoord",
+      "description": "Display World, Coordinates, Direction & Compression for a world.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvc",
+      "description": "Display World, Coordinates, Direction & Compression for a world.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvwho",
+      "description": "Display online users per world.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvw",
+      "description": "Display online users per world.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvreload",
+      "description": "Reload Configuration files.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvr",
+      "description": "Reload Configuration files.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvpurge",
+      "description": "Purge the targetted world of creatures.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvconfirm",
+      "description": "Confirms sensitive decisions like deleting a world.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvinfo",
+      "description": "Gets world info.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvi",
+      "description": "Gets world info.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvenv",
+      "description": "Tells the user all possible environment types.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvv",
+      "description": "Prints out version info.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvversion",
+      "description": "Prints out version info.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvco",
+      "description": "Displays the player's coordinates.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvh",
+      "description": "Displays the Multiverse Help.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvsearch",
+      "description": "Displays the Multiverse Help.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvhelp",
+      "description": "Displays the Multiverse Help.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvdebug",
+      "description": "Turns on debugging.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvgenerators",
+      "description": "Displays all found world generators.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvgens",
+      "description": "Displays all found world generators.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvload",
+      "description": "Loads a world into Multiverse.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvregen",
+      "description": "Regenerates a world Multiverse already knows about.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvscript",
+      "description": "Runs a script from the Multiverse scripts directory.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvclone",
+      "description": "World clone command",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvsilent",
+      "description": "Reduces startup messages",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvgamerule",
+      "description": "Sets a gamerule.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvrule",
+      "description": "Sets a gamerule.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvgamerules",
+      "description": "Lists the gamerules.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mvrules",
+      "description": "Lists the gamerules.",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/other/unknown/multiverse-core/Multiverse-Core-2.5-b678.jar",
+      "file_name": "Multiverse-Core-2.5-b678.jar",
+      "sha256": "7e9e33bad4cc53715e234ac24e2c1c5ead0506009346b3193e7c2df8b273e5c4",
+      "size": 1643924,
+      "download_paths": {
+        "github": "plugins/other/unknown/multiverse-core/Multiverse-Core-2.5-b678.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[多世界]Multiverse-Core-2.5.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

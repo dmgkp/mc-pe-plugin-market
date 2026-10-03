@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "rssell",
+  "name": "RsSell",
+  "display_name": "回收插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "zmdd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "RsSell - Minecraft Bedrock plugin for nukkit.",
+  "website": null,
+  "main": "Rs.Plugin.Sell.SellMainClass",
+  "tags": [
+    "economy"
+  ],
+  "dependencies": [
+    "RsFunction",
+    "RsMoney"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/rssell/RsSell-1.0.0.jar",
+      "file_name": "RsSell-1.0.0.jar",
+      "sha256": "7e9faf92658087a9e5e35b358d530224719edd17cc8d7f474673f937584539ea",
+      "size": 13599,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rssell/RsSell-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NKrs回收插件/NKrs回收插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "protocollib",
+  "name": "ProtocolLib",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.6.4",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Provides read/write access to the Minecraft protocol.",
+  "website": null,
+  "main": "com.comphenix.protocol.ProtocolLibrary",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "protocol",
+      "description": "Performs administrative tasks regarding ProtocolLib.",
+      "usage": "/<command> config|timings|listeners|version",
+      "permission": "protocol.admin",
+      "aliases": []
+    },
+    {
+      "name": "packet",
+      "description": "Add or remove a simple packet listener.",
+      "usage": "/<command> add|remove|names client|server [ID start]-[ID stop] [detailed]",
+      "permission": "protocol.admin",
+      "aliases": []
+    },
+    {
+      "name": "filter",
+      "description": "Add or remove programmable filters to the packet listeners.",
+      "usage": "/<command> add|remove name [ID start]-[ID stop]",
+      "permission": "protocol.admin",
+      "aliases": [
+        "packet_filter"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "protocol.*",
+      "description": "Gives access to everything.",
+      "default": ""
+    },
+    {
+      "name": "protocol.admin",
+      "description": "Able to initiate the update process, and can configure debug mode.",
+      "default": "op"
+    },
+    {
+      "name": "protocol.info",
+      "description": "Can read update notifications and error reports.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/other/unknown/protocollib/ProtocolLib-3.6.4.jar",
+      "file_name": "ProtocolLib-3.6.4.jar",
+      "sha256": "cb7aff23ea7206e4e5df7646a68181e1a82f4d11257bb158989ed4c69805a204",
+      "size": 1448394,
+      "download_paths": {
+        "github": "plugins/other/unknown/protocollib/ProtocolLib-3.6.4.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[前置]ProtocolLib.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

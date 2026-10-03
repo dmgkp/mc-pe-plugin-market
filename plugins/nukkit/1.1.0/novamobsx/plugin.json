@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "novamobsx",
+  "name": "NovaMobsX",
+  "display_name": "生物",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.5"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1",
+  "author": [
+    "PikyCZ"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Spawn a simple mob to the player, that is using this command",
+  "website": null,
+  "main": "com.pikycz.novamobs.NovaMobsX",
+  "tags": [
+    "world",
+    "admin",
+    "gameplay",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mob",
+      "description": "Spawn a simple mob to the player, that is using this command",
+      "usage": "/mob",
+      "permission": "novamobs.mob",
+      "aliases": [
+        "mob"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "novamobs.mob",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/novamobsx/NovaMobsX-1.1.jar",
+      "file_name": "NovaMobsX-1.1.jar",
+      "sha256": "1d4c298a76994363643cd6cbd0776f4517ee2d187637d70c2822755984e9613a",
+      "size": 153055,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/novamobsx/NovaMobsX-1.1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/Nukkit插件/NoveMobX--生物AI/NovaMobX_v1.1.1--生物AI.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:51+08:00",
+  "minecraft_version_source": "api-inferred"
+}

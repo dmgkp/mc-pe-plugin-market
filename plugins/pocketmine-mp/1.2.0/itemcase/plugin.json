@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "itemcase",
+  "name": "ItemCase",
+  "display_name": "插件预装",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.2.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "1.2.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.6.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "DeBe",
+  "author": [
+    "DeBe"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "ItemCase - Command",
+  "website": null,
+  "main": "DeBePlugins\\ItemCase\\ItemCase",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "itemcase",
+      "description": "ItemCase - Command",
+      "usage": "/ItemCase <Add|Del|Reset|Respawn|Glass>",
+      "permission": "debe.itemcase.cmd",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "debe",
+      "description": "ItemCase - Spawn itemcase",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.2.0/itemcase/ItemCase-DeBe.phar",
+      "file_name": "ItemCase-DeBe.phar",
+      "sha256": "dc6ff5715bd038ea993746aab695b464f9d130daf8bff91be988655a3cb532e6",
+      "size": 10952,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/itemcase/ItemCase-DeBe.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "mcidea插件预装/物品展示.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:10+08:00",
+  "minecraft_version_source": "api-inferred"
+}

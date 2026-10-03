@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "minesex",
+  "name": "MineSex",
+  "display_name": "简单性别",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=1.6.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0 Beta",
+  "author": [
+    "Kirt"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Hey, lady.",
+  "website": null,
+  "main": "Kirt\\MineSex\\MineSex",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "setsex",
+      "description": "Change someone's sex",
+      "usage": "/setsex <player> <sex>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "setlevel",
+      "description": "Change someone's level",
+      "usage": "/setlexel <player> <number>",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/minesex/MineSex-1.0.0_Beta.phar",
+      "file_name": "MineSex-1.0.0_Beta.phar",
+      "sha256": "f10a53edf0464473fafbffd53b6e5dda9ee0568754b115b4827b2b9d0a6c0c99",
+      "size": 8204,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/minesex/MineSex-1.0.0_Beta.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "beta",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/简单性别/简单性别.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:21+08:00",
+  "minecraft_version_source": "api-inferred"
+}

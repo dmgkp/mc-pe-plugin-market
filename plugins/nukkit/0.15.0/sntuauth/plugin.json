@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "id": "sntuauth",
+  "name": "SntuAuth",
+  "display_name": "SntuAuth",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2",
+  "author": [
+    "Huiyuzhe"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SNTU登录指令",
+  "website": null,
+  "main": "cn.sntumc.nukkit.sntuauth.Main",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "log",
+      "description": "SNTU登录指令",
+      "usage": "使用 / log [密码]",
+      "permission": "SntuAuth.command.log",
+      "aliases": []
+    },
+    {
+      "name": "reg",
+      "description": "SNTU注册指令",
+      "usage": "使用 / reg [密码] [确认密码]",
+      "permission": "SntuAuth.command.reg",
+      "aliases": []
+    },
+    {
+      "name": "login",
+      "description": "SNTU登录指令",
+      "usage": "可直接替换为 / log [密码]",
+      "permission": "SntuAuth.command.log",
+      "aliases": []
+    },
+    {
+      "name": "register",
+      "description": "SNTU注册指令",
+      "usage": "可直接替换为/reg [密码] [确认密码]",
+      "permission": "SntuAuth.command.reg",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "SntuAuth.command.log",
+      "description": "SNTU登录指令",
+      "default": "true"
+    },
+    {
+      "name": "SntuAuth.command.reg",
+      "description": "SNTU注册指令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/0.15.0/sntuauth/SntuAuth-1.2.jar",
+      "file_name": "SntuAuth-1.2.jar",
+      "sha256": "8785e21c64469629faa9b0b0f412304482291e99bce1401e1d51809867d7e7e4",
+      "size": 15525,
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/sntuauth/SntuAuth-1.2.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/相关资源/PE Server 核心/Nukkit v0.15.x/plugins/SntuAuth V1.2.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:33+08:00",
+  "minecraft_version_source": "path"
+}

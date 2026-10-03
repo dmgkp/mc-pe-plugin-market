@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "happy-go",
+  "name": "happy_go",
+  "display_name": "抢红包",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.4.0",
+  "minecraft_versions": [
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=1.4.0 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.8.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "cpera_qq：1710637899"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "呵呵呵呵",
+  "website": null,
+  "main": "happy\\MainClass",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "爱服主",
+      "description": "呵呵呵呵",
+      "usage": "/爱服主",
+      "permission": "fuckbear.xxp",
+      "aliases": []
+    },
+    {
+      "name": "发红包",
+      "description": "你说呢",
+      "usage": "/发红包 money",
+      "permission": "fuckbear.xxp",
+      "aliases": []
+    },
+    {
+      "name": "抢红包",
+      "description": "go!",
+      "usage": "/抢红包",
+      "permission": "fuckbear.xxp",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "fuckbear.xxo",
+      "description": "oo",
+      "default": "op"
+    },
+    {
+      "name": "fuckbear.xxp",
+      "description": "oo",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.4.0/happy-go/happy_go-1.0.2.phar",
+      "file_name": "happy_go-1.0.2.phar",
+      "sha256": "e580e0e93a9e7b7e6787129c07f1aa744605902c4206ee398a55ef25a83833dc",
+      "size": 5572,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.4.0/happy-go/happy_go-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/抢红包/抢红包.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

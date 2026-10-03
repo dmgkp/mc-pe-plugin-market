@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "chestcommands",
+  "name": "ChestCommands",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.1.2",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Main command for ChestCommands.",
+  "website": null,
+  "main": "com.gmail.filoghost.chestcommands.ChestCommands",
+  "tags": [
+    "admin",
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[Vault, BarAPI, PlayerPoints]"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "chestcommands",
+      "description": "Main command for ChestCommands.",
+      "usage": "/<command> (Startup error)",
+      "permission": "",
+      "aliases": [
+        "cc"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "chestcommands.economy.bypass",
+      "description": "Bypass command costs.",
+      "default": "false"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/chestcommands/ChestCommands-3.1.2.jar",
+      "file_name": "ChestCommands-3.1.2.jar",
+      "sha256": "6e5354509993849ac2b9d024f99c9557e747f05612a74cf443fa30bfead01015",
+      "size": 127348,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/chestcommands/ChestCommands-3.1.2.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[菜单]ChestCommands.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "runningman",
+  "name": "RunningMan",
+  "display_name": "撕名牌",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "[\"qitu\",\"FENGberd\"]"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "传说中的撕名牌插件",
+  "website": null,
+  "main": "RunningMan\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "runset",
+      "description": "RunningMan设置指令",
+      "usage": "/runset <set>",
+      "permission": "RunningMan.command.runset",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "RunningMan.command.runset",
+      "description": "设置游戏指令权限",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/runningman/RunningMan-1.0.0.phar",
+      "file_name": "RunningMan-1.0.0.phar",
+      "sha256": "d6de7f43791fb74e890b0a76cb547e923bda1ac5db5e130aac0da432b9960459",
+      "size": 5182,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/runningman/RunningMan-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/撕名牌/撕名牌插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

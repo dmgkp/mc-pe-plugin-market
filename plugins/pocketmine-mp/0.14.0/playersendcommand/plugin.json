@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "playersendcommand",
+  "name": "PlayerSendCommand",
+  "display_name": "强制玩家执行命令插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "linger"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "/cplayer [名字] [指令(不加/)]",
+  "website": null,
+  "main": "PlayerSendCommand\\PlayerSendCommand",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cplayer",
+      "description": "/cplayer [名字] [指令(不加/)]",
+      "usage": "/cplayer [名字] [指令(不加/)]",
+      "permission": "PlayerSendCommand.",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "PlayerSendCommand.",
+      "description": "OP允许!",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/playersendcommand/PlayerSendCommand-1.0.0.phar",
+      "file_name": "PlayerSendCommand-1.0.0.phar",
+      "sha256": "814d67204b9104cabd50c74de7071741938c91fb8a98fb64e75589484467305c",
+      "size": 8446,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/playersendcommand/PlayerSendCommand-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/PSC强制玩家执行命令插件/PlayerSendCommand_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:24+08:00",
+  "minecraft_version_source": "api-inferred"
+}

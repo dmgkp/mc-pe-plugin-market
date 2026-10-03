@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "id": "ld",
+  "name": "ld",
+  "display_name": "领地带显示插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "流星优化",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows player to use all functions in EconomyLand",
+  "website": null,
+  "main": "onebone\\economyland\\EconomyLand",
+  "tags": [
+    "economy",
+    "world",
+    "library"
+  ],
+  "dependencies": [
+    "[EconomyAPI]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "setp",
+      "description": "Switch select point mode",
+      "usage": "/setp",
+      "permission": "economyland.command.startp",
+      "aliases": []
+    },
+    {
+      "name": "startp",
+      "description": "Sets start position",
+      "usage": "/startp",
+      "permission": "economyland.command.startp",
+      "aliases": []
+    },
+    {
+      "name": "endp",
+      "description": "Sets second position",
+      "usage": "/endp",
+      "permission": "economyland.command.endp",
+      "aliases": []
+    },
+    {
+      "name": "land",
+      "description": "Manage land",
+      "usage": "/land <buy|move|list|whose|give|here>",
+      "permission": "economyland.command.land;economyland.command.land.list;economyland.command.land.buy;economyland.command.land.whose;economyland.command.land.move;economyland.land.give;economyland.command.land.whose;economyland.command.land.here",
+      "aliases": []
+    },
+    {
+      "name": "l",
+      "description": "Manage land",
+      "usage": "/land <buy|move|list|whose|give|here>",
+      "permission": "economyland.command.land;economyland.command.land.list;economyland.command.land.buy;economyland.command.land.whose;economyland.command.land.move;economyland.land.give;economyland.command.land.whose;economyland.command.land.here",
+      "aliases": []
+    },
+    {
+      "name": "landsell",
+      "description": "Sell land",
+      "usage": "/landsell <here|land num>",
+      "permission": "economyland.command.landsell;economyland.command.landsell.here;economyland.command.landsell.number",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "economyland.*",
+      "description": "Allows player to sell land with numbers",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/ld/ld-file.phar",
+      "file_name": "ld-file.phar",
+      "sha256": "1df05e08848bef925e40144105e7fbb54b734d4dee2ab0718087a0bbe51edecf",
+      "size": 50657,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/ld/ld-file.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/领地带显示插件/领地插件带显示.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:24+08:00",
+  "minecraft_version_source": "api-inferred"
+}

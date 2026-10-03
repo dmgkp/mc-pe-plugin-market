@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "fireblade",
+  "name": "FireBlade",
+  "display_name": "燃烧剑",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "aliuly"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Turn a Sword into a flaming sword",
+  "website": null,
+  "main": "aliuly\\fireblade\\FireBlade",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fireblade",
+      "description": "Turn your sword into a flaming sword",
+      "usage": "/fireblade",
+      "permission": "fireblade.cmd",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "fireblade.cmd",
+      "description": "allow players to use fireblades",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/fireblade/FireBlade-1.0.2.phar",
+      "file_name": "FireBlade-1.0.2.phar",
+      "sha256": "7ba0ff262e625c2c369531fabeb88d41a4603a0f569667ad7dea8524d2d29512",
+      "size": 3053,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/fireblade/FireBlade-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/燃烧剑/燃烧剑.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

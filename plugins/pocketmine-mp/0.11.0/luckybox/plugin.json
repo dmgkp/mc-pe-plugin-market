@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "luckybox",
+  "name": "Luckybox",
+  "display_name": "Luckybox",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.15.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.1.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "mckm"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": " !",
+  "website": null,
+  "main": "Luckybox\\main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/luckybox/Luckybox-1.0.0.phar",
+      "file_name": "Luckybox-1.0.0.phar",
+      "sha256": "98c4d5ca6d1f121975006846f75323a9177fe8136967c6d0febf847142278d99",
+      "size": 2729,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/luckybox/Luckybox-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/Luckybox_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

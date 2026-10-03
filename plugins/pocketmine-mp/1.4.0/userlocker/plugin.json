@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "userlocker",
+  "name": "userlocker",
+  "display_name": "防小号",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.4.0",
+  "minecraft_versions": [
+    "1.4.0"
+  ],
+  "minecraft_version_range": ">=1.4.0 <1.5.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.8.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "cpera"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "userlocker - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "userlock\\MainClass",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.4.0/userlocker/userlocker-1.0.2.phar",
+      "file_name": "userlocker-1.0.2.phar",
+      "sha256": "24f4c101c1af188c3263e0f2469acca0726bc88a408600fdf90ee4a5315be918",
+      "size": 3095,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.4.0/userlocker/userlocker-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/防小号/防小号.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:24+08:00",
+  "minecraft_version_source": "api-inferred"
+}

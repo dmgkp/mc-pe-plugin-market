@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "exp",
+  "name": "Exp",
+  "display_name": "等级插件最新版",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12."
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.2.1",
+  "author": [
+    "MagicDroidX (c) 2011-2015"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "升级系统+实时显示[定制插件]",
+  "website": null,
+  "main": "MagicDroidX\\Exp",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "glory",
+      "description": "兑换荣耀",
+      "usage": "/glory <编号> <数量>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "setgrade",
+      "description": "设置玩家等级",
+      "usage": "/setgrade <ID> <等级>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "giveglory",
+      "description": "",
+      "usage": "/giveglory <ID> <数量>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "health",
+      "description": "设置玩家最大血量",
+      "usage": "/health <ID> <血量>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "money",
+      "description": "每日领取",
+      "usage": "/money",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "skills",
+      "description": "技能学习",
+      "usage": "/skills <编号> <数量>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "setskills",
+      "description": "设置玩家技能点",
+      "usage": "/setskills <ID> <点数>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "qdskills",
+      "description": "每日领取技能点VIP+专属",
+      "usage": "/qdskills",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/exp/Exp-2.2.1.phar",
+      "file_name": "Exp-2.2.1.phar",
+      "sha256": "95596407b7483d7654623af715fb2b1547f23432bc08fd247a70e981e1697997",
+      "size": 43830,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/exp/Exp-2.2.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/等级插件最新版/最新版等级.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:30+08:00",
+  "minecraft_version_source": "path"
+}

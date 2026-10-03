@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "samoneyft",
+  "name": "SaMoneyFt",
+  "display_name": "研究用",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.2.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.5.1",
+  "author": [
+    "SaucdX1122"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SaMoneyFt - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "SaMoneyFt\\Main",
+  "tags": [
+    "economy"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "saftset",
+      "description": "",
+      "usage": "/saftset",
+      "permission": "saftset.all",
+      "aliases": []
+    },
+    {
+      "name": "saftdel",
+      "description": "",
+      "usage": "/saftdel",
+      "permission": "saftdel.all",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "saftset.all",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "saftdel.all",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/samoneyft/SaMoneyFt-1.5.1.phar",
+      "file_name": "SaMoneyFt-1.5.1.phar",
+      "sha256": "b305592369c5bdbae923171fae36a21a830b6db6f3ab258910f1405c46317b8a",
+      "size": 2600,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/samoneyft/SaMoneyFt-1.5.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/浮空金币排行榜 - 研究用/[浮空金币排行榜]SaMoneyFt.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

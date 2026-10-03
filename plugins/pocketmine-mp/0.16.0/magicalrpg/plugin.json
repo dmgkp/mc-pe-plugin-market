@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "magicalrpg",
+  "name": "MagicalRPG",
+  "display_name": "超级副本修复版",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.3.7",
+  "author": [
+    "shenqitieba"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "/ma help 帮助",
+  "website": null,
+  "main": "ARPG\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ma",
+      "description": "/ma help 帮助",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/magicalrpg/MagicalRPG-2.3.7.phar",
+      "file_name": "MagicalRPG-2.3.7.phar",
+      "sha256": "8f46679f8ba2146ee214657cec39d672bd3568084d62344dc9838c2b5019c23e",
+      "size": 332533,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/magicalrpg/MagicalRPG-2.3.7.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/超级副本修复版/[副本]ARPG.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

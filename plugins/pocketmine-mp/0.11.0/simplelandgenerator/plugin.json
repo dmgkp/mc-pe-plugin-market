@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "simplelandgenerator",
+  "name": "SimpleLandGenerator",
+  "display_name": "领地生成器",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "MUedsa"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SimpleLandGenerator",
+  "website": null,
+  "main": "SimpleLandGenerator\\MainClass",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/simplelandgenerator/SimpleLandGenerator-1.0.0.phar",
+      "file_name": "SimpleLandGenerator-1.0.0.phar",
+      "sha256": "9fcfd3a56605a875a348fc8dfbd8298c9237a40dc95a9e3f1986fcb0e80b6036",
+      "size": 4419,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/simplelandgenerator/SimpleLandGenerator-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/领地生成器/领地生成器.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

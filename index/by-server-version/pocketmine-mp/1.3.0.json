@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.3.0",
+  "count": 3,
+  "plugins": [
+    {
+      "id": "delbear",
+      "name": "DelBear",
+      "display_name": "DelBear",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/0.11.0/delbear/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/delbear/DelBear-1.1.0.phar",
+      "sha256": "30fa3fe7391c4ade114ef2fc1478d533679eed78f90a4b6664e6d182a6a5c38d",
+      "size": 4622,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/delbear/DelBear-1.1.0.phar"
+      }
+    },
+    {
+      "id": "pc",
+      "name": "清除PC方块",
+      "display_name": "方块",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/pc/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/pc/PC-1.0.1.phar",
+      "sha256": "86a8e3bef3a49dcb0382a905aa613918364ee8bea3fb439bbb3a4f1cda280d1b",
+      "size": 2695,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/pc/PC-1.0.1.phar"
+      }
+    },
+    {
+      "id": "pc",
+      "name": "清除PC方块",
+      "display_name": "方块",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.0.0/pc/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/pc/PC-1.0.1.phar",
+      "sha256": "86a8e3bef3a49dcb0382a905aa613918364ee8bea3fb439bbb3a4f1cda280d1b",
+      "size": 2695,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/pc/PC-1.0.1.phar"
+      }
+    }
+  ]
+}

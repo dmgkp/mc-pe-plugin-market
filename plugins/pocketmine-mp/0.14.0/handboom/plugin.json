@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "handboom",
+  "name": "HandBoom",
+  "display_name": "手榴弹插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "Magic_lu"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "§bHandBoom-查看道具",
+  "website": null,
+  "main": "HandBoom\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "description",
+      "description": "",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "usage",
+      "description": "",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "permission",
+      "description": "",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "default",
+      "description": "",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/handboom/HandBoom-1.0.1.phar",
+      "file_name": "HandBoom-1.0.1.phar",
+      "sha256": "4f75bc4bfeeb58c7fe1767a88a4c2df978dbc9e980f91b4fc8be4cc186c25509",
+      "size": 2732,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/handboom/HandBoom-1.0.1.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "handboom-1.0.0.phar",
+        "sha256": "e4fec268f9d15251231808084e698fa3df2acb0c3158e85bc497e96650d4910e",
+        "size": 2811
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/HandBoom手榴弹插件/HandBoom_v1.0.1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:21+08:00",
+  "minecraft_version_source": "api-inferred"
+}

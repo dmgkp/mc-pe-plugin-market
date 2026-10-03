@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "nobreak",
+  "name": "NoBreak",
+  "display_name": "地图保护",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.6",
+  "author": [
+    "guestc"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "[NoBreak] 禁止破坏",
+  "website": null,
+  "main": "Top\\_NoBreak\\NoBreak",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "nobreak",
+      "description": "[NoBreak] 禁止破坏",
+      "usage": "",
+      "permission": "top.command.nobreak",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "top.command.nobreak",
+      "description": "/nobreak",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/nobreak/NoBreak-1.0.6.phar",
+      "file_name": "NoBreak-1.0.6.phar",
+      "sha256": "526e242661dd78076ba9cab946dc5d3b9bd428ed47bcf1ebf60a7c995ea9e686",
+      "size": 7750,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/nobreak/NoBreak-1.0.6.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/地图保护/地图保护.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:16+08:00",
+  "minecraft_version_source": "api-inferred"
+}

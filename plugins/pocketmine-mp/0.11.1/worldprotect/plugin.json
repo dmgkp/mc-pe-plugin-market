@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "id": "worldprotect",
+  "name": "WorldProtect",
+  "display_name": "世界保护新版",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.1.0",
+    "1.5.0",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.2",
+  "author": [
+    "aliuly"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "protect worlds from griefers, pvp, limits and borders",
+  "website": null,
+  "main": "aliuly\\worldprotect\\Main",
+  "tags": [
+    "world",
+    "gameplay",
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "worldprotect",
+      "description": "Manage worlds",
+      "usage": "/wp <help|sub-cmd> [options]",
+      "permission": "wp.cmd.all",
+      "aliases": [
+        "wp"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "wp.motd",
+      "description": "Display MOTD",
+      "default": "true"
+    },
+    {
+      "name": "wp.cmd.all",
+      "description": "Allow access to protect command",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.protect",
+      "description": "Change protect mode",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.protect.auth",
+      "description": "Permit place/destroy in protected worlds",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.border",
+      "description": "Allow contfol of border functionality",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.pvp",
+      "description": "Allow PvP controls",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.noexplode",
+      "description": "Allow NoExplode controls",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.limit",
+      "description": "Allow control to limit functionality",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.wpmotd",
+      "description": "Allow editing the motd",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.addrm",
+      "description": "Allow modifying the auth list",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.unbreakable",
+      "description": "Modify unbreakable block list",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.banitem",
+      "description": "Ban/unban items",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.info",
+      "description": "Show WP config info",
+      "default": "true"
+    },
+    {
+      "name": "wp.cmd.gm",
+      "description": "Allow setting a per-world gamemode",
+      "default": "op"
+    },
+    {
+      "name": "wp.cmd.gm.exempt",
+      "description": "Users with this permissions will ignore per world gm",
+      "default": "false"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/worldprotect/WorldProtect-2.0.2.phar",
+      "file_name": "WorldProtect-2.0.2.phar",
+      "sha256": "fb8827f6858964cfeb4887c9617bc65f3998a23ed71081785d82884d3f7bcf0b",
+      "size": 32090,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/worldprotect/WorldProtect-2.0.2.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.5": [
+      {
+        "file_name": "WorldProtect-1.5.phar",
+        "sha256": "842c7cc532c3171459b8adbe7ef24e6bbe092bd35618fbac218338aca170fc79",
+        "size": 2404
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/世界保护新版/世界保护新版.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

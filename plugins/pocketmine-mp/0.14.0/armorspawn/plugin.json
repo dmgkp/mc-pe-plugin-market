@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "armorspawn",
+  "name": "ArmorSpawn",
+  "display_name": "新手福利插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0",
+  "author": [
+    "LDX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows access to all ArmorSpawn features.",
+  "website": null,
+  "main": "LDX\\ArmorSpawn\\Main",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "armorspawn",
+      "description": "Allows you to receive armor when you spawn.",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/armorspawn/ArmorSpawn-2.0.phar",
+      "file_name": "ArmorSpawn-2.0.phar",
+      "sha256": "22563c66c7ab54ce38cda13d0e3a041bd97927e3ead0b116f7a992d5f35b495e",
+      "size": 1740,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/armorspawn/ArmorSpawn-2.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/新手福利插件/新手福利.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

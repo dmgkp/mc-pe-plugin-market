@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "awtmessage",
+  "name": "AwtMessage",
+  "display_name": "AwtMessage",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <0.16.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.2-SNAPSNOT",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "AwtMessage Nukkit版",
+  "website": null,
+  "main": "com.awt.AwtMessage.Main",
+  "tags": [
+    "chat"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "am",
+      "description": "AwtMessage 插件菜单",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/0.15.0/awtmessage/AwtMessage-0.0.2-SNAPSNOT.jar",
+      "file_name": "AwtMessage-0.0.2-SNAPSNOT.jar",
+      "sha256": "d4eabf31d40830e291baa57b9233995832ea5833f2cdc0fa194a4972a18e85fa",
+      "size": 6270,
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/awtmessage/AwtMessage-0.0.2-SNAPSNOT.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/相关资源/PE Server 核心/Nukkit v0.15.x/plugins/AwtMessage.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:33+08:00",
+  "minecraft_version_source": "path"
+}

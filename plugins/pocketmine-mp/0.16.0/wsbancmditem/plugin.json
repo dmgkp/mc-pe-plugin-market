@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "wsbancmditem",
+  "name": "WsBanCmdItem",
+  "display_name": "物品",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Wshape1"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "WsBanCmdItem禁用命令",
+  "website": null,
+  "main": "WsBanCmdItem\\Main",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "wbanc",
+      "description": "WsBanCmdItem禁用命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "wbani",
+      "description": "WsBanCmdItem禁用物品",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "wbana",
+      "description": "WsBanCmdItem管理员命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/wsbancmditem/WsBanCmdItem-1.0.0.phar",
+      "file_name": "WsBanCmdItem-1.0.0.phar",
+      "sha256": "2a575579672640b3147e50141da54b690031c5199f116183fc5506ce887048af",
+      "size": 2716,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/wsbancmditem/WsBanCmdItem-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/WsBanCmdItem--禁止命令and物品/WsBanCmdItem_v1.0.0--禁止命令and物品.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:54+08:00",
+  "minecraft_version_source": "api-inferred"
+}

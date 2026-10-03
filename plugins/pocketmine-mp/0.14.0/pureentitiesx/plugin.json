@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "pureentitiesx",
+  "name": "PureEntitiesX",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.1.1_dev",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Implement all MCPE entities into your worlds",
+  "website": null,
+  "main": "revivalpmmp\\pureentities\\PureEntities",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/pureentitiesx/PureEntitiesX-0.1.1_dev.phar",
+      "file_name": "PureEntitiesX-0.1.1_dev.phar",
+      "sha256": "f31a8f440d5198a6f8bae298135efb5d929e890ad7925aac7851f7915e8d2e36",
+      "size": 552297,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/pureentitiesx/PureEntitiesX-0.1.1_dev.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "alpha",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/PureEntitiesX生物AI插件/PureEntitiesX_v0.1.1_dev.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:25+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "prizewin",
+  "name": "PrizeWin",
+  "display_name": "跑酷奖励汉化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.5.0",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.3",
+  "author": [
+    "LilCrispy2o9/Angelo Vidrio"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Gives a prize on command!",
+  "website": null,
+  "main": "PrizeWin\\Main",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pw",
+      "description": "Awards sender with a prize!",
+      "usage": "",
+      "permission": "pw.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "pw.command",
+      "description": "Awards sender with a prize!",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/prizewin/PrizeWin-1.0.3.phar",
+      "file_name": "PrizeWin-1.0.3.phar",
+      "sha256": "11a26e25510e9c99ed56045933c5a4d5e2332d606f06d5bcfc3505cf4826b213",
+      "size": 4439,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/prizewin/PrizeWin-1.0.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/跑酷奖励汉化/跑酷奖励汉化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:31+08:00",
+  "minecraft_version_source": "path"
+}

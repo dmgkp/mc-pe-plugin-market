@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "plugin",
+  "name": "史蒂夫大战僵尸",
+  "display_name": "史蒂夫大战僵尸",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.2.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "0.16.0",
+    "1.2.0",
+    "1.6.0",
+    "1.8.0",
+    "1.9.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.1.0",
+  "author": [
+    "boybook"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "ZombieVsSteve Game in PE!",
+  "website": null,
+  "main": "ZombieVsSteve\\ZombieVsSteve",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "zvsstart",
+      "description": "start a game in a room",
+      "usage": "/zvsstart <room>",
+      "permission": "ZombieVsSteve.command.zvsstart",
+      "aliases": []
+    },
+    {
+      "name": "zvsstop",
+      "description": "stop a game in a room",
+      "usage": "/zvsstop <room>",
+      "permission": "ZombieVsSteve.command.zvsstop",
+      "aliases": []
+    },
+    {
+      "name": "zvsgo",
+      "description": "Maternal zombie",
+      "usage": "/zvsgo <room>",
+      "permission": "ZombieVsSteve.command.zvsgo",
+      "aliases": []
+    },
+    {
+      "name": "zvstest",
+      "description": "see the array of gamers",
+      "usage": "/zvstest",
+      "permission": "ZombieVsSteve.command.zvstest",
+      "aliases": []
+    },
+    {
+      "name": "join",
+      "description": "join room",
+      "usage": "/join <room number>",
+      "permission": "ZombieVsSteve.command.join",
+      "aliases": []
+    },
+    {
+      "name": "zvsrb",
+      "description": "rollback the maps",
+      "usage": "/rb <room number>",
+      "permission": "ZombieVsSteve.command.rb",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ZombieVsSteve",
+      "description": "rollback",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.2.0/plugin/file-2.1.0.phar",
+      "file_name": "file-2.1.0.phar",
+      "sha256": "f4d44626435053ffb1b74e05a6f0065a39466805f15247576596d7779ee86291",
+      "size": 126692,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/plugin/file-2.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/史蒂夫大战僵尸/史蒂夫大战僵尸.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:15+08:00",
+  "minecraft_version_source": "api-inferred"
+}

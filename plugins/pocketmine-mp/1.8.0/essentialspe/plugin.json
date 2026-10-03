@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "essentialspe",
+  "name": "EssentialsPE",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "LegendsOfMCPE Team"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allow to access to every EssentialsPE feature",
+  "website": null,
+  "main": "EssentialsPE\\Loader",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "essentials",
+      "description": "Get the price of an item",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/essentialspe/EssentialsPE-1.1.0.phar",
+      "file_name": "EssentialsPE-1.1.0.phar",
+      "sha256": "86c23e9bbaef18db916cbf2e8aa423d5ac7afb9164cf6e1e3fb78ff6b645e532",
+      "size": 360821,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/essentialspe/EssentialsPE-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/ESS插件/ESS插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

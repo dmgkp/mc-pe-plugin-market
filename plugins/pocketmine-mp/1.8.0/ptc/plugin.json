@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "ptc",
+  "name": "ptc",
+  "display_name": "粒子系列插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "homenear"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "粒子系列插件-粒子爆血+更多",
+  "website": null,
+  "main": "ptc\\ptc",
+  "tags": [
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pt",
+      "description": "粒子系列插件-粒子爆血+更多",
+      "usage": "/pt",
+      "permission": "ptc.command.pt",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ptc.command.pt",
+      "description": "粒子系列插件-粒子爆血+更多",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/ptc/ptc-1.0.0.phar",
+      "file_name": "ptc-1.0.0.phar",
+      "sha256": "57a742b671bd27940add80ca16dac6378fa681d6445341aa82a3e15c3bed6fe4",
+      "size": 9433,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/ptc/ptc-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/粒子系列插件/粒子系列.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:21+08:00",
+  "minecraft_version_source": "api-inferred"
+}

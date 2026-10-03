@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "pointcard",
+  "name": "PointCard",
+  "display_name": "点卡",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.4",
+  "author": [
+    "CKylinMC"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "PointCard兑换",
+  "website": null,
+  "main": "CsNle\\PointCard\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pc",
+      "description": "PointCard兑换",
+      "usage": "/pc <cdk>",
+      "permission": "pc.cmd.pc",
+      "aliases": []
+    },
+    {
+      "name": "pcmgr",
+      "description": "PointCard管理",
+      "usage": "/pcmgr <options>",
+      "permission": "pc.cmd.pcmgr",
+      "aliases": []
+    },
+    {
+      "name": "pcgen",
+      "description": "PointCard生成",
+      "usage": "/pcgen <options>",
+      "permission": "pc.cmd.pcgen",
+      "aliases": []
+    },
+    {
+      "name": "pcget",
+      "description": "PointCard获取",
+      "usage": "/pcget <cdk>",
+      "permission": "pc.cmd.pcget",
+      "aliases": []
+    },
+    {
+      "name": "pclog",
+      "description": "PointCard查询",
+      "usage": "/pclog <cdk>",
+      "permission": "pc.cmd.pclog",
+      "aliases": []
+    },
+    {
+      "name": "pcreset",
+      "description": "PointCard重置",
+      "usage": "/pcreset <cdk>",
+      "permission": "pc.cmd.pcreset",
+      "aliases": []
+    },
+    {
+      "name": "pcclose",
+      "description": "PointCard关闭",
+      "usage": "/pcclose <cdk>",
+      "permission": "pc.cmd.pcclose",
+      "aliases": []
+    },
+    {
+      "name": "vipinfo",
+      "description": "VIP信息打印",
+      "usage": "/vipinfo <player>",
+      "permission": "pc.cmd.vipinfo",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "pc.cmd.pc",
+      "description": "玩家兑换权限",
+      "default": "true"
+    },
+    {
+      "name": "pc.cmd.vipinfo",
+      "description": "玩家VIP查询权限",
+      "default": "true"
+    },
+    {
+      "name": "pc.cmd.pcmgr",
+      "description": "管理员管理权",
+      "default": "op"
+    },
+    {
+      "name": "pc.cmd.pclog",
+      "description": "卡密日志查询",
+      "default": "op"
+    },
+    {
+      "name": "pc.cmd.pcgen",
+      "description": "卡密生成权限",
+      "default": "op"
+    },
+    {
+      "name": "pc.cmd.pcget",
+      "description": "卡密查看权限",
+      "default": "op"
+    },
+    {
+      "name": "pc.cmd.pcreset",
+      "description": "卡密重置权限",
+      "default": "op"
+    },
+    {
+      "name": "pc.cmd.pcclose",
+      "description": "卡密关停权限",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/pointcard/PointCard-2.0.4.phar",
+      "file_name": "PointCard-2.0.4.phar",
+      "sha256": "83bcc54bcfa490f86e7e7ba799fb29107c4de30a4a524e90678fd6ee67733390",
+      "size": 39762,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/pointcard/PointCard-2.0.4.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/PointCard2--点卡/PointCard_v2.0.4--点卡.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:48+08:00",
+  "minecraft_version_source": "api-inferred"
+}

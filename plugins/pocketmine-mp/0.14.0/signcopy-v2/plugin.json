@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "signcopy-v2",
+  "name": "SignCopy",
+  "display_name": "木牌复制器",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "linger"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "复制木牌",
+  "website": null,
+  "main": "SignCopy\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "csign",
+      "description": "复制木牌",
+      "usage": "/csign",
+      "permission": "SignCopy.",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "SignCopy.",
+      "description": "op",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/signcopy-v2/SignCopy-1.0.0.phar",
+      "file_name": "SignCopy-1.0.0.phar",
+      "sha256": "7a704f0b8c5e4c1a71efca30673e8800f888e968c50871b22b43de82ab122ae3",
+      "size": 3426,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/signcopy-v2/SignCopy-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/Csign--木牌复制器/csign--木牌复制器.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:54+08:00",
+  "minecraft_version_source": "api-inferred"
+}

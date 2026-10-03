@@ -1,0 +1,444 @@
+{
+  "schema_version": 1,
+  "id": "union",
+  "name": "Union",
+  "display_name": "研究用",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.4.0",
+  "author": [
+    "Him188"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Union!",
+  "website": null,
+  "main": "Union\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "uja",
+      "description": "[公会][OP] 添加一个职务",
+      "usage": "/uja",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ujr",
+      "description": "[公会][OP] 删除一个职务",
+      "usage": "/ujr",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ucshop",
+      "description": "[公会] 贡献度商店",
+      "usage": "/ucshop",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "upshop",
+      "description": "[公会] 药水商店",
+      "usage": "/upshop",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uj",
+      "description": "[公会] 加入一个公会",
+      "usage": "/uj",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "pla",
+      "description": "[公会] 开启一个世界的我PVP功能",
+      "usage": "/pl+",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "plr",
+      "description": "[公会] 关闭一个世界的我PVP功能",
+      "usage": "/pl-",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "pl",
+      "description": "[公会] 设置世界PVP功能",
+      "usage": "/pl",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "pwa",
+      "description": "[公会] 添加进入一个世界将会获得的物品",
+      "usage": "/pwa",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "pwl",
+      "description": "[公会] 查看进入一个世界将会获得的物品列表",
+      "usage": "/pwl",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "pwr",
+      "description": "[公会] 删除进入一个世界将会获得的物品",
+      "usage": "/pwr",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ub",
+      "description": "[公会] 查询所在公会金库余额",
+      "usage": "/ub",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ui",
+      "description": "[公会] 查看自己公会信息",
+      "usage": "/ui",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ubd",
+      "description": "[公会] 向自己公会贡献. 公会会获得不定经验值",
+      "usage": "/ubd",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ubt",
+      "description": "[公会][会长] 从公会金库取钱",
+      "usage": "/ubt",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ubc",
+      "description": "[公会][会长] 将公会金库的余额转换为公会经验值",
+      "usage": "/ubc",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uc",
+      "description": "[公会] 创建公会",
+      "usage": "/uc",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uk",
+      "description": "[公会] 踢出成员",
+      "usage": "/uk",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ucs",
+      "description": "[公会][OP] 设置创建公会所需的金钱",
+      "usage": "/ucs",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ul",
+      "description": "[公会][OP] 设置一个公会的等级",
+      "usage": "/ul",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uls",
+      "description": "[公会] 查看公会列表",
+      "usage": "/uls",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "um",
+      "description": "[公会] 管理功能",
+      "usage": "/um",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "umc",
+      "description": "[公会] 管理功能: 加入请求",
+      "usage": "/umc+",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "umva",
+      "description": "[公会] 管理功能: 提升某人权限度",
+      "usage": "/umv+",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "umvr",
+      "description": "[公会] 管理功能: 降低某人权限度",
+      "usage": "/umv-",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "upk",
+      "description": "[公会] 1V1 PK",
+      "usage": "/upk",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uq",
+      "description": "[公会] 退出公会",
+      "usage": "/uq",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "ur",
+      "description": "[公会] 解散公会",
+      "usage": "/ur",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uin",
+      "description": "[公会] 邀请某玩家加入公会",
+      "usage": "/uin",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uina",
+      "description": "[公会] 接受邀请",
+      "usage": "/uina",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uinr",
+      "description": "[公会] 拒绝邀请",
+      "usage": "/uinr",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uw",
+      "description": "[公会] 公会战",
+      "usage": "/uw",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwi",
+      "description": "[公会] 公会战: 设置特定物品",
+      "usage": "/uwi",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwe",
+      "description": "[公会][OP] 公会战: 强制结束",
+      "usage": "/uwe",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwo",
+      "description": "[公会][OP] 公会战: 强制开始(公会战空闲时)",
+      "usage": "/uwo",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwj",
+      "description": "[公会] 公会战: 加入",
+      "usage": "/uwj",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwq",
+      "description": "[公会] 公会战: 退出",
+      "usage": "/uwq",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwno",
+      "description": "[公会] 公会战: 拒绝挑战",
+      "usage": "/uwno",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwyes",
+      "description": "[公会] 公会战: 接受挑战",
+      "usage": "/uwyes",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uws",
+      "description": "[公会][OP] 公会战: 强制开始(等待时)",
+      "usage": "/uws",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwpr",
+      "description": "[公会][OP] 公会战: 删除一个传送地点",
+      "usage": "/uwpr",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwpa",
+      "description": "[公会][OP] 公会战: 添加一个传送地点",
+      "usage": "/uwpa",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uwpk",
+      "description": "[公会][会长] 公会战: 挑战某个公会",
+      "usage": "/uwpk",
+      "permission": "Union.command",
+      "aliases": []
+    },
+    {
+      "name": "uh",
+      "description": "[公会] ",
+      "usage": "/uh [帮助索引]",
+      "permission": "Union.command",
+      "aliases": [
+        "uhelp",
+        "unionhelp",
+        "公会帮助",
+        "工会帮助"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Union.command",
+      "description": "Allows the user to run this command",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/union/Union-3.4.0.phar",
+      "file_name": "Union-3.4.0.phar",
+      "sha256": "a317ddbe69decd0faa98532d892b5ad1eed99f63f686460711130d894e369104",
+      "size": 221042,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/union/Union-3.4.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "Union-1.0.0.phar",
+        "sha256": "c2dd58797fad693cc4064ca405ac88dc2075b95753c016521a9ba296ebe9fbfd",
+        "size": 394141
+      }
+    ],
+    "1.1.0": [
+      {
+        "file_name": "Union-1.1.0.phar",
+        "sha256": "c17e0edd4c8f099a2f1ae6c47ea4d163147914da88544aa6b7d77b198b9dec8a",
+        "size": 438247
+      }
+    ],
+    "1.2.0": [
+      {
+        "file_name": "Union-1.2.0.phar",
+        "sha256": "ca74d4716210ae47dde878a560579f2017d13ae86bbc9340594f14adaecf24b2",
+        "size": 438545
+      }
+    ],
+    "1.3.0": [
+      {
+        "file_name": "Union-1.3.0.phar",
+        "sha256": "ebd65280b6b6c38141b5bc8b6f5c99e4ed1ad82b05ece4ec1cbd21af45f206e9",
+        "size": 423237
+      }
+    ],
+    "1.4.0": [
+      {
+        "file_name": "Union-1.4.0.phar",
+        "sha256": "c84f08331cbcb537105ef7904739ac171e4f601a66dc45861599fa7115bbab2b",
+        "size": 423045
+      }
+    ],
+    "2.0.0": [
+      {
+        "file_name": "Union-2.0.0.phar",
+        "sha256": "3f23d510008b1936b5ba208ab84c33c03e47e8e3016722609eb6ad862ea107ac",
+        "size": 299131
+      }
+    ],
+    "3.0.0": [
+      {
+        "file_name": "Union-3.0.0.phar",
+        "sha256": "d9289432e240d07ea51316572797ca1bd7beb95143fa2b1134944f508dce3426",
+        "size": 421747
+      }
+    ],
+    "3.1.0": [
+      {
+        "file_name": "Union-3.1.0.phar",
+        "sha256": "d4accd1283d52362dd0d3913df8ba1b1ebe7b2b2149a07c677bcbbd941560780",
+        "size": 431259
+      }
+    ],
+    "3.2.0": [
+      {
+        "file_name": "Union-3.2.0.phar",
+        "sha256": "fd319113f8a3dbfda7f31d36d61e9b5480dd7c4c84357d2368a01c5ed0bef590",
+        "size": 433063
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/公会 - 研究用/[公会未删除ZXDA授权版]Union.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

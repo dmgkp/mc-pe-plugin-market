@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "id": "yop",
+  "name": "Yop",
+  "display_name": "更新",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.6",
+  "author": [
+    "xMing"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "提示指令",
+  "website": null,
+  "main": "Yop\\Yop",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "yop",
+      "description": "提示指令",
+      "usage": "",
+      "permission": "yop.command",
+      "aliases": []
+    },
+    {
+      "name": "yaddop",
+      "description": "添加op",
+      "usage": "",
+      "permission": "yaddop.command",
+      "aliases": []
+    },
+    {
+      "name": "ydelop",
+      "description": "删除op",
+      "usage": "",
+      "permission": "ydelop.command",
+      "aliases": []
+    },
+    {
+      "name": "ylistop",
+      "description": "op列表",
+      "usage": "",
+      "permission": "ylistop.command",
+      "aliases": []
+    },
+    {
+      "name": "yaddma",
+      "description": "添加Yop管理员",
+      "usage": "",
+      "permission": "yaddma.command",
+      "aliases": []
+    },
+    {
+      "name": "ydelma",
+      "description": "删除Yop管理员",
+      "usage": "",
+      "permission": "ydelma.command",
+      "aliases": []
+    },
+    {
+      "name": "ylistma",
+      "description": "Yop管理员列表",
+      "usage": "",
+      "permission": "ylistma.command",
+      "aliases": []
+    },
+    {
+      "name": "yopbc",
+      "description": "添加/删除op禁用指令",
+      "usage": "",
+      "permission": "yopbc.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "yop.command",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "yaddop.command",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "ydelop.command",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "yaddma.command",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "ydelma.command",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "yopbc.command",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "ylistop.command",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "ylistma.command",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/yop/Yop-1.1.6.phar",
+      "file_name": "Yop-1.1.6.phar",
+      "sha256": "c8f82f9c57eec61f70fb3dd81a2ebb2025c6bb8aaba9769e5ee93e707007e358",
+      "size": 4610,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/yop/Yop-1.1.6.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/Yop--OP管理插件[更新]/Yop_v1.6.0--OP管理插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

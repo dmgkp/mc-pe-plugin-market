@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "fireworkevents",
+  "name": "FireworkEvents",
+  "display_name": "FireworkEvents",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.12.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.6.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "hoyinm"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Extension plugin of 'Fireworks', adds events to it",
+  "website": null,
+  "main": "hoyinm\\FireworkEvents\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/fireworkevents/FireworkEvents-1.0.0.phar",
+      "file_name": "FireworkEvents-1.0.0.phar",
+      "sha256": "38fbe31ce4dedcb5b3ebef97173973b60a99416e424d1e1a418e08db04046384",
+      "size": 5495,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/fireworkevents/FireworkEvents-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/烟花事件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

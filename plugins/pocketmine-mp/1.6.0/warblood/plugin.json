@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "id": "warblood",
+  "name": "WarBlood",
+  "display_name": "战争之血",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.0",
+  "author": [
+    "plus"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "WarBlood - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "warblood\\WarBlood",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "blood",
+      "description": "",
+      "usage": "\\n-/blood [最小血量] [最多血量] \\n-/blood [off] \\n-blood [default]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "crit",
+      "description": "",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "setmaxhealth",
+      "description": "",
+      "usage": "\\n-/setmaxhealth [最大生命值]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "dodge",
+      "description": "",
+      "usage": "\\n-/dodge [几率]\\n-/dodge [off]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "harmscope",
+      "description": "",
+      "usage": "\\n-/harmscope [范围伤害几率]\\n-/harmscope [off]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "armor",
+      "description": "",
+      "usage": "\\n-/armor [反甲几率]\\n-/armor [off]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "information",
+      "description": "",
+      "usage": "\\n-/information [on]\\n-/information [off]",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/warblood/WarBlood-1.2.0.phar",
+      "file_name": "WarBlood-1.2.0.phar",
+      "sha256": "f862898627c59bead367b65589d9b668d5450fc2994dcf9cfbe9f99ff36aa97f",
+      "size": 22952,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/warblood/WarBlood-1.2.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "WarBlood-1.0.0.phar",
+        "sha256": "3709f5e4bd2eda045e855718c893d5adaf200a01266eb15a25b4784331874884",
+        "size": 18344
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/战争之血/战争之血.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:17+08:00",
+  "minecraft_version_source": "api-inferred"
+}

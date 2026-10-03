@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "floatingtext",
+  "name": "FloatingText",
+  "display_name": "浮空字与坐标插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "Mentha Haplocalyx Alcatraz_Du"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "FloatingText - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "FloatingText\\FloatingText",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/floatingtext/FloatingText-1.0.2.phar",
+      "file_name": "FloatingText-1.0.2.phar",
+      "sha256": "37376cd91f97003978c9046699f846e655a0c4ed0c2fae5c59736aac89d31f86",
+      "size": 1766,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/floatingtext/FloatingText-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/浮空字与坐标插件/浮空字插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

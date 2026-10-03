@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "inviteu",
+  "name": "InviteU",
+  "display_name": "邀请码",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.3",
+  "author": [
+    "CKylinMC"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "邀请码",
+  "website": null,
+  "main": "CKylin\\InviteU\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "i",
+      "description": "邀请码",
+      "usage": "/i <invite code>",
+      "permission": "i.cmd.i",
+      "aliases": []
+    },
+    {
+      "name": "iu",
+      "description": "管理",
+      "usage": "/iu <options> <value>",
+      "permission": "i.cmd.iu",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "i.cmd.i",
+      "description": "玩家兑换权限",
+      "default": "true"
+    },
+    {
+      "name": "i.cmd.iu",
+      "description": "OP管理权限",
+      "default": "OP"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/inviteu/InviteU-1.0.3.phar",
+      "file_name": "InviteU-1.0.3.phar",
+      "sha256": "646e1093b9c6321970b8ba56198e5354c8e5e3a63d65b3e63ea06e8375db2c5d",
+      "size": 13770,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/inviteu/InviteU-1.0.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/InviteU--邀请码/InviteU_v1.0.3--邀请码.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

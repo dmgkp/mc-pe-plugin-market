@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "serverinfo",
+  "name": "ServerInfo",
+  "display_name": "服务器信息",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "934131"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "查询服务器信息",
+  "website": null,
+  "main": "ServerInfo\\ServerInfo",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "info",
+      "description": "查询服务器信息",
+      "usage": "",
+      "permission": "ServerInfo.command.info",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ServerInfo.*",
+      "description": "查询服务器信息",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/serverinfo/ServerInfo-1.0.0.phar",
+      "file_name": "ServerInfo-1.0.0.phar",
+      "sha256": "a9d14a3dfec3e4d300b2edc831334113a04eb51ee1ed7f298e32e1c1da1ecb7f",
+      "size": 2968,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/serverinfo/ServerInfo-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/服务器信息/服务器信息.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:28+08:00",
+  "minecraft_version_source": "path"
+}

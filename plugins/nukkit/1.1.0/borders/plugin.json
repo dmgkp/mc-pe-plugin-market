@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "borders",
+  "name": "Borders",
+  "display_name": "边界插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1",
+  "author": [
+    "fromgate, nukkit.ru"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Borders plugin",
+  "website": null,
+  "main": "ru.nukkit.borders.BordersPlugin",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/borders/Borders-0.0.1.jar",
+      "file_name": "Borders-0.0.1.jar",
+      "sha256": "b24decf786c4402dd31d98f3f9177313b388c57298bd954697be0ea9bad75982",
+      "size": 36389,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/borders/Borders-0.0.1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK边界插件/NK边界插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

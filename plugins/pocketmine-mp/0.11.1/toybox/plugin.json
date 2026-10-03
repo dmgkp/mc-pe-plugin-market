@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "toybox",
+  "name": "ToyBox",
+  "display_name": "玩具箱插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "aliuly"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A box full of fun toys and tools",
+  "website": null,
+  "main": "aliuly\\toybox\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "toybox.treecapitator",
+      "description": "Use treecapitator",
+      "default": "op"
+    },
+    {
+      "name": "toybox.magiccarpet",
+      "description": "MagicCarpet command",
+      "default": "op"
+    },
+    {
+      "name": "toybox.compasstp",
+      "description": "Teleport with compass",
+      "default": "op"
+    },
+    {
+      "name": "toybox.powertool",
+      "description": "Allow the use of powertool",
+      "default": "op"
+    },
+    {
+      "name": "toybox.cloakclock.use",
+      "description": "Can use cloakclock",
+      "default": "op"
+    },
+    {
+      "name": "toybox.cloakclock.inmune",
+      "description": "Can see players using cloakclock",
+      "default": "op"
+    },
+    {
+      "name": "toybox.torch",
+      "description": "Can use floating torch",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/toybox/ToyBox-1.1.0.phar",
+      "file_name": "ToyBox-1.1.0.phar",
+      "sha256": "c865d5fa5d4c098db18025cda3964d8d62908b2ad8179e675b94bdbb6b0450ef",
+      "size": 19553,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/toybox/ToyBox-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/玩具箱插件/玩具箱.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

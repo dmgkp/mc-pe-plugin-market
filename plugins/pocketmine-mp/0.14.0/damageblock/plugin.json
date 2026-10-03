@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "damageblock",
+  "name": "DamageBlock",
+  "display_name": "效果方块",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Spiderman"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "DamageBlock 总命令",
+  "website": null,
+  "main": "DamageBlock\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "db",
+      "description": "DamageBlock 总命令",
+      "usage": "/db help 查看帮助",
+      "permission": "DamageBlock.command.db",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "DamageBlock.command.db",
+      "description": "DamageBlock 总命令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/damageblock/DamageBlock-1.0.0.phar",
+      "file_name": "DamageBlock-1.0.0.phar",
+      "sha256": "0acd596747994b690358f77c42b74bb18f204ed80aa24e180223b62da84881ca",
+      "size": 6823,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/damageblock/DamageBlock-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/DamageBlock--效果方块/DamageBlock_v1.0.0--效果方块.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:51+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "3.0.0-ALPHA7",
+  "count": 2,
+  "plugins": [
+    {
+      "id": "blocksniper",
+      "name": "BlockSniper",
+      "display_name": "高能",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.3.0",
+      "path": "plugins/pocketmine-mp/1.12.0/blocksniper/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/blocksniper/BlockSniper-2.3.0.phar",
+      "sha256": "e129e9a100da3f76279e615aa93cdab6eb2be7b13a77c8cbb885a8981f80ea26",
+      "size": 100370,
+      "tags": [
+        "world",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/blocksniper/BlockSniper-2.3.0.phar"
+      }
+    },
+    {
+      "id": "eggwars",
+      "name": "EggWars",
+      "display_name": "龙蛋大战",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.12.0/eggwars/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/eggwars/EggWars-1.0.0.phar",
+      "sha256": "0ec35fc701e6f60a0ef4f3d4479dd0b1a4b77bcf550c4086f07ffe6791a05920",
+      "size": 210041,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/eggwars/EggWars-1.0.0.phar"
+      }
+    }
+  ]
+}

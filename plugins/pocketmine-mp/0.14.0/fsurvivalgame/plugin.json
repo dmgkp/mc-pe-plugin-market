@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "fsurvivalgame",
+  "name": "FSurvivalGame",
+  "display_name": "饥饿游戏",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "FENGberd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "饥饿游戏主命令",
+  "website": null,
+  "main": "FSurvivalGame\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fsg",
+      "description": "饥饿游戏主命令",
+      "usage": "/fsg <set|remove>",
+      "permission": "FSurvivalGame.command.fsg",
+      "aliases": []
+    },
+    {
+      "name": "lobby",
+      "description": "退出游戏",
+      "usage": "/lobby",
+      "permission": "FSurvivalGame.command.lobby",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "FSurvivalGame.*",
+      "description": "点击牌子加入游戏",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/fsurvivalgame/FSurvivalGame-1.0.1.phar",
+      "file_name": "FSurvivalGame-1.0.1.phar",
+      "sha256": "c8d533a0e4aa2310c142128ff218648826d6b673c9c17219282413d66634a2a1",
+      "size": 6475,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/fsurvivalgame/FSurvivalGame-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/饥饿游戏/饥饿游戏FSurvivalGame_v1.0.1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:25+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-type/version",
+  "server_type": "pocketmine-mp",
+  "minecraft_version": "unknown",
+  "count": 2,
+  "plugins": [
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "掉落物商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/unknown/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/unknown/economysell/EconomySell-2.0.7.phar",
+      "sha256": "59906b1551866f062dbff27a366285659eaa953b297083a6f98209da3dade214",
+      "size": 30219,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/unknown/economysell/EconomySell-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "掉落物商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/unknown/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/unknown/economyshop/EconomyShop-2.0.7.phar",
+      "sha256": "dd3beb2c41f9198ea5369254dfabb5982753633c8c05da74caf926327c2a0ea5",
+      "size": 32801,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/unknown/economyshop/EconomyShop-2.0.7.phar"
+      }
+    }
+  ]
+}

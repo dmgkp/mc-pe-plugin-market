@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "fakename",
+  "name": "FakeName",
+  "display_name": "假名插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "Doomhawk"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Команды FakeName",
+  "website": null,
+  "main": "FakeName.MainClass",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fakename",
+      "description": "Команды FakeName",
+      "usage": "/fakename",
+      "permission": "fakename.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "fakename.command",
+      "description": "Разрешает использовать /fakename",
+      "default": "op"
+    },
+    {
+      "name": "fakename.set",
+      "description": "Разрешает устанавливать фейковый ник командой /fakename set <nick>",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/fakename/FakeName-1.0.jar",
+      "file_name": "FakeName-1.0.jar",
+      "sha256": "cbcbb87aab24476fc19b9ed29c1462c1d092b5ffcd24901ebcd13e0124df528d",
+      "size": 2676,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/fakename/FakeName-1.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK假名插件/NK假名插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

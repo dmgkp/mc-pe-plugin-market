@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "zteam",
+  "name": "ZTeam",
+  "display_name": "加密",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "ZeroY"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "ZTeam主指令",
+  "website": null,
+  "main": "ZTeam\\ZTeam",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "队伍",
+      "description": "ZTeam主指令",
+      "usage": "/队伍",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/zteam/ZTeam-1.0.0.phar",
+      "file_name": "ZTeam-1.0.0.phar",
+      "sha256": "22fc13c48a09acb599679da8ad3b827a1ed4a5419b04edfd46131a7f48b7767e",
+      "size": 20906,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/zteam/ZTeam-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/组队 -  加密/[组队]ZTeam.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

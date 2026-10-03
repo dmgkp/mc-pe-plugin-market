@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "subinventory",
+  "name": "SubInventory",
+  "display_name": "多背包插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.2.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.3.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.6.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "DeBe",
+  "author": [
+    "DeBe"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SubInventory - Command",
+  "website": null,
+  "main": "DeBePlugins\\SubInventory\\SubInventory",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "subinventory",
+      "description": "SubInventory - Command",
+      "usage": "/SubInventory",
+      "permission": "debe.subinventory.cmd",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "debe",
+      "description": "SubInventory - Command",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/subinventory/SubInventory-DeBe.phar",
+      "file_name": "SubInventory-DeBe.phar",
+      "sha256": "8733c51cd7b4bfc8a430d5a3d23b80bc8351972c5689faad2ba8d0a992dc2eb8",
+      "size": 7849,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/subinventory/SubInventory-DeBe.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/多背包插件/多背包插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:27+08:00",
+  "minecraft_version_source": "path"
+}

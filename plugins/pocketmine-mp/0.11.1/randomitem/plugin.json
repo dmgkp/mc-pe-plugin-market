@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "randomitem",
+  "name": "RandomItem",
+  "display_name": "在线随机奖励插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "4.2",
+  "author": [
+    "LDX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "给在线玩家发放随机物品奖励.",
+  "website": null,
+  "main": "LDX\\RandomItem\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "奖励",
+      "description": "给在线玩家发放随机物品奖励.",
+      "usage": "/奖励 奖励所有在线玩家;/奖励 <玩家> 奖励某个在线玩家",
+      "permission": "randomitem.gift",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "randomitem",
+      "description": "Allows players to receive random items.",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/randomitem/RandomItem-4.2.phar",
+      "file_name": "RandomItem-4.2.phar",
+      "sha256": "5d134f37faeaa40e3a4adb8bd41fd7a8fe4db67b86956db3beaf210c3d547e29",
+      "size": 5042,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/randomitem/RandomItem-4.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/在线随机奖励插件/在线随机奖励插件指令全汉化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:27+08:00",
+  "minecraft_version_source": "path"
+}

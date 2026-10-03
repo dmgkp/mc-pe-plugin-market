@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "3.0.0-ALPHA3",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "sworld",
+      "name": "SWorld--多世界",
+      "display_name": "多世界",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/pocketmine-mp/1.12.0/sworld/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/sworld/SWorld---1.2.0.phar",
+      "sha256": "4eb7a239da320b38a9f9704a07189a9bf7e0616247230209811ec6171b3e9efe",
+      "size": 14378,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/sworld/SWorld---1.2.0.phar"
+      }
+    }
+  ]
+}

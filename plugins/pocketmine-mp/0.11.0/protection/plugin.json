@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "protection",
+  "name": "Protection",
+  "display_name": "Protection",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.8.0",
+  "author": [
+    "zzx"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "服务器登入插件",
+  "website": null,
+  "main": "Protection\\Protection",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "keys",
+      "description": "keys 开/关/生成",
+      "usage": "/keys (on/off/null)",
+      "permission": "Protection.command.op",
+      "aliases": []
+    },
+    {
+      "name": "unregister",
+      "description": "玩家密码修改",
+      "usage": "/unreturn [旧密码] [新密码]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "sban",
+      "description": "超级BAN",
+      "usage": "/sban (add/remove/list) [id]",
+      "permission": "Protection.command.op",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Protection",
+      "description": "Allows access to the Protection command.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/protection/Protection-1.8.0.phar",
+      "file_name": "Protection-1.8.0.phar",
+      "sha256": "d142a2d93aeb90d7936bed7eccea0ecb74e93a637f4f77549d9aecbef84dafb2",
+      "size": 6489,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/protection/Protection-1.8.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.5.1": [
+      {
+        "file_name": "Protection-1.5.1.phar",
+        "sha256": "0f96383d32be6ba383641b45eae67837d55c154d31916aadd015076f07b7ebe4",
+        "size": 6694
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/Protection_v1.5.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

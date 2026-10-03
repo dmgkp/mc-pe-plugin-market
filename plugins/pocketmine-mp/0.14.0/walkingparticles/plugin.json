@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "id": "walkingparticles",
+  "name": "WalkingParticles",
+  "display_name": "走路粒子插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.8.0",
+    "1.9.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.10.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "9.9.9",
+  "author": [
+    "CyberCube-HK Team/aojiao修改"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Admin command of WalkingParticles",
+  "website": null,
+  "main": "WalkingParticles\\WalkingParticles",
+  "tags": [
+    "admin",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "walkingparticles",
+      "description": "Admin command of WalkingParticles",
+      "usage": "/wparticles help",
+      "permission": "walkingparticles.command.admin",
+      "aliases": [
+        "wparticles",
+        "walkp"
+      ]
+    },
+    {
+      "name": "wplist",
+      "description": "WalkingParticles > Show a list of available particles",
+      "usage": "/wplist",
+      "permission": "walkingparticles.command.wplist",
+      "aliases": []
+    },
+    {
+      "name": "wpget",
+      "description": "WalkingParticles > Show a list of your using particles",
+      "usage": "/wpget",
+      "permission": "walkingparticles.command.wpget",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "walkingparticles",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "walkingparticles.command",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "walkingparticles.sign.toggle",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "walkingparticles.sign.create",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "walkingparticles.sign.destroy",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/walkingparticles/WalkingParticles-9.9.9.phar",
+      "file_name": "WalkingParticles-9.9.9.phar",
+      "sha256": "9c21c024a848fde24f40af906e8d162a4044b620e1d0b808f34c34d676912c6a",
+      "size": 121934,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/walkingparticles/WalkingParticles-9.9.9.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/WP走路粒子插件/WalkingParticles_v9.9.9.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:27+08:00",
+  "minecraft_version_source": "api-inferred"
+}

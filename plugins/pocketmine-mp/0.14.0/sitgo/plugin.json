@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "sitgo",
+  "name": "SitGo",
+  "display_name": "坐凳坐床",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.0",
+  "author": [
+    "HyperLife"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SitGo - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "sitgo\\SitGo",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/sitgo/SitGo-1.2.0.phar",
+      "file_name": "SitGo-1.2.0.phar",
+      "sha256": "bddcc81ee0008ed9acb1f8b90459ebf802b60a70ad5802d34e2849645c55d721",
+      "size": 16680,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/sitgo/SitGo-1.2.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.1.0": [
+      {
+        "file_name": "SitGo-1.1.0.phar",
+        "sha256": "9675c7e06f7aa72440fe10e2e626c509ecd9075df147de13d5e1c7c46b60c47d",
+        "size": 14539
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/SitGo!--坐凳坐床/[N]SitGo_v1.2.0--Nebzz适配坐凳坐床.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "wsparkour",
+  "name": "WsParkour",
+  "display_name": "建议跑酷装",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Wshape1"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "WsParkour - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "WsParkour\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "parkour",
+      "description": "",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/wsparkour/WsParkour-1.0.0.phar",
+      "file_name": "WsParkour-1.0.0.phar",
+      "sha256": "365b848af96d636d680ce2df76294160bf65478994b5a823ff8ee7a0f25691f6",
+      "size": 3790,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/wsparkour/WsParkour-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/WsParkour--跑酷插件(建议跑酷装)/WsParkour_v1.0.0--跑酷插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

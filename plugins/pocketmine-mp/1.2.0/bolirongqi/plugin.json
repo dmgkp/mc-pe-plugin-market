@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "bolirongqi",
+  "name": "bolirongqi",
+  "display_name": "物品展示窗汉化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.2.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.2.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.3.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.6.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "DeBe.ch 汉化cre",
+  "author": [
+    "DeBe"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "玻璃容器命令 用法:/容器 添加 <物品代码> (数目1-3) ;移除某容器内物品/容器 移除 然后触摸容器 ;移除所有容器内物品/容器 重置 ;",
+  "website": null,
+  "main": "DeBePlugins\\ItemCase\\ItemCase",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "容器",
+      "description": "玻璃容器命令 用法:/容器 添加 <物品代码> (数目1-3) ;移除某容器内物品/容器 移除 然后触摸容器 ;移除所有容器内物品/容器 重置 ;",
+      "usage": "/容器 <添加|移除|重置|再生|玻璃>",
+      "permission": "debe.itemcase.cmd",
+      "aliases": []
+    },
+    {
+      "name": "rq",
+      "description": "玻璃容器命令 用法:/容器 添加 <物品代码> (数目1-3) ;/容器 <移除|重置|再生|玻璃>",
+      "usage": "/容器 <添加|移除|重置|再生|玻璃>",
+      "permission": "debe.itemcase.cmd",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "debe",
+      "description": "ItemCase - Spawn itemcase",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.2.0/bolirongqi/bolirongqi-DeBe.ch_cre.phar",
+      "file_name": "bolirongqi-DeBe.ch_cre.phar",
+      "sha256": "7f07a331212c54892e7618a553965b61707798421c02a6db042039473b3ba9e5",
+      "size": 10950,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/bolirongqi/bolirongqi-DeBe.ch_cre.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/物品展示窗汉化/玻璃容器展示柜.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:19+08:00",
+  "minecraft_version_source": "api-inferred"
+}

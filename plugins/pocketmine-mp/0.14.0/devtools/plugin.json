@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "devtools",
+  "name": "DevTools",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.11.1",
+  "author": [
+    "PocketMine Team"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Helps develop and distribute PocketMine-MP plugins",
+  "website": null,
+  "main": "DevTools\\DevTools",
+  "tags": [
+    "admin",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "makeserver",
+      "description": "Creates a PocketMine-MP Phar",
+      "usage": "/makeserver",
+      "permission": "devtools.command.makeserver",
+      "aliases": []
+    },
+    {
+      "name": "makeplugin",
+      "description": "Creates a Phar plugin from one in source code form",
+      "usage": "/makeplugin <pluginName>",
+      "permission": "devtools.command.makeplugin",
+      "aliases": []
+    },
+    {
+      "name": "checkperm",
+      "description": "Checks a permission value for the current sender, or a player",
+      "usage": "/checkperm <node> [playerName]",
+      "permission": "devtools.command.checkperm;devtools.command.checkperm.other",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "devtools",
+      "description": "Allows checking others permission value",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/devtools/DevTools-1.11.1.phar",
+      "file_name": "DevTools-1.11.1.phar",
+      "sha256": "a074599dca1f49021a45eeabe9831fea92c2aef11d325b519925b379c1dbb567",
+      "size": 34218,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/devtools/DevTools-1.11.1.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.8.0_乌兰托娅万岁制造": [
+      {
+        "file_name": "DevTools-1.8.0.phar",
+        "sha256": "6f174fe4fa585b2d05a292a0c1cd4eb98997536577763963df61613d15b72e49",
+        "size": 19320
+      }
+    ],
+    "1.8.0_bingshen优化": [
+      {
+        "file_name": "DevTools-1.8.0_bingshen.phar",
+        "sha256": "58bc2d35c16a17c0cb0a7066484dc05da54c902f92db715cb2da6a5994fbd015",
+        "size": 7414
+      }
+    ],
+    "1.10.0": [
+      {
+        "file_name": "DevTools-1.10.0.phar",
+        "sha256": "719b82156f5a4844960c9a438d4eecbc2475c04ea6ec87e88930d85df9e46105",
+        "size": 33193
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/DevTools插件/DevTools_v1.11.1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "warriorsrpg",
+  "name": "WarriorsRPG",
+  "display_name": "勇士职业",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.9",
+  "author": [
+    "smile"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "爽爆了的RPG插件",
+  "website": null,
+  "main": "WarriorsRPG\\WarriorsRPG",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "rpg",
+      "description": "所有关于本插件指令的开头",
+      "usage": "/rpg setjob",
+      "permission": "WarriorsRPG.rpg",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "WarriorsRPG.rpg",
+      "description": "允许玩家使用一切关于本插件的指令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/warriorsrpg/WarriorsRPG-1.1.9.phar",
+      "file_name": "WarriorsRPG-1.1.9.phar",
+      "sha256": "4b6dc15cb055a9b5a2977523d2cea82ca5a5c8796dc2ad914f612757abaf2bd4",
+      "size": 42758,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/warriorsrpg/WarriorsRPG-1.1.9.phar"
+      }
+    }
+  ],
+  "history": {
+    "乌兰托娅第一版！": [
+      {
+        "file_name": "WarriorsRPG-file.phar",
+        "sha256": "f710055ac64739b5869fd7f148ee223430e4f6647b0622c836cc04c051d02cd8",
+        "size": 7600
+      }
+    ],
+    "1.1.5": [
+      {
+        "file_name": "WarriorsRPG-1.1.5.phar",
+        "sha256": "9d851861cb4bc8596190a45101039606566d52a6908833d287b84fba57434c34",
+        "size": 43118
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/勇士职业/勇士职业.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:15+08:00",
+  "minecraft_version_source": "api-inferred"
+}

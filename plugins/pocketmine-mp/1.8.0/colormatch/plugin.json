@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "colormatch",
+  "name": "ColorMatch",
+  "display_name": "颜色比赛",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.2",
+  "author": [
+    "CreeperFace"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Color Match minigame",
+  "website": null,
+  "main": "ColorMatch\\ColorMatch",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cm",
+      "description": "ColorMatch command",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "cm",
+      "description": "allow player to play colormatch",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/colormatch/ColorMatch-1.1.2.phar",
+      "file_name": "ColorMatch-1.1.2.phar",
+      "sha256": "d95bdf9c16f0c2516c792a84bc3cdbca8a5a6f74a84d6a5993bde4ff6cd891f2",
+      "size": 105864,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/colormatch/ColorMatch-1.1.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/颜色比赛/颜色比赛.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:25+08:00",
+  "minecraft_version_source": "api-inferred"
+}

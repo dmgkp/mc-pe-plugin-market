@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "id": "rsshop",
+  "name": "RsShop",
+  "display_name": "商店插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "0.15.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "zmdd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "RsShop - Minecraft Bedrock plugin for nukkit.",
+  "website": null,
+  "main": "Rs.Plugin.Shop.ShopMainClass",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [
+    "RsFunction",
+    "RsMoney"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/rsshop/RsShop-1.0.0.jar",
+      "file_name": "RsShop-1.0.0.jar",
+      "sha256": "458ea4a0b75d4e96d2c7aa6995ec46990b099b2055845800fa804419223704c0",
+      "size": 13758,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsshop/RsShop-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NKrs商店插件/NKrs商店插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

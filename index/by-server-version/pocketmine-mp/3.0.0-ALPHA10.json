@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "3.0.0-ALPHA10",
+  "count": 7,
+  "plugins": [
+    {
+      "id": "worlds",
+      "name": "Worlds",
+      "display_name": "Worlds",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/0.15.0/worlds/plugin.json",
+      "file": "plugins/nukkit/0.15.0/worlds/Worlds-1.1.0.jar",
+      "sha256": "331c83399aa8d8d4c2c0088f3836efc74dcb2b7790c539fd8949bd2fcc1e8910",
+      "size": 2906,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/worlds/Worlds-1.1.0.jar"
+      }
+    },
+    {
+      "id": "worlds",
+      "name": "Worlds",
+      "display_name": "多世界",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/1.1.0/worlds/plugin.json",
+      "file": "plugins/nukkit/1.1.0/worlds/Worlds-1.1.0.jar",
+      "sha256": "331c83399aa8d8d4c2c0088f3836efc74dcb2b7790c539fd8949bd2fcc1e8910",
+      "size": 2906,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/worlds/Worlds-1.1.0.jar"
+      }
+    },
+    {
+      "id": "guardianjoineffect",
+      "name": "GuardianJoinEffect",
+      "display_name": "进服守卫者效果",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "0.2",
+      "path": "plugins/pocketmine-mp/1.12.0/guardianjoineffect/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/guardianjoineffect/GuardianJoinEffect-0.2.phar",
+      "sha256": "eef3e69f691428bdd1b7f58f8a9a7ef3a39fe119a6e472a0828d4eb5fff75782",
+      "size": 263394,
+      "tags": [
+        "protection",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/guardianjoineffect/GuardianJoinEffect-0.2.phar"
+      }
+    },
+    {
+      "id": "serverlovemcpe",
+      "name": "ServerLoveMCPE",
+      "display_name": "恋爱插件汉化",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.12.0/serverlovemcpe/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/serverlovemcpe/ServerLoveMCPE-1.0.1.phar",
+      "sha256": "208af845d8d2e21e63863fc77c2aeba4b84253e847d717ac82afef11ffaf3689",
+      "size": 11567,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/serverlovemcpe/ServerLoveMCPE-1.0.1.phar"
+      }
+    },
+    {
+      "id": "tempbanui",
+      "name": "TempBanUI",
+      "display_name": "玩家封禁",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.1",
+      "path": "plugins/pocketmine-mp/1.12.0/tempbanui/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/tempbanui/TempBanUI-1.1.phar",
+      "sha256": "f185e9df98783fbb29f92328ac1390a90a102e686598ad72e67fc04d6a5402ff",
+      "size": 32093,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/tempbanui/TempBanUI-1.1.phar"
+      }
+    },
+    {
+      "id": "timestopper",
+      "name": "TimeStopper",
+      "display_name": "永为白天",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.12.0/timestopper/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/timestopper/TimeStopper-1.0.0.phar",
+      "sha256": "123b53667d48e35c3e1a80afa790fb1f166a7b0000b8592a5287afd4562bef2c",
+      "size": 10885,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/timestopper/TimeStopper-1.0.0.phar"
+      }
+    },
+    {
+      "id": "worlds",
+      "name": "Worlds",
+      "display_name": "汉化世界管理插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.1",
+      "path": "plugins/pocketmine-mp/1.12.0/worlds/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/worlds/Worlds-2.0.1.phar",
+      "sha256": "8a45b50cdc5ffe6bdfc4f598674d0948a4367e5cdb952bffd25d2b69bb9ecbd2",
+      "size": 16939,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/worlds/Worlds-2.0.1.phar"
+      }
+    }
+  ]
+}

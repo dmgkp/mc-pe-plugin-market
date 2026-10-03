@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "itips",
+  "name": "ITips",
+  "display_name": "底部显示插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "ibook"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "ITips - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "ITips\\ITips",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/itips/ITips-1.0.0.phar",
+      "file_name": "ITips-1.0.0.phar",
+      "sha256": "b0738333a3f90e265e709bc187755bb917ae8b2437f7bfb11ffb79a84aef3646",
+      "size": 3720,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/itips/ITips-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/[Go!]ITips底部显示插件/ITips_v1.0.0 - 副本.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:28+08:00",
+  "minecraft_version_source": "api-inferred"
+}

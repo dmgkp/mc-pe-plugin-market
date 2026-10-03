@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "foodeffect",
+  "name": "FoodEffect",
+  "display_name": "自定义食物插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "MUedsa"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Get effects when eat food",
+  "website": "http://www.cattery.cn",
+  "main": "FoodEffect\\MainClass",
+  "tags": [
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/foodeffect/FoodEffect-1.0.0.phar",
+      "file_name": "FoodEffect-1.0.0.phar",
+      "sha256": "41b4498c25c795961dfe67a6d5c5ea9579d092b5d73f338486dc6338ef95e064",
+      "size": 1768,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/foodeffect/FoodEffect-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/自定义食物插件/自定义食物插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:31+08:00",
+  "minecraft_version_source": "path"
+}

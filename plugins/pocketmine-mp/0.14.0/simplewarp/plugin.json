@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "simplewarp",
+  "name": "SimpleWarp",
+  "display_name": "简单传送",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "Falk"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Warp to a location",
+  "website": null,
+  "main": "SimpleWarp\\SimpleWarp",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "warp",
+      "description": "Warp to a location",
+      "usage": "/warp <NAME>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "addwarp",
+      "description": "Add a new warp point",
+      "usage": "/addwarp <NAME>",
+      "permission": "simplewarp.manage",
+      "aliases": []
+    },
+    {
+      "name": "delwarp",
+      "description": "Delete a warp point",
+      "usage": "/delwarp <NAME>",
+      "permission": "simplewarp.manage",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "simplewarp",
+      "description": "Allows usage of all warps",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/simplewarp/SimpleWarp-1.0.phar",
+      "file_name": "SimpleWarp-1.0.phar",
+      "sha256": "bedb0bd01547f6b52e9ce4aee5c70744a6b5384137f31c7a0193e9457b25bb47",
+      "size": 5081,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/simplewarp/SimpleWarp-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/简单传送/乌兰托娅万岁简单传送插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:31+08:00",
+  "minecraft_version_source": "api-inferred"
+}

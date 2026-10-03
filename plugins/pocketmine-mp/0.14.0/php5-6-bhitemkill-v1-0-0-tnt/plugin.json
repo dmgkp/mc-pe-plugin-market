@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "php5-6-bhitemkill-v1-0-0-tnt",
+  "name": "[PHP5.6]BHItemKill_v1.0.0--手持TNT自杀",
+  "display_name": "自杀",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Bhao"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "[PHP5.6]BHItemKill_v1.0.0--手持TNT自杀 - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "BHItemKill\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/php5-6-bhitemkill-v1-0-0-tnt/PHP5.6_BHItemKill_v1.0.0--_TNT-1.0.0.phar",
+      "file_name": "PHP5.6_BHItemKill_v1.0.0--_TNT-1.0.0.phar",
+      "sha256": "c76d17a8095554c766a6b89230542109d7b767b380721629bf5f22e4ba3b38da",
+      "size": 2264,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/php5-6-bhitemkill-v1-0-0-tnt/PHP5.6_BHItemKill_v1.0.0--_TNT-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/BHItemKill--手持TNT自杀/[PHP5.6]BHItemKill_v1.0.0--手持TNT自杀.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

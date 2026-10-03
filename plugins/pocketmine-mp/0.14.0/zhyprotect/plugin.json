@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "zhyprotect",
+  "name": "ZhyProtect",
+  "display_name": "查熊优化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0",
+  "author": [
+    "Zhy,fenhuo"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "The main command of ZhyProtect XD",
+  "website": null,
+  "main": "ZhyProtect\\Main",
+  "tags": [
+    "admin",
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "zp",
+      "description": "The main command of ZhyProtect XD",
+      "usage": "/zp <i|n> <xxx>",
+      "permission": "ZhyProtect.command.zp",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ZhyProtect.*",
+      "description": "这代表只有OP有这个权限",
+      "default": "op"
+    },
+    {
+      "name": "ZhyProtect.command.zp",
+      "description": "这代表普通玩家也能使用这个指令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/zhyprotect/ZhyProtect-2.0.phar",
+      "file_name": "ZhyProtect-2.0.phar",
+      "sha256": "7a7a8d6acd7025d63c9f27eb4a73e277db88ce4b7d844fac03a88ac380facee8",
+      "size": 19993,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/zhyprotect/ZhyProtect-2.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/查熊优化/查熊插件优化版.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:19+08:00",
+  "minecraft_version_source": "api-inferred"
+}

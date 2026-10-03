@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "fragment",
+  "name": "Fragment",
+  "display_name": "碎片插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=1.12.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=3.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "Magic雪飞"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "召唤插件主指令",
+  "website": null,
+  "main": "Fragment\\zh",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "zh",
+      "description": "召唤插件主指令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "碎片",
+      "description": "召唤插件副指令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/fragment/Fragment-1.0.1.phar",
+      "file_name": "Fragment-1.0.1.phar",
+      "sha256": "bc858f98bc4dfb16d1a12b94e093c385a9ee02c6cb0dd4de1c638755f6e25c23",
+      "size": 21543,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/fragment/Fragment-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/FragMent--碎片插件/Fragment-1.0.1--碎片插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

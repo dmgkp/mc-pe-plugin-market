@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "reffecter",
+  "name": "Reffecter",
+  "display_name": "药水插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=1.6.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "RexRed6802"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Reffecter主命令",
+  "website": null,
+  "main": "Reffecter\\Reffecter",
+  "tags": [
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "eflist",
+      "description": "Reffecter主命令",
+      "usage": "/eflist",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/reffecter/Reffecter-1.0.phar",
+      "file_name": "Reffecter-1.0.phar",
+      "sha256": "c88f4cf20cdee2a449454f0179c8cbab7d942b628941d54cce48fb39030f0f2d",
+      "size": 10541,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/reffecter/Reffecter-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/0.12药水插件/0.12药水插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

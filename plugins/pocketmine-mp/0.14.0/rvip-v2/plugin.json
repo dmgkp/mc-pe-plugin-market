@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "rvip-v2",
+  "name": "RVIP",
+  "display_name": "RVIP",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.0",
+  "author": [
+    "zmdd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "RVIP插件主命令",
+  "website": null,
+  "main": "RVIP\\RVIP",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "vip",
+      "description": "RVIP插件主命令",
+      "usage": "/vip add/remove/day/sign/prefix",
+      "permission": "Rvip.command.vip",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Rvip.command.vip",
+      "description": "RVIP插件主权限",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/rvip-v2/RVIP-3.0.0.phar",
+      "file_name": "RVIP-3.0.0.phar",
+      "sha256": "348ae49ff494da724ef08c08f0225536c31f95e11f5e8d97f8a5d6043be386d9",
+      "size": 7772,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/rvip-v2/RVIP-3.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/RVIP/RVIP插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

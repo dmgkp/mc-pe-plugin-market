@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "id": "empirewar",
+  "name": "EmpireWar",
+  "display_name": "帝国之战",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "zmdd&xmt"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "[帝国之战]设置积分",
+  "website": null,
+  "main": "EmpireWar\\EmpireWar",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "sp",
+      "description": "[帝国之战]设置积分",
+      "usage": "/sp 玩家 积分",
+      "permission": "war.command.sp",
+      "aliases": []
+    },
+    {
+      "name": "sh",
+      "description": "[帝国之战]设置生命",
+      "usage": "/sp 玩家 生命",
+      "permission": "war.command.sh",
+      "aliases": []
+    },
+    {
+      "name": "sd",
+      "description": "[帝国之战]设置伤害",
+      "usage": "/sp 玩家 伤害",
+      "permission": "war.command.sd",
+      "aliases": []
+    },
+    {
+      "name": "se",
+      "description": "[帝国之战]设置等级",
+      "usage": "/sp 玩家 等级",
+      "permission": "war.command.se",
+      "aliases": []
+    },
+    {
+      "name": "xp",
+      "description": "[帝国之战]查询积分",
+      "usage": "/xp",
+      "permission": "war.command.xp",
+      "aliases": []
+    },
+    {
+      "name": "up",
+      "description": "[帝国之战]晋级指令",
+      "usage": "/up",
+      "permission": "war.command.up",
+      "aliases": []
+    },
+    {
+      "name": "jdq",
+      "description": "[帝国之战]兑换积分指令",
+      "usage": "/jdq 想兑换的积分",
+      "permission": "war.command.jdq",
+      "aliases": []
+    },
+    {
+      "name": "vipup",
+      "description": "[帝国之战]会员晋级指令",
+      "usage": "",
+      "permission": "war.command.vipup",
+      "aliases": []
+    },
+    {
+      "name": "nation",
+      "description": "[帝国之战]加入国家",
+      "usage": "/nation 1/2/3",
+      "permission": "war.command.nation",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "war.command.sh",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "war.command.sd",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "war.command.se",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "war.command.sp",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "war.command.xp",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "war.command.nation",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "war.command.up",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "war.command.vipup",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "war.command.jdq",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/empirewar/EmpireWar-1.0.0.phar",
+      "file_name": "EmpireWar-1.0.0.phar",
+      "sha256": "188ce3cab2350af4aef28bbedd884c6ce0d3e2c788ad665f4ce6831948e6f729",
+      "size": 6641,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/empirewar/EmpireWar-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/帝国之战/帝国之战.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:17+08:00",
+  "minecraft_version_source": "api-inferred"
+}

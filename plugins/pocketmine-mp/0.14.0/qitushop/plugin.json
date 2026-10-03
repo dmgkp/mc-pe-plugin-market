@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "qitushop",
+  "name": "QituShop",
+  "display_name": "极致整合",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.0",
+  "author": [
+    "qitu"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A Shop Plugin",
+  "website": null,
+  "main": "QituShop\\QituShop",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "Qshop",
+      "description": "shop命令",
+      "usage": "/Qshop",
+      "permission": "QituShop.command.Qshop",
+      "aliases": [
+        "QituShop"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "QituShop.command.Qshop",
+      "description": "shop插件命令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/qitushop/QituShop-1.2.0.phar",
+      "file_name": "QituShop-1.2.0.phar",
+      "sha256": "2067d6f3590842e81674aff98392398182a2fbeac7b1295060c304482ef08a58",
+      "size": 38145,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/qitushop/QituShop-1.2.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.1.5": [
+      {
+        "file_name": "QituShop-1.1.5.phar",
+        "sha256": "971f2d6201852dbef91e4197c3c6ccc49d9466a6ea3db74ccf13cc341f44d08b",
+        "size": 9598
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "极致整合/多功能商店.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

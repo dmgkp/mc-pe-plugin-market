@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "tchest",
+  "name": "TChest",
+  "display_name": "墓碑",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.4",
+  "author": [
+    "Tanatos"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "墓碑插件指令",
+  "website": null,
+  "main": "sb\\sb",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "tmd",
+      "description": "墓碑插件指令",
+      "usage": "/tmd",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/tchest/TChest-1.0.4.phar",
+      "file_name": "TChest-1.0.4.phar",
+      "sha256": "c770339feefb2006b6677d26abce896389b61132882af8b016a1fa56e729a82a",
+      "size": 4384,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/tchest/TChest-1.0.4.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/墓碑/[墓碑]TChest.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

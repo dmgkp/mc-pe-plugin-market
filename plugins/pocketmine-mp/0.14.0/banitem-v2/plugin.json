@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "banitem-v2",
+  "name": "BanItem",
+  "display_name": "极致整合",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.2",
+  "author": [
+    "LDX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "BanItem main command.",
+  "website": null,
+  "main": "LDX\\BanItem\\Main",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "banitem",
+      "description": "BanItem main command.",
+      "usage": "/banitem <ban/unban/list> [ID[:Damage]]",
+      "permission": "banitem.command.banitem",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "banitem",
+      "description": "Allows access to the item command.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/banitem-v2/BanItem-2.2.phar",
+      "file_name": "BanItem-2.2.phar",
+      "sha256": "407b9b9b2530d9a531771dfae28724aa773588bdbdfe201083140872f07bf7c3",
+      "size": 5962,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/banitem-v2/BanItem-2.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "极致整合/禁用物品新版插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "myregion",
+  "name": "MyRegion",
+  "display_name": "保护服务器主城或者玩家自己的重要建筑",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "Doomhawk"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Команды MyRegion",
+  "website": null,
+  "main": "MyRegion.MainClass",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "rg",
+      "description": "Команды MyRegion",
+      "usage": "/rg",
+      "permission": "myregion.select",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "myregion.select",
+      "description": "Allow to select positions",
+      "default": "true"
+    },
+    {
+      "name": "myregion.expand",
+      "description": "Allow to use /rg expand",
+      "default": "true"
+    },
+    {
+      "name": "myregion.wand",
+      "description": "Allow to use /rg wand",
+      "default": "true"
+    },
+    {
+      "name": "myregion.claim",
+      "description": "Allow to claim region",
+      "default": "true"
+    },
+    {
+      "name": "myregion.info",
+      "description": "Allow to use /rg info",
+      "default": "true"
+    },
+    {
+      "name": "myregion.remove",
+      "description": "Allow to use /rg remove",
+      "default": "true"
+    },
+    {
+      "name": "myregion.admin",
+      "description": "Allow to manipulate with other regions",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/myregion/MyRegion-1.0.jar",
+      "file_name": "MyRegion-1.0.jar",
+      "sha256": "cf06e7d99cb245580a29ef49611ba5093703f7e1d80a69dc9a59a61c83ff22e2",
+      "size": 15178,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/myregion/MyRegion-1.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/Nukkit插件/MyRegion--保护服务器主城或者玩家自己的重要建筑/MyRegion_V1.0--保护服务器主城或者玩家自己的重要建筑.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

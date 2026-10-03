@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "lockplayer",
+  "name": "LockPlayer",
+  "display_name": "设备锁定",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Draemon"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "The main command",
+  "website": null,
+  "main": "LockPlayer\\Main",
+  "tags": [
+    "admin",
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "lock",
+      "description": "The main command",
+      "usage": "",
+      "permission": "lock.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "lock.command",
+      "description": "cid permissions and set cid",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/lockplayer/LockPlayer-1.0.0.phar",
+      "file_name": "LockPlayer-1.0.0.phar",
+      "sha256": "7f03806cf100a8c51491692c02616b1def15e9bb171458a9e606644cea11c724",
+      "size": 2083,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/lockplayer/LockPlayer-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/设备锁定/设备锁定.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:23+08:00",
+  "minecraft_version_source": "api-inferred"
+}

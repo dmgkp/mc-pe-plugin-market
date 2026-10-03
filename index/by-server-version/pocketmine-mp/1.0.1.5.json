@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.0.1.5",
+  "count": 3,
+  "plugins": [
+    {
+      "id": "killbounty",
+      "name": "KillBounty",
+      "display_name": "KillBounty",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.1.5",
+      "path": "plugins/pocketmine-mp/0.11.0/killbounty/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/killbounty/KillBounty-1.0.1.5.phar",
+      "sha256": "6e6ca0f89e102a12dac3eb170d136f67cccf0a298fd67af65eca6ae8cf0e6911",
+      "size": 9553,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/killbounty/KillBounty-1.0.1.5.phar"
+      }
+    },
+    {
+      "id": "killbounty",
+      "name": "KillBounty",
+      "display_name": "发布悬赏",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.1.5",
+      "path": "plugins/pocketmine-mp/0.11.1/killbounty/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/killbounty/KillBounty-1.0.1.5.phar",
+      "sha256": "6e6ca0f89e102a12dac3eb170d136f67cccf0a298fd67af65eca6ae8cf0e6911",
+      "size": 9553,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/killbounty/KillBounty-1.0.1.5.phar"
+      }
+    },
+    {
+      "id": "killbounty",
+      "name": "KillBounty",
+      "display_name": "发布悬赏",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.1.5",
+      "path": "plugins/pocketmine-mp/0.14.0/killbounty/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/killbounty/KillBounty-1.0.1.5.phar",
+      "sha256": "6e6ca0f89e102a12dac3eb170d136f67cccf0a298fd67af65eca6ae8cf0e6911",
+      "size": 9553,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/killbounty/KillBounty-1.0.1.5.phar"
+      }
+    }
+  ]
+}

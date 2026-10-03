@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "manyworlds",
+  "name": "ManyWorlds",
+  "display_name": "新版多世界",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.0",
+  "author": [
+    "aliuly"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Manage Multiple Worlds",
+  "website": null,
+  "main": "aliuly\\manyworlds\\Main",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mw",
+      "description": "Manage worlds",
+      "usage": "/mw <help|sub-cmd> [options]",
+      "permission": "mw.cmds",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "mw.cmds",
+      "description": "Allow all the ManyWorlds functionality",
+      "default": "true"
+    },
+    {
+      "name": "mw.cmd.tp",
+      "description": "Allows users to travel to other worlds",
+      "default": "op"
+    },
+    {
+      "name": "mw.cmd.tp.others",
+      "description": "Allows users to make others travel to other worlds",
+      "default": "op"
+    },
+    {
+      "name": "mw.cmd.ls",
+      "description": "Allows users to list worlds",
+      "default": "op"
+    },
+    {
+      "name": "mw.cmd.world.create",
+      "description": "Allows users to create worlds",
+      "default": "op"
+    },
+    {
+      "name": "mw.cmd.world.load",
+      "description": "Allows users to load worlds",
+      "default": "op"
+    },
+    {
+      "name": "mw.cmd.lvdat",
+      "description": "Manipulate level.dat",
+      "default": "op"
+    },
+    {
+      "name": "mw.cmd.default",
+      "description": "Changes default world",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/manyworlds/ManyWorlds-2.0.0.phar",
+      "file_name": "ManyWorlds-2.0.0.phar",
+      "sha256": "a08d52ed31af82a95c33d6bd8baf7b17fd889f2d07faf2130b8462608e000381",
+      "size": 60431,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/manyworlds/ManyWorlds-2.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/新版多世界/新版多世界.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:28+08:00",
+  "minecraft_version_source": "path"
+}

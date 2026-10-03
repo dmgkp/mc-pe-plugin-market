@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "speedmeup-v3",
+  "name": "SpeedMeUp",
+  "display_name": "倍速",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "fxxk"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Speed Me Up",
+  "website": null,
+  "main": "SpeedMeUp\\SpeedMeUp",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/speedmeup-v3/SpeedMeUp-1.0.0.phar",
+      "file_name": "SpeedMeUp-1.0.0.phar",
+      "sha256": "bae9c1321c156e010357c7d450b7796599141a8303f29b6aece749c3d838e0b5",
+      "size": 3227,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/speedmeup-v3/SpeedMeUp-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/绿宝石加速排斥版与24倍速/(排斥版)绿宝石加速.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:22+08:00",
+  "minecraft_version_source": "api-inferred"
+}

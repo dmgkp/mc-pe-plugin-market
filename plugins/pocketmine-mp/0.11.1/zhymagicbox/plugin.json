@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "zhymagicbox",
+  "name": "ZhyMagicBox",
+  "display_name": "宝箱插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "Zhy"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Zhy's Perfect Treasure-Box Plugin.",
+  "website": null,
+  "main": "ZhyMagicBox\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "zhybox",
+      "description": "强制生成一个宝箱",
+      "usage": "/zhybox",
+      "permission": "zhybox.zhybox",
+      "aliases": []
+    },
+    {
+      "name": "loc",
+      "description": "开关坐标显示",
+      "usage": "/loc",
+      "permission": "zhybox.loc",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "zhybox.*",
+      "description": "允许显示坐标",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/zhymagicbox/ZhyMagicBox-1.0.phar",
+      "file_name": "ZhyMagicBox-1.0.phar",
+      "sha256": "2b9e716991584c528affb01d9223e51a3a7830f90591e65dfb3a84f196e9e41d",
+      "size": 6998,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/zhymagicbox/ZhyMagicBox-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/宝箱插件/宝箱插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:27+08:00",
+  "minecraft_version_source": "path"
+}

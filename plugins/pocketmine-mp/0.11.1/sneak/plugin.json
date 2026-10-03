@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "sneak",
+  "name": "Sneak",
+  "display_name": "潜行插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1",
+  "author": [
+    "CrazedMiner"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Players can Sneak by simply using a Command!",
+  "website": null,
+  "main": "Sneak\\Main",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "sneak",
+      "description": "Toggles Sneaking for you or the specified Player",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "sneak.command.other",
+      "description": "Players with this permission are able to toggle sneaking for other Players",
+      "default": "op"
+    },
+    {
+      "name": "sneak.command.self",
+      "description": "Players with this permission are able to toggle Sneaking for themselves",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/sneak/Sneak-1.1.phar",
+      "file_name": "Sneak-1.1.phar",
+      "sha256": "b19a6fd63f578fd8af2db2c96f0bbfd08d8997aa8b54137683e1fa6deaaf65fa",
+      "size": 6522,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/sneak/Sneak-1.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/潜行插件/潜行插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.2.0",
+  "count": 15,
+  "plugins": [
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "EconomyAirport",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.11.0/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyairport/EconomyAirport-2.0.2.phar",
+      "sha256": "5a34ef0c7fb70979cd932aa8c4c13f4a48461a466ae8a2b93a914ad33883bae4",
+      "size": 10116,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyairport/EconomyAirport-2.0.2.phar"
+      }
+    },
+    {
+      "id": "worldeditor",
+      "name": "WorldEditor",
+      "display_name": "创世神插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.3",
+      "path": "plugins/pocketmine-mp/0.11.0/worldeditor/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/worldeditor/WorldEditor-1.0.3.phar",
+      "sha256": "66524ada330aa02e91321dd0db324c34c24010a13569a56406381d0b1912ae24",
+      "size": 43835,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/worldeditor/WorldEditor-1.0.3.phar"
+      }
+    },
+    {
+      "id": "animal",
+      "name": "Animal",
+      "display_name": "动物插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "0.0.2",
+      "path": "plugins/pocketmine-mp/0.11.1/animal/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/animal/Animal-0.0.2.phar",
+      "sha256": "466ab3886d7bd04ba60167b342a3fd5cbce18c73575132bd1138b605bc878300",
+      "size": 127632,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/animal/Animal-0.0.2.phar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/0.11.1/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyairport/EconomyAirport-2.0.4.phar",
+      "sha256": "88adc0bf205c4fba913d80c2f6db5703e6ed860eb0e18648ad624b5457a09cac",
+      "size": 10738,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyairport/EconomyAirport-2.0.4.phar"
+      }
+    },
+    {
+      "id": "worldeditor",
+      "name": "WorldEditor",
+      "display_name": "创世神插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.3",
+      "path": "plugins/pocketmine-mp/0.11.1/worldeditor/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/worldeditor/WorldEditor-1.0.3.phar",
+      "sha256": "66524ada330aa02e91321dd0db324c34c24010a13569a56406381d0b1912ae24",
+      "size": 43835,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/worldeditor/WorldEditor-1.0.3.phar"
+      }
+    },
+    {
+      "id": "animal",
+      "name": "Animal",
+      "display_name": "动物插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "0.0.2",
+      "path": "plugins/pocketmine-mp/0.16.0/animal/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/animal/Animal-0.0.2.phar",
+      "sha256": "466ab3886d7bd04ba60167b342a3fd5cbce18c73575132bd1138b605bc878300",
+      "size": 127632,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/animal/Animal-0.0.2.phar"
+      }
+    },
+    {
+      "id": "blockhunt",
+      "name": "BlockHunt",
+      "display_name": "百度贴吧",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "0.1.1",
+      "path": "plugins/pocketmine-mp/0.16.0/blockhunt/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/blockhunt/BlockHunt-0.1.1.phar",
+      "sha256": "01029eaf4291115f6eb7d5d2383314a670261c6cb4780ef3693d2138abb65a39",
+      "size": 31942,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/blockhunt/BlockHunt-0.1.1.phar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.16.0/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/economyairport/EconomyAirport-2.0.2.phar",
+      "sha256": "5a34ef0c7fb70979cd932aa8c4c13f4a48461a466ae8a2b93a914ad33883bae4",
+      "size": 10116,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/economyairport/EconomyAirport-2.0.2.phar"
+      }
+    },
+    {
+      "id": "garbagecollector",
+      "name": "GarbageCollector",
+      "display_name": "自动清理内存",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.16.0/garbagecollector/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/garbagecollector/GarbageCollector-1.0.0.phar",
+      "sha256": "0323e2e94bc50cbd3165a4bc0bf8bc3aa0e4ca64134f9ac0ae2b179c89fcef37",
+      "size": 1697,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/garbagecollector/GarbageCollector-1.0.0.phar"
+      }
+    },
+    {
+      "id": "samoneyft",
+      "name": "SaMoneyFt",
+      "display_name": "研究用",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "1.5.1",
+      "path": "plugins/pocketmine-mp/0.16.0/samoneyft/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/samoneyft/SaMoneyFt-1.5.1.phar",
+      "sha256": "b305592369c5bdbae923171fae36a21a830b6db6f3ab258910f1405c46317b8a",
+      "size": 2600,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/samoneyft/SaMoneyFt-1.5.1.phar"
+      }
+    },
+    {
+      "id": "worldeditor",
+      "name": "WorldEditor",
+      "display_name": "翻新",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "1.0.3",
+      "path": "plugins/pocketmine-mp/0.16.0/worldeditor/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/worldeditor/WorldEditor-1.0.3.phar",
+      "sha256": "66524ada330aa02e91321dd0db324c34c24010a13569a56406381d0b1912ae24",
+      "size": 43835,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/worldeditor/WorldEditor-1.0.3.phar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "EconomyAirport",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.4-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyairport/EconomyAirport-2.0.4-3.phar",
+      "sha256": "3a4f9821fc7e7586353fae108646e32e063ab1036bd80fb0ee52724b82f784d9",
+      "size": 3674,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyairport/EconomyAirport-2.0.4-3.phar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/1.8.0/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyairport/EconomyAirport-2.0.4.phar",
+      "sha256": "88adc0bf205c4fba913d80c2f6db5703e6ed860eb0e18648ad624b5457a09cac",
+      "size": 10738,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyairport/EconomyAirport-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyairport-v2",
+      "name": "EconomyAirport",
+      "display_name": "EconomyAirport",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/1.8.0/economyairport-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyairport-v2/EconomyAirport-2.0.4.phar",
+      "sha256": "c5bb4def4d83df9cf943dda42244317e794394bddd48e1ab1478d9a545dea4db",
+      "size": 10738,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyairport-v2/EconomyAirport-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyairport-v3",
+      "name": "EconomyAirport",
+      "display_name": "EconomyAirport",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/1.8.0/economyairport-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyairport-v3/EconomyAirport-2.0.4.phar",
+      "sha256": "f077b4b9dfaa7a22b953aa036d068fcbeb64e04bf4c38706e5a2b99cc7aa8d97",
+      "size": 10738,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyairport-v3/EconomyAirport-2.0.4.phar"
+      }
+    }
+  ]
+}

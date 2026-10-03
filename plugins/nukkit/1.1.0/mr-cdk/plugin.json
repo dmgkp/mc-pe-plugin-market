@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "mr-cdk",
+  "name": "Mr_CDK",
+  "display_name": "兑换",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Mr_sky"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "兑换插件",
+  "website": null,
+  "main": "top.ascserver.mr_cdk.Mr_CDK",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mrcdk",
+      "description": "Mr_MCDK的主命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/mr-cdk/Mr_CDK-1.0.0.jar",
+      "file_name": "Mr_CDK-1.0.0.jar",
+      "sha256": "76dd4a8f0554d68d7b4b5f52281a1562aace30917a25281533fd504e49519a01",
+      "size": 2369,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-cdk/Mr_CDK-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/Nukkit插件/Mr系列/[MrCDK兑换]Mr_CDK/Mr_CDK v1.0.0.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

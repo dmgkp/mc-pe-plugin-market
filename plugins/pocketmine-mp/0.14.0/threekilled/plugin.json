@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "threekilled",
+  "name": "ThreeKilled",
+  "display_name": "三国杀",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "对一指定在线玩家使用\"杀\"，不闪避则扣除2颗心.",
+  "website": null,
+  "main": "ThreeKilled\\MainClass",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "杀",
+      "description": "对一指定在线玩家使用\"杀\"，不闪避则扣除2颗心.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "万箭齐发",
+      "description": "对所有在线玩家使用\"杀\"，不闪避则扣除2颗心.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "南蛮入侵",
+      "description": "对所以在线玩家发动突袭，不使用\"杀\"则扣除2颗心.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "手牌",
+      "description": "查看当前手牌.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "三国杀",
+      "description": "OP指令，调节服务器用.",
+      "usage": "",
+      "permission": "threekilled.command.op",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/threekilled/ThreeKilled-1.0.0.phar",
+      "file_name": "ThreeKilled-1.0.0.phar",
+      "sha256": "f91631abd09dc16cbb4496c0f40091e36e4437f9d2908a0befa6d5008e8d45c1",
+      "size": 10668,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/threekilled/ThreeKilled-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/三国杀/三国杀.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

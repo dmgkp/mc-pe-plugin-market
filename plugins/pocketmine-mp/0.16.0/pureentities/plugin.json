@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "pureentities",
+  "name": "PureEntities",
+  "display_name": "PureEntities",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "milk0417 Sartling"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Implement all MCPE entities",
+  "website": null,
+  "main": "milk\\pureentities\\PureEntities",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/pureentities/PureEntities-1.0.0.phar",
+      "file_name": "PureEntities-1.0.0.phar",
+      "sha256": "47b2e7eedbfea49b305e7a226065ef626ae0ed0bdb263454873100570008b4e0",
+      "size": 115465,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/pureentities/PureEntities-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "极致整合/极致插件包/插件/可以让动物移动插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

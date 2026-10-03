@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "oblockshop",
+  "name": "Oblockshop",
+  "display_name": "加密",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.7",
+  "author": [
+    "Orange"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Obs",
+  "website": null,
+  "main": "Oblockshop\\Main",
+  "tags": [
+    "economy",
+    "admin",
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "obs",
+      "description": "Obs",
+      "usage": "/obs add <buy/sell> [ID] [特殊值] [数量] [价格] [名称]",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/oblockshop/Oblockshop-2.0.7.phar",
+      "file_name": "Oblockshop-2.0.7.phar",
+      "sha256": "7c0828ecf2da443bc187e1f07901932b76f66898cbded86344eb9a857a042e76",
+      "size": 51634,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/oblockshop/Oblockshop-2.0.7.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/方块商店 - 加密/[方块商店]Oblockshop.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

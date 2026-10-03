@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "moreteam",
+  "name": "MoreTeam",
+  "display_name": "团队插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.9",
+  "author": [
+    "guestc"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "[MoreTeam] 选择队伍",
+  "website": null,
+  "main": "MoreTeam\\MoreTeam",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "team",
+      "description": "[MoreTeam] 选择队伍",
+      "usage": "/team TeamName",
+      "permission": "MoreTeam.command.team",
+      "aliases": []
+    },
+    {
+      "name": "teamadd",
+      "description": "[MoreTeam] 添加队伍",
+      "usage": "/teamadd TeamName TeamTag",
+      "permission": "MoreTeam.command.teamadd",
+      "aliases": []
+    },
+    {
+      "name": "teamremove",
+      "description": "[MoreTeam] 移除队伍",
+      "usage": "/teamremove TeamName",
+      "permission": "MoreTeam.command.teamremove",
+      "aliases": []
+    },
+    {
+      "name": "teamlist",
+      "description": "[MoreTeam] 队伍列表",
+      "usage": "/teamlist",
+      "permission": "MoreTeam.command.teamlist",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "MoreTeam.command.team",
+      "description": "[MoreTeam] 选择队伍",
+      "default": "true"
+    },
+    {
+      "name": "MoreTeam.command.teamlist",
+      "description": "[MoreTeam] 队伍列表",
+      "default": "true"
+    },
+    {
+      "name": "MoreTeam.command.teamadd",
+      "description": "[MoreTeam] 添加队伍",
+      "default": "true"
+    },
+    {
+      "name": "MoreTeam.command.teamremove",
+      "description": "[MoreTeam] 移除队伍",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/moreteam/MoreTeam-1.1.9.phar",
+      "file_name": "MoreTeam-1.1.9.phar",
+      "sha256": "3e8f685ad95bff2121e4e344e50b1f62690d9c639857c6436e6b3e4aaf78d4ba",
+      "size": 9390,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/moreteam/MoreTeam-1.1.9.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/团队插件/团队插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:16+08:00",
+  "minecraft_version_source": "api-inferred"
+}

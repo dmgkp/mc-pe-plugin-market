@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "id": "mysignshop",
+  "name": "MySignShop",
+  "display_name": "京东个人商店",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.7",
+  "author": [
+    "Him188"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "让玩家创建自己的商店 使用EconomyAPI 并检测EconomyLand.",
+  "website": null,
+  "main": "MySignShop\\MySignShop",
+  "tags": [
+    "economy",
+    "world",
+    "admin",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mss",
+      "description": "个人商店管理命令",
+      "usage": "/mss <删除全部 | delall>",
+      "permission": "MySignShop.command.mss",
+      "aliases": []
+    },
+    {
+      "name": "itemid",
+      "description": "获取手中物品名称和ID",
+      "usage": "/itemid",
+      "permission": "MySignShop.command.itemid",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "MySignShop.command.mss",
+      "description": "仅OP使用",
+      "default": "op"
+    },
+    {
+      "name": "MySignShop.command.itemid",
+      "description": "允许所有人",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/mysignshop/MySignShop-1.0.7.phar",
+      "file_name": "MySignShop-1.0.7.phar",
+      "sha256": "b8298b243f2e0fb53f32837f2010ce392e12bc368ba27522c2a9fe0ea57d2598",
+      "size": 22982,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/mysignshop/MySignShop-1.0.7.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "MySignShop-1.0.0.phar",
+        "sha256": "0fcb17ea50bec9d289ab94b49daca1227ec64f991a8317978500473ff15526a9",
+        "size": 21448
+      }
+    ],
+    "1.0.2": [
+      {
+        "file_name": "MySignShop-1.0.2.phar",
+        "sha256": "148ad92831209a42dbf2992caad9b584df5ad7660936c168e84d38e0a88e431f",
+        "size": 22036
+      }
+    ],
+    "1.0.5": [
+      {
+        "file_name": "MySignShop-1.0.5.phar",
+        "sha256": "b2117b2a391e921eb8bee7fb507db546f294af4a9e0ee9cdfc0535bdf4cfb91c",
+        "size": 22217
+      }
+    ],
+    "1.0.6": [
+      {
+        "file_name": "MySignShop-1.0.6.phar",
+        "sha256": "c7eaa78bdbc2e7954ec025277b1f68e91c5a829719469878acaa19f7cd3a00e5",
+        "size": 23188
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/京东个人商店/个人商店.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:30+08:00",
+  "minecraft_version_source": "api-inferred"
+}

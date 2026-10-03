@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-minecraft-version",
+  "minecraft_version": "1.11.0",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "bedwars",
+      "name": "Bedwars",
+      "display_name": "更新",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.11.0",
+      "plugin_version": "4.2.0",
+      "path": "plugins/pocketmine-mp/1.11.0/bedwars/plugin.json",
+      "file": "plugins/pocketmine-mp/1.11.0/bedwars/Bedwars-4.2.0.phar",
+      "sha256": "d6305c4be4f30074d0d098c59291e0a1bda3de34e1c0c6c7bb85662e91b7ed72",
+      "size": 11702,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.11.0/bedwars/Bedwars-4.2.0.phar"
+      }
+    }
+  ]
+}

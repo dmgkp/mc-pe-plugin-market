@@ -1,0 +1,8 @@
+# Changelog - Message
+
+## 1.4.0 (current)
+
+- indexed from original pack; file `Message-1.4.0.phar`
+
+
+_Changelog entries are derived from bundled version files, not release notes._

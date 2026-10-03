@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "bedwars",
+  "name": "Bedwars",
+  "display_name": "起床战争汉化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.11.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.12.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.3",
+  "author": [
+    "Bluplayz"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "起床战争主命令",
+  "website": "http://youtube.com/Bluplayz",
+  "main": "Bluplayz\\Bedwars",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "Bedwars",
+      "description": "起床战争主命令",
+      "usage": "",
+      "permission": "",
+      "aliases": [
+        "bw"
+      ]
+    },
+    {
+      "name": "Start",
+      "description": "起床战争开始命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/bedwars/Bedwars-2.3.phar",
+      "file_name": "Bedwars-2.3.phar",
+      "sha256": "1e5ae51f37cf9a576bcaac094745512e2f4a7c546703db95c0dbd9023bac174d",
+      "size": 89280,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bedwars/Bedwars-2.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/[小游戏] BedWars--起床战争汉化/BedWars--起床战争汉化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

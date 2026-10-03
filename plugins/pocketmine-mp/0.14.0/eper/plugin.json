@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "eper",
+  "name": "EPer",
+  "display_name": "环境保护者",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Spiderman"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "EPer - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "EPer\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "ZXDAKernel"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "epset",
+      "description": "",
+      "usage": "§b关于§eEPer§b的设置",
+      "permission": "illness.command.cmd",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "illness.command.cmd",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/eper/EPer-1.0.0.phar",
+      "file_name": "EPer-1.0.0.phar",
+      "sha256": "f787c38fa9782f95543eaed1eacbfaba584d42b935a03536bbdec48419f65fcc",
+      "size": 60222,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/eper/EPer-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/EPer--环境保护者/EPer_v1.0.0--环境保护者[1.1].phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:51+08:00",
+  "minecraft_version_source": "api-inferred"
+}

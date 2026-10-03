@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "itouchshop-v1-0-1",
+  "name": "ITouchShop_v1.0.1",
+  "display_name": "商店插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "ibook"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "触摸商店",
+  "website": null,
+  "main": "ITouchShop\\ITouchShop",
+  "tags": [
+    "economy"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ts",
+      "description": "输入/ts help 查看帮助",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/itouchshop-v1-0-1/ITouchShop_v1.0.1-1.0.1.phar",
+      "file_name": "ITouchShop_v1.0.1-1.0.1.phar",
+      "sha256": "9bf66bb5c0f54401b0bf06ee93642b01f857a1364ca880a5e07b74116fdef699",
+      "size": 8611,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/itouchshop-v1-0-1/ITouchShop_v1.0.1-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/[Go!]ITouchShop商店插件/ITouchShop_v1.0.1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:28+08:00",
+  "minecraft_version_source": "api-inferred"
+}

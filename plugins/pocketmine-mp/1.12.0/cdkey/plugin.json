@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "cdkey",
+  "name": "CDKey",
+  "display_name": "物品兑换码",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=1.12.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=3.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "PoXiao"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "生成物品兑换码",
+  "website": null,
+  "main": "CDKey\\CDKey",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "生成兑换码",
+      "description": "生成物品兑换码",
+      "usage": "/生成兑换码 帮助",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "兑换",
+      "description": "使用物品兑换码",
+      "usage": "/兑换 [兑换码]",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/cdkey/CDKey-1.0.0.phar",
+      "file_name": "CDKey-1.0.0.phar",
+      "sha256": "a0ee65c76505492ddf0c6b47cb616055fa551299423de8a3989e591fc897cc42",
+      "size": 5841,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/cdkey/CDKey-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/CDKey--物品兑换码/CDKey_v1.0.0--物品兑换码.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "commandsign",
+  "name": "CommandSign",
+  "display_name": "命令木牌",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Smile"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "这是一个指令牌子插件",
+  "website": null,
+  "main": "com.smile.commandsign.CommandSign",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/commandsign/CommandSign-1.0.0.jar",
+      "file_name": "CommandSign-1.0.0.jar",
+      "sha256": "ef969f53d383a55fba0fc26b09a83bca4c68a188903830bb537f85358899bd69",
+      "size": 2130,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/commandsign/CommandSign-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/命令木牌/命令木牌.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

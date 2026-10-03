@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "limitlogin",
+  "name": "LimitLogin",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "Pear"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "重载配置文件.",
+  "website": null,
+  "main": "net.limitlogin.LimitLogin",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "limitlogin",
+      "description": "重载配置文件.",
+      "usage": "使用:/<command> reload",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/limitlogin/LimitLogin-1.0.jar",
+      "file_name": "LimitLogin-1.0.jar",
+      "sha256": "8cc330381caf79c8d39602840b4da5251aa8bf7878d50b5fe5b947c5d5e3fc56",
+      "size": 6502,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/limitlogin/LimitLogin-1.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/LimitLogin 压测.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

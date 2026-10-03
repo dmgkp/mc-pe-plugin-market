@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "id": "economyjob",
+  "name": "EconomyJob",
+  "display_name": "经济",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.3",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Job master command",
+  "website": null,
+  "main": "onebone\\economyjob\\EconomyJob",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "job",
+      "description": "Job master command",
+      "usage": "/job <join|retire|list|me>",
+      "permission": "economyjob.command.job",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "economyjob.command.*",
+      "description": "Allows player to use command that allows to see its job",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/economyjob/EconomyJob-2.0.3.phar",
+      "file_name": "EconomyJob-2.0.3.phar",
+      "sha256": "7dda09fbfd66005c0b4038e80c66d6d69ff1a5da0d2442f9444f884416743c53",
+      "size": 2868,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyjob/EconomyJob-2.0.3.phar"
+      }
+    }
+  ],
+  "history": {
+    "2.0.2": [
+      {
+        "file_name": "EconomyJob-2.0.2.phar",
+        "sha256": "b74f3b9faa2838aee6bb4663cc38d98b031bffb0d2cae29dc7eaeb4ed7660d2a",
+        "size": 2185
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/经济5.5/EconomyJob_v2.0.3.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:30+08:00",
+  "minecraft_version_source": "path"
+}

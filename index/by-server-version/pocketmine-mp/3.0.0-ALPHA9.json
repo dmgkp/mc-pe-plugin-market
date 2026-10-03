@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "3.0.0-ALPHA9",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "motdshuffle",
+      "name": "MOTDShuffle",
+      "display_name": "动态",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.12.0/motdshuffle/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/motdshuffle/MOTDShuffle-1.1.0.phar",
+      "sha256": "833c97daf0c2ec3f95ac93d58212696f9d41028d072038bc244d2efcdc152bea",
+      "size": 14439,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/motdshuffle/MOTDShuffle-1.1.0.phar"
+      }
+    }
+  ]
+}

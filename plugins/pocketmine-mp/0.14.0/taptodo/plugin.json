@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "taptodo",
+  "name": "TapToDo",
+  "display_name": "点击方块执行命令",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.1.2",
+  "author": [
+    "Falk"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "TapToDo command!",
+  "website": null,
+  "main": "taptodo\\TapToDo",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "t",
+      "description": "TapToDo command!",
+      "usage": "/t <add <command> / del <command> / delall / name / list>",
+      "permission": "taptodo.command",
+      "aliases": []
+    },
+    {
+      "name": "tr",
+      "description": "Remote block managment",
+      "usage": "/tr <name> <add <command> / del <command> / delall / name / list>",
+      "permission": "taptodo.remote",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "taptodo",
+      "description": "Use taptodo blocks",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/taptodo/TapToDo-2.1.2.phar",
+      "file_name": "TapToDo-2.1.2.phar",
+      "sha256": "ef6df330697b86232a0ee35c71b9e1c2a517eb326a735a9a5eac7f85c2946cf6",
+      "size": 6541,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/taptodo/TapToDo-2.1.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/点击方块执行命令/[点击方块执行命令]TapToDo.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

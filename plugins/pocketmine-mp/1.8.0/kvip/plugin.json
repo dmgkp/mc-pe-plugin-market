@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "kvip",
+  "name": "KVIP",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "WLTY1",
+  "author": [
+    "WLTY1"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "KVIP - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "KVIP\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "recharge",
+      "description": "",
+      "usage": "/recharge",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "kvip",
+      "description": "",
+      "usage": "/kvip  <buy/me/fly/reward/gm/tp/hide/me/stat/time/jump/info>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "kchest",
+      "description": "",
+      "usage": "/kchest <info/buy/open/use>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "dn",
+      "description": "",
+      "usage": "/dn <help>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "kcpay",
+      "description": "",
+      "usage": "/kcpay <pay/reg/unreg>",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/kvip/KVIP-WLTY1.phar",
+      "file_name": "KVIP-WLTY1.phar",
+      "sha256": "eb697732ae0641cd35160faa9d64cbfbaef0e959cb50b0553fb47e7d46945034",
+      "size": 19040,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/kvip/KVIP-WLTY1.phar"
+      }
+    }
+  ],
+  "history": {
+    "Halloween": [
+      {
+        "file_name": "KVIP-Halloween.phar",
+        "sha256": "526c4155b32cb1fe16751003c8bb48a0ca6150280deef0868142176ada59c5d9",
+        "size": 19104
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/vip插件/KVIP_vWLTY1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:29+08:00",
+  "minecraft_version_source": "api-inferred"
+}

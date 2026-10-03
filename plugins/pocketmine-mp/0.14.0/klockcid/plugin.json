@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "klockcid",
+  "name": "KLockCid",
+  "display_name": "设备绑定插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Knight"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "绑定设备总指令",
+  "website": null,
+  "main": "KLockCid\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "lock",
+      "description": "绑定设备总指令",
+      "usage": "/lock",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/klockcid/KLockCid-1.0.0.phar",
+      "file_name": "KLockCid-1.0.0.phar",
+      "sha256": "11514ec6b6e8a2d8c9fa2a516be2e018fca326263981faf47bc7a9b39abeec5f",
+      "size": 8089,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/klockcid/KLockCid-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/KLockCid设备绑定插件/KLockCid_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:22+08:00",
+  "minecraft_version_source": "api-inferred"
+}

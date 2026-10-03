@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "realtime-v2",
+  "name": "RealTime",
+  "display_name": "真实时间",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.1",
+  "author": [
+    "Guillaume351"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Take control of the time",
+  "website": null,
+  "main": "RealTime\\MainClass",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "rt",
+      "description": "Lock the time",
+      "usage": "Usage: /rt enable/sunrise/sunset/day/night/disable/lock",
+      "permission": "realtime.command.rt",
+      "aliases": []
+    },
+    {
+      "name": "hour",
+      "description": "Get tell the hour",
+      "usage": "Usage : /hour",
+      "permission": "realtime.command.hour",
+      "aliases": []
+    },
+    {
+      "name": "realtime.command.rt",
+      "description": "Allows the user to run the rt command to control the time",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "realtime.command.hour",
+      "description": "",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/realtime-v2/RealTime-2.1.phar",
+      "file_name": "RealTime-2.1.phar",
+      "sha256": "55fafba02e6018ec4ad150cd43775cde09d38cbd9e8ff7d613ea2def816eb93e",
+      "size": 9102,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/realtime-v2/RealTime-2.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/真实时间/真实时间.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:20+08:00",
+  "minecraft_version_source": "api-inferred"
+}

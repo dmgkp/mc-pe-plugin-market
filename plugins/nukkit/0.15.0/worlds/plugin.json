@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "id": "worlds",
+  "name": "Worlds",
+  "display_name": "Worlds",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0",
+    "1.1.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <1.13.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0",
+    "pocketmine-mp": ">=3.0.0-ALPHA10"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "uuuuone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "多世界",
+  "website": null,
+  "main": "Worlds.Worlds",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "w",
+      "description": "传送到某个地图",
+      "usage": "/w [地图名]",
+      "permission": "Worlds.command.Worlds",
+      "aliases": []
+    },
+    {
+      "name": "lw",
+      "description": "列出世界列表",
+      "usage": "/lw",
+      "permission": "Worlds.command.Worlds",
+      "aliases": []
+    },
+    {
+      "name": "load",
+      "description": "加载地图",
+      "usage": "/load [地图名]",
+      "permission": "Worlds.command.opWorlds",
+      "aliases": []
+    },
+    {
+      "name": "unload",
+      "description": "卸载地图",
+      "usage": "/unload [地图名]",
+      "permission": "Worlds.command.opWorlds",
+      "aliases": []
+    },
+    {
+      "name": "newworld",
+      "description": "新建地图",
+      "usage": "/newworld [地图名] [seed]",
+      "permission": "Worlds.command.opWorlds",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Worlds.command.Worlds",
+      "description": "允许玩家运行/w ,/lw",
+      "default": "true"
+    },
+    {
+      "name": "Worlds.command.opWorlds",
+      "description": "允许 OP 运行/load , /unload",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/0.15.0/worlds/Worlds-1.1.0.jar",
+      "file_name": "Worlds-1.1.0.jar",
+      "sha256": "331c83399aa8d8d4c2c0088f3836efc74dcb2b7790c539fd8949bd2fcc1e8910",
+      "size": 2906,
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/worlds/Worlds-1.1.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/相关资源/PE Server 核心/Nukkit v0.15.x/plugins/Worlds V1.1.0.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:33+08:00",
+  "minecraft_version_source": "path"
+}

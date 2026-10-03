@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-minecraft-version",
+  "minecraft_version": "1.7.0",
+  "count": 8,
+  "plugins": [
+    {
+      "id": "addcart",
+      "name": "AddCart",
+      "display_name": "矿车插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "1.0 Beta",
+      "path": "plugins/pocketmine-mp/1.7.0/addcart/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/addcart/AddCart-1.0_Beta.phar",
+      "sha256": "0bc657a7a0af0333f2f88440a15a2d688834a659acd1336ab4777af30eb2158f",
+      "size": 9499,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/addcart/AddCart-1.0_Beta.phar"
+      }
+    },
+    {
+      "id": "allmobs",
+      "name": "Allmobs",
+      "display_name": "完美动物",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.7.0/allmobs/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/allmobs/Allmobs-1.0.1.phar",
+      "sha256": "419ac00ba283c96cd90ef83baa6ce792804aeee7d2d06dd0506d57c80221100d",
+      "size": 58759,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/allmobs/Allmobs-1.0.1.phar"
+      }
+    },
+    {
+      "id": "animalworld",
+      "name": "AnimalWorld",
+      "display_name": "AnimalWorld",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "2.9.0_优化版",
+      "path": "plugins/pocketmine-mp/1.7.0/animalworld/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/animalworld/AnimalWorld-2.9.0.phar",
+      "sha256": "38bc3445e93badb4ba1cd914c778a69a84c546bf8fc857d7babc1a232314ff64",
+      "size": 8693,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/animalworld/AnimalWorld-2.9.0.phar"
+      }
+    },
+    {
+      "id": "gish",
+      "name": "gish",
+      "display_name": "钓鱼竿",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.7.0/gish/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/gish/gish-1.0.0.phar",
+      "sha256": "9ef729a335e958aa6a778ded4b18034f076d51781fd641ab08e3693bf3fe2fa1",
+      "size": 6728,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/gish/gish-1.0.0.phar"
+      }
+    },
+    {
+      "id": "miniguns",
+      "name": "MiniGuns",
+      "display_name": "枪械插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "TEST_15",
+      "path": "plugins/pocketmine-mp/1.7.0/miniguns/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/miniguns/MiniGuns-TEST_15.phar",
+      "sha256": "2f92b4d4e6c5c9508176d68de63d6aea2edb992f1ce11b13a52e17ad9a539271",
+      "size": 2317,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/miniguns/MiniGuns-TEST_15.phar"
+      }
+    },
+    {
+      "id": "serverchannels",
+      "name": "ServerChannels",
+      "display_name": "频道插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "1.2",
+      "path": "plugins/pocketmine-mp/1.7.0/serverchannels/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/serverchannels/ServerChannels-1.2.phar",
+      "sha256": "72973aabe8de7d12915b30cd75731c13f6e77081d43c37657aba455b8f426084",
+      "size": 5655,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/serverchannels/ServerChannels-1.2.phar"
+      }
+    },
+    {
+      "id": "speedboots",
+      "name": "SpeedBoots",
+      "display_name": "装备药水效果",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "0.1",
+      "path": "plugins/pocketmine-mp/1.7.0/speedboots/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/speedboots/SpeedBoots-0.1.phar",
+      "sha256": "6f057f9209692d24ede699ac0ef6a22a46851476a807afa6347d011ed39848fe",
+      "size": 2783,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/speedboots/SpeedBoots-0.1.phar"
+      }
+    },
+    {
+      "id": "worldgm",
+      "name": "WorldGM",
+      "display_name": "多世界模式",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "7.0",
+      "path": "plugins/pocketmine-mp/1.7.0/worldgm/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/worldgm/WorldGM-7.0.phar",
+      "sha256": "c519d501ee27014e1acb0027ec6eb04feb2c2f749b1103c4dee1d02996896618",
+      "size": 17153,
+      "tags": [
+        "world",
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/worldgm/WorldGM-7.0.phar"
+      }
+    }
+  ]
+}

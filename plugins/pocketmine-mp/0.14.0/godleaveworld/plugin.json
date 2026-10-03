@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "godleaveworld",
+  "name": "GodLeaveWorld",
+  "display_name": "留言系统插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "xiaokai"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "给某人留言",
+  "website": null,
+  "main": "Mian\\Mian",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "留言",
+      "description": "给某人留言",
+      "usage": " /留言 玩家名 内容",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "情侣留言",
+      "description": "给情侣留言",
+      "usage": " /情侣留言 内容",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "留言帮助",
+      "description": "留言帮助列表",
+      "usage": " /留言帮助",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/godleaveworld/GodLeaveWorld-1.0.0.phar",
+      "file_name": "GodLeaveWorld-1.0.0.phar",
+      "sha256": "0d7e08696cb894622389fa4fa586f8d04ae6607f060f12dd60057da0d2d9ad3e",
+      "size": 6803,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/godleaveworld/GodLeaveWorld-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/God留言系统插件/GodLeaveWorld_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:21+08:00",
+  "minecraft_version_source": "api-inferred"
+}

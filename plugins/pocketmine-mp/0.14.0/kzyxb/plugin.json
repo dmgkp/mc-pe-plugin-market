@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "kzyxb",
+  "name": "KZYXB",
+  "display_name": "给钱",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Fanghao"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "给自己游戏币命令",
+  "website": null,
+  "main": "B\\Ro\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fh",
+      "description": "给自己游戏币命令",
+      "usage": "/fh",
+      "permission": "MyFirstPlugin.command.yoo",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "MyFirstPlugin.*",
+      "description": "这代表只有OP有这个权限",
+      "default": "op"
+    },
+    {
+      "name": "MyFirstPlugin.command.fh",
+      "description": "这代表普通玩家也能使用这个指令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/kzyxb/KZYXB-1.0.0.phar",
+      "file_name": "KZYXB-1.0.0.phar",
+      "sha256": "4be2c3b1b90e479f67ce932011a7acc0f01393cb55092abe6b8b7644ccd1d33b",
+      "size": 6396,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/kzyxb/KZYXB-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/KZYXB--给钱/KZYXB_v1.0.0--给钱.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

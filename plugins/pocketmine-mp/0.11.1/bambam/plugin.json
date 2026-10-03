@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "bambam",
+  "name": "BamBam",
+  "display_name": "俄罗斯轮盘",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "[PixelGuy75, Gamecrafter, LDX, Blubberboy333]"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Starts a RussianRoulette game!",
+  "website": null,
+  "main": "PixelGuy75\\BamBam\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "bang",
+      "description": "Starts a RussianRoulette game!",
+      "usage": "/bam",
+      "permission": "bambam.command.bam",
+      "aliases": [
+        "b"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "bambam",
+      "description": "Allows usage of /bam",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/bambam/BamBam-1.0.phar",
+      "file_name": "BamBam-1.0.phar",
+      "sha256": "e7f38cd32e55e063b55563ac68be6dcb7598169a3e99fdb10c106d0bebcb86e2",
+      "size": 2214,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/bambam/BamBam-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/俄罗斯轮盘/俄罗斯轮盘.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

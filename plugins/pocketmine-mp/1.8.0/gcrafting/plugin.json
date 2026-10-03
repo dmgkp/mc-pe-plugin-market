@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "gcrafting",
+  "name": "GCrafting",
+  "display_name": "自定义合成表",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.6",
+  "author": [
+    "guestc"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "GCrafting - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "top\\GCrafting\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/gcrafting/GCrafting-1.0.6.phar",
+      "file_name": "GCrafting-1.0.6.phar",
+      "sha256": "aaedbb9797eac2b5fc503dbb253272c54db5867cad747c0b16e056b8649d86f1",
+      "size": 2350,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/gcrafting/GCrafting-1.0.6.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/【自定义合成表】GCrafting_v1.0.6/GCrafting_v1.0.6.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:29+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "2.1.0",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "arrow-io",
+      "name": "Arrow.io",
+      "display_name": "枪战",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "20",
+      "path": "plugins/pocketmine-mp/0.16.0/arrow-io/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/arrow-io/Arrow.io-20.phar",
+      "sha256": "203aeb01ac4500f5cbece48eb96d790d4ca89e9dbd23e460a5f84e2dee9d5c19",
+      "size": 12363,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/arrow-io/Arrow.io-20.phar"
+      }
+    }
+  ]
+}

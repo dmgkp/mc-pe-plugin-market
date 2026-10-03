@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "worldplus",
+  "name": "WorldPlus",
+  "display_name": "WorldPlus",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.5",
+  "author": [
+    "plus"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "创世神插件for nukkit",
+  "website": null,
+  "main": "com.plus.WorldPlus.Main",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pos1",
+      "description": "设定位置1",
+      "usage": "/pos1",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "pos2",
+      "description": "设定位置2",
+      "usage": "/pos2",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "set",
+      "description": "设定方块",
+      "usage": "/set [方块ID] [zxc(主线程)/dxc(多线程)]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "cut",
+      "description": "剪下方块",
+      "usage": "/cut [zxc(主线程)/dxc(多线程)]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "copy",
+      "description": "复制方块",
+      "usage": "/cut [zxc(主线程)/dxc(多线程)]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "paste",
+      "description": "贴上方块",
+      "usage": "/paste [zxc(主线程)/dxc(多线程)] [0(不旋转)/90[旋转90度]/180/270]",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/0.15.0/worldplus/WorldPlus-1.5.jar",
+      "file_name": "WorldPlus-1.5.jar",
+      "sha256": "4b551f5985379f5b25e601c3d803aa8ada24fa7b1d0bdefc40481102b55ada00",
+      "size": 28127,
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/worldplus/WorldPlus-1.5.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/相关资源/PE Server 核心/Nukkit v0.15.x/plugins/WorldPlus(v1.6).jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:33+08:00",
+  "minecraft_version_source": "path"
+}

@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "fnpc",
+  "name": "FNPC",
+  "display_name": "多功能",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.8",
+  "author": [
+    "FENGberd && anseEND"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "NPC系统指令",
+  "website": null,
+  "main": "FNPC\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fnpc",
+      "description": "NPC系统指令",
+      "usage": "使用 /fnpc help 查看帮助",
+      "permission": "FNPC.command.fnpc",
+      "aliases": [
+        "npc"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "FNPC.*",
+      "description": "根权限",
+      "default": "op"
+    },
+    {
+      "name": "FNPC.command.*",
+      "description": "使用命令权限",
+      "default": "op"
+    },
+    {
+      "name": "FNPC.command.fnpc",
+      "description": "NPC命令使用权限",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/fnpc/FNPC-1.1.8.phar",
+      "file_name": "FNPC-1.1.8.phar",
+      "sha256": "37104974be8957eea9739d295975728a66e1068aec23784c71a8a5d1f0323491",
+      "size": 15459,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/fnpc/FNPC-1.1.8.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.1.4": [
+      {
+        "file_name": "FNPC-1.1.4.phar",
+        "sha256": "54de709bcd3d2601929ac70cbae68513a2c2f4f8150f21fb2e01cf020489a796",
+        "size": 16415
+      }
+    ],
+    "1.1.7": [
+      {
+        "file_name": "FNPC-1.1.7.phar",
+        "sha256": "a57a500aa315d1a3cea1e9e0a0943f4bcd0ca17f155d8fc97be7ee3b9ab6b6c5",
+        "size": 54730
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/多功能NPC/[多功能NPC]FNPC.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "baidu",
+  "name": "Baidu",
+  "display_name": "百度插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "18wyj2"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "baidu :)",
+  "website": null,
+  "main": "Baidu\\baidu",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "baidu",
+      "description": "baidu :)",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/baidu/Baidu-1.0.0.phar",
+      "file_name": "Baidu-1.0.0.phar",
+      "sha256": "692b6ea2ae02a4c0ce5972c23e091f2f98e1c52d075a68702f39f1914001c6bc",
+      "size": 4070,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/baidu/Baidu-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/百度插件/百度.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:20+08:00",
+  "minecraft_version_source": "api-inferred"
+}

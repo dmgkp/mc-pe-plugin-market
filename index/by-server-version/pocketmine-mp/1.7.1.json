@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.7.1",
+  "count": 7,
+  "plugins": [
+    {
+      "id": "blocklocations",
+      "name": "BlockLocations",
+      "display_name": "浮空字与坐标插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.0|zcy汉化",
+      "path": "plugins/pocketmine-mp/0.11.0/blocklocations/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/blocklocations/BlockLocations-1.0.0_zcy.phar",
+      "sha256": "8ce4ff4197d1f4e5ffb4b9d713cbb19cfd2f17d1396fe10aa908e6be4dedcedb",
+      "size": 2942,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/blocklocations/BlockLocations-1.0.0_zcy.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.1.2",
+      "path": "plugins/pocketmine-mp/0.11.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/customchat/CustomChat-1.1.2.phar",
+      "sha256": "8dcb6fd754ccf4acb43d5a4c8e7989799c07c77033e8115f1c21b014e2c6a45b",
+      "size": 11867,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/customchat/CustomChat-1.1.2.phar"
+      }
+    },
+    {
+      "id": "blocklocations",
+      "name": "BlockLocations",
+      "display_name": "浮空字与坐标插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.0|zcy汉化",
+      "path": "plugins/pocketmine-mp/0.11.1/blocklocations/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/blocklocations/BlockLocations-1.0.0_zcy.phar",
+      "sha256": "8ce4ff4197d1f4e5ffb4b9d713cbb19cfd2f17d1396fe10aa908e6be4dedcedb",
+      "size": 2942,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/blocklocations/BlockLocations-1.0.0_zcy.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.3.2",
+      "path": "plugins/pocketmine-mp/0.11.1/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/customchat/CustomChat-1.3.2.phar",
+      "sha256": "5a12e5a1121dfd2099ffb657209a5354aacd98714046a0e0db3f70591296a171",
+      "size": 7880,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/customchat/CustomChat-1.3.2.phar"
+      }
+    },
+    {
+      "id": "blocklocations",
+      "name": "BlockLocations",
+      "display_name": "浮空字与坐标插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0|zcy汉化",
+      "path": "plugins/pocketmine-mp/0.14.0/blocklocations/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/blocklocations/BlockLocations-1.0.0_zcy.phar",
+      "sha256": "8ce4ff4197d1f4e5ffb4b9d713cbb19cfd2f17d1396fe10aa908e6be4dedcedb",
+      "size": 2942,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/blocklocations/BlockLocations-1.0.0_zcy.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1.2",
+      "path": "plugins/pocketmine-mp/0.14.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/customchat/CustomChat-1.1.2.phar",
+      "sha256": "8dcb6fd754ccf4acb43d5a4c8e7989799c07c77033e8115f1c21b014e2c6a45b",
+      "size": 11867,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/customchat/CustomChat-1.1.2.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.3.2",
+      "path": "plugins/pocketmine-mp/1.5.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/customchat/CustomChat-1.3.2.phar",
+      "sha256": "5a12e5a1121dfd2099ffb657209a5354aacd98714046a0e0db3f70591296a171",
+      "size": 7880,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/customchat/CustomChat-1.3.2.phar"
+      }
+    }
+  ]
+}

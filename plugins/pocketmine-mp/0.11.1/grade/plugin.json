@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "id": "grade",
+  "name": "Grade",
+  "display_name": "带经验条等级",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.4",
+  "author": [
+    "Him188"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A EXP Plugin",
+  "website": null,
+  "main": "Grade\\Grade",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "exp",
+      "description": "等级插件命令",
+      "usage": "/exp",
+      "permission": "Grade.command.exp",
+      "aliases": []
+    },
+    {
+      "name": "convert",
+      "description": "用节操兑换物品",
+      "usage": "/convert <编号> [数量]",
+      "permission": "Grade.command.convert",
+      "aliases": []
+    },
+    {
+      "name": "setfix",
+      "description": "设置昵称",
+      "usage": "/setfix <目标玩家> [昵称]",
+      "permission": "Grade.command.setfix",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Grade.command.exp",
+      "description": "等级插件命令",
+      "default": "true"
+    },
+    {
+      "name": "Grade.command.convert",
+      "description": "兑换物品",
+      "default": "true"
+    },
+    {
+      "name": "Grade.command.setfix",
+      "description": "设置昵称",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/grade/Grade-1.0.4.phar",
+      "file_name": "Grade-1.0.4.phar",
+      "sha256": "4f248fe7d66c4b2d4fde63b8edd4efdb788c090a3e547cc77ff1d3461b991a22",
+      "size": 39552,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/grade/Grade-1.0.4.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/带经验条等级/等级带经验条.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:28+08:00",
+  "minecraft_version_source": "path"
+}

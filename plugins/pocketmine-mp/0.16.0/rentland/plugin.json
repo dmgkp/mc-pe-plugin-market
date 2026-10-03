@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "rentland",
+  "name": "RentLand",
+  "display_name": "租房插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "Wshape1"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "查看出租领地牌子格式",
+  "website": null,
+  "main": "RentLand\\Main",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "rl",
+      "description": "查看出租领地牌子格式",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/rentland/RentLand-1.0.2.phar",
+      "file_name": "RentLand-1.0.2.phar",
+      "sha256": "12caa1a2876d14bd3282fe2040818ced07d0d57121ce984cf2f31f34d7951539",
+      "size": 3778,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/rentland/RentLand-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/RentLand--租房插件!/RentLand_v1.0.2--租房插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

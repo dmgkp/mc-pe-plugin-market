@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "tmanagemer",
+  "name": "TManagemer",
+  "display_name": "服务器娱乐管理系统",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.5",
+  "author": [
+    "Teaclon"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A command for VIP Module.",
+  "website": null,
+  "main": "Teaclon\\TManagement_OSC\\Main",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[\"Economy-API\"]"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "tmvip",
+      "description": "A command for VIP Module.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tmar",
+      "description": "A Command for Marriage Module.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tmsoc",
+      "description": "A Command for Team Module.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpro",
+      "description": "A Command for Protection Module.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/tmanagemer/TManagemer-1.0.5.phar",
+      "file_name": "TManagemer-1.0.5.phar",
+      "sha256": "f9829009db963ef5e65bb784b5b0d6272f5f0729f5987cc46e75e5a6a3adcb27",
+      "size": 40911,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/tmanagemer/TManagemer-1.0.5.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/TManagement_OSC--服务器娱乐管理系统/TManagement_OSC--服务器娱乐管理系统.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

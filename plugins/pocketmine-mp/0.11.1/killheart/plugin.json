@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "killheart",
+  "name": "Killheart",
+  "display_name": "杀死玩家获得生命插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "BukkitPlaysMC"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Change the Amount of given Hearts at a kill",
+  "website": null,
+  "main": "BukkitPlaysMC\\Killheart\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "changehearts",
+      "description": "Change the Amount of given Hearts at a kill",
+      "usage": "/changeahearts <Amount>",
+      "permission": "KillHeart.changehearts",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "KillHeart.changehearts",
+      "description": "Permission for /changehearts",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/killheart/Killheart-1.0.0.phar",
+      "file_name": "Killheart-1.0.0.phar",
+      "sha256": "17ca0ba494c0b7ea50b2ac27344c0639371a3d1e48cd701f48f5ee3499e40065",
+      "size": 4293,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/killheart/Killheart-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/杀死玩家获得生命插件/杀死玩家获得生命值.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

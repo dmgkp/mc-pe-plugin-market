@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "slapper",
+  "name": "Slapper",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.6.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.5",
+  "author": [
+    "jojoe77777"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Adds entities into your world that you can slap to run commands!",
+  "website": null,
+  "main": "slapper\\main",
+  "tags": [
+    "world",
+    "admin",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "slapper",
+      "description": "Create a slappable entity!",
+      "usage": "/slapper <type> [name]",
+      "permission": "slapper.create",
+      "aliases": []
+    },
+    {
+      "name": "rca",
+      "description": "Run command as another player!",
+      "usage": "/rca <player> <command>",
+      "permission": "slapper.rca",
+      "aliases": []
+    },
+    {
+      "name": "nothing",
+      "description": "Do nothing!",
+      "usage": "/nothing",
+      "permission": "slapper.nothing",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "slapper.create",
+      "description": "Allow using command /slapper",
+      "default": "op"
+    },
+    {
+      "name": "slapper.nothing",
+      "description": "Allow doing nothing",
+      "default": "op"
+    },
+    {
+      "name": "slapper.hit",
+      "description": "Allow harming Slapper entites",
+      "default": "false"
+    },
+    {
+      "name": "slapper.rca",
+      "description": "Allow running commands as other players",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/slapper/Slapper-1.2.5.phar",
+      "file_name": "Slapper-1.2.5.phar",
+      "sha256": "3e8a07aa66aa4d3d4135a2d5fe3fc4232753d7ac0b2cfc11f85e0aba5e9430df",
+      "size": 39448,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/slapper/Slapper-1.2.5.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/NPC插件Slapper/NPC插件Slapper.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

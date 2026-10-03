@@ -1,0 +1,223 @@
+{
+  "schema_version": 1,
+  "id": "pvptoggle",
+  "name": "PvPToggle",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.0",
+  "author": [
+    "Sleelin"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows players to decide whether or not they want PvP enabled",
+  "website": null,
+  "main": "com.sleelin.pvptoggle.PvPToggle",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pvp",
+      "description": "main command used by the plugin",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "pvpt",
+      "description": "alternate command used by the plugin",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpvp",
+      "description": "alternate command used by the plugin",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "pvptoggle",
+      "description": "Gives someone full use of the PvPToggle plugin",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.use",
+      "description": "Allows players to be affected by PvPToggle",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.self",
+      "description": "Allows players to use /pvp command on themselves",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.self.toggle",
+      "description": "Whether or not a player is allowed to toggle their own PvP",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.self.status",
+      "description": "Whether a player can check their own PvP status in a world",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.other",
+      "description": "Allows players to use /pvp command on others",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.other.toggle",
+      "description": "Whether or not a player is allowed to toggle someone else's PvP",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.other.status",
+      "description": "Whether a player can check someone else's PvP status",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.other.reset",
+      "description": "Whether a player can reset someone else's PvP status to default",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.world",
+      "description": "Allows players to modify world-specific PvP",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.world.toggle",
+      "description": "Whether or not a player is allowed to toggle world-wide PvP",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.world.status",
+      "description": "Whether a player can check a world's PvP status",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.world.reset",
+      "description": "Whether a player can reset PvP for all players in a world",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.global",
+      "description": "Allows players to modify server-wide global PvP",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.global.toggle",
+      "description": "Whether or not a player is allowed to toggle server-wide PvP",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.global.status",
+      "description": "Whether a player can check server-wide PvP status",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.global.reset",
+      "description": "Whether a player can reset server-wide PvP status to default in all worlds",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.pvp",
+      "description": "SuperPerms is fucking retarded",
+      "default": "true"
+    },
+    {
+      "name": "pvptoggle.pvp.force",
+      "description": "Force player PvP enabled",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.pvp.deny",
+      "description": "Force player PvP disabled",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.pvp.autoenable",
+      "description": "Automatically enable PvP on combat",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.pvp.bypass",
+      "description": "Bypass the cooldown period of player PvPing",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.pvp.bypass.warmup",
+      "description": "Bypass the warmup period of player PvPing",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.pvp.bypass.cooldown",
+      "description": "Bypass the cooldown period of player PvPing",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.admin",
+      "description": "Allows a player to toggle the PvP status of any other player or world",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.regions",
+      "description": "Whether or not a player is allowed to add or remove regions",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.regions.add",
+      "description": "Whether or not a player is allowed to add a region",
+      "default": "false"
+    },
+    {
+      "name": "pvptoggle.regions.remove",
+      "description": "Whether or not a player is allowed to remove a region",
+      "default": "false"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/pvptoggle/PvPToggle-3.0.0.jar",
+      "file_name": "PvPToggle-3.0.0.jar",
+      "sha256": "11e10d44ceb84ad3c72ea4576c2c434292ac80853b8441e529b8ec25d8e6c676",
+      "size": 47227,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/pvptoggle/PvPToggle-3.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/PvPToggle.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

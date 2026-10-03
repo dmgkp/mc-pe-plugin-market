@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "rvip",
+  "name": "RVIP",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "zmdd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "RVIP of Rs",
+  "website": null,
+  "main": "RVIP.MainClass",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "vip",
+      "description": "RVIP command",
+      "usage": "/vip help",
+      "permission": "Rs.vip.command.vip",
+      "aliases": []
+    },
+    {
+      "name": "point",
+      "description": "RVIP command",
+      "usage": "/point help",
+      "permission": "Rs.vip.command.help",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Rs.vip.command.vip",
+      "description": "Can use it to add/remove/... vip",
+      "default": "true"
+    },
+    {
+      "name": "Rs.vip.command.point",
+      "description": "Can use it to add/remove/... point",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/rvip/RVIP-1.0.0.jar",
+      "file_name": "RVIP-1.0.0.jar",
+      "sha256": "29fe19d73ee2da902e232c0063c26946395e7e957310a693e2cc88ceebe5d6b8",
+      "size": 3083248,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rvip/RVIP-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/RVIP插件/RVIP插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

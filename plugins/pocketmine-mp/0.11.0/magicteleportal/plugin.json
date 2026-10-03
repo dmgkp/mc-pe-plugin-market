@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "magicteleportal",
+  "name": "MagicTelePortal",
+  "display_name": "MagicTelePortal",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.3.2",
+  "author": [
+    "aliuly"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A simple portal plugin",
+  "website": null,
+  "main": "aliuly\\mtp\\Main",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mtp",
+      "description": "Create a portal",
+      "usage": "/mtp [world|addr:port] [x y z]",
+      "permission": "mtp.cmd.mtp",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "mtp.cmd.mtp",
+      "description": "Allow to create portal",
+      "default": "op"
+    },
+    {
+      "name": "mtp.destroy",
+      "description": "Allow destruction of portals",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/magicteleportal/MagicTelePortal-1.3.2.phar",
+      "file_name": "MagicTelePortal-1.3.2.phar",
+      "sha256": "ca320ff4387e2223a012c2290cd86a386d2d56256a5ad9c3ac7c4e69c443972e",
+      "size": 8612,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/magicteleportal/MagicTelePortal-1.3.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/[星门]MagicTelePortal_v1.3.2.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

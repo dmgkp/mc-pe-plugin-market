@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "id": "vault",
+  "name": "Vault",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.4.1-b436",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Vault is a Permissions & Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves.",
+  "website": "http://dev.bukkit.org/server-mods/vault/",
+  "main": "net.milkbowl.vault.Vault",
+  "tags": [
+    "economy",
+    "admin",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "vault-info",
+      "description": "Displays information about Vault",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "vault-convert",
+      "description": "Converts all data in economy1 and dumps it into economy2",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "vault.admin",
+      "description": "Notifies the player when vault is in need of an update.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/other/unknown/vault/Vault-1.4.1-b436.jar",
+      "file_name": "Vault-1.4.1-b436.jar",
+      "sha256": "21ed1c2cd4a5b531b73056fb5c8a445e17486bc7c7649eb58e4417c7cc1fc01a",
+      "size": 337004,
+      "download_paths": {
+        "github": "plugins/other/unknown/vault/Vault-1.4.1-b436.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[前置经济]Vault.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

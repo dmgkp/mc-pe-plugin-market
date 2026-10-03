@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "easycrafting",
+  "name": "EasyCrafting",
+  "display_name": "简单合成",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "古董"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A easy craft plugin",
+  "website": null,
+  "main": "craft\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/easycrafting/EasyCrafting-1.0.0.phar",
+      "file_name": "EasyCrafting-1.0.0.phar",
+      "sha256": "726be4f3ada7a4a2b76488cc3533f5bc2375a466c17fee640da480cef2ba3925",
+      "size": 3628,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/easycrafting/EasyCrafting-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/EasyCraft--简单合成/EasyCrafting_v1.0.0--简单合成.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:54+08:00",
+  "minecraft_version_source": "api-inferred"
+}

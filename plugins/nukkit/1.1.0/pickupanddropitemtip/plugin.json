@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "pickupanddropitemtip",
+  "name": "PickupAndDropItemTip",
+  "display_name": "丢捡记录",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1",
+  "author": [
+    "tdiant, CloudCraft"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "�Ӽ��¼��",
+  "website": null,
+  "main": "CloudCraft.tdiant.PickupAndDropItemTip.main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/pickupanddropitemtip/PickupAndDropItemTip-0.0.1.jar",
+      "file_name": "PickupAndDropItemTip-0.0.1.jar",
+      "sha256": "8cc33a39c2a0ef8806a13815d57ac8569267c1f68ad32859c0c259654f3112bc",
+      "size": 3671,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/pickupanddropitemtip/PickupAndDropItemTip-0.0.1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK丢捡记录/NK丢捡记录.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

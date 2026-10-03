@@ -1,0 +1,86 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Catalog",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "generated_at",
+    "mirrors",
+    "plugin_count",
+    "plugins"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "mirrors": {
+      "type": "object",
+      "required": [
+        "github"
+      ]
+    },
+    "plugin_count": {
+      "type": "integer"
+    },
+    "plugins": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "server_type",
+          "minecraft_version",
+          "plugin_version",
+          "path",
+          "file",
+          "sha256"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "server_type": {
+            "type": "string",
+            "enum": [
+              "pocketmine-mp",
+              "nukkit",
+              "powernukkitx",
+              "cloudburst",
+              "bds",
+              "levilamina",
+              "liteloader-bds",
+              "endstone",
+              "allay",
+              "dragonfly",
+              "other",
+              "unknown"
+            ]
+          },
+          "minecraft_version": {
+            "type": "string"
+          },
+          "plugin_version": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          }
+        }
+      }
+    }
+  }
+}

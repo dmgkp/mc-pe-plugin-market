@@ -1,0 +1,681 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-tag",
+  "tag": "chat",
+  "count": 36,
+  "plugins": [
+    {
+      "id": "awtmessage",
+      "name": "AwtMessage",
+      "display_name": "AwtMessage",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "0.0.2-SNAPSNOT",
+      "path": "plugins/nukkit/0.15.0/awtmessage/plugin.json",
+      "file": "plugins/nukkit/0.15.0/awtmessage/AwtMessage-0.0.2-SNAPSNOT.jar",
+      "sha256": "d4eabf31d40830e291baa57b9233995832ea5833f2cdc0fa194a4972a18e85fa",
+      "size": 6270,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/awtmessage/AwtMessage-0.0.2-SNAPSNOT.jar"
+      }
+    },
+    {
+      "id": "mr-chat",
+      "name": "Mr_Chat",
+      "display_name": "多接口彩色聊天",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.3",
+      "path": "plugins/nukkit/1.1.0/mr-chat/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-chat/Mr_Chat-1.1.3.jar",
+      "sha256": "f8dbf85606db72977cf95fa62baec09fa2aafcf3704829d0281c096b9509a530",
+      "size": 3494,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-chat/Mr_Chat-1.1.3.jar"
+      }
+    },
+    {
+      "id": "loginmessage",
+      "name": "LoginMessage",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.1",
+      "path": "plugins/nukkit/unknown/loginmessage/plugin.json",
+      "file": "plugins/nukkit/unknown/loginmessage/LoginMessage-1.1.jar",
+      "sha256": "59d2cb3ec6c12c39cacb37c155e7394c56b4543d585c29417e061cfb41063036",
+      "size": 4301,
+      "tags": [
+        "chat",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/loginmessage/LoginMessage-1.1.jar"
+      }
+    },
+    {
+      "id": "cclearchat",
+      "name": "CClearChat",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.7",
+      "path": "plugins/other/unknown/cclearchat/plugin.json",
+      "file": "plugins/other/unknown/cclearchat/CClearChat-1.7.jar",
+      "sha256": "0e422f55da78c5186c41bb115e0f46dd6f4a6851ee6682b9af9f9b9309975f86",
+      "size": 7438,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/cclearchat/CClearChat-1.7.jar"
+      }
+    },
+    {
+      "id": "essentialschat",
+      "name": "EssentialsChat",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "Pre2.13.1.2",
+      "path": "plugins/other/unknown/essentialschat/plugin.json",
+      "file": "plugins/other/unknown/essentialschat/EssentialsChat-Pre2.13.1.2.jar",
+      "sha256": "661b8d3918ce54f09dda0bc2d3a1473608522e519b60763169d37abd83034c04",
+      "size": 12712,
+      "tags": [
+        "chat",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/essentialschat/EssentialsChat-Pre2.13.1.2.jar"
+      }
+    },
+    {
+      "id": "colortext",
+      "name": "ColorText",
+      "display_name": "颜色插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/pocketmine-mp/0.11.0/colortext/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/colortext/ColorText-1.3.0.phar",
+      "sha256": "5eda9541619d8163c132acda22474c2854c7f2d317944066557197afa360512d",
+      "size": 2336,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/colortext/ColorText-1.3.0.phar"
+      }
+    },
+    {
+      "id": "customalerts",
+      "name": "CustomAlerts",
+      "display_name": "显示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.4",
+      "path": "plugins/pocketmine-mp/0.11.0/customalerts/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/customalerts/CustomAlerts-1.4.phar",
+      "sha256": "6109115653142655a48a9815160df7f43816de9df24b3a95c0936e6fee876ead",
+      "size": 13188,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/customalerts/CustomAlerts-1.4.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.1.2",
+      "path": "plugins/pocketmine-mp/0.11.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/customchat/CustomChat-1.1.2.phar",
+      "sha256": "8dcb6fd754ccf4acb43d5a4c8e7989799c07c77033e8115f1c21b014e2c6a45b",
+      "size": 11867,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/customchat/CustomChat-1.1.2.phar"
+      }
+    },
+    {
+      "id": "broadcaster",
+      "name": "Broadcaster",
+      "display_name": "公告插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.13",
+      "path": "plugins/pocketmine-mp/0.11.1/broadcaster/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/broadcaster/Broadcaster-1.13.phar",
+      "sha256": "e043ab5937f0690ce9677c4a24c56d5ad7f6bb43e7519b87dc94ee3798bde9f5",
+      "size": 5046,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/broadcaster/Broadcaster-1.13.phar"
+      }
+    },
+    {
+      "id": "colortext",
+      "name": "ColorText",
+      "display_name": "颜色插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.3.0",
+      "path": "plugins/pocketmine-mp/0.11.1/colortext/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/colortext/ColorText-1.3.0.phar",
+      "sha256": "5eda9541619d8163c132acda22474c2854c7f2d317944066557197afa360512d",
+      "size": 2336,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/colortext/ColorText-1.3.0.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.3.2",
+      "path": "plugins/pocketmine-mp/0.11.1/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/customchat/CustomChat-1.3.2.phar",
+      "sha256": "5a12e5a1121dfd2099ffb657209a5354aacd98714046a0e0db3f70591296a171",
+      "size": 7880,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/customchat/CustomChat-1.3.2.phar"
+      }
+    },
+    {
+      "id": "bilibilichat",
+      "name": "BilibiliChat",
+      "display_name": "弹幕插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.9.9",
+      "path": "plugins/pocketmine-mp/0.14.0/bilibilichat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/bilibilichat/BilibiliChat-0.9.9.phar",
+      "sha256": "0604503be2b8253017ae8e86a3673d8600855b6aa948268240e44ba81ebfd33a",
+      "size": 2666,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bilibilichat/BilibiliChat-0.9.9.phar"
+      }
+    },
+    {
+      "id": "bossannouncement",
+      "name": "BossAnnouncement",
+      "display_name": "顶部公告插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/bossannouncement/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/bossannouncement/BossAnnouncement-1.0.2.phar",
+      "sha256": "efd94ccc964d52142e8bfa286cba8f277f6652b9d829c4fe1c8a6afc2aa808f5",
+      "size": 11915,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bossannouncement/BossAnnouncement-1.0.2.phar"
+      }
+    },
+    {
+      "id": "broadcaster",
+      "name": "Broadcaster",
+      "display_name": "全服公告插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.13",
+      "path": "plugins/pocketmine-mp/0.14.0/broadcaster/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/broadcaster/Broadcaster-1.13.phar",
+      "sha256": "d3b3713e1bdfc274ec02590a8105cf09dc99a2af34a22e8d772bc49713be0402",
+      "size": 14844,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/broadcaster/Broadcaster-1.13.phar"
+      }
+    },
+    {
+      "id": "chatbubbles",
+      "name": "ChatBubbles",
+      "display_name": "ChatBubbles",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1.5",
+      "path": "plugins/pocketmine-mp/0.14.0/chatbubbles/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/chatbubbles/ChatBubbles-1.1.5.phar",
+      "sha256": "56243c68fb6105a5a2703a2a90eced9abcae200f8b6a310999425125ada26cab",
+      "size": 2174,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/chatbubbles/ChatBubbles-1.1.5.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1.2",
+      "path": "plugins/pocketmine-mp/0.14.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/customchat/CustomChat-1.1.2.phar",
+      "sha256": "8dcb6fd754ccf4acb43d5a4c8e7989799c07c77033e8115f1c21b014e2c6a45b",
+      "size": 11867,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/customchat/CustomChat-1.1.2.phar"
+      }
+    },
+    {
+      "id": "joinmessage",
+      "name": "JoinMessage",
+      "display_name": "进服提示",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/joinmessage/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/joinmessage/JoinMessage-1.0.0.phar",
+      "sha256": "a4e875f753db5d6506e08808aa2ba808a2af3e60d902925a8a8708685990149a",
+      "size": 7277,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/joinmessage/JoinMessage-1.0.0.phar"
+      }
+    },
+    {
+      "id": "joinmessage-v2",
+      "name": "JoinMessage",
+      "display_name": "高能的进服提示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/joinmessage-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/joinmessage-v2/JoinMessage-1.0.0.phar",
+      "sha256": "d8adb0e9ee2cb894d4a0dfbc6c2e994fd68678ffdcfecb182b91ccbc9ac29f33",
+      "size": 5011,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/joinmessage-v2/JoinMessage-1.0.0.phar"
+      }
+    },
+    {
+      "id": "joinmessage-v3",
+      "name": "JoinMessage",
+      "display_name": "高能的进服提示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/joinmessage-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/joinmessage-v3/JoinMessage-1.0.0.phar",
+      "sha256": "2a7d9eea04b1cc0c151c664cb8dbe13c642c0128ca7471f4b106f1530e32422b",
+      "size": 5110,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/joinmessage-v3/JoinMessage-1.0.0.phar"
+      }
+    },
+    {
+      "id": "joinmessage-v4",
+      "name": "JoinMessage",
+      "display_name": "高能的进服提示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/joinmessage-v4/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/joinmessage-v4/JoinMessage-1.0.0.phar",
+      "sha256": "fd2b04d90cdd58804a9c3ea385f8a5993c7d7a2cbf77fe3ba88bda6fd0ac01df",
+      "size": 4751,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/joinmessage-v4/JoinMessage-1.0.0.phar"
+      }
+    },
+    {
+      "id": "message",
+      "name": "Message",
+      "display_name": "人数提示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.4.0",
+      "path": "plugins/pocketmine-mp/0.14.0/message/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/message/Message-1.4.0.phar",
+      "sha256": "015c96eb1b9c1b3f27a633f3e0eb135734485065ff4812394f4f410e4bfec085",
+      "size": 3095,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/message/Message-1.4.0.phar"
+      }
+    },
+    {
+      "id": "r-joinmessage",
+      "name": "R-JoinMessage",
+      "display_name": "进服提示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/r-joinmessage/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/r-joinmessage/R-JoinMessage-1.0.0.phar",
+      "sha256": "c788f7b6cb70679400817fd271420c18220e21fd600c65b39729e1e2327fa62e",
+      "size": 3249,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/r-joinmessage/R-JoinMessage-1.0.0.phar"
+      }
+    },
+    {
+      "id": "wannouncement",
+      "name": "WAnnouncement",
+      "display_name": "自定义公告插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/wannouncement/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/wannouncement/WAnnouncement-1.0.0.phar",
+      "sha256": "cdcfc1966e5c199ce22ba8ed410dc89eec62cbe469981e74f997b50274224d3e",
+      "size": 1682,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/wannouncement/WAnnouncement-1.0.0.phar"
+      }
+    },
+    {
+      "id": "wsdeathmessage",
+      "name": "WsDeathMessage",
+      "display_name": "自定义杀人信息",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/wsdeathmessage/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/wsdeathmessage/WsDeathMessage-1.0.0.phar",
+      "sha256": "042c6052bee5ed429d61438b550fc0ffadfb2ca3ad539f03568d8c8b9f394c32",
+      "size": 1643,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/wsdeathmessage/WsDeathMessage-1.0.0.phar"
+      }
+    },
+    {
+      "id": "simplewarp",
+      "name": "SimpleWarp",
+      "display_name": "定点传送",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "3.3.4",
+      "path": "plugins/pocketmine-mp/0.16.0/simplewarp/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/simplewarp/SimpleWarp-3.3.4.phar",
+      "sha256": "3742b70e06b99ff04d571517b746f928a35e7fc60d4aaf41841dee39b21a9c8a",
+      "size": 30349,
+      "tags": [
+        "chat",
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/simplewarp/SimpleWarp-3.3.4.phar"
+      }
+    },
+    {
+      "id": "tchat",
+      "name": "TChat",
+      "display_name": "等级与金币聊天显示",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/pocketmine-mp/0.16.0/tchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/tchat/TChat-1.2.0.phar",
+      "sha256": "58cbcb6a7ce0e51a0a4f1a802193dd96f390a2b0452f79694219cfe4b0120f47",
+      "size": 3742,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/tchat/TChat-1.2.0.phar"
+      }
+    },
+    {
+      "id": "colortext",
+      "name": "ColorText",
+      "display_name": "颜色插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/pocketmine-mp/1.1.0/colortext/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/colortext/ColorText-1.3.0.phar",
+      "sha256": "5eda9541619d8163c132acda22474c2854c7f2d317944066557197afa360512d",
+      "size": 2336,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/colortext/ColorText-1.3.0.phar"
+      }
+    },
+    {
+      "id": "broadcaster",
+      "name": "Broadcaster",
+      "display_name": "高级公告广播插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.3",
+      "path": "plugins/pocketmine-mp/1.12.0/broadcaster/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/broadcaster/Broadcaster-1.3.phar",
+      "sha256": "63a9ba2ea503d888e1d4f1001e6e2c785eb3a0600186e1b2c40af626676d260a",
+      "size": 27609,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/broadcaster/Broadcaster-1.3.phar"
+      }
+    },
+    {
+      "id": "mchatadmin",
+      "name": "MChatAdmin",
+      "display_name": "聊天管理",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.12.0/mchatadmin/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/mchatadmin/MChatAdmin-1.0.1.phar",
+      "sha256": "4a8a6fd1adcf69e00e09206108cc777e361ce4e415bafb8e895d9df4cefca77a",
+      "size": 13901,
+      "tags": [
+        "chat",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/mchatadmin/MChatAdmin-1.0.1.phar"
+      }
+    },
+    {
+      "id": "broadcaster",
+      "name": "Broadcaster",
+      "display_name": "Broadcaster",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.4.0",
+      "plugin_version": "1.13",
+      "path": "plugins/pocketmine-mp/1.4.0/broadcaster/plugin.json",
+      "file": "plugins/pocketmine-mp/1.4.0/broadcaster/Broadcaster-1.13.phar",
+      "sha256": "e043ab5937f0690ce9677c4a24c56d5ad7f6bb43e7519b87dc94ee3798bde9f5",
+      "size": 5046,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.4.0/broadcaster/Broadcaster-1.13.phar"
+      }
+    },
+    {
+      "id": "cjchat",
+      "name": "CJChat",
+      "display_name": "超级称号",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/cjchat/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/cjchat/CJChat-1.0.phar",
+      "sha256": "48bf651b9621ea07e804a2fb3a6b03a91681b505a7482e8d0c62611b693da6e9",
+      "size": 2576,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/cjchat/CJChat-1.0.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.3.2",
+      "path": "plugins/pocketmine-mp/1.5.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/customchat/CustomChat-1.3.2.phar",
+      "sha256": "5a12e5a1121dfd2099ffb657209a5354aacd98714046a0e0db3f70591296a171",
+      "size": 7880,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/customchat/CustomChat-1.3.2.phar"
+      }
+    },
+    {
+      "id": "serverchannels",
+      "name": "ServerChannels",
+      "display_name": "频道插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "1.2",
+      "path": "plugins/pocketmine-mp/1.7.0/serverchannels/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/serverchannels/ServerChannels-1.2.phar",
+      "sha256": "72973aabe8de7d12915b30cd75731c13f6e77081d43c37657aba455b8f426084",
+      "size": 5655,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/serverchannels/ServerChannels-1.2.phar"
+      }
+    },
+    {
+      "id": "chatmode",
+      "name": "ChatMode",
+      "display_name": "聊天管理",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/pocketmine-mp/1.8.0/chatmode/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/chatmode/ChatMode-1.0.2.phar",
+      "sha256": "47b0af9a727db7c67ad0af7a66fdc784af0c5e291378eb105908e8e2535cb6fb",
+      "size": 17505,
+      "tags": [
+        "chat",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/chatmode/ChatMode-1.0.2.phar"
+      }
+    },
+    {
+      "id": "easymessages",
+      "name": "EasyMessages",
+      "display_name": "乌兰托娅公告",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.8.0/easymessages/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/easymessages/EasyMessages-1.0.1.phar",
+      "sha256": "6adf33e1551641d9f9a33c81228463328cfc35b7db91fd320dc4e498fe74a48b",
+      "size": 5869,
+      "tags": [
+        "chat"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/easymessages/EasyMessages-1.0.1.phar"
+      }
+    },
+    {
+      "id": "ychat",
+      "name": "YChat",
+      "display_name": "脏话通知",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.8.0/ychat/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/ychat/YChat-1.0.1.phar",
+      "sha256": "487bd2e93fd5bfd313712a0d69eed72babf881b557821401dcec6b5ff5fd3235",
+      "size": 4455,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/ychat/YChat-1.0.1.phar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "nbt-micustomname",
+  "name": "[支持NBT和附魔的自定义物品名称]MiCustomName",
+  "display_name": "自定义物品名称",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "mikasa"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "自定义物品名称插件主命令",
+  "website": null,
+  "main": "MiCustomName\\TheMain",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cn",
+      "description": "自定义物品名称插件主命令",
+      "usage": "/cn",
+      "permission": "MiCustomName.cn",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "MiCustomName.cn",
+      "description": "all",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/nbt-micustomname/NBT_MiCustomName-1.0.0.phar",
+      "file_name": "NBT_MiCustomName-1.0.0.phar",
+      "sha256": "3e29ba5b81655d184a9063276120c7aa9409651e8bf9f1ff8050853101beb3dd",
+      "size": 4211,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/nbt-micustomname/NBT_MiCustomName-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/自定义物品名称/[支持NBT和附魔的自定义物品名称]MiCustomName.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "id": "customchat",
+  "name": "CustomChat",
+  "display_name": "CustomChat",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.7.1"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.2",
+  "author": [
+    "[Praxthisnovcht]"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Adds options on the discution salon",
+  "website": null,
+  "main": "Praxthisnovcht\\CustomChat\\ccMain",
+  "tags": [
+    "chat",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "setprefix",
+      "description": "设置玩家称号",
+      "usage": "",
+      "permission": "customchat.plugin.setprefix",
+      "aliases": []
+    },
+    {
+      "name": "defprefix",
+      "description": "设置默认称号",
+      "usage": "",
+      "permission": "customchat.plugin.defprefix",
+      "aliases": []
+    },
+    {
+      "name": "delprefix",
+      "description": "把该玩家称号设置为默认称号",
+      "usage": "",
+      "permission": "customchat.plugin.delprefix",
+      "aliases": []
+    },
+    {
+      "name": "setnick",
+      "description": "设置玩家昵称",
+      "usage": "",
+      "permission": "customchat.plugin.setnick",
+      "aliases": []
+    },
+    {
+      "name": "delnick",
+      "description": "还原为真实名称",
+      "usage": "",
+      "permission": "customchat.plugin.delnick",
+      "aliases": []
+    },
+    {
+      "name": "mute",
+      "description": "禁言玩家",
+      "usage": "",
+      "permission": "customchat.plugin.mute",
+      "aliases": []
+    },
+    {
+      "name": "unmute",
+      "description": "解除禁言",
+      "usage": "",
+      "permission": "customchat.plugin.unmute",
+      "aliases": []
+    },
+    {
+      "name": "disablechat",
+      "description": "全体禁言",
+      "usage": "",
+      "permission": "customchat.plugin.offchat",
+      "aliases": []
+    },
+    {
+      "name": "enablechat",
+      "description": "解除全体禁言",
+      "usage": "",
+      "permission": "customchat.plugin.onchat",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/customchat/CustomChat-1.1.2.phar",
+      "file_name": "CustomChat-1.1.2.phar",
+      "sha256": "8dcb6fd754ccf4acb43d5a4c8e7989799c07c77033e8115f1c21b014e2c6a45b",
+      "size": 11867,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/customchat/CustomChat-1.1.2.phar"
+      }
+    }
+  ],
+  "history": {
+    "INDEV": [
+      {
+        "file_name": "CustomChat-INDEV.phar",
+        "sha256": "f45c7b3fa8ab697cd0edcedd1d730d5086533c1c257c18cc4a81005155370c84",
+        "size": 37617
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/【称号管理】.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:31+08:00",
+  "minecraft_version_source": "api-inferred"
+}

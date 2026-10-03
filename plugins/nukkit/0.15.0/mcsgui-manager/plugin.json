@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "mcsgui-manager",
+  "name": "mcsgui_manager",
+  "display_name": "mcsgui_manager",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <0.16.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "用于刷新玩家在线信息，仅限控制台使用",
+  "website": null,
+  "main": "com.pppploi8.mcsgui.manager",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "showplayerinfo",
+      "description": "用于刷新玩家在线信息，仅限控制台使用",
+      "usage": "<command>",
+      "permission": "mcsgui_manager.admin",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/0.15.0/mcsgui-manager/mcsgui_manager-2.0.jar",
+      "file_name": "mcsgui_manager-2.0.jar",
+      "sha256": "c52c901c02cb9a57b094d28489826ef93887d09e1c8cb0afc0e188dbfcc7f072",
+      "size": 3314,
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/mcsgui-manager/mcsgui_manager-2.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/相关资源/PE Server 核心/Nukkit v0.15.x/plugins/mcsgui_manager.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:33+08:00",
+  "minecraft_version_source": "path"
+}

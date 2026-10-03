@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "j-vban",
+  "name": "J·VBan",
+  "display_name": "投票踢人插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "Jiqimao"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "vban命令",
+  "website": null,
+  "main": "vban\\VBan",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "vban",
+      "description": "vban命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "f11",
+      "description": "vban命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "cs",
+      "description": "vban命令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/j-vban/J_VBan-1.1.0.phar",
+      "file_name": "J_VBan-1.1.0.phar",
+      "sha256": "6fed319191450483aee778d017103c17f8683e014542aee3d4a933512b88d959",
+      "size": 5347,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/j-vban/J_VBan-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/J·Vban投票踢人插件/J·VBan_v1.1.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:21+08:00",
+  "minecraft_version_source": "api-inferred"
+}

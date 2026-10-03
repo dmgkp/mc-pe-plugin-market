@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "eatshit",
+  "name": "EatShit",
+  "display_name": "吃屎插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "didou"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "获得一坨屎",
+  "website": null,
+  "main": "EatShit\\main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "我要吃屎",
+      "description": "获得一坨屎",
+      "usage": "",
+      "permission": "eatshit.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "eatshit.command",
+      "description": "eat shit",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/eatshit/EatShit-1.0.phar",
+      "file_name": "EatShit-1.0.phar",
+      "sha256": "161968cb3a0221df6757948908fbf662d104c0cc5d2aff5033523bc4e96b6d1a",
+      "size": 2773,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/eatshit/EatShit-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/EatShit吃屎插件/EatShit_v1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

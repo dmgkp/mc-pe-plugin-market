@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "allbiologies",
+  "name": "AllBiologies",
+  "display_name": "百度贴吧",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Scallop"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "全生物支持",
+  "website": null,
+  "main": "AllBiologies\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/allbiologies/AllBiologies-1.0.0.phar",
+      "file_name": "AllBiologies-1.0.0.phar",
+      "sha256": "88e92076065e2e8a2d8a97e7667ad633f557032eabd2269ef9c54abc780904c6",
+      "size": 28948,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/allbiologies/AllBiologies-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/全生物.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:33+08:00",
+  "minecraft_version_source": "api-inferred"
+}

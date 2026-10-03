@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "thirst",
+  "name": "Thirst",
+  "display_name": "口渴值",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Spiderman"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Thirst - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "Thirst\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "kkz",
+      "description": "",
+      "usage": "/kkz 玩家 口渴值",
+      "permission": "illness.command.cmd",
+      "aliases": []
+    },
+    {
+      "name": "kkzaddw",
+      "description": "",
+      "usage": "/kzzaddw [地图名]",
+      "permission": "illness.command.cmd",
+      "aliases": []
+    },
+    {
+      "name": "kkzdelw",
+      "description": "",
+      "usage": "/kkzdelw [地图名]",
+      "permission": "illness.command.cmd",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "illness.command.cmd",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/thirst/Thirst-1.0.0.phar",
+      "file_name": "Thirst-1.0.0.phar",
+      "sha256": "0a8248ecdf5babaf5c1e5225032240a11c0daab066967c70dfb2337ecfe59c4c",
+      "size": 9648,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/thirst/Thirst-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/Thirst--口渴值/Thirst_v1.0.0--口渴值.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

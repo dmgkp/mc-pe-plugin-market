@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "id": "olock",
+  "name": "Olock",
+  "display_name": "加密",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Orange"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "§5橘子么么哒",
+  "website": null,
+  "main": "Olock\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "锁箱子",
+      "description": "§5橘子么么哒",
+      "usage": "/锁箱子",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "解锁",
+      "description": "§2橘子么么哒",
+      "usage": "/解锁",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "上锁",
+      "description": "§3橘子么么哒",
+      "usage": "/上锁",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "更改密码",
+      "description": "§4橘子么么哒",
+      "usage": "/更改密码",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/olock/Olock-1.0.0.phar",
+      "file_name": "Olock-1.0.0.phar",
+      "sha256": "22d4f55898c24e9038fd776ea8cce5ec9568cd20cf219da601960b57ebf58911",
+      "size": 2616,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/olock/Olock-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/锁箱子 - 加密/[锁箱子]OLock.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:09+08:00",
+  "minecraft_version_source": "api-inferred"
+}

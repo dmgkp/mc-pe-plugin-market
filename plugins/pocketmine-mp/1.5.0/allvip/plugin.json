@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "id": "allvip",
+  "name": "ALLVIP",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.5.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "happylife"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "VIP and SVIP",
+  "website": null,
+  "main": "ALLVIP\\main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "addvip",
+      "description": "添加VIP",
+      "usage": "Usage: /addvip [游戏名] [时间]",
+      "permission": "allvip.command.addvip",
+      "aliases": []
+    },
+    {
+      "name": "delvip",
+      "description": "删除VIP",
+      "usage": "Usage : /delvip [游戏名]",
+      "permission": "allvip.command.delvip",
+      "aliases": []
+    },
+    {
+      "name": "rvip",
+      "description": "减少VIP时间",
+      "usage": "Usage : /rvip [游戏名] [时间]",
+      "permission": "allvip.command.rvip",
+      "aliases": []
+    },
+    {
+      "name": "addsvip",
+      "description": "添加SVIP",
+      "usage": "Usage: /addsvip [游戏名] [时间]",
+      "permission": "allvip.command.addsvip",
+      "aliases": []
+    },
+    {
+      "name": "delsvip",
+      "description": "删除SVIP“",
+      "usage": "Usage : /delsvip [游戏名]",
+      "permission": "allvip.command.delsvip",
+      "aliases": []
+    },
+    {
+      "name": "rsvip",
+      "description": "减少SVIP时间",
+      "usage": "Usage : /rsvip [游戏名] [时间]",
+      "permission": "allvip.command.rsvip",
+      "aliases": []
+    },
+    {
+      "name": "vip",
+      "description": "VIP命令",
+      "usage": "Usage : /vip sign(签到)/gm(切换模式)",
+      "permission": "allvip.command.vip",
+      "aliases": []
+    },
+    {
+      "name": "svip",
+      "description": "SVIP命令",
+      "usage": "Usage : /svip sign(签到)/gm(切换模式)",
+      "permission": "allvip.command.svip",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "allvip.command.addvip",
+      "description": "添加VIP",
+      "default": "op"
+    },
+    {
+      "name": "allvip.command.delvip",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "allvip.command.rvip",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "allvip.command.addsvip",
+      "description": "添加SVIP",
+      "default": "op"
+    },
+    {
+      "name": "allvip.command.delsvip",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "allvip.command.rsvip",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "allvip.command.vip",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "allvip.command.svip",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.5.0/allvip/ALLVIP-1.0.0.phar",
+      "file_name": "ALLVIP-1.0.0.phar",
+      "sha256": "a18e5d2dd68b7c0befb8b64c5a5de9e2fe5848e1fbd44f02f667188a1463448a",
+      "size": 3496,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/allvip/ALLVIP-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/vip插件/ALLVIP_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:29+08:00",
+  "minecraft_version_source": "api-inferred"
+}

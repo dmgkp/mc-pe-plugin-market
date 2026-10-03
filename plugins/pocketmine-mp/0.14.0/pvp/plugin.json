@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "id": "pvp",
+  "name": "PVP",
+  "display_name": "开关",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.3",
+  "author": [
+    "Fanghao"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "开启PVP指令",
+  "website": null,
+  "main": "pvp\\PVP\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pvp1",
+      "description": "开启PVP指令",
+      "usage": "/pvp1",
+      "permission": "MyFirstPlugin.command.pvp",
+      "aliases": []
+    },
+    {
+      "name": "pvp2",
+      "description": "关闭PVP指令",
+      "usage": "/pvp2",
+      "permission": "MyFirstPlugin.command.pvp",
+      "aliases": []
+    },
+    {
+      "name": "pvps",
+      "description": "设置浮空字命令",
+      "usage": "/pvps",
+      "permission": "MyFirstPlugin.command.pvpb",
+      "aliases": []
+    },
+    {
+      "name": "pvpd",
+      "description": "删除空字命令",
+      "usage": "/pvpd",
+      "permission": "MyFirstPlugin.command.pvpb",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "MyFirstPlugin.command.pvp",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "MyFirstPlugin.command.pvpb",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/pvp/PVP-1.0.3.phar",
+      "file_name": "PVP-1.0.3.phar",
+      "sha256": "dfb54374a87e10ffd11a33bc23981ab2d4217fa791d8109de7d420a59d681639",
+      "size": 9179,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/pvp/PVP-1.0.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/PVP--开关PVP/PVP_v1.0.3--开关PVP.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "ffirewall",
+  "name": "FFireWall",
+  "display_name": "战墙",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.12.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0_release",
+  "author": [
+    "FENGberd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "防火墙系统主命令(默认仅后台可用)",
+  "website": null,
+  "main": "FFireWall\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ffw",
+      "description": "防火墙系统主命令(默认仅后台可用)",
+      "usage": "/ffw <reload|stop|start|clear>",
+      "permission": "FFireWall.command.ffw",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "FFireWall.*",
+      "description": "根权限",
+      "default": "false"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/ffirewall/FFireWall-1.0.0_release.phar",
+      "file_name": "FFireWall-1.0.0_release.phar",
+      "sha256": "9d2d2c225e09ed07e5edc603e385c9119099b352291c98548d4b6cbb3b3def88",
+      "size": 17843,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/ffirewall/FFireWall-1.0.0_release.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/战墙0-11-0/FFireWall_v1.0.0_release.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

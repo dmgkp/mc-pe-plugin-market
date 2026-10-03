@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "economyshop-v3",
+  "name": "EconomyShop",
+  "display_name": "仙术插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.0.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.0.0",
+    "1.8.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.3",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows all functions in EconomyShop",
+  "website": null,
+  "main": "onebone\\economyshop\\EconomyShop",
+  "tags": [
+    "economy",
+    "admin",
+    "library"
+  ],
+  "dependencies": [
+    "[EconomyAPI]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "economyshop.*",
+      "description": "Allows player to remove shop",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v3/EconomyShop-2.0.3.phar",
+      "file_name": "EconomyShop-2.0.3.phar",
+      "sha256": "96e091e26fc0f8b4cff74023a1f2bc63767e44cc105ff463891dc1cbafe14375",
+      "size": 7482,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v3/EconomyShop-2.0.3.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/仙术插件/仙术配套商店出售.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "id": "es",
+  "name": "ES",
+  "display_name": "声音事件插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1",
+  "author": [
+    "Taki21"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "ES - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "Taki21\\ES\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "playsounds",
+      "description": "",
+      "usage": "/playsounds",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s1",
+      "description": "",
+      "usage": "/s1",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s2",
+      "description": "",
+      "usage": "/s2",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s3",
+      "description": "",
+      "usage": "/s3",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s4",
+      "description": "",
+      "usage": "/s4",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s5",
+      "description": "",
+      "usage": "/s5",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s6",
+      "description": "",
+      "usage": "/s6",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s7",
+      "description": "",
+      "usage": "/s7",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s8",
+      "description": "",
+      "usage": "/s8",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s9",
+      "description": "",
+      "usage": "/s9",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s10",
+      "description": "",
+      "usage": "/s10",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "s11",
+      "description": "",
+      "usage": "/s11",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/es/ES-0.0.1.phar",
+      "file_name": "ES-0.0.1.phar",
+      "sha256": "cf066a1ccb70ed09e0d05d8955d260e55f6ad6aaca7cbd61ffae3a0bb672f1c9",
+      "size": 9079,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/es/ES-0.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/ES声音事件插件/ES_v0.0.1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

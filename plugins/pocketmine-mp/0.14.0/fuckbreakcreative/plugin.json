@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "fuckbreakcreative",
+  "name": "FuckBreakCreative",
+  "display_name": "创造物品生存挖不掉",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "labi"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "FuckBreakCreative - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "FuckBreakCreative\\FuckBreakCreative",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/fuckbreakcreative/FuckBreakCreative-1.0.0.phar",
+      "file_name": "FuckBreakCreative-1.0.0.phar",
+      "sha256": "fedbb0e0a31825414dca24159142046da3eb167cef2697ab11e1a64e8b9095cf",
+      "size": 26557,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/fuckbreakcreative/FuckBreakCreative-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/创造物品生存挖不掉/api1.8版 - 研究用.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

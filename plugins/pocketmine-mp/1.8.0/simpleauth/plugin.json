@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "simpleauth",
+  "name": "SimpleAuth",
+  "display_name": "史蒂夫大战僵尸",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.4.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.7.1",
+  "author": [
+    "PocketMine Team"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Prevents people to impersonate an account, requering registration and login when connecting.",
+  "website": null,
+  "main": "SimpleAuth\\SimpleAuth",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "login",
+      "description": "登陆一个账户",
+      "usage": "/login <密码>",
+      "permission": "simpleauth.command.login",
+      "aliases": []
+    },
+    {
+      "name": "register",
+      "description": "注册一个账户",
+      "usage": "/register <密码>",
+      "permission": "simpleauth.command.register",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "simpleauth",
+      "description": "Allows logging into an account",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/simpleauth/SimpleAuth-1.7.1.phar",
+      "file_name": "SimpleAuth-1.7.1.phar",
+      "sha256": "a3fe61fdf54cc6676df990abbb4a0fad2f3cfc23911c2c77ba0d6a5d52c88ca0",
+      "size": 59682,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/simpleauth/SimpleAuth-1.7.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/史蒂夫大战僵尸/史蒂夫大战僵尸死亡不掉落 专用.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:15+08:00",
+  "minecraft_version_source": "api-inferred"
+}

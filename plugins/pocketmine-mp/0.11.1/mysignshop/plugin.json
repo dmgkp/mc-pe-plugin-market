@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "id": "mysignshop",
+  "name": "MySignShop",
+  "display_name": "个人商店",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.7",
+  "author": [
+    "Him188"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "让玩家创建自己的商店 使用EconomyAPI 并检测EconomyLand.",
+  "website": null,
+  "main": "MySignShop\\MySignShop",
+  "tags": [
+    "economy",
+    "world",
+    "admin",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mss",
+      "description": "个人商店管理命令",
+      "usage": "/mss <删除全部 | delall>",
+      "permission": "MySignShop.command.mss",
+      "aliases": []
+    },
+    {
+      "name": "itemid",
+      "description": "获取手中物品名称和ID",
+      "usage": "/itemid",
+      "permission": "MySignShop.command.itemid",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "MySignShop.command.mss",
+      "description": "仅OP使用",
+      "default": "op"
+    },
+    {
+      "name": "MySignShop.command.itemid",
+      "description": "允许所有人",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/mysignshop/MySignShop-1.0.7.phar",
+      "file_name": "MySignShop-1.0.7.phar",
+      "sha256": "a1532ba4d592d645ae66d0e51082bb1532fc8d5f51c705380bc643e786184a20",
+      "size": 23232,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/mysignshop/MySignShop-1.0.7.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/个人商店/个人商店.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

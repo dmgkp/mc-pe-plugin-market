@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "id": "nessentials",
+  "name": "NEssentials",
+  "display_name": "NEssentials",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <0.16.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1-SNAPSHOT",
+  "author": [
+    "berry64"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Essentials For Nukkit",
+  "website": null,
+  "main": "net.berry64.Nukkit.Essentials.NukkitEssentials",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "helpop",
+      "description": "looks for an online op to help",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "setspawn",
+      "description": "sets a spawn",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "spawn",
+      "description": "teleports to spawn",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpa",
+      "description": "sends a teleport request to player",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpaccept",
+      "description": "accepts a teleport request",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tpdeny",
+      "description": "denies a teleport request.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/0.15.0/nessentials/NEssentials-0.0.1-SNAPSHOT.jar",
+      "file_name": "NEssentials-0.0.1-SNAPSHOT.jar",
+      "sha256": "36dd204892888a01137aa68a65c42d7dbf84e4311e204b19d92f2dd15ae220b4",
+      "size": 15371,
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/nessentials/NEssentials-0.0.1-SNAPSHOT.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "alpha",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/相关资源/PE Server 核心/Nukkit v0.15.x/plugins/NukkitEssentials v0.0.1-SNAPSHOT.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:33+08:00",
+  "minecraft_version_source": "path"
+}

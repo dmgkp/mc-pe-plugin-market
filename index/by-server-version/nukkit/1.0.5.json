@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "nukkit",
+  "server_version": "1.0.5",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "novamobsx",
+      "name": "NovaMobsX",
+      "display_name": "生物",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1",
+      "path": "plugins/nukkit/1.1.0/novamobsx/plugin.json",
+      "file": "plugins/nukkit/1.1.0/novamobsx/NovaMobsX-1.1.jar",
+      "sha256": "1d4c298a76994363643cd6cbd0776f4517ee2d187637d70c2822755984e9613a",
+      "size": 153055,
+      "tags": [
+        "world",
+        "admin",
+        "gameplay",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/novamobsx/NovaMobsX-1.1.jar"
+      }
+    }
+  ]
+}

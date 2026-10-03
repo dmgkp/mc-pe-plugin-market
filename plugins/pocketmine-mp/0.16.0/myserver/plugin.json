@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "id": "myserver",
+  "name": "MYServer",
+  "display_name": "我的社会",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.7.0",
+  "author": [
+    "anseEND"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "anseEND服务器专用登入和等级插件",
+  "website": null,
+  "main": "MYServer\\MYServer",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "改密码",
+      "description": "玩家密码修改",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "vip",
+      "description": "vip主指令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "结婚",
+      "description": "结婚主指令",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "Popup",
+      "description": "底部信息开关",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "新手箱子",
+      "description": "开启和关闭新手箱子",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "升级粒子",
+      "description": "可以设置玩家升级的时候是否出现粒子效果",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/myserver/MYServer-2.7.0.phar",
+      "file_name": "MYServer-2.7.0.phar",
+      "sha256": "efee620f2f4c7ac1dcdae44c2e1898dda5720d27b5462dab87dfeee66cbd089f",
+      "size": 7077,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/myserver/MYServer-2.7.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/我的社会/[我的社会]MYServer.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

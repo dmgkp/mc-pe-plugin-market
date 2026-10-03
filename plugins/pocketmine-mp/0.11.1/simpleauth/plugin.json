@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "simpleauth",
+  "name": "SimpleAuth",
+  "display_name": "的",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.4.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.7.1",
+  "author": [
+    "PocketMine Team"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Prevents people to impersonate an account, requering registration and login when connecting.",
+  "website": null,
+  "main": "SimpleAuth\\SimpleAuth",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "login",
+      "description": "Logs into an account",
+      "usage": "/login <密码>",
+      "permission": "simpleauth.command.login",
+      "aliases": []
+    },
+    {
+      "name": "register",
+      "description": "Registers an account",
+      "usage": "/register <要设置的密码>",
+      "permission": "simpleauth.command.register",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "simpleauth",
+      "description": "Allows logging into an account",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/simpleauth/SimpleAuth-1.7.1.phar",
+      "file_name": "SimpleAuth-1.7.1.phar",
+      "sha256": "2bf77884a65ac9c33577e54c837225b695a94adb5faa758bee683d4db7efae36",
+      "size": 59447,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/simpleauth/SimpleAuth-1.7.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/登陆插件不是zzx的/登陆插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

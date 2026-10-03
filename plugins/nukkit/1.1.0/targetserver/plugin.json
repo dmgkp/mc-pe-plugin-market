@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "targetserver",
+  "name": "TargetServer",
+  "display_name": "跨服插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "迷茫"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "TargetServer - Minecraft Bedrock plugin for nukkit.",
+  "website": null,
+  "main": "tk.mimang.targetserver.TargetServer",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/targetserver/TargetServer-1.0.0.jar",
+      "file_name": "TargetServer-1.0.0.jar",
+      "sha256": "0c34dc80982a401dc0ade845a64be170eb0dd92e5f91d8a54675d95f2cf6c006",
+      "size": 3560,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/targetserver/TargetServer-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/Nukkit插件/TargetServer--跨服插件/TargetServer--跨服插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

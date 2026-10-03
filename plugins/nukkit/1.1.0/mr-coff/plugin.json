@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "mr-coff",
+  "name": "Mr_COFF",
+  "display_name": "系列",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "Mr_sky"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "关闭NK自带防作弊",
+  "website": null,
+  "main": "top.ascgame.mr_coff.Mr_COFF",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/mr-coff/Mr_COFF-1.1.0.jar",
+      "file_name": "Mr_COFF-1.1.0.jar",
+      "sha256": "ee2f13f7557a12bfd5453ac709c7e490f9e45c11770372cada77ead317169a4f",
+      "size": 1485,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-coff/Mr_COFF-1.1.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/Nukkit插件/Mr系列/[关闭NK作弊检测]Mr_COFF v1.0.0.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

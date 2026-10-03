@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "super-rank",
+  "name": "Super_Rank",
+  "display_name": "排位",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "Smile"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "和LOL一样的排位系统!",
+  "website": null,
+  "main": "Super_Rank\\Super_Rank",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "myrank",
+      "description": "查看自己的排位状态",
+      "usage": "/myrank",
+      "permission": "Super_Rank.Command.myrank",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Super_Rank.Command.myrank",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/super-rank/Super_Rank-1.0.2.phar",
+      "file_name": "Super_Rank-1.0.2.phar",
+      "sha256": "1fb81b72797ad5a9f4b1e124466a4b1c559d8a44ddce909522b93d287bc619fc",
+      "size": 8851,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/super-rank/Super_Rank-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/LOL排位/LOL排位.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "id": "xk",
+  "name": "XK",
+  "display_name": "自动返回主城",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.15.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.16.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.1.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.5.0",
+  "author": [
+    "mckm"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": " !",
+  "website": null,
+  "main": "XK\\main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/xk/XK-1.5.0.phar",
+      "file_name": "XK-1.5.0.phar",
+      "sha256": "adfe3ada34e3b7a1d04a9077e7c11f8edcd79101aeed976c435312488a34975c",
+      "size": 2216,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/xk/XK-1.5.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/自动返回主城/自动回城.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:31+08:00",
+  "minecraft_version_source": "path"
+}

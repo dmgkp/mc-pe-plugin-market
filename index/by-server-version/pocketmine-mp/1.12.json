@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.12",
+  "count": 5,
+  "plugins": [
+    {
+      "id": "dm",
+      "name": "dm",
+      "display_name": "弹幕插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "0.9.9",
+      "path": "plugins/pocketmine-mp/0.11.1/dm/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/dm/dm-0.9.9.phar",
+      "sha256": "68a718a718d26125465b06ce654a4f2af312ddb7048fa5e0917d31c4265324a9",
+      "size": 4784,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/dm/dm-0.9.9.phar"
+      }
+    },
+    {
+      "id": "zalchemy",
+      "name": "zAlchemy",
+      "display_name": "快速熔炉",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "0.0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/zalchemy/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/zalchemy/zAlchemy-0.0.1.phar",
+      "sha256": "9b9c51fcc1abbff08f197d0fdd68bb1eb6a380b029272fda50f37d3b50bfdbb5",
+      "size": 3173,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/zalchemy/zAlchemy-0.0.1.phar"
+      }
+    },
+    {
+      "id": "bilibilichat",
+      "name": "BilibiliChat",
+      "display_name": "弹幕插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.9.9",
+      "path": "plugins/pocketmine-mp/0.14.0/bilibilichat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/bilibilichat/BilibiliChat-0.9.9.phar",
+      "sha256": "0604503be2b8253017ae8e86a3673d8600855b6aa948268240e44ba81ebfd33a",
+      "size": 2666,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bilibilichat/BilibiliChat-0.9.9.phar"
+      }
+    },
+    {
+      "id": "dm",
+      "name": "dm",
+      "display_name": "dm",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.9.9",
+      "path": "plugins/pocketmine-mp/0.14.0/dm/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/dm/dm-0.9.9.phar",
+      "sha256": "68a718a718d26125465b06ce654a4f2af312ddb7048fa5e0917d31c4265324a9",
+      "size": 4784,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/dm/dm-0.9.9.phar"
+      }
+    },
+    {
+      "id": "zalchemy",
+      "name": "zAlchemy",
+      "display_name": "快速熔炉",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.0.1",
+      "path": "plugins/pocketmine-mp/0.14.0/zalchemy/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/zalchemy/zAlchemy-0.0.1.phar",
+      "sha256": "9b9c51fcc1abbff08f197d0fdd68bb1eb6a380b029272fda50f37d3b50bfdbb5",
+      "size": 3173,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/zalchemy/zAlchemy-0.0.1.phar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "vanillastatus",
+  "name": "VanillaStatus",
+  "display_name": "饥饿与经验插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.2.0",
+  "minecraft_versions": [
+    "1.2.0"
+  ],
+  "minecraft_version_range": ">=1.2.0 <1.3.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.6.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.1",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "VanillaStatus - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "Attribute\\core",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.2.0/vanillastatus/VanillaStatus-0.1.phar",
+      "file_name": "VanillaStatus-0.1.phar",
+      "sha256": "5dbc3a15992684f09069613e16d5b9ef3cdeaa0a261aefa67464a63aa403a500",
+      "size": 21009,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/vanillastatus/VanillaStatus-0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/饥饿与经验插件/饥饿插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:25+08:00",
+  "minecraft_version_source": "api-inferred"
+}

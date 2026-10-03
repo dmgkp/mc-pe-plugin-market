@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "factionspro-v2",
+  "name": "FactionsPro",
+  "display_name": "另一种工会",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.1.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "Tethered_"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A Plugin For Easily Managing Factions",
+  "website": null,
+  "main": "FactionsPro\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "公会",
+      "description": "使用/公会 帮助 列出所有公会命令",
+      "usage": "",
+      "permission": "f.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "f.command",
+      "description": "Allow use of all faction commands",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.1.0/factionspro-v2/FactionsPro-1.0.1.phar",
+      "file_name": "FactionsPro-1.0.1.phar",
+      "sha256": "baf144aaee34fbb1797dcdd3a4ccf0e343c847d8e0b1a401a822d4ccbd422c5d",
+      "size": 32225,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/factionspro-v2/FactionsPro-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/另一种工会/工会另一种.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:15+08:00",
+  "minecraft_version_source": "api-inferred"
+}

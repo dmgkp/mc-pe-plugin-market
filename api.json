@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "catalog": "catalog.json",
+  "latest": "index/latest.json",
+  "schemas": {
+    "plugin": "schemas/plugin.schema.json",
+    "catalog": "schemas/catalog.schema.json"
+  },
+  "indexes": {
+    "by_server_type": "index/by-server-type/",
+    "by_minecraft_version": "index/by-minecraft-version/",
+    "by_server_version": "index/by-server-version/",
+    "by_tag": "index/by-tag/"
+  },
+  "mirrors": {
+    "github": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/"
+  },
+  "license": "AGPL-3.0-only",
+  "license_file": "LICENSE",
+  "license_scope": "Repository metadata, schemas, docs, index files and generator scripts are AGPL-3.0. Bundled plugin binaries keep their original licenses.",
+  "usage": {
+    "all_plugins": "read catalog.json -> plugins[]",
+    "latest": "read index/latest.json",
+    "filter": "pick an index under index/ by server_type, minecraft_version, server_version or tag",
+    "download": "prepend mirrors.<platform> to any plugins[].file relative path",
+    "verify": "compare sha256 of the downloaded file with plugins[].sha256"
+  }
+}

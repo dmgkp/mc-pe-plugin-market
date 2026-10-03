@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "id": "essentialstp",
+  "name": "essentialsTP",
+  "display_name": "essentialsTP",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.9",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "传送到你的家, 使用/回家 展示家的列表, 使用/回家 < 家的名字 > 传送到那里.",
+  "website": null,
+  "main": "essentialsTP\\essentialsTP",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "回家",
+      "description": "传送到你的家, 使用/回家 展示家的列表, 使用/回家 < 家的名字 > 传送到那里.",
+      "usage": "/回家 或 /回家 < 家的名字 >",
+      "permission": "essentialstp.command.home",
+      "aliases": []
+    },
+    {
+      "name": "安家",
+      "description": "设置家 .",
+      "usage": "/安家 < 家的名字 >",
+      "permission": "essentialstp.command.sethome",
+      "aliases": []
+    },
+    {
+      "name": "搬家",
+      "description": "删除家 .",
+      "usage": "/搬家 < 家的名字 >",
+      "permission": "essentialstp.command.delhome",
+      "aliases": []
+    },
+    {
+      "name": "返回",
+      "description": "传送到你上次死亡的地点 .",
+      "usage": "/返回",
+      "permission": "essentialstp.command.back",
+      "aliases": []
+    },
+    {
+      "name": "瞬移",
+      "description": "随机传送 .",
+      "usage": "/瞬移",
+      "permission": "essentialstp.command.wild",
+      "aliases": []
+    },
+    {
+      "name": "出生点",
+      "description": "设置世界出生点 .",
+      "usage": "/出生点",
+      "permission": "essentialstp.command.setspawn",
+      "aliases": []
+    },
+    {
+      "name": "出生",
+      "description": "传送到世界出生点 .",
+      "usage": "/出生",
+      "permission": "essentialstp.command.spawn",
+      "aliases": []
+    },
+    {
+      "name": "传送",
+      "description": "使用 /传送 展示传送点列表, 使用/传送 < 传送点名字 > 传送到传送点 .",
+      "usage": "/传送 或 /传送 < 传送点名字 >",
+      "permission": "essentialstp.command.tpahere",
+      "aliases": []
+    },
+    {
+      "name": "传送点",
+      "description": "设置传送点 .",
+      "usage": "/传送点 < 传送点名字 >",
+      "permission": "essentialstp.command.setwarp",
+      "aliases": []
+    },
+    {
+      "name": "删传送点",
+      "description": "删除传送点 .",
+      "usage": "/删传送点 < 传送点名字 >",
+      "permission": "essentialstp.command.delwarp",
+      "aliases": []
+    },
+    {
+      "name": "找人",
+      "description": "向玩家发送传送到AT的位置的请求 .",
+      "usage": "/找人 < 玩家名 >",
+      "permission": "essentialstp.command.tpa",
+      "aliases": []
+    },
+    {
+      "name": "邀请",
+      "description": "向玩家发送传送到你的位置的请求 .",
+      "usage": "/邀请 < 玩家名 >",
+      "permission": "essentialstp.command.tpahere",
+      "aliases": []
+    },
+    {
+      "name": "接受",
+      "description": "接受请求.",
+      "usage": "/接受",
+      "permission": "essentialstp.command.tpaccept",
+      "aliases": []
+    },
+    {
+      "name": "拒绝",
+      "description": "拒绝请求.",
+      "usage": "/拒绝",
+      "permission": "essentialstp.command.tpdeny",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "essentialstp",
+      "description": "Allows player to break spawn signs",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/essentialstp/essentialsTP-1.0.9.phar",
+      "file_name": "essentialsTP-1.0.9.phar",
+      "sha256": "552a9cc206210322f6bb94e91f68dc6a0c58ea63512d8ec6848c66fc8603d4af",
+      "size": 91322,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/essentialstp/essentialsTP-1.0.9.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/传送插件指令全汉化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

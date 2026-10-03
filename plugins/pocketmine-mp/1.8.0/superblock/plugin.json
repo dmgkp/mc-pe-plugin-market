@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "superblock",
+  "name": "SuperBlock",
+  "display_name": "方块效果",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.03",
+  "author": [
+    "Kirt and Tasada"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SuperBlock总命令 DA★ZE~",
+  "website": null,
+  "main": "Kirt\\SuperBlock\\SuperBlock",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "sb",
+      "description": "SuperBlock总命令 DA★ZE~",
+      "usage": "/sb set/mypos/gopos",
+      "permission": "superblock.command.op",
+      "aliases": []
+    },
+    {
+      "name": "myspawn",
+      "description": "回到出生点 ~Kira",
+      "usage": "/sb set/mypos/gopos",
+      "permission": "superblock.command",
+      "aliases": []
+    },
+    {
+      "name": "setmyspawn",
+      "description": "设置自己的出生点 ~Kira",
+      "usage": "/sb set/mypos/gopos",
+      "permission": "superblock.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "superblock.*",
+      "description": "SuperBlock permissions",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/superblock/SuperBlock-1.03.phar",
+      "file_name": "SuperBlock-1.03.phar",
+      "sha256": "568423953358b8da7a4d3c6def15739934d5c3fb55ae4f3ca9133e2afb74fddc",
+      "size": 36181,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/superblock/SuperBlock-1.03.phar"
+      }
+    }
+  ],
+  "history": {
+    "0.2.1 Beta": [
+      {
+        "file_name": "SuperBlock-0.2.1_Beta.phar",
+        "sha256": "817cec3b3683da5c06168db1d146f3e946975ba82842bcf12926bdb1082dcf70",
+        "size": 7440
+      }
+    ],
+    "0.3.1 Beta": [
+      {
+        "file_name": "SuperBlock-0.3.1_Beta.phar",
+        "sha256": "2b4c05bad6f60fdd18293e98fa32c675236a500f6694281925212373b4aee703",
+        "size": 12569
+      }
+    ],
+    "1.0.0 Finally": [
+      {
+        "file_name": "SuperBlock-1.0.0_Finally.phar",
+        "sha256": "acef124efb34d74d3d7725d96ca705d926b7beb3d585d852f52d3c302b8193e9",
+        "size": 19032
+      }
+    ],
+    "1.0.1": [
+      {
+        "file_name": "SuperBlock-1.0.1.phar",
+        "sha256": "bbf34a5d0f153fb65a58c3289f9e12dc795eb1acd2e9147462500ff560fa29f5",
+        "size": 19624
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/方块效果/方块效果.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

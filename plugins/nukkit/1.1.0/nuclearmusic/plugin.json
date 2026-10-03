@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "nuclearmusic",
+  "name": "NuclearMusic",
+  "display_name": "音乐插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "NuclearMusic - Minecraft Bedrock plugin for nukkit.",
+  "website": null,
+  "main": "com.fcmcpe.nuclear.music.NuclearMusicPlugin",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/nuclearmusic/NuclearMusic-1.jar",
+      "file_name": "NuclearMusic-1.jar",
+      "sha256": "eb6553b519132320a6eb5ae32259cb9a24202edf98dd54ae2733a453bac33d0c",
+      "size": 25538,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/nuclearmusic/NuclearMusic-1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK音乐插件/NK音乐插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

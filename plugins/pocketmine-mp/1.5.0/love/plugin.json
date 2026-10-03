@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "love",
+  "name": "Love",
+  "display_name": "研究用",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.5.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "happylife"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "结婚插件，祝愿有情人终成眷属",
+  "website": null,
+  "main": "Love\\love",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "love",
+      "description": "love (add/del/accept/deny/tp/money)",
+      "usage": "/love (add/del/accept/deny/tp/money)",
+      "permission": "love.command.love",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "love",
+      "description": "Allows player to use love command.",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.5.0/love/Love-1.0.phar",
+      "file_name": "Love-1.0.phar",
+      "sha256": "90cb5145d33b98be5042fd499d63c724e054f5cb0bbd9b2115d0866d3c938982",
+      "size": 5682,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/love/Love-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/多功能/api1.8版 - 研究用/[结婚]Marry.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

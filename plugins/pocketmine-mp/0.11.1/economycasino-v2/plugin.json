@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "economycasino-v2",
+  "name": "EconomyCasino",
+  "display_name": "经济娱乐插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.1",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows player to use all commands of EconomyCasino",
+  "website": null,
+  "main": "onebone\\economycasino\\EconomyCasino",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [
+    "[EconomyAPI]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "娱乐",
+      "description": "娱乐俱乐部管理命令",
+      "usage": "/娱乐 <开设|关闭|加入|退出|列表|牌注>",
+      "permission": "economycasino.command.casino;economycasino.command.casino.start;economycasino.command.casino.stop;economycasino.command.casino.join;economycasino.command.casino.leave;economycasino.command.casino.list;economycasino.command.casino.gamble",
+      "aliases": []
+    },
+    {
+      "name": "老虎机",
+      "description": "老虎机游戏",
+      "usage": "/老虎机 <金钱>",
+      "permission": "economycasino.command.jackpot",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "economycasino.command.*",
+      "description": "Allows player to gamble the money",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/economycasino-v2/EconomyCasino-2.0.1.phar",
+      "file_name": "EconomyCasino-2.0.1.phar",
+      "sha256": "c4c4fcb83bba7ea35f4b19558027c2470b1aa4a7e4c7a851660cc6487c3a5bae",
+      "size": 13063,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economycasino-v2/EconomyCasino-2.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/经济娱乐插件/经济娱乐插件指令全汉化(BUG完美修复).phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:31+08:00",
+  "minecraft_version_source": "path"
+}

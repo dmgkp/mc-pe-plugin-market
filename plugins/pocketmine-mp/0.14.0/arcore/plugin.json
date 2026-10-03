@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "arcore",
+  "name": "ARCore",
+  "display_name": "多功能插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.3_2#UNSTABLE",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "use /c help for all parameters",
+  "website": null,
+  "main": "ARCore\\ARCore",
+  "tags": [
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "c",
+      "description": "use /c help for all parameters",
+      "usage": "",
+      "permission": "f.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "nofall.damage",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "saver.inventory.switch",
+      "description": "Allows switching inventory on world change",
+      "default": "true"
+    },
+    {
+      "name": "f.command",
+      "description": "Allow use of all clans commands",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/arcore/ARCore-0.0.3_2_UNSTABLE.phar",
+      "file_name": "ARCore-0.0.3_2_UNSTABLE.phar",
+      "sha256": "390102624b6e532589dc6a50facbaf23d862203af3e26e208b5adc8c8c9f0895",
+      "size": 305137,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/arcore/ARCore-0.0.3_2_UNSTABLE.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "beta",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/ARCore多功能插件/ARCore_v0.0.3_2#UNSTABLE.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

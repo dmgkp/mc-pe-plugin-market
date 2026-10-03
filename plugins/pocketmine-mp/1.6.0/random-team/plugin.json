@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "random-team",
+  "name": "Random_Team",
+  "display_name": "随机战队",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=1.6.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "guestc,super dell"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "选择自己的队伍",
+  "website": null,
+  "main": "Random_Team\\Random_Team",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "team",
+      "description": "选择自己的队伍",
+      "usage": "/team ID",
+      "permission": "Team.Command.team",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Team.Command.team",
+      "description": "选择自己的队伍",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/random-team/Random_Team-1.0.1.phar",
+      "file_name": "Random_Team-1.0.1.phar",
+      "sha256": "71d3935e70bfd2bc42aa102cc340bf491aa5f27f1d284279461d05024db164de",
+      "size": 5690,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/random-team/Random_Team-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/随机战队/随机战队.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:24+08:00",
+  "minecraft_version_source": "api-inferred"
+}

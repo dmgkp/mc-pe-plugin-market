@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "kcrackshot-v2",
+  "name": "KCrackShot",
+  "display_name": "神枪手",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "Kevin"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "KCrackShot主指令",
+  "website": null,
+  "main": "KCrackShot\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "crackshot",
+      "description": "KCrackShot主指令",
+      "usage": "/crackshot",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/kcrackshot-v2/KCrackShot-1.1.0.phar",
+      "file_name": "KCrackShot-1.1.0.phar",
+      "sha256": "0eb91fa12e9c69317f1fc6cbe1568d1d83372645a33973b626a50da14e4ffea9",
+      "size": 37816,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/kcrackshot-v2/KCrackShot-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/神枪手/神枪手.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:20+08:00",
+  "minecraft_version_source": "api-inferred"
+}

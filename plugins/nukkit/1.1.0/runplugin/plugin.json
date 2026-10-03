@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "runplugin",
+  "name": "RunPlugin",
+  "display_name": "跑酷关卡",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.0.1",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "添加跑酷坐标",
+  "website": null,
+  "main": "Dream.K",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "map",
+      "description": "添加跑酷坐标",
+      "usage": "/map [文件名] [X] [Y] [Z]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "loadmap",
+      "description": "重载跑酷关卡坐标与启动检测过关功能",
+      "usage": "/loadmap",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "back",
+      "description": "返回已过关卡",
+      "usage": "/back [关卡数]",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/runplugin/RunPlugin-0.0.1.jar",
+      "file_name": "RunPlugin-0.0.1.jar",
+      "sha256": "c894ef9e24a5e8cb89f765ee3f32b43ebe8a1d4746358ee537e7d182eddbbede",
+      "size": 5399,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/runplugin/RunPlugin-0.0.1.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK跑酷关卡/NK跑酷关卡.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

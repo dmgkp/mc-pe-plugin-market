@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "myskin",
+  "name": "MySkin",
+  "display_name": "皮肤插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.0",
+  "author": [
+    "HYTS"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "我的皮肤",
+  "website": null,
+  "main": "cn.hy08.main.MySkin",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "skin",
+      "description": "设置皮肤",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/myskin/MySkin-2.0.0.jar",
+      "file_name": "MySkin-2.0.0.jar",
+      "sha256": "8a7b59743f4d2b5fd234f468792c4e1f8b8133adaa9a38f8eb950fc8a1624559",
+      "size": 4259,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/myskin/MySkin-2.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NK皮肤插件/NK皮肤插件.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

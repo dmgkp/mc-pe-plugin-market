@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "piggyauth-v2",
+  "name": "PiggyAuth",
+  "display_name": "原创汉化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.0.20",
+  "author": [
+    "DaPigGuy"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows using all PiggyAuth features",
+  "website": null,
+  "main": "PiggyAuth\\Main",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "piggyauth",
+      "description": "Allow using /unregister",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/piggyauth-v2/PiggyAuth-3.0.0.20.phar",
+      "file_name": "PiggyAuth-3.0.0.20.phar",
+      "sha256": "eedf17887bc927009e6ab6a00bcd4dee29549d80486932514aa9f0c4391845d8",
+      "size": 67193,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/piggyauth-v2/PiggyAuth-3.0.0.20.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/超级登录 - 原创汉化/[超级登录稳定版]PiggyAuth.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

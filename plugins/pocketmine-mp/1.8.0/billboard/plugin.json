@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "billboard",
+  "name": "BillBoard",
+  "display_name": "广告牌",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.2",
+  "author": [
+    "Smile"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "BillBoard - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "BillBoard\\BillBoard",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "billbuy",
+      "description": "进入选择广告牌状态",
+      "usage": "/billbuy <第二行> <第三行> <第四行>",
+      "permission": "BillBoard.Command.billbuy",
+      "aliases": []
+    },
+    {
+      "name": "qc",
+      "description": "退出选择广告牌状态",
+      "usage": "/qc",
+      "permission": "BillBoard.Command.qc",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "BillBoard.Command.billbuy",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "BillBoard.Command.qc",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/billboard/BillBoard-1.0.2.phar",
+      "file_name": "BillBoard-1.0.2.phar",
+      "sha256": "fd3a0962637dbc88bd77208e1918bd6317d49fc75ca0bfa2507ff5c6ea43d476",
+      "size": 9717,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/billboard/BillBoard-1.0.2.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/广告牌/广告牌.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:17+08:00",
+  "minecraft_version_source": "api-inferred"
+}

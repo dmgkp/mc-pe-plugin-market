@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "id": "serverrestarter",
+  "name": "ServerRestarter",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.48",
+  "author": [
+    "DarkStorm_"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Simple configurable server restarting plugin",
+  "website": null,
+  "main": "org.darkstorm.minecraft.bukkit.serverrestarter.ServerRestarter",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "restart",
+      "description": "ServerRestarter command.",
+      "usage": "/<command> [restart | [[time] [message]]]",
+      "permission": "",
+      "aliases": [
+        "sr"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "sr.*",
+      "description": "ServerRestarter permission nodes.",
+      "default": "op"
+    },
+    {
+      "name": "sr.restart",
+      "description": "Permission to use the /restart command.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/serverrestarter/ServerRestarter-0.48.jar",
+      "file_name": "ServerRestarter-0.48.jar",
+      "sha256": "e85a6b5bb082055fb617cac6d952bd5f3a10724bb2318e55847aedd1fc89f473",
+      "size": 33740,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/serverrestarter/ServerRestarter-0.48.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[重启]ServerRestarter-0.48.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

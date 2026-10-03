@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "id": "walkingparticles",
+  "name": "WalkingParticles",
+  "display_name": "粒子",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.9.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.8.0",
+    "1.9.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.10.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.0 beta",
+  "author": [
+    "CyberCube-HK Team & hoyinm14mc"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Admin command of WalkingParticles",
+  "website": null,
+  "main": "WalkingParticles\\WalkingParticles",
+  "tags": [
+    "admin",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "walkp",
+      "description": "Admin command of WalkingParticles",
+      "usage": "/walkp help",
+      "permission": "walkingparticles.command.admin",
+      "aliases": [
+        "walkingparticles",
+        "walkp"
+      ]
+    },
+    {
+      "name": "wplist",
+      "description": "WalkingParticles > Show a list of available particles",
+      "usage": "/wplist",
+      "permission": "walkingparticles.command.wplist",
+      "aliases": []
+    },
+    {
+      "name": "wpget",
+      "description": "WalkingParticles > Show a list of your using particles",
+      "usage": "/wpget",
+      "permission": "walkingparticles.command.wpget",
+      "aliases": []
+    },
+    {
+      "name": "wppack",
+      "description": "Let players to apply/get/list packs using money",
+      "usage": "/wppack <apply|get|list> <args..>",
+      "permission": "walkingparticles.command.wppack",
+      "aliases": []
+    },
+    {
+      "name": "wptry",
+      "description": "Let players to try out a player's particle pack",
+      "usage": "/wptry <player>",
+      "permission": "walkingparticles.command.wptry",
+      "aliases": []
+    },
+    {
+      "name": "wprand",
+      "description": "Toggles your random mode on/off",
+      "usage": "/wprand",
+      "permission": "walkingparticles.command.wprand",
+      "aliases": [
+        "wprandom",
+        "wprandommode",
+        "wprandomshow"
+      ]
+    },
+    {
+      "name": "wpitem",
+      "description": "Toggles your item mode on/off",
+      "usage": "/wpitem",
+      "permission": "walkingparticles.command.wpitem",
+      "aliases": [
+        "wpitemmode",
+        "wpitemshow"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "walkingparticles",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "walkingparticles.try.pay.bypass",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "walkingparticles.command",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "walkingparticles.sign.toggle",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "walkingparticles.sign.create",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "walkingparticles.sign.destroy",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.9.0/walkingparticles/WalkingParticles-2.0.0_beta.phar",
+      "file_name": "WalkingParticles-2.0.0_beta.phar",
+      "sha256": "c805e549d790d46fdcb40a3b13d913d9592969b0945709d8a67226eddbb79721",
+      "size": 175660,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/walkingparticles/WalkingParticles-2.0.0_beta.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "beta",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/0.12粒子/0.12粒子.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

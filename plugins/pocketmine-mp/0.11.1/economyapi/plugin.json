@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "economyapi",
+  "name": "EconomyAPI",
+  "display_name": "经济",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.7",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows to control all of functions in EconomyAPI",
+  "website": null,
+  "main": "onebone\\economyapi\\EconomyAPI",
+  "tags": [
+    "economy",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "economyapi.*",
+      "description": "Allows player to take money from others",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/economyapi/EconomyAPI-2.0.7.phar",
+      "file_name": "EconomyAPI-2.0.7.phar",
+      "sha256": "88f28ab55d883cc1a725121fbb74b7950a25ab2e9afedc0ef8b410f586d10222",
+      "size": 99817,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyapi/EconomyAPI-2.0.7.phar"
+      }
+    }
+  ],
+  "history": {
+    "2.0.4": [
+      {
+        "file_name": "EconomyAPI-2.0.4.phar",
+        "sha256": "f5ea2420d14ab0265c306d5a65200e2f7ace6c4bc71b6bfb5890f341bd222313",
+        "size": 96579
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/经济5.5/EconomyAPI_v2.0.7.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:30+08:00",
+  "minecraft_version_source": "path"
+}

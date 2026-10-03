@@ -1,0 +1,1219 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-tag",
+  "tag": "cosmetic",
+  "count": 64,
+  "plugins": [
+    {
+      "id": "mobplugin-v2",
+      "name": "MobPlugin",
+      "display_name": "生物",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0",
+      "path": "plugins/nukkit/1.1.0/mobplugin-v2/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mobplugin-v2/MobPlugin-1.0.jar",
+      "sha256": "3800debc84ef4018a57bc4d7510f705b5c0c7ac4704be35ca18228f378f0c261",
+      "size": 2408960,
+      "tags": [
+        "world",
+        "admin",
+        "gameplay",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mobplugin-v2/MobPlugin-1.0.jar"
+      }
+    },
+    {
+      "id": "mr-chat",
+      "name": "Mr_Chat",
+      "display_name": "多接口彩色聊天",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1.3",
+      "path": "plugins/nukkit/1.1.0/mr-chat/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-chat/Mr_Chat-1.1.3.jar",
+      "sha256": "f8dbf85606db72977cf95fa62baec09fa2aafcf3704829d0281c096b9509a530",
+      "size": 3494,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-chat/Mr_Chat-1.1.3.jar"
+      }
+    },
+    {
+      "id": "novamobsx",
+      "name": "NovaMobsX",
+      "display_name": "生物",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.1",
+      "path": "plugins/nukkit/1.1.0/novamobsx/plugin.json",
+      "file": "plugins/nukkit/1.1.0/novamobsx/NovaMobsX-1.1.jar",
+      "sha256": "1d4c298a76994363643cd6cbd0776f4517ee2d187637d70c2822755984e9613a",
+      "size": 153055,
+      "tags": [
+        "world",
+        "admin",
+        "gameplay",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/novamobsx/NovaMobsX-1.1.jar"
+      }
+    },
+    {
+      "id": "worldprotect",
+      "name": "WorldProtect",
+      "display_name": "世界保护",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/worldprotect/plugin.json",
+      "file": "plugins/nukkit/1.1.0/worldprotect/WorldProtect-1.0.0.jar",
+      "sha256": "92ad223463b236267443ba1b024e6ac711590fc29c7d2d9183dc0297f96dadbb",
+      "size": 3367,
+      "tags": [
+        "world",
+        "protection",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/worldprotect/WorldProtect-1.0.0.jar"
+      }
+    },
+    {
+      "id": "cclearchat",
+      "name": "CClearChat",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.7",
+      "path": "plugins/other/unknown/cclearchat/plugin.json",
+      "file": "plugins/other/unknown/cclearchat/CClearChat-1.7.jar",
+      "sha256": "0e422f55da78c5186c41bb115e0f46dd6f4a6851ee6682b9af9f9b9309975f86",
+      "size": 7438,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/cclearchat/CClearChat-1.7.jar"
+      }
+    },
+    {
+      "id": "essentialschat",
+      "name": "EssentialsChat",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "Pre2.13.1.2",
+      "path": "plugins/other/unknown/essentialschat/plugin.json",
+      "file": "plugins/other/unknown/essentialschat/EssentialsChat-Pre2.13.1.2.jar",
+      "sha256": "661b8d3918ce54f09dda0bc2d3a1473608522e519b60763169d37abd83034c04",
+      "size": 12712,
+      "tags": [
+        "chat",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/essentialschat/EssentialsChat-Pre2.13.1.2.jar"
+      }
+    },
+    {
+      "id": "colortext",
+      "name": "ColorText",
+      "display_name": "颜色插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/pocketmine-mp/0.11.0/colortext/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/colortext/ColorText-1.3.0.phar",
+      "sha256": "5eda9541619d8163c132acda22474c2854c7f2d317944066557197afa360512d",
+      "size": 2336,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/colortext/ColorText-1.3.0.phar"
+      }
+    },
+    {
+      "id": "commandsigns",
+      "name": "CommandSigns",
+      "display_name": "CommandSigns",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0",
+      "path": "plugins/pocketmine-mp/0.11.0/commandsigns/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/commandsigns/CommandSigns-2.0.phar",
+      "sha256": "a798af035d6cc834333f32269962cb98b7f12d8ae9d727e5c308c66336704a9a",
+      "size": 8346,
+      "tags": [
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/commandsigns/CommandSigns-2.0.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.1.2",
+      "path": "plugins/pocketmine-mp/0.11.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/customchat/CustomChat-1.1.2.phar",
+      "sha256": "8dcb6fd754ccf4acb43d5a4c8e7989799c07c77033e8115f1c21b014e2c6a45b",
+      "size": 11867,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/customchat/CustomChat-1.1.2.phar"
+      }
+    },
+    {
+      "id": "foodeffect",
+      "name": "FoodEffect",
+      "display_name": "FoodEffect",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.0/foodeffect/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/foodeffect/FoodEffect-1.0.0.phar",
+      "sha256": "41b4498c25c795961dfe67a6d5c5ea9579d092b5d73f338486dc6338ef95e064",
+      "size": 1768,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/foodeffect/FoodEffect-1.0.0.phar"
+      }
+    },
+    {
+      "id": "healthstats",
+      "name": "HealthStats",
+      "display_name": "HealthStats",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.1.1",
+      "path": "plugins/pocketmine-mp/0.11.0/healthstats/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/healthstats/HealthStats-1.1.1.phar",
+      "sha256": "b94e205383755b33bf8725e46999bc63b3ec2bb55f572d66e17bfc10df5a5cca",
+      "size": 1940,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/healthstats/HealthStats-1.1.1.phar"
+      }
+    },
+    {
+      "id": "slapper",
+      "name": "Slapper",
+      "display_name": "Slapper",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.0/slapper/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/slapper/Slapper-1.0.1.phar",
+      "sha256": "013fb69650518dcb34a34aedb2b8447a93b310db3b58c6db4b3db8038c1f7411",
+      "size": 8688,
+      "tags": [
+        "world",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/slapper/Slapper-1.0.1.phar"
+      }
+    },
+    {
+      "id": "acgparticle",
+      "name": "ACGParticle",
+      "display_name": "粒子插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.1/acgparticle/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/acgparticle/ACGParticle-1.0.0.phar",
+      "sha256": "5e249e5865097806a90a1bd12b083c49e53eb4e3623cea1ed8f7b4a9e44aa3dc",
+      "size": 2856,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/acgparticle/ACGParticle-1.0.0.phar"
+      }
+    },
+    {
+      "id": "colortext",
+      "name": "ColorText",
+      "display_name": "颜色插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.3.0",
+      "path": "plugins/pocketmine-mp/0.11.1/colortext/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/colortext/ColorText-1.3.0.phar",
+      "sha256": "5eda9541619d8163c132acda22474c2854c7f2d317944066557197afa360512d",
+      "size": 2336,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/colortext/ColorText-1.3.0.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.3.2",
+      "path": "plugins/pocketmine-mp/0.11.1/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/customchat/CustomChat-1.3.2.phar",
+      "sha256": "5a12e5a1121dfd2099ffb657209a5354aacd98714046a0e0db3f70591296a171",
+      "size": 7880,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/customchat/CustomChat-1.3.2.phar"
+      }
+    },
+    {
+      "id": "economytax",
+      "name": "EconomyTax",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.11.1/economytax/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economytax/EconomyTax-2.0.2.phar",
+      "sha256": "3571785a450d0d3bd120f42c013d4cdafaa4a22f9a8694ce1b33b68e4dd629bb",
+      "size": 1766,
+      "tags": [
+        "economy",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economytax/EconomyTax-2.0.2.phar"
+      }
+    },
+    {
+      "id": "foodeffect",
+      "name": "FoodEffect",
+      "display_name": "自定义食物插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.1/foodeffect/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/foodeffect/FoodEffect-1.0.0.phar",
+      "sha256": "41b4498c25c795961dfe67a6d5c5ea9579d092b5d73f338486dc6338ef95e064",
+      "size": 1768,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/foodeffect/FoodEffect-1.0.0.phar"
+      }
+    },
+    {
+      "id": "getineffects",
+      "name": "GetInEffects",
+      "display_name": "进服获得药水效果",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.3",
+      "path": "plugins/pocketmine-mp/0.11.1/getineffects/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/getineffects/GetInEffects-1.3.phar",
+      "sha256": "e8ac6f856579e8243fb06653d7e7bc1a87bcbaa955ae77459e2ed4ef6363dae4",
+      "size": 15723,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/getineffects/GetInEffects-1.3.phar"
+      }
+    },
+    {
+      "id": "healthstats",
+      "name": "HealthStats",
+      "display_name": "他人名字右边显示血量",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.1.1",
+      "path": "plugins/pocketmine-mp/0.11.1/healthstats/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/healthstats/HealthStats-1.1.1.phar",
+      "sha256": "b94e205383755b33bf8725e46999bc63b3ec2bb55f572d66e17bfc10df5a5cca",
+      "size": 1940,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/healthstats/HealthStats-1.1.1.phar"
+      }
+    },
+    {
+      "id": "isplayereffect",
+      "name": "ISPlayerEffect",
+      "display_name": "金钱药水插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.3.1",
+      "path": "plugins/pocketmine-mp/0.11.1/isplayereffect/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/isplayereffect/ISPlayerEffect-1.3.1.phar",
+      "sha256": "f863954205c03be87f961790134b8bca6b248fc2e346733ad21ed53de4030fab",
+      "size": 6776,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/isplayereffect/ISPlayerEffect-1.3.1.phar"
+      }
+    },
+    {
+      "id": "pocketdockconsole",
+      "name": "PocketDockConsole",
+      "display_name": "网页控制",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "0.0.14",
+      "path": "plugins/pocketmine-mp/0.11.1/pocketdockconsole/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/pocketdockconsole/PocketDockConsole-0.0.14.phar",
+      "sha256": "c14f16d27de8919fe5abc8291a51470deae1740a34ba87a2533c8b05db0b58a2",
+      "size": 268074,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/pocketdockconsole/PocketDockConsole-0.0.14.phar"
+      }
+    },
+    {
+      "id": "slapper",
+      "name": "Slapper",
+      "display_name": "插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/slapper/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/slapper/Slapper-1.0.1.phar",
+      "sha256": "013fb69650518dcb34a34aedb2b8447a93b310db3b58c6db4b3db8038c1f7411",
+      "size": 8688,
+      "tags": [
+        "world",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/slapper/Slapper-1.0.1.phar"
+      }
+    },
+    {
+      "id": "vipparticle",
+      "name": "VIPParticle",
+      "display_name": "粒子",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.1/vipparticle/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/vipparticle/VIPParticle-1.0.0.phar",
+      "sha256": "de04bc334dcd917b0f4437daa3ab5a329ad5eaf9d98e974484e597f839041251",
+      "size": 2956,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/vipparticle/VIPParticle-1.0.0.phar"
+      }
+    },
+    {
+      "id": "walkingparticles",
+      "name": "WalkingParticles",
+      "display_name": "走路特效",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/walkingparticles/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/walkingparticles/WalkingParticles-0.1.phar",
+      "sha256": "a2a5a6dc011c6a44a8bf26cd7e115411c2b039b890eab1c53c8039edc3b4b1b0",
+      "size": 3930,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/walkingparticles/WalkingParticles-0.1.phar"
+      }
+    },
+    {
+      "id": "acgparticle",
+      "name": "ACGParticle",
+      "display_name": "粒子插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/acgparticle/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/acgparticle/ACGParticle-1.0.0.phar",
+      "sha256": "5e249e5865097806a90a1bd12b083c49e53eb4e3623cea1ed8f7b4a9e44aa3dc",
+      "size": 2856,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/acgparticle/ACGParticle-1.0.0.phar"
+      }
+    },
+    {
+      "id": "bilibilichat",
+      "name": "BilibiliChat",
+      "display_name": "弹幕插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.9.9",
+      "path": "plugins/pocketmine-mp/0.14.0/bilibilichat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/bilibilichat/BilibiliChat-0.9.9.phar",
+      "sha256": "0604503be2b8253017ae8e86a3673d8600855b6aa948268240e44ba81ebfd33a",
+      "size": 2666,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bilibilichat/BilibiliChat-0.9.9.phar"
+      }
+    },
+    {
+      "id": "bossannouncement",
+      "name": "BossAnnouncement",
+      "display_name": "顶部公告插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/bossannouncement/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/bossannouncement/BossAnnouncement-1.0.2.phar",
+      "sha256": "efd94ccc964d52142e8bfa286cba8f277f6652b9d829c4fe1c8a6afc2aa808f5",
+      "size": 11915,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bossannouncement/BossAnnouncement-1.0.2.phar"
+      }
+    },
+    {
+      "id": "bossbarapi",
+      "name": "BossBarAPI",
+      "display_name": "顶部公告插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.2.2",
+      "path": "plugins/pocketmine-mp/0.14.0/bossbarapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/bossbarapi/BossBarAPI-2.2.2.phar",
+      "sha256": "6506591cc0aaec82c2788501730d957f7b19b7a0e48853c2819f03e12b58df4e",
+      "size": 47771,
+      "tags": [
+        "library",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bossbarapi/BossBarAPI-2.2.2.phar"
+      }
+    },
+    {
+      "id": "chatbubbles",
+      "name": "ChatBubbles",
+      "display_name": "ChatBubbles",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1.5",
+      "path": "plugins/pocketmine-mp/0.14.0/chatbubbles/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/chatbubbles/ChatBubbles-1.1.5.phar",
+      "sha256": "56243c68fb6105a5a2703a2a90eced9abcae200f8b6a310999425125ada26cab",
+      "size": 2174,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/chatbubbles/ChatBubbles-1.1.5.phar"
+      }
+    },
+    {
+      "id": "commandsigns",
+      "name": "CommandSigns",
+      "display_name": "百度贴吧",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0",
+      "path": "plugins/pocketmine-mp/0.14.0/commandsigns/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/commandsigns/CommandSigns-2.0.phar",
+      "sha256": "a798af035d6cc834333f32269962cb98b7f12d8ae9d727e5c308c66336704a9a",
+      "size": 8346,
+      "tags": [
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/commandsigns/CommandSigns-2.0.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1.2",
+      "path": "plugins/pocketmine-mp/0.14.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/customchat/CustomChat-1.1.2.phar",
+      "sha256": "8dcb6fd754ccf4acb43d5a4c8e7989799c07c77033e8115f1c21b014e2c6a45b",
+      "size": 11867,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/customchat/CustomChat-1.1.2.phar"
+      }
+    },
+    {
+      "id": "economytax",
+      "name": "EconomyTax",
+      "display_name": "EconomyTax",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/0.14.0/economytax/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economytax/EconomyTax-2.0.3.phar",
+      "sha256": "717e0d13ea5999cc7309587f22c0d6041c6433d136e8d278c15f7194172557bf",
+      "size": 5058,
+      "tags": [
+        "economy",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economytax/EconomyTax-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economytax-v2",
+      "name": "EconomyTax",
+      "display_name": "EconomyTax",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/0.14.0/economytax-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economytax-v2/EconomyTax-2.0.3.phar",
+      "sha256": "9be786e115a6a6122b88553a04453e9a8f2c87bda2c7166399109cbad22e51a4",
+      "size": 5058,
+      "tags": [
+        "economy",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economytax-v2/EconomyTax-2.0.3.phar"
+      }
+    },
+    {
+      "id": "gparticle-v2-0-8-zxda",
+      "name": "GParticle_v2.0.8_zxda",
+      "display_name": "百度贴吧",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.8",
+      "path": "plugins/pocketmine-mp/0.14.0/gparticle-v2-0-8-zxda/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/gparticle-v2-0-8-zxda/GParticle_v2.0.8_zxda-2.0.8.phar",
+      "sha256": "9b62a12d44a00020adfaf8379b6bb2dc6826482577df81af921c7d57fc249cd8",
+      "size": 71159,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/gparticle-v2-0-8-zxda/GParticle_v2.0.8_zxda-2.0.8.phar"
+      }
+    },
+    {
+      "id": "healthstats",
+      "name": "HealthStats",
+      "display_name": "他人名字右边显示血量",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1.1",
+      "path": "plugins/pocketmine-mp/0.14.0/healthstats/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/healthstats/HealthStats-1.1.1.phar",
+      "sha256": "b94e205383755b33bf8725e46999bc63b3ec2bb55f572d66e17bfc10df5a5cca",
+      "size": 1940,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/healthstats/HealthStats-1.1.1.phar"
+      }
+    },
+    {
+      "id": "plugin",
+      "name": "粒子商店",
+      "display_name": "粒子商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.14.0/plugin/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/plugin/file-2.0.5.phar",
+      "sha256": "db07c96047892adc73723bedefc422ecb21e2c8d3e40c07cb0b8aecef96e7329",
+      "size": 33225,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/plugin/file-2.0.5.phar"
+      }
+    },
+    {
+      "id": "pocketdockconsole",
+      "name": "PocketDockConsole",
+      "display_name": "网页控制",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.0.14",
+      "path": "plugins/pocketmine-mp/0.14.0/pocketdockconsole/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/pocketdockconsole/PocketDockConsole-0.0.14.phar",
+      "sha256": "c14f16d27de8919fe5abc8291a51470deae1740a34ba87a2533c8b05db0b58a2",
+      "size": 268074,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/pocketdockconsole/PocketDockConsole-0.0.14.phar"
+      }
+    },
+    {
+      "id": "vipparticle",
+      "name": "VIPParticle",
+      "display_name": "粒子",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/vipparticle/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/vipparticle/VIPParticle-1.0.0.phar",
+      "sha256": "de04bc334dcd917b0f4437daa3ab5a329ad5eaf9d98e974484e597f839041251",
+      "size": 2956,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/vipparticle/VIPParticle-1.0.0.phar"
+      }
+    },
+    {
+      "id": "walkingparticles",
+      "name": "WalkingParticles",
+      "display_name": "走路粒子插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "9.9.9",
+      "path": "plugins/pocketmine-mp/0.14.0/walkingparticles/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/walkingparticles/WalkingParticles-9.9.9.phar",
+      "sha256": "9c21c024a848fde24f40af906e8d162a4044b620e1d0b808f34c34d676912c6a",
+      "size": 121934,
+      "tags": [
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/walkingparticles/WalkingParticles-9.9.9.phar"
+      }
+    },
+    {
+      "id": "tchat",
+      "name": "TChat",
+      "display_name": "等级与金币聊天显示",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/pocketmine-mp/0.16.0/tchat/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/tchat/TChat-1.2.0.phar",
+      "sha256": "58cbcb6a7ce0e51a0a4f1a802193dd96f390a2b0452f79694219cfe4b0120f47",
+      "size": 3742,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/tchat/TChat-1.2.0.phar"
+      }
+    },
+    {
+      "id": "colortext",
+      "name": "ColorText",
+      "display_name": "颜色插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/pocketmine-mp/1.1.0/colortext/plugin.json",
+      "file": "plugins/pocketmine-mp/1.1.0/colortext/ColorText-1.3.0.phar",
+      "sha256": "5eda9541619d8163c132acda22474c2854c7f2d317944066557197afa360512d",
+      "size": 2336,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/colortext/ColorText-1.3.0.phar"
+      }
+    },
+    {
+      "id": "economytax",
+      "name": "EconomyTax",
+      "display_name": "EconomyTax",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.3-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economytax/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economytax/EconomyTax-2.0.3-3.phar",
+      "sha256": "fce9eecbbe480caacb5015471042670cabf543906a600ab8383ad41256b0d707",
+      "size": 2486,
+      "tags": [
+        "economy",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economytax/EconomyTax-2.0.3-3.phar"
+      }
+    },
+    {
+      "id": "guardianjoineffect",
+      "name": "GuardianJoinEffect",
+      "display_name": "进服守卫者效果",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "0.2",
+      "path": "plugins/pocketmine-mp/1.12.0/guardianjoineffect/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/guardianjoineffect/GuardianJoinEffect-0.2.phar",
+      "sha256": "eef3e69f691428bdd1b7f58f8a9a7ef3a39fe119a6e472a0828d4eb5fff75782",
+      "size": 263394,
+      "tags": [
+        "protection",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/guardianjoineffect/GuardianJoinEffect-0.2.phar"
+      }
+    },
+    {
+      "id": "mchatadmin",
+      "name": "MChatAdmin",
+      "display_name": "聊天管理",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.12.0/mchatadmin/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/mchatadmin/MChatAdmin-1.0.1.phar",
+      "sha256": "4a8a6fd1adcf69e00e09206108cc777e361ce4e415bafb8e895d9df4cefca77a",
+      "size": 13901,
+      "tags": [
+        "chat",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/mchatadmin/MChatAdmin-1.0.1.phar"
+      }
+    },
+    {
+      "id": "texter",
+      "name": "Texter",
+      "display_name": "添加浮空字",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.3.2",
+      "path": "plugins/pocketmine-mp/1.12.0/texter/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/texter/Texter-2.3.2.phar",
+      "sha256": "53a21fffadddc047f7eb7fe706f4a1b81b3b81f0af768f57ee9a991ea07403fa",
+      "size": 45566,
+      "tags": [
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/texter/Texter-2.3.2.phar"
+      }
+    },
+    {
+      "id": "cjchat",
+      "name": "CJChat",
+      "display_name": "超级称号",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.5.0/cjchat/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/cjchat/CJChat-1.0.phar",
+      "sha256": "48bf651b9621ea07e804a2fb3a6b03a91681b505a7482e8d0c62611b693da6e9",
+      "size": 2576,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/cjchat/CJChat-1.0.phar"
+      }
+    },
+    {
+      "id": "customchat",
+      "name": "CustomChat",
+      "display_name": "CustomChat",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.3.2",
+      "path": "plugins/pocketmine-mp/1.5.0/customchat/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/customchat/CustomChat-1.3.2.phar",
+      "sha256": "5a12e5a1121dfd2099ffb657209a5354aacd98714046a0e0db3f70591296a171",
+      "size": 7880,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/customchat/CustomChat-1.3.2.phar"
+      }
+    },
+    {
+      "id": "blockfreezer",
+      "name": "BlockFreezer",
+      "display_name": "禁止水流动可叠加",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.6.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.6.0/blockfreezer/plugin.json",
+      "file": "plugins/pocketmine-mp/1.6.0/blockfreezer/BlockFreezer-1.1.0.phar",
+      "sha256": "ae7f6f8f8e8abdf2f88e49e2aadca37d17cdbd82b53c833df2ae77624cb7ed3a",
+      "size": 4564,
+      "tags": [
+        "world",
+        "protection",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/blockfreezer/BlockFreezer-1.1.0.phar"
+      }
+    },
+    {
+      "id": "reffecter",
+      "name": "Reffecter",
+      "display_name": "药水插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.6.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.6.0/reffecter/plugin.json",
+      "file": "plugins/pocketmine-mp/1.6.0/reffecter/Reffecter-1.0.phar",
+      "sha256": "c88f4cf20cdee2a449454f0179c8cbab7d942b628941d54cce48fb39030f0f2d",
+      "size": 10541,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/reffecter/Reffecter-1.0.phar"
+      }
+    },
+    {
+      "id": "slapper",
+      "name": "Slapper",
+      "display_name": "插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.6.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.6.0/slapper/plugin.json",
+      "file": "plugins/pocketmine-mp/1.6.0/slapper/Slapper-1.0.1.phar",
+      "sha256": "013fb69650518dcb34a34aedb2b8447a93b310db3b58c6db4b3db8038c1f7411",
+      "size": 8688,
+      "tags": [
+        "world",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/slapper/Slapper-1.0.1.phar"
+      }
+    },
+    {
+      "id": "serverchannels",
+      "name": "ServerChannels",
+      "display_name": "频道插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.7.0",
+      "plugin_version": "1.2",
+      "path": "plugins/pocketmine-mp/1.7.0/serverchannels/plugin.json",
+      "file": "plugins/pocketmine-mp/1.7.0/serverchannels/ServerChannels-1.2.phar",
+      "sha256": "72973aabe8de7d12915b30cd75731c13f6e77081d43c37657aba455b8f426084",
+      "size": 5655,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.7.0/serverchannels/ServerChannels-1.2.phar"
+      }
+    },
+    {
+      "id": "chatmode",
+      "name": "ChatMode",
+      "display_name": "聊天管理",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/pocketmine-mp/1.8.0/chatmode/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/chatmode/ChatMode-1.0.2.phar",
+      "sha256": "47b0af9a727db7c67ad0af7a66fdc784af0c5e291378eb105908e8e2535cb6fb",
+      "size": 17505,
+      "tags": [
+        "chat",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/chatmode/ChatMode-1.0.2.phar"
+      }
+    },
+    {
+      "id": "effectenchant",
+      "name": "EffectEnchant",
+      "display_name": "绿宝石身体附魔",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.8.0/effectenchant/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/effectenchant/EffectEnchant-1.1.0.phar",
+      "sha256": "425fc417fa79b5912cccb15e5e4fbf9dbec271e005d8ddef24a7a9cfaaf0ee77",
+      "size": 2781,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/effectenchant/EffectEnchant-1.1.0.phar"
+      }
+    },
+    {
+      "id": "effectenchant-v2",
+      "name": "EffectEnchant",
+      "display_name": "绿宝石附魔",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.8.0/effectenchant-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/effectenchant-v2/EffectEnchant-1.1.0.phar",
+      "sha256": "338aa4460d2e5515143db96c49b56b93b9c99cfd7cf61e23efbb889856957bbc",
+      "size": 3240,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/effectenchant-v2/EffectEnchant-1.1.0.phar"
+      }
+    },
+    {
+      "id": "fighttheboss",
+      "name": "FightTheBoss",
+      "display_name": "挑战",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.8",
+      "path": "plugins/pocketmine-mp/1.8.0/fighttheboss/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/fighttheboss/FightTheBoss-1.0.8.phar",
+      "sha256": "63dc2533067eafbf5c0ed9d9d99bafbc60de9b8f30a78645bb4dd3ddeecafdda",
+      "size": 11486,
+      "tags": [
+        "gameplay",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/fighttheboss/FightTheBoss-1.0.8.phar"
+      }
+    },
+    {
+      "id": "foodeffect",
+      "name": "FoodEffect",
+      "display_name": "自定义食物插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.8.0/foodeffect/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/foodeffect/FoodEffect-1.0.0.phar",
+      "sha256": "41b4498c25c795961dfe67a6d5c5ea9579d092b5d73f338486dc6338ef95e064",
+      "size": 1768,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/foodeffect/FoodEffect-1.0.0.phar"
+      }
+    },
+    {
+      "id": "getineffects",
+      "name": "GetInEffects",
+      "display_name": "进服获得药水效果",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.3",
+      "path": "plugins/pocketmine-mp/1.8.0/getineffects/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/getineffects/GetInEffects-1.3.phar",
+      "sha256": "e8ac6f856579e8243fb06653d7e7bc1a87bcbaa955ae77459e2ed4ef6363dae4",
+      "size": 15723,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/getineffects/GetInEffects-1.3.phar"
+      }
+    },
+    {
+      "id": "isplayereffect",
+      "name": "ISPlayerEffect",
+      "display_name": "金钱药水插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.3.1",
+      "path": "plugins/pocketmine-mp/1.8.0/isplayereffect/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/isplayereffect/ISPlayerEffect-1.3.1.phar",
+      "sha256": "f863954205c03be87f961790134b8bca6b248fc2e346733ad21ed53de4030fab",
+      "size": 6776,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/isplayereffect/ISPlayerEffect-1.3.1.phar"
+      }
+    },
+    {
+      "id": "ptc",
+      "name": "ptc",
+      "display_name": "粒子系列插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.8.0/ptc/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/ptc/ptc-1.0.0.phar",
+      "sha256": "57a742b671bd27940add80ca16dac6378fa681d6445341aa82a3e15c3bed6fe4",
+      "size": 9433,
+      "tags": [
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/ptc/ptc-1.0.0.phar"
+      }
+    },
+    {
+      "id": "slapper",
+      "name": "Slapper",
+      "display_name": "插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.2.5",
+      "path": "plugins/pocketmine-mp/1.8.0/slapper/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/slapper/Slapper-1.2.5.phar",
+      "sha256": "3e8a07aa66aa4d3d4135a2d5fe3fc4232753d7ac0b2cfc11f85e0aba5e9430df",
+      "size": 39448,
+      "tags": [
+        "world",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/slapper/Slapper-1.2.5.phar"
+      }
+    },
+    {
+      "id": "walkingparticles",
+      "name": "WalkingParticles",
+      "display_name": "粒子效果插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.8.0/walkingparticles/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/walkingparticles/WalkingParticles-1.0.1.phar",
+      "sha256": "62c46132ae919fb935b21c61bfc83d586811de522bff6b5d4d3a76daef7345bd",
+      "size": 53580,
+      "tags": [
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/walkingparticles/WalkingParticles-1.0.1.phar"
+      }
+    },
+    {
+      "id": "ychat",
+      "name": "YChat",
+      "display_name": "脏话通知",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.8.0/ychat/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/ychat/YChat-1.0.1.phar",
+      "sha256": "487bd2e93fd5bfd313712a0d69eed72babf881b557821401dcec6b5ff5fd3235",
+      "size": 4455,
+      "tags": [
+        "chat",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/ychat/YChat-1.0.1.phar"
+      }
+    },
+    {
+      "id": "plugin",
+      "name": "出生点粒子",
+      "display_name": "出生点粒子",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.9.0/plugin/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/plugin/file-1.0.0.phar",
+      "sha256": "c294297d36dab02114db3363e631fef40302960f8bef6705f64beffaa630497d",
+      "size": 20925,
+      "tags": [
+        "world",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/plugin/file-1.0.0.phar"
+      }
+    },
+    {
+      "id": "walkingparticles",
+      "name": "WalkingParticles",
+      "display_name": "粒子",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "2.0.0 beta",
+      "path": "plugins/pocketmine-mp/1.9.0/walkingparticles/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/walkingparticles/WalkingParticles-2.0.0_beta.phar",
+      "sha256": "c805e549d790d46fdcb40a3b13d913d9592969b0945709d8a67226eddbb79721",
+      "size": 175660,
+      "tags": [
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/walkingparticles/WalkingParticles-2.0.0_beta.phar"
+      }
+    }
+  ]
+}

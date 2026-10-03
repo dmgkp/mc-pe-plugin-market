@@ -1,0 +1,276 @@
+{
+  "schema_version": 1,
+  "id": "ancientgates",
+  "name": "AncientGates",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.8.0",
+  "author": [
+    "peewi96"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Easily create portals with any custom design.",
+  "website": null,
+  "main": "org.mcteam.ancientgates.Plugin",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[Vault, Multiverse-Core, MultiWorld]"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "gate",
+      "description": "All of the Ancient Gates commands.",
+      "usage": "See documentation.",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "ancientgates.*",
+      "description": "Gives access to all Ancient Gates and commands.",
+      "default": ""
+    },
+    {
+      "name": "ancientgates.close",
+      "description": "Allows the use of Ancient Gates close command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.closeall",
+      "description": "Allows the use of Ancient Gates closeall command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.create",
+      "description": "Allows the use of Ancient Gates create command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.delete",
+      "description": "Allows the use of Ancient Gates delete command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.help",
+      "description": "Allows the use of Ancient Gates help command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.info",
+      "description": "Allows the use of Ancient Gates info command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.info.exec",
+      "description": "Allows access to exec info in info command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.list",
+      "description": "Allows the use of Ancient Gates list command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.open",
+      "description": "Allows the use of Ancient Gates open command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.openall",
+      "description": "Allows the use of Ancient Gates openall command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.remexec",
+      "description": "Allows the use of Ancient Gates remexec command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.rename",
+      "description": "Allows the use of Ancient Gates rename command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setbungeetype",
+      "description": "Allows the use of Ancient Gates setbungeetype command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setconf",
+      "description": "Allows the use of Ancient Gates setconf command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setcost",
+      "description": "Allows the use of Ancient Gates setcost command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setentities",
+      "description": "Allows the use of Ancient Gates setentities command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setexec",
+      "description": "Allows the use of Ancient Gates setexec command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setfrom",
+      "description": "Allows the use of Ancient Gates setfrom command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setinv",
+      "description": "Allows the use of Ancient Gates setinventory command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setmaterial",
+      "description": "Allows the use of Ancient Gates setmaterial command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setmessage",
+      "description": "Allows the use of Ancient Gates setmessage command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setvehicles",
+      "description": "Allows the use of Ancient Gates setvehicles command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.tpfrom",
+      "description": "Allows the use of Ancient Gates tpfrom command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.tpto",
+      "description": "Allows the use of Ancient Gates tpto command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.addfrom",
+      "description": "Allows the use of Ancient Gates addfrom command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.remfrom",
+      "description": "Allows the use of Ancient Gates remfrom command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.addto.*",
+      "description": "Allows the use of Ancient Gates addto command globally.",
+      "default": ""
+    },
+    {
+      "name": "ancientgates.addto.local",
+      "description": "Allows the use of Ancient Gates addto command locally.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.addto.bungee",
+      "description": "Allows the use of Ancient Gates addto command externally.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.remto.*",
+      "description": "Allows the use of Ancient Gates remto command globally.",
+      "default": ""
+    },
+    {
+      "name": "ancientgates.remto.local",
+      "description": "Allows the use of Ancient Gates remto command locally.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.remto.bungee",
+      "description": "Allows the use of Ancient Gates remto command externally.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setto.*",
+      "description": "Allows the use of Ancient Gates setto command globally.",
+      "default": ""
+    },
+    {
+      "name": "ancientgates.setto.local",
+      "description": "Allows the use of Ancient Gates setto command locally.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.setto.bungee",
+      "description": "Allows the use of Ancient Gates setto command externally.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.use.*",
+      "description": "Gives access to all Ancient Gates.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.econbypass",
+      "description": "Bypasses gate costs on all Ancient Gates.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.addserver",
+      "description": "Allows the use of Ancient Gates addserver command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.remserver",
+      "description": "Allows the use of Ancient Gates remserver command.",
+      "default": "op"
+    },
+    {
+      "name": "ancientgates.serverlist",
+      "description": "Allows the use of Ancient Gates serverlist command.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/ancientgates/AncientGates-1.8.0.jar",
+      "file_name": "AncientGates-1.8.0.jar",
+      "sha256": "41721f1f080d18e3663178ff6d516fd400f56c0e5da1353e8febace5bb51560e",
+      "size": 231529,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/ancientgates/AncientGates-1.8.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[传送门]Ancient_Gates.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

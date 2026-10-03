@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "finventory",
+  "name": "FInventory",
+  "display_name": "战斗背包",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "guestc"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "[FInverntory] 切换战斗背包",
+  "website": null,
+  "main": "FInventory\\Finv",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "finv",
+      "description": "[FInverntory] 切换战斗背包",
+      "usage": "/finv",
+      "permission": "finventory.commands.finv",
+      "aliases": []
+    },
+    {
+      "name": "finvadd",
+      "description": "[FInverntory] 添加物品到战斗背包",
+      "usage": "/finvadd ID",
+      "permission": "finventory.commands.finvadd",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "finventory.commands.finv",
+      "description": "[FInverntory] 切换战斗背包",
+      "default": "true"
+    },
+    {
+      "name": "finventory.commands.finvadd",
+      "description": "[FInverntory] 添加物品到战斗背包",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/finventory/FInventory-1.0.0.phar",
+      "file_name": "FInventory-1.0.0.phar",
+      "sha256": "75e983e1fa5c09f073d03495520ebe8cc2f39babd8da4eca29c2819d5eca4c8f",
+      "size": 6732,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/finventory/FInventory-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/战斗背包/战斗背包.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:17+08:00",
+  "minecraft_version_source": "api-inferred"
+}

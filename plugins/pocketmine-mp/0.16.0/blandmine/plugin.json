@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "blandmine",
+  "name": "blandmine",
+  "display_name": "自定义地雷",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "BRD"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Main command",
+  "website": null,
+  "main": "blandmine\\Main",
+  "tags": [
+    "world",
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "blandmine",
+      "description": "Main command",
+      "usage": "/blandmine",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/blandmine/blandmine-1.0.1.phar",
+      "file_name": "blandmine-1.0.1.phar",
+      "sha256": "b28e65a0410fdf51ac00335144c1ac212602097c5ad7d13974c488bd967805a4",
+      "size": 65217,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/blandmine/blandmine-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/Blandmine--自定义地雷/Blandmine_v1.0.1--自定义地雷.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

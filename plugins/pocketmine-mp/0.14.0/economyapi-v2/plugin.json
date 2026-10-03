@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "economyapi-v2",
+  "name": "EconomyAPI",
+  "display_name": "经济核心",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.9",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows to control all of functions in EconomyAPI",
+  "website": null,
+  "main": "onebone\\economyapi\\EconomyAPI",
+  "tags": [
+    "economy",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "economyapi.*",
+      "description": "Allows player to take money from others",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/economyapi-v2/EconomyAPI-2.0.9.phar",
+      "file_name": "EconomyAPI-2.0.9.phar",
+      "sha256": "1d009782365b0813bd88971a0e9228cfc759b0ab4f6534a36c85d47a5eb2e36b",
+      "size": 35645,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyapi-v2/EconomyAPI-2.0.9.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/经济核心5.7/动动币.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:31+08:00",
+  "minecraft_version_source": "api-inferred"
+}

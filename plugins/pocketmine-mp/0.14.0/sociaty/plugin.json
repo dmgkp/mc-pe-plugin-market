@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "id": "sociaty",
+  "name": "Sociaty",
+  "display_name": "极致整合",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "4.7.0",
+  "author": [
+    "France_Vacca"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Sociaty - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "Sociaty\\Sociaty",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[\"ZXDAKernel\"]"
+  ],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "sociaty.commands.faction",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sociaty.commands.admin",
+      "description": "",
+      "default": "op"
+    },
+    {
+      "name": "sociaty.commands.marry",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sociaty.commands.vip",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sociaty.commands.prefix",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sociaty.commands.store",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sociaty.commands.popup",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sociaty.commands.font",
+      "description": "",
+      "default": "true"
+    },
+    {
+      "name": "sociaty.commands.popup",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/sociaty/Sociaty-4.7.0.phar",
+      "file_name": "Sociaty-4.7.0.phar",
+      "sha256": "5c1e1bfb01ffe179fe98075dd5013d119b5746baa1f00daaa8aecadf8146d696",
+      "size": 691352,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/sociaty/Sociaty-4.7.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "极致整合/[7.0]Sociaty_v4.7.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

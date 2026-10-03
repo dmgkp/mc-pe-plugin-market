@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "pmusic",
+  "name": "Pmusic",
+  "display_name": "Pmusic",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "7.0.1",
+  "author": [
+    "homenear&&PIZZLE"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "sss",
+  "website": null,
+  "main": "Pmusic\\Pmusic",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pmusic",
+      "description": "sss",
+      "usage": "sadasd",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/pmusic/Pmusic-7.0.1.phar",
+      "file_name": "Pmusic-7.0.1.phar",
+      "sha256": "9146ffe71f7770b730822ae11d817161fac3387a091e4b77245da9f11a657231",
+      "size": 4273,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/pmusic/Pmusic-7.0.1.phar"
+      }
+    }
+  ],
+  "history": {
+    "1.0.0": [
+      {
+        "file_name": "Pmusic-1.0.0.phar",
+        "sha256": "9b93a9b82036edc0bedfde257d2045aa3091423abd915dfa9ad8023a9550099a",
+        "size": 5429
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/PMusic.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:31+08:00",
+  "minecraft_version_source": "api-inferred"
+}

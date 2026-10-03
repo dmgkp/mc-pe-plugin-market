@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "xbancheating",
+  "name": "XBanCheating",
+  "display_name": "反作弊插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.9.1",
+  "author": [
+    "SnowXxm"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "［XBanCheating］总命令",
+  "website": null,
+  "main": "XBanCheating\\Main",
+  "tags": [
+    "admin",
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "xbc",
+      "description": "［XBanCheating］总命令",
+      "usage": "/xbc <admin | adminlist>",
+      "permission": "XBanCheating.command.xbc",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "XBanCheating.command.xbc",
+      "description": "［XBanCheating］反作弊插件指令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/xbancheating/XBanCheating-3.9.1.phar",
+      "file_name": "XBanCheating-3.9.1.phar",
+      "sha256": "4154558cd5d2bb51c4897bb3c7b6e06227c5b4511592fbf805fbd96ffd22db34",
+      "size": 44968,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/xbancheating/XBanCheating-3.9.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/XBan反作弊插件/XBanCheating_v3.9.1.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:28+08:00",
+  "minecraft_version_source": "api-inferred"
+}

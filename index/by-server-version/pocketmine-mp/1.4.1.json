@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.4.1",
+  "count": 8,
+  "plugins": [
+    {
+      "id": "choptree",
+      "name": "ChopTree",
+      "display_name": "ChopTree",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "0.2",
+      "path": "plugins/pocketmine-mp/0.11.0/choptree/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/choptree/ChopTree-0.2.phar",
+      "sha256": "60148f70f70a8e5fdeccbcb9800a4ca073c1fa8ab6bb60c6737916702390064e",
+      "size": 24770,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/choptree/ChopTree-0.2.phar"
+      }
+    },
+    {
+      "id": "touchit",
+      "name": "TouchIt",
+      "display_name": "TouchIt",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.1 Alpha",
+      "path": "plugins/pocketmine-mp/0.11.0/touchit/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/touchit/TouchIt-1.1_Alpha.phar",
+      "sha256": "d30103df86f01dab93ae9dc20794a33184d31c503704e48d334f4932479ca2c9",
+      "size": 16627,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/touchit/TouchIt-1.1_Alpha.phar"
+      }
+    },
+    {
+      "id": "choptree",
+      "name": "ChopTree",
+      "display_name": "自动砍树",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "0.2",
+      "path": "plugins/pocketmine-mp/0.11.1/choptree/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/choptree/ChopTree-0.2.phar",
+      "sha256": "60148f70f70a8e5fdeccbcb9800a4ca073c1fa8ab6bb60c6737916702390064e",
+      "size": 24770,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/choptree/ChopTree-0.2.phar"
+      }
+    },
+    {
+      "id": "touchit",
+      "name": "TouchIt",
+      "display_name": "智能木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.1 Alpha",
+      "path": "plugins/pocketmine-mp/0.11.1/touchit/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/touchit/TouchIt-1.1_Alpha.phar",
+      "sha256": "d30103df86f01dab93ae9dc20794a33184d31c503704e48d334f4932479ca2c9",
+      "size": 16627,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/touchit/TouchIt-1.1_Alpha.phar"
+      }
+    },
+    {
+      "id": "choptree",
+      "name": "ChopTree",
+      "display_name": "自动砍树",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/choptree/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/choptree/ChopTree-0.2.phar",
+      "sha256": "60148f70f70a8e5fdeccbcb9800a4ca073c1fa8ab6bb60c6737916702390064e",
+      "size": 24770,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/choptree/ChopTree-0.2.phar"
+      }
+    },
+    {
+      "id": "farms",
+      "name": "Farms",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0-non-alpha",
+      "path": "plugins/pocketmine-mp/0.14.0/farms/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/farms/Farms-1.0-non-alpha.phar",
+      "sha256": "6a2ea1e36b30008cdd77843c2052b4e71f3184d0b4f0aa7158891e11897ce2a8",
+      "size": 2214,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/farms/Farms-1.0-non-alpha.phar"
+      }
+    },
+    {
+      "id": "touchit",
+      "name": "TouchIt",
+      "display_name": "智能木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1 Alpha",
+      "path": "plugins/pocketmine-mp/0.14.0/touchit/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/touchit/TouchIt-1.1_Alpha.phar",
+      "sha256": "6d81aa2819ead82685af32d243f1912daca52c8f3fbb4e0a66f42b33ce59627c",
+      "size": 17267,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/touchit/TouchIt-1.1_Alpha.phar"
+      }
+    },
+    {
+      "id": "touchit-v2",
+      "name": "TouchIt",
+      "display_name": "TouchIt",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.1 Alpha",
+      "path": "plugins/pocketmine-mp/0.14.0/touchit-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/touchit-v2/TouchIt-1.1_Alpha.phar",
+      "sha256": "d30103df86f01dab93ae9dc20794a33184d31c503704e48d334f4932479ca2c9",
+      "size": 16627,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/touchit-v2/TouchIt-1.1_Alpha.phar"
+      }
+    }
+  ]
+}

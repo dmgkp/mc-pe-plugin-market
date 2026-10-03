@@ -1,0 +1,2212 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-tag",
+  "tag": "economy",
+  "count": 115,
+  "plugins": [
+    {
+      "id": "money",
+      "name": "Money",
+      "display_name": "Money",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.3.0",
+      "path": "plugins/nukkit/0.15.0/money/plugin.json",
+      "file": "plugins/nukkit/0.15.0/money/Money-1.3.0.jar",
+      "sha256": "3130c20a3d1dd2302a0b77bc785aa133eab5545b3ff5e514a90f0edeef5ec76a",
+      "size": 32310,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/money/Money-1.3.0.jar"
+      }
+    },
+    {
+      "id": "moneyland",
+      "name": "MoneyLand",
+      "display_name": "MoneyLand",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/nukkit/0.15.0/moneyland/plugin.json",
+      "file": "plugins/nukkit/0.15.0/moneyland/MoneyLand-1.1.0.jar",
+      "sha256": "64e4c0b1c0c7c2c9ee973b384079beac1908f221b9c0df66d1beacc98cf1df7a",
+      "size": 18044,
+      "tags": [
+        "economy",
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/moneyland/MoneyLand-1.1.0.jar"
+      }
+    },
+    {
+      "id": "rsshop",
+      "name": "RsShop",
+      "display_name": "RsShop",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/0.15.0/rsshop/plugin.json",
+      "file": "plugins/nukkit/0.15.0/rsshop/RsShop-1.0.0.jar",
+      "sha256": "458ea4a0b75d4e96d2c7aa6995ec46990b099b2055845800fa804419223704c0",
+      "size": 13758,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/rsshop/RsShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "economy-leet",
+      "name": "Economy-LEET",
+      "display_name": "经济插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1-b2",
+      "path": "plugins/nukkit/1.1.0/economy-leet/plugin.json",
+      "file": "plugins/nukkit/1.1.0/economy-leet/Economy-LEET-1.0.1-b2.jar",
+      "sha256": "778d12536094addd739dd2420a6f0d4501e98bcfb682d58bdd51615406b4a8fd",
+      "size": 25099,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/economy-leet/Economy-LEET-1.0.1-b2.jar"
+      }
+    },
+    {
+      "id": "magicalshop",
+      "name": "MagicalShop",
+      "display_name": "超级商店配套本插件包经济核心",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/magicalshop/plugin.json",
+      "file": "plugins/nukkit/1.1.0/magicalshop/MagicalShop-1.0.0.jar",
+      "sha256": "5db7d1f93c498c1aed192fda841bdaf68c82af8533b628df80b1dd9e711f3cca",
+      "size": 57427,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/magicalshop/MagicalShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "money",
+      "name": "Money",
+      "display_name": "经济",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "2.1.0",
+      "path": "plugins/nukkit/1.1.0/money/plugin.json",
+      "file": "plugins/nukkit/1.1.0/money/Money-2.1.0.jar",
+      "sha256": "10656091eafea4e481f63968bcf4d9b9ae5ac139116047d97bc6e95fed7b28c7",
+      "size": 87688,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/money/Money-2.1.0.jar"
+      }
+    },
+    {
+      "id": "moneyland",
+      "name": "MoneyLand",
+      "display_name": "经济领地",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.3.1",
+      "path": "plugins/nukkit/1.1.0/moneyland/plugin.json",
+      "file": "plugins/nukkit/1.1.0/moneyland/MoneyLand-1.3.1.jar",
+      "sha256": "690bedf843b2064f1589e6d3d8538ce8d0f5ca2bc197af2c70c18cd3257815f1",
+      "size": 19373,
+      "tags": [
+        "economy",
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/moneyland/MoneyLand-1.3.1.jar"
+      }
+    },
+    {
+      "id": "moneyshop",
+      "name": "MoneyShop",
+      "display_name": "经济商店",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/moneyshop/plugin.json",
+      "file": "plugins/nukkit/1.1.0/moneyshop/MoneyShop-1.0.0.jar",
+      "sha256": "20576cb231e23faba0e10d2d3a182c342d15fe937f6322b7345763516fd2ce94",
+      "size": 13434,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/moneyshop/MoneyShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "rsmoney",
+      "name": "RsMoney",
+      "display_name": "经济插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/nukkit/1.1.0/rsmoney/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsmoney/RsMoney-1.0.1.jar",
+      "sha256": "091decb17658aa0033ab83580b963c10b18a843beb7bbaec8f2c824dff00a233",
+      "size": 8399,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsmoney/RsMoney-1.0.1.jar"
+      }
+    },
+    {
+      "id": "rssell",
+      "name": "RsSell",
+      "display_name": "回收插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/rssell/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rssell/RsSell-1.0.0.jar",
+      "sha256": "7e9faf92658087a9e5e35b358d530224719edd17cc8d7f474673f937584539ea",
+      "size": 13599,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rssell/RsSell-1.0.0.jar"
+      }
+    },
+    {
+      "id": "rsshop",
+      "name": "RsShop",
+      "display_name": "商店插件",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/nukkit/1.1.0/rsshop/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsshop/RsShop-1.0.0.jar",
+      "sha256": "458ea4a0b75d4e96d2c7aa6995ec46990b099b2055845800fa804419223704c0",
+      "size": 13758,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsshop/RsShop-1.0.0.jar"
+      }
+    },
+    {
+      "id": "quickshop",
+      "name": "QuickShop",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "4.5 #Beta",
+      "path": "plugins/nukkit/unknown/quickshop/plugin.json",
+      "file": "plugins/nukkit/unknown/quickshop/QuickShop-4.5_Beta.jar",
+      "sha256": "bf782a278e9fe6592f816ce5688afb61776b688f9286960a6a08e0ffaf85b8ba",
+      "size": 119051,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/quickshop/QuickShop-4.5_Beta.jar"
+      }
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.4.1-b436",
+      "path": "plugins/other/unknown/vault/plugin.json",
+      "file": "plugins/other/unknown/vault/Vault-1.4.1-b436.jar",
+      "sha256": "21ed1c2cd4a5b531b73056fb5c8a445e17486bc7c7649eb58e4417c7cc1fc01a",
+      "size": 337004,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/vault/Vault-1.4.1-b436.jar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "EconomyAirport",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.11.0/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyairport/EconomyAirport-2.0.2.phar",
+      "sha256": "5a34ef0c7fb70979cd932aa8c4c13f4a48461a466ae8a2b93a914ad33883bae4",
+      "size": 10116,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyairport/EconomyAirport-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economyapi",
+      "name": "EconomyAPI",
+      "display_name": "EconomyAPI",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/0.11.0/economyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyapi/EconomyAPI-2.0.4.phar",
+      "sha256": "f5ea2420d14ab0265c306d5a65200e2f7ace6c4bc71b6bfb5890f341bd222313",
+      "size": 96579,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyapi/EconomyAPI-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyauction",
+      "name": "EconomyAuction",
+      "display_name": "EconomyAuction",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.1",
+      "path": "plugins/pocketmine-mp/0.11.0/economyauction/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyauction/EconomyAuction-2.0.1.phar",
+      "sha256": "624d3ed9e2694409fc297a3ab7af3226bdfeae3b555907abec866ac0ce93fbc3",
+      "size": 11481,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyauction/EconomyAuction-2.0.1.phar"
+      }
+    },
+    {
+      "id": "economycasino",
+      "name": "EconomyCasino",
+      "display_name": "EconomyCasino",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.1",
+      "path": "plugins/pocketmine-mp/0.11.0/economycasino/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economycasino/EconomyCasino-2.0.1.phar",
+      "sha256": "c4c4fcb83bba7ea35f4b19558027c2470b1aa4a7e4c7a851660cc6487c3a5bae",
+      "size": 13063,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economycasino/EconomyCasino-2.0.1.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "EconomyLand",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.11.0/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyland/EconomyLand-2.0.5.phar",
+      "sha256": "fdc002b4416f1759581e7d0341e59a3fa53f3eaf1778c481ce81148765329a32",
+      "size": 42604,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyland/EconomyLand-2.0.5.phar"
+      }
+    },
+    {
+      "id": "economyproperty",
+      "name": "EconomyProperty",
+      "display_name": "EconomyProperty",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.11.0/economyproperty/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyproperty/EconomyProperty-2.0.2.phar",
+      "sha256": "9c18c51335ed7e8a3bebe3cd1d224ea39302fd48f7d284fa198ce92d5b1c8d83",
+      "size": 5751,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyproperty/EconomyProperty-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "EconomySell",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/0.11.0/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economysell/EconomySell-2.0.3.phar",
+      "sha256": "f08518c65507ecd5e2f5c1eb866b9cb8638ceb97c5e9cd6f8c5c5ef719ef5347",
+      "size": 16481,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economysell/EconomySell-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "EconomyShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/0.11.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyshop/EconomyShop-2.0.3.phar",
+      "sha256": "cf9fdd56f205d2f137c10598c7d1e564d0bf416a062376fca6b83f505c97856d",
+      "size": 18132,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyshop/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "killcash",
+      "name": "KillCash",
+      "display_name": "KillCash",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.0/killcash/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/killcash/KillCash-1.0.1.phar",
+      "sha256": "a6ed3c8e75b1f3e636a0fcd521a3a4322153fce00f59414e23bab13e4aa76b9f",
+      "size": 15125,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/killcash/KillCash-1.0.1.phar"
+      }
+    },
+    {
+      "id": "mysignshop",
+      "name": "MySignShop",
+      "display_name": "MySignShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.0/mysignshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/mysignshop/MySignShop-1.0.1.phar",
+      "sha256": "51b1948d759e9c26a52f4a09221d83d88d44a1f12026187351ee0c991ba3ec2d",
+      "size": 21690,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/mysignshop/MySignShop-1.0.1.phar"
+      }
+    },
+    {
+      "id": "chestshop",
+      "name": "ChestShop",
+      "display_name": "箱子商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.1 luo123优化",
+      "path": "plugins/pocketmine-mp/0.11.1/chestshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/chestshop/ChestShop-2.0.1_luo123.phar",
+      "sha256": "64adfe07e2cc6dcf0aec207acbaf491565c9aadcf8d67f9f90685509854bf567",
+      "size": 4212,
+      "tags": [
+        "economy",
+        "admin",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/chestshop/ChestShop-2.0.1_luo123.phar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/0.11.1/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyairport/EconomyAirport-2.0.4.phar",
+      "sha256": "88adc0bf205c4fba913d80c2f6db5703e6ed860eb0e18648ad624b5457a09cac",
+      "size": 10738,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyairport/EconomyAirport-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyapi",
+      "name": "EconomyAPI",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/0.11.1/economyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyapi/EconomyAPI-2.0.7.phar",
+      "sha256": "88f28ab55d883cc1a725121fbb74b7950a25ab2e9afedc0ef8b410f586d10222",
+      "size": 99817,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyapi/EconomyAPI-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyauction",
+      "name": "EconomyAuction",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.11.1/economyauction/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyauction/EconomyAuction-2.0.2.phar",
+      "sha256": "05dd2a8ea757ca8a4e63e4f4cf86d1db7e44a24c87be35875b8735928853ff6b",
+      "size": 14024,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyauction/EconomyAuction-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economycasino",
+      "name": "EconomyCasino",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/economycasino/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economycasino/EconomyCasino-2.0.1.phar",
+      "sha256": "73d4917f6c6775187a538eedddab8c6d145abd0568ffa66fee4939c0ee0d9738",
+      "size": 3268,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economycasino/EconomyCasino-2.0.1.phar"
+      }
+    },
+    {
+      "id": "economycasino-v2",
+      "name": "EconomyCasino",
+      "display_name": "经济娱乐插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/economycasino-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economycasino-v2/EconomyCasino-2.0.1.phar",
+      "sha256": "c4c4fcb83bba7ea35f4b19558027c2470b1aa4a7e4c7a851660cc6487c3a5bae",
+      "size": 13063,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economycasino-v2/EconomyCasino-2.0.1.phar"
+      }
+    },
+    {
+      "id": "economyjob",
+      "name": "EconomyJob",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/0.11.1/economyjob/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyjob/EconomyJob-2.0.3.phar",
+      "sha256": "7dda09fbfd66005c0b4038e80c66d6d69ff1a5da0d2442f9444f884416743c53",
+      "size": 2868,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyjob/EconomyJob-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/0.11.1/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyland/EconomyLand-2.0.7.phar",
+      "sha256": "03b4b8947c47236887bada709c7a85a65e4a1fd6d4e3ee5c229c6c6a3154187b",
+      "size": 51199,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyland/EconomyLand-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyproperty",
+      "name": "EconomyProperty",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/0.11.1/economyproperty/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyproperty/EconomyProperty-2.0.4.phar",
+      "sha256": "3cb7f6c024b00b0dc90705bd8906fc7e142cbff430b683a27ec2527b4c4ca824",
+      "size": 19559,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyproperty/EconomyProperty-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economypshop",
+      "name": "EconomyPShop",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.0",
+      "path": "plugins/pocketmine-mp/0.11.1/economypshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economypshop/EconomyPShop-2.0.0.phar",
+      "sha256": "1bbdf36be4adf0536f95395a999802b4edff1b0ea5822bacafe42f6b8ab80010",
+      "size": 5978,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economypshop/EconomyPShop-2.0.0.phar"
+      }
+    },
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.11.1/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economysell/EconomySell-2.0.5.phar",
+      "sha256": "6812e3afb730885c47937729e3a32d27dcdcb595f533347d9ac8b29c8db45ff0",
+      "size": 18581,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economysell/EconomySell-2.0.5.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.11.1/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyshop/EconomyShop-2.0.5.phar",
+      "sha256": "7eb0b02b0493fd42674f586534bc23e17f199b4c6807c41304907bd8c995fb88",
+      "size": 22063,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyshop/EconomyShop-2.0.5.phar"
+      }
+    },
+    {
+      "id": "economytax",
+      "name": "EconomyTax",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.11.1/economytax/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economytax/EconomyTax-2.0.2.phar",
+      "sha256": "3571785a450d0d3bd120f42c013d4cdafaa4a22f9a8694ce1b33b68e4dd629bb",
+      "size": 1766,
+      "tags": [
+        "economy",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economytax/EconomyTax-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economyusury",
+      "name": "EconomyUsury",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.11.1/economyusury/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyusury/EconomyUsury-1.0.0.phar",
+      "sha256": "c039c114a7bdda6e9c137198854dc9f99cc1b6ab8d2545a38f70d2fec03e6e5d",
+      "size": 32618,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyusury/EconomyUsury-1.0.0.phar"
+      }
+    },
+    {
+      "id": "killcash",
+      "name": "KillCash",
+      "display_name": "杀人得钱",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.1/killcash/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/killcash/KillCash-1.0.1.phar",
+      "sha256": "a6ed3c8e75b1f3e636a0fcd521a3a4322153fce00f59414e23bab13e4aa76b9f",
+      "size": 15125,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/killcash/KillCash-1.0.1.phar"
+      }
+    },
+    {
+      "id": "ld",
+      "name": "ld",
+      "display_name": "领地带显示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "流星优化",
+      "path": "plugins/pocketmine-mp/0.11.1/ld/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/ld/ld-file.phar",
+      "sha256": "1df05e08848bef925e40144105e7fbb54b734d4dee2ab0718087a0bbe51edecf",
+      "size": 50657,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/ld/ld-file.phar"
+      }
+    },
+    {
+      "id": "mysignshop",
+      "name": "MySignShop",
+      "display_name": "个人商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.7",
+      "path": "plugins/pocketmine-mp/0.11.1/mysignshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/mysignshop/MySignShop-1.0.7.phar",
+      "sha256": "a1532ba4d592d645ae66d0e51082bb1532fc8d5f51c705380bc643e786184a20",
+      "size": 23232,
+      "tags": [
+        "economy",
+        "world",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/mysignshop/MySignShop-1.0.7.phar"
+      }
+    },
+    {
+      "id": "bbank",
+      "name": "Bbank",
+      "display_name": "银行插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/bbank/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/bbank/Bbank-1.0.0.phar",
+      "sha256": "1d05022ade68cc7418fc90d07bcc47cec8a277409138341ed7c8ab1ecd728899",
+      "size": 29876,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bbank/Bbank-1.0.0.phar"
+      }
+    },
+    {
+      "id": "commandshop",
+      "name": "CommandShop",
+      "display_name": "智慧点商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.14.0/commandshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/commandshop/CommandShop-1.0.1.phar",
+      "sha256": "b3ca34e2c43114f55e1db7c2c14a509f4fddd005013d1413eca2e0940580b1e8",
+      "size": 8566,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/commandshop/CommandShop-1.0.1.phar"
+      }
+    },
+    {
+      "id": "economyapi",
+      "name": "EconomyAPI",
+      "display_name": "经济核心插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.9",
+      "path": "plugins/pocketmine-mp/0.14.0/economyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyapi/EconomyAPI-2.0.9.phar",
+      "sha256": "cb5eb3ecb4d4ef9ef4cf49a1f755e3e3c6761cefbbad0cac817db038c9522f14",
+      "size": 97055,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyapi/EconomyAPI-2.0.9.phar"
+      }
+    },
+    {
+      "id": "economyapi-v2",
+      "name": "EconomyAPI",
+      "display_name": "经济核心",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.9",
+      "path": "plugins/pocketmine-mp/0.14.0/economyapi-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyapi-v2/EconomyAPI-2.0.9.phar",
+      "sha256": "1d009782365b0813bd88971a0e9228cfc759b0ab4f6534a36c85d47a5eb2e36b",
+      "size": 35645,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyapi-v2/EconomyAPI-2.0.9.phar"
+      }
+    },
+    {
+      "id": "economyapi-v3",
+      "name": "EconomyAPI",
+      "display_name": "EconomyAPI",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.9",
+      "path": "plugins/pocketmine-mp/0.14.0/economyapi-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyapi-v3/EconomyAPI-2.0.9.phar",
+      "sha256": "c585dc1983ea1caece9459db582c571948a2e5956b23d5af0d4f848389e579b7",
+      "size": 84806,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyapi-v3/EconomyAPI-2.0.9.phar"
+      }
+    },
+    {
+      "id": "economyauction",
+      "name": "EconomyAuction",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/economyauction/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyauction/EconomyAuction-2.0.2.phar",
+      "sha256": "05dd2a8ea757ca8a4e63e4f4cf86d1db7e44a24c87be35875b8735928853ff6b",
+      "size": 14024,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyauction/EconomyAuction-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economyauction-v2",
+      "name": "EconomyAuction",
+      "display_name": "EconomyAuction",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/economyauction-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyauction-v2/EconomyAuction-2.0.2.phar",
+      "sha256": "a8776612704177c9b64bbc6b34f8d0cf21b137c6af969860933ec1de5747f1c4",
+      "size": 14024,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyauction-v2/EconomyAuction-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economyauction-v3",
+      "name": "EconomyAuction",
+      "display_name": "EconomyAuction",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/economyauction-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyauction-v3/EconomyAuction-2.0.2.phar",
+      "sha256": "d2243d97f55e994789945349abafda7d285e44acd43e47600cb10489cac56f12",
+      "size": 14024,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyauction-v3/EconomyAuction-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economycasino",
+      "name": "EconomyCasino",
+      "display_name": "EconomyCasino",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/economycasino/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economycasino/EconomyCasino-2.0.2.phar",
+      "sha256": "e7f1e073875460765710ea3aab9c65f3a901b9bea763971837b8330d7e3801a0",
+      "size": 13616,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economycasino/EconomyCasino-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economycasino-v2",
+      "name": "EconomyCasino",
+      "display_name": "EconomyCasino",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/economycasino-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economycasino-v2/EconomyCasino-2.0.2.phar",
+      "sha256": "45d3cb793f8e0719bf8598a7724b6f00e0c1e8d8f677e3064fba15f5dd31d0f0",
+      "size": 13616,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economycasino-v2/EconomyCasino-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economyjob",
+      "name": "EconomyJob",
+      "display_name": "EconomyJob",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/0.14.0/economyjob/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyjob/EconomyJob-2.0.4.phar",
+      "sha256": "17e3755fae8727a9575692b48d9308457e8f666669d2a571c1d78422da80f22d",
+      "size": 8673,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyjob/EconomyJob-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyjob-v2",
+      "name": "EconomyJob",
+      "display_name": "EconomyJob",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/0.14.0/economyjob-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyjob-v2/EconomyJob-2.0.4.phar",
+      "sha256": "b1594578a0288af9ebd853118a83369f51a64c6759d76cd975b2724ea72e8df4",
+      "size": 8673,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyjob-v2/EconomyJob-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "件套",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.14.0/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyland/EconomyLand-2.0.5.phar",
+      "sha256": "34cd490e62505263316d25fca392c247c8371194324444e2a170d6ea86a5abc7",
+      "size": 11279,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyland/EconomyLand-2.0.5.phar"
+      }
+    },
+    {
+      "id": "economyland-v2",
+      "name": "EconomyLand",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.14.0/economyland-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyland-v2/EconomyLand-2.0.5.phar",
+      "sha256": "fdc002b4416f1759581e7d0341e59a3fa53f3eaf1778c481ce81148765329a32",
+      "size": 42604,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyland-v2/EconomyLand-2.0.5.phar"
+      }
+    },
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "经济出售插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/0.14.0/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economysell/EconomySell-2.0.7.phar",
+      "sha256": "ea7f960974ee91e8c895e13b5cfc88cddc48f75b083d3d3eb90fef63372f05cb",
+      "size": 11467,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economysell/EconomySell-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "经济商店插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/0.14.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyshop/EconomyShop-2.0.7.phar",
+      "sha256": "5c40f179fdd9b9525949a7f127085046a7b34595138ed32ccd851447767cb5ea",
+      "size": 15271,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyshop/EconomyShop-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economytax",
+      "name": "EconomyTax",
+      "display_name": "EconomyTax",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/0.14.0/economytax/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economytax/EconomyTax-2.0.3.phar",
+      "sha256": "717e0d13ea5999cc7309587f22c0d6041c6433d136e8d278c15f7194172557bf",
+      "size": 5058,
+      "tags": [
+        "economy",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economytax/EconomyTax-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economytax-v2",
+      "name": "EconomyTax",
+      "display_name": "EconomyTax",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/0.14.0/economytax-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economytax-v2/EconomyTax-2.0.3.phar",
+      "sha256": "9be786e115a6a6122b88553a04453e9a8f2c87bda2c7166399109cbad22e51a4",
+      "size": 5058,
+      "tags": [
+        "economy",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economytax-v2/EconomyTax-2.0.3.phar"
+      }
+    },
+    {
+      "id": "itouchshop-v1-0-1",
+      "name": "ITouchShop_v1.0.1",
+      "display_name": "商店插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.14.0/itouchshop-v1-0-1/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/itouchshop-v1-0-1/ITouchShop_v1.0.1-1.0.1.phar",
+      "sha256": "9bf66bb5c0f54401b0bf06ee93642b01f857a1364ca880a5e07b74116fdef699",
+      "size": 8611,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/itouchshop-v1-0-1/ITouchShop_v1.0.1-1.0.1.phar"
+      }
+    },
+    {
+      "id": "ld",
+      "name": "ld",
+      "display_name": "领地带显示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "流星优化",
+      "path": "plugins/pocketmine-mp/0.14.0/ld/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/ld/ld-file.phar",
+      "sha256": "1df05e08848bef925e40144105e7fbb54b734d4dee2ab0718087a0bbe51edecf",
+      "size": 50657,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/ld/ld-file.phar"
+      }
+    },
+    {
+      "id": "moneysigncommand",
+      "name": "MoneySignCommand",
+      "display_name": "付费指令木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.14.0/moneysigncommand/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/moneysigncommand/MoneySignCommand-1.0.1.phar",
+      "sha256": "518f2cc34e957ff7ed901d1215b5d096663afd2daebf2387275f605bdf1f5948",
+      "size": 4211,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/moneysigncommand/MoneySignCommand-1.0.1.phar"
+      }
+    },
+    {
+      "id": "mysignshop",
+      "name": "MySignShop",
+      "display_name": "京东个人商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.7",
+      "path": "plugins/pocketmine-mp/0.14.0/mysignshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/mysignshop/MySignShop-1.0.7.phar",
+      "sha256": "b8298b243f2e0fb53f32837f2010ce392e12bc368ba27522c2a9fe0ea57d2598",
+      "size": 22982,
+      "tags": [
+        "economy",
+        "world",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/mysignshop/MySignShop-1.0.7.phar"
+      }
+    },
+    {
+      "id": "mysignshop-v2",
+      "name": "MySignShop",
+      "display_name": "个人商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.7",
+      "path": "plugins/pocketmine-mp/0.14.0/mysignshop-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/mysignshop-v2/MySignShop-1.0.7.phar",
+      "sha256": "a1532ba4d592d645ae66d0e51082bb1532fc8d5f51c705380bc643e786184a20",
+      "size": 23232,
+      "tags": [
+        "economy",
+        "world",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/mysignshop-v2/MySignShop-1.0.7.phar"
+      }
+    },
+    {
+      "id": "oblockshop",
+      "name": "Oblockshop",
+      "display_name": "加密",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/0.14.0/oblockshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/oblockshop/Oblockshop-2.0.7.phar",
+      "sha256": "7c0828ecf2da443bc187e1f07901932b76f66898cbded86344eb9a857a042e76",
+      "size": 51634,
+      "tags": [
+        "economy",
+        "admin",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/oblockshop/Oblockshop-2.0.7.phar"
+      }
+    },
+    {
+      "id": "qitushop",
+      "name": "QituShop",
+      "display_name": "极致整合",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/pocketmine-mp/0.14.0/qitushop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/qitushop/QituShop-1.2.0.phar",
+      "sha256": "2067d6f3590842e81674aff98392398182a2fbeac7b1295060c304482ef08a58",
+      "size": 38145,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/qitushop/QituShop-1.2.0.phar"
+      }
+    },
+    {
+      "id": "qitushop-v2",
+      "name": "QituShop",
+      "display_name": "超级商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/pocketmine-mp/0.14.0/qitushop-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/qitushop-v2/QituShop-1.2.0.phar",
+      "sha256": "a2b3397f82c2eb3d3c83458910cb64f5dad6025e16e905b57850e9bd0163658a",
+      "size": 8335,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/qitushop-v2/QituShop-1.2.0.phar"
+      }
+    },
+    {
+      "id": "rexmobskillmoney",
+      "name": "RexMobsKillMoney",
+      "display_name": "杀怪获得金币插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/pocketmine-mp/0.14.0/rexmobskillmoney/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/rexmobskillmoney/RexMobsKillMoney-1.0.2.phar",
+      "sha256": "a91d021b143ffeb770009a16a9f9f59bfcf02cc7a0847087ca182439fd9d03e0",
+      "size": 2696,
+      "tags": [
+        "economy",
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/rexmobskillmoney/RexMobsKillMoney-1.0.2.phar"
+      }
+    },
+    {
+      "id": "weconomyapi",
+      "name": "WEconomyAPI",
+      "display_name": "全新的经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/weconomyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/weconomyapi/WEconomyAPI-1.0.0.phar",
+      "sha256": "d84b315db95be8a6031e06f648c0201128eaf9aae796db61db24922ac5b7f405",
+      "size": 8583,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/weconomyapi/WEconomyAPI-1.0.0.phar"
+      }
+    },
+    {
+      "id": "wulantuoyaland",
+      "name": "WuLanTuoYaLand",
+      "display_name": "乌兰托娅万岁",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "乌兰托娅万岁改造插件",
+      "path": "plugins/pocketmine-mp/0.14.0/wulantuoyaland/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/wulantuoyaland/WuLanTuoYaLand-file.phar",
+      "sha256": "fc3e792c7aa41203fe381a91ca2623a2e908ee6ef6efb6dec0e3dbc993dace77",
+      "size": 50261,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/wulantuoyaland/WuLanTuoYaLand-file.phar"
+      }
+    },
+    {
+      "id": "economyproperty",
+      "name": "EconomyProperty",
+      "display_name": "件套",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.15.0/economyproperty/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/economyproperty/EconomyProperty-2.0.2.phar",
+      "sha256": "9c18c51335ed7e8a3bebe3cd1d224ea39302fd48f7d284fa198ce92d5b1c8d83",
+      "size": 5751,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/economyproperty/EconomyProperty-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economyproperty-v2",
+      "name": "EconomyProperty",
+      "display_name": "经济房地产",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.15.0/economyproperty-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.15.0/economyproperty-v2/EconomyProperty-2.0.2.phar",
+      "sha256": "10c1f769e2a8f2d291416b4c2078b3884adad8da7288a92ce4d19aeb8b38679a",
+      "size": 17466,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/economyproperty-v2/EconomyProperty-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/0.16.0/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/economyairport/EconomyAirport-2.0.2.phar",
+      "sha256": "5a34ef0c7fb70979cd932aa8c4c13f4a48461a466ae8a2b93a914ad33883bae4",
+      "size": 10116,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/economyairport/EconomyAirport-2.0.2.phar"
+      }
+    },
+    {
+      "id": "gunshop",
+      "name": "GunShop",
+      "display_name": "原创汉化",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "0.1",
+      "path": "plugins/pocketmine-mp/0.16.0/gunshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/gunshop/GunShop-0.1.phar",
+      "sha256": "838cf4e1a1166cd754576a1cb1a7844e5248f016299387a2b87a53e06ba6e225",
+      "size": 4598,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/gunshop/GunShop-0.1.phar"
+      }
+    },
+    {
+      "id": "myshop",
+      "name": "MyShop",
+      "display_name": "我的商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "1.6.0",
+      "path": "plugins/pocketmine-mp/0.16.0/myshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/myshop/MyShop-1.6.0.phar",
+      "sha256": "7bc11feafe449951e4db6114046a67c358aa9a0d5bf9a2f9cab01edd4198f886",
+      "size": 32099,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/myshop/MyShop-1.6.0.phar"
+      }
+    },
+    {
+      "id": "samoneyft",
+      "name": "SaMoneyFt",
+      "display_name": "研究用",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.16.0",
+      "plugin_version": "1.5.1",
+      "path": "plugins/pocketmine-mp/0.16.0/samoneyft/plugin.json",
+      "file": "plugins/pocketmine-mp/0.16.0/samoneyft/SaMoneyFt-1.5.1.phar",
+      "sha256": "b305592369c5bdbae923171fae36a21a830b6db6f3ab258910f1405c46317b8a",
+      "size": 2600,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/samoneyft/SaMoneyFt-1.5.1.phar"
+      }
+    },
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "京东商城出售插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economysell/EconomySell-2.0.3.phar",
+      "sha256": "5557bdb773cbffff8c78895aa66fb6556eb7c90fc279ac46381c555e97270e09",
+      "size": 5873,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economysell/EconomySell-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economysell-v2",
+      "name": "EconomySell",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economysell-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economysell-v2/EconomySell-2.0.3.phar",
+      "sha256": "f08518c65507ecd5e2f5c1eb866b9cb8638ceb97c5e9cd6f8c5c5ef719ef5347",
+      "size": 16481,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economysell-v2/EconomySell-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economysell-v3",
+      "name": "EconomySell",
+      "display_name": "经济回收商店木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economysell-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economysell-v3/EconomySell-2.0.3.phar",
+      "sha256": "e77f5c4fa929cf2889b5bf098538f8af67fb69043158ee68c67d221f52cb28bb",
+      "size": 17300,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economysell-v3/EconomySell-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "件套",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop/EconomyShop-2.0.3.phar",
+      "sha256": "b1ca4732f0d07a730d5f5353e868383f84ac40deed4973d79114060adaf82c9b",
+      "size": 6381,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v2",
+      "name": "EconomyShop",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v2/EconomyShop-2.0.3.phar",
+      "sha256": "cf9fdd56f205d2f137c10598c7d1e564d0bf416a062376fca6b83f505c97856d",
+      "size": 18132,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v2/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v3",
+      "name": "EconomyShop",
+      "display_name": "仙术插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v3/EconomyShop-2.0.3.phar",
+      "sha256": "96e091e26fc0f8b4cff74023a1f2bc63767e44cc105ff463891dc1cbafe14375",
+      "size": 7482,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v3/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v4",
+      "name": "EconomyShop",
+      "display_name": "经济出售商店木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v4/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v4/EconomyShop-2.0.3.phar",
+      "sha256": "660dc750097f6cc457194d2ac95d15d9f6c5ede883d612b4192a176cfe875756",
+      "size": 18969,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v4/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v5",
+      "name": "EconomyShop",
+      "display_name": "百度贴吧",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v5/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v5/EconomyShop-2.0.3.phar",
+      "sha256": "77e909a873eb0e5cf18409213ee9bc82b36b7af790cc2c2d319f0d47e4b8fd48",
+      "size": 18971,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v5/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "commandshop",
+      "name": "CommandShop",
+      "display_name": "花费金钱或物品执行命令",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.12.0/commandshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/commandshop/CommandShop-1.0.0.phar",
+      "sha256": "8b37c60dc2ec9c1abb47756f15ae7c1227bc9ded4fd2202c9844570b45ace77d",
+      "size": 26367,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/commandshop/CommandShop-1.0.0.phar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "EconomyAirport",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.4-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyairport/EconomyAirport-2.0.4-3.phar",
+      "sha256": "3a4f9821fc7e7586353fae108646e32e063ab1036bd80fb0ee52724b82f784d9",
+      "size": 3674,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyairport/EconomyAirport-2.0.4-3.phar"
+      }
+    },
+    {
+      "id": "economyapi",
+      "name": "EconomyAPI",
+      "display_name": "EconomyAPI",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "5.7.1-4",
+      "path": "plugins/pocketmine-mp/1.12.0/economyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyapi/EconomyAPI-5.7.1-4.phar",
+      "sha256": "164952181608692882ccebb1f4f6b5a0ea6b5acc52c8ebc70c108c7fa082a475",
+      "size": 36182,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyapi/EconomyAPI-5.7.1-4.phar"
+      }
+    },
+    {
+      "id": "economyauction",
+      "name": "EconomyAuction",
+      "display_name": "EconomyAuction",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.2-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economyauction/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyauction/EconomyAuction-2.0.2-3.phar",
+      "sha256": "8b175322969559d0297a9c41c0d93357a63b4edcf4dfb833b9b56a48804750bb",
+      "size": 4200,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyauction/EconomyAuction-2.0.2-3.phar"
+      }
+    },
+    {
+      "id": "economycasino",
+      "name": "EconomyCasino",
+      "display_name": "EconomyCasino",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.2-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economycasino/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economycasino/EconomyCasino-2.0.2-3.phar",
+      "sha256": "cc3ddfe4a66bbbbf5f0281b2c2183b60c1737766cc0749b218de05a3b7e73aaf",
+      "size": 3304,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economycasino/EconomyCasino-2.0.2-3.phar"
+      }
+    },
+    {
+      "id": "economyjob",
+      "name": "EconomyJob",
+      "display_name": "EconomyJob",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.4-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economyjob/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyjob/EconomyJob-2.0.4-3.phar",
+      "sha256": "0019a0f83560876a45e79f95a92d45150b3436b85c03549db1de28bdf99fb694",
+      "size": 6698,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyjob/EconomyJob-2.0.4-3.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "EconomyLand",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.1.1-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyland/EconomyLand-2.1.1-3.phar",
+      "sha256": "30bfa4cfa229b713840610db4bf4ece6240d52a02ea3bcf71ea082a6d42cc9a6",
+      "size": 20370,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyland/EconomyLand-2.1.1-3.phar"
+      }
+    },
+    {
+      "id": "economyproperty",
+      "name": "EconomyProperty",
+      "display_name": "EconomyProperty",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.7-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economyproperty/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyproperty/EconomyProperty-2.0.7-3.phar",
+      "sha256": "f4584eec995395f138f2cb395d031572c8f87c9af2c6aebbd96113be49e48c10",
+      "size": 10465,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyproperty/EconomyProperty-2.0.7-3.phar"
+      }
+    },
+    {
+      "id": "economypshop",
+      "name": "EconomyPShop",
+      "display_name": "EconomyPShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.2-5",
+      "path": "plugins/pocketmine-mp/1.12.0/economypshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economypshop/EconomyPShop-2.0.2-5.phar",
+      "sha256": "d485a569fc60719c604fd01772df774aaa522fc3469f3056a3d2c7f36d0b9e57",
+      "size": 8131,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economypshop/EconomyPShop-2.0.2-5.phar"
+      }
+    },
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "EconomySell",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.7-4",
+      "path": "plugins/pocketmine-mp/1.12.0/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economysell/EconomySell-2.0.7-4.phar",
+      "sha256": "edd9d1fac2cbf43a88052358f5836de303a2b8d86cf8d94a93628f5c97eb14dd",
+      "size": 16331,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economysell/EconomySell-2.0.7-4.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "EconomyShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.8-6",
+      "path": "plugins/pocketmine-mp/1.12.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyshop/EconomyShop-2.0.8-6.phar",
+      "sha256": "68d9609a7efb579d056d6c0e0e0d26eea43b6f79502a2fc698d1309ff271dd02",
+      "size": 15457,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyshop/EconomyShop-2.0.8-6.phar"
+      }
+    },
+    {
+      "id": "economytax",
+      "name": "EconomyTax",
+      "display_name": "EconomyTax",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0.3-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economytax/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economytax/EconomyTax-2.0.3-3.phar",
+      "sha256": "fce9eecbbe480caacb5015471042670cabf543906a600ab8383ad41256b0d707",
+      "size": 2486,
+      "tags": [
+        "economy",
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economytax/EconomyTax-2.0.3-3.phar"
+      }
+    },
+    {
+      "id": "economyusury",
+      "name": "EconomyUsury",
+      "display_name": "EconomyUsury",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.0.1-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economyusury/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyusury/EconomyUsury-1.0.1-3.phar",
+      "sha256": "66e3ea1f7d00636e82211234d0fa4ab92dd57fce26aa85ad9780db7f09683567",
+      "size": 9090,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyusury/EconomyUsury-1.0.1-3.phar"
+      }
+    },
+    {
+      "id": "economypshop",
+      "name": "EconomyPShop",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "2.0.0",
+      "path": "plugins/pocketmine-mp/1.2.0/economypshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/economypshop/EconomyPShop-2.0.0.phar",
+      "sha256": "1bbdf36be4adf0536f95395a999802b4edff1b0ea5822bacafe42f6b8ab80010",
+      "size": 5978,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/economypshop/EconomyPShop-2.0.0.phar"
+      }
+    },
+    {
+      "id": "killcash",
+      "name": "KillCash",
+      "display_name": "杀人得钱",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.5.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.5.0/killcash/plugin.json",
+      "file": "plugins/pocketmine-mp/1.5.0/killcash/KillCash-1.0.1.phar",
+      "sha256": "a6ed3c8e75b1f3e636a0fcd521a3a4322153fce00f59414e23bab13e4aa76b9f",
+      "size": 15125,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/killcash/KillCash-1.0.1.phar"
+      }
+    },
+    {
+      "id": "chestshop",
+      "name": "ChestShop",
+      "display_name": "箱子商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.6.0",
+      "plugin_version": "2.0.1 luo123优化",
+      "path": "plugins/pocketmine-mp/1.6.0/chestshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.6.0/chestshop/ChestShop-2.0.1_luo123.phar",
+      "sha256": "64adfe07e2cc6dcf0aec207acbaf491565c9aadcf8d67f9f90685509854bf567",
+      "size": 4212,
+      "tags": [
+        "economy",
+        "admin",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/chestshop/ChestShop-2.0.1_luo123.phar"
+      }
+    },
+    {
+      "id": "pvpmoney",
+      "name": "PvPMoney",
+      "display_name": "插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.6.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.6.0/pvpmoney/plugin.json",
+      "file": "plugins/pocketmine-mp/1.6.0/pvpmoney/PvPMoney-1.0.0.phar",
+      "sha256": "38d3a1f836604802a4e943aa2eb233807c9f7322918cf6900f9709b84996f24e",
+      "size": 3424,
+      "tags": [
+        "economy",
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/pvpmoney/PvPMoney-1.0.0.phar"
+      }
+    },
+    {
+      "id": "easymenu",
+      "name": "EasyMenu",
+      "display_name": "简易菜单",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.8.0/easymenu/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/easymenu/EasyMenu-1.0.0.phar",
+      "sha256": "b076a316f086089e2b8a0b84e90515ef867a9e6553e28e2a00049e587179af62",
+      "size": 2507,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/easymenu/EasyMenu-1.0.0.phar"
+      }
+    },
+    {
+      "id": "economyairport",
+      "name": "EconomyAirport",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/1.8.0/economyairport/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyairport/EconomyAirport-2.0.4.phar",
+      "sha256": "88adc0bf205c4fba913d80c2f6db5703e6ed860eb0e18648ad624b5457a09cac",
+      "size": 10738,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyairport/EconomyAirport-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyairport-v2",
+      "name": "EconomyAirport",
+      "display_name": "EconomyAirport",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/1.8.0/economyairport-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyairport-v2/EconomyAirport-2.0.4.phar",
+      "sha256": "c5bb4def4d83df9cf943dda42244317e794394bddd48e1ab1478d9a545dea4db",
+      "size": 10738,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyairport-v2/EconomyAirport-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyairport-v3",
+      "name": "EconomyAirport",
+      "display_name": "EconomyAirport",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/1.8.0/economyairport-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyairport-v3/EconomyAirport-2.0.4.phar",
+      "sha256": "f077b4b9dfaa7a22b953aa036d068fcbeb64e04bf4c38706e5a2b99cc7aa8d97",
+      "size": 10738,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyairport-v3/EconomyAirport-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "EconomyLand",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.9",
+      "path": "plugins/pocketmine-mp/1.8.0/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyland/EconomyLand-2.0.9.phar",
+      "sha256": "ea2ba0871dcd87c2d2a433a1d4f392d586e88f3314d310bed0b9beb529354319",
+      "size": 52206,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyland/EconomyLand-2.0.9.phar"
+      }
+    },
+    {
+      "id": "economypotiondispenser",
+      "name": "EconomyPotionDispenser",
+      "display_name": "药水商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "0.0.1 alpha",
+      "path": "plugins/pocketmine-mp/1.8.0/economypotiondispenser/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economypotiondispenser/EconomyPotionDispenser-0.0.1_alpha.phar",
+      "sha256": "857e8aab08e3ca39bb5819203a8d6b7156f7be3607885f5ca1bb61b65767fcc8",
+      "size": 52878,
+      "tags": [
+        "economy"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economypotiondispenser/EconomyPotionDispenser-0.0.1_alpha.phar"
+      }
+    },
+    {
+      "id": "economyproperty",
+      "name": "EconomyProperty",
+      "display_name": "EconomyProperty",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.6",
+      "path": "plugins/pocketmine-mp/1.8.0/economyproperty/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyproperty/EconomyProperty-2.0.6.phar",
+      "sha256": "9c7537013ab8108128083907807ca7d9c5fb16cc5d2b417a17cd521e895b0d76",
+      "size": 19638,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyproperty/EconomyProperty-2.0.6.phar"
+      }
+    },
+    {
+      "id": "economypshop",
+      "name": "EconomyPShop",
+      "display_name": "EconomyPShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.2",
+      "path": "plugins/pocketmine-mp/1.8.0/economypshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economypshop/EconomyPShop-2.0.2.phar",
+      "sha256": "181855c67661ab2a0afd73c11713eb15577b880af577656cc2b32a4349f5dcba",
+      "size": 11259,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economypshop/EconomyPShop-2.0.2.phar"
+      }
+    },
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "汉化经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.7|✘wine汉化",
+      "path": "plugins/pocketmine-mp/1.8.0/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economysell/EconomySell-2.0.7_wine.phar",
+      "sha256": "fd10db79ecec938879f098d6f65ca7d4b4ab8a199df376f5cc0234a9d94f2a9b",
+      "size": 10628,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economysell/EconomySell-2.0.7_wine.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "京东商城",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/1.8.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyshop/EconomyShop-2.0.7.phar",
+      "sha256": "cb87247c7d11b1990b386d3bb449c31d6ff74a64efc92d3c3a18d93823459dee",
+      "size": 8251,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyshop/EconomyShop-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyshop-v2",
+      "name": "EconomyShop",
+      "display_name": "EconomyShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/1.8.0/economyshop-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyshop-v2/EconomyShop-2.0.7.phar",
+      "sha256": "c247349e73c3d5acf3bd2f4ee93cf2af966933e74a35a5f6687096a12dd5c01d",
+      "size": 14376,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyshop-v2/EconomyShop-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyusury",
+      "name": "EconomyUsury",
+      "display_name": "EconomyUsury",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.8.0/economyusury/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyusury/EconomyUsury-1.0.1.phar",
+      "sha256": "7369ec15efc1351c5056d1c63270b2724566f8c4a4a8fe797bfc19653df313a4",
+      "size": 32618,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyusury/EconomyUsury-1.0.1.phar"
+      }
+    },
+    {
+      "id": "economyusury-v2",
+      "name": "EconomyUsury",
+      "display_name": "EconomyUsury",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/1.8.0/economyusury-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyusury-v2/EconomyUsury-1.0.1.phar",
+      "sha256": "188f814ac3008f055269c2fab023a456ac3d02cd8327a12e78ccb5addb41ff56",
+      "size": 32618,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyusury-v2/EconomyUsury-1.0.1.phar"
+      }
+    },
+    {
+      "id": "economysell",
+      "name": "EconomySell",
+      "display_name": "掉落物商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/unknown/economysell/plugin.json",
+      "file": "plugins/pocketmine-mp/unknown/economysell/EconomySell-2.0.7.phar",
+      "sha256": "59906b1551866f062dbff27a366285659eaa953b297083a6f98209da3dade214",
+      "size": 30219,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/unknown/economysell/EconomySell-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "掉落物商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/unknown/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/unknown/economyshop/EconomyShop-2.0.7.phar",
+      "sha256": "dd3beb2c41f9198ea5369254dfabb5982753633c8c05da74caf926327c2a0ea5",
+      "size": 32801,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/unknown/economyshop/EconomyShop-2.0.7.phar"
+      }
+    }
+  ]
+}

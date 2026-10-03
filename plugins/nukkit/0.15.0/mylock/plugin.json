@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "mylock",
+  "name": "MyLock",
+  "display_name": "MyLock",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <0.16.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.4",
+  "author": [
+    "uuuuone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "MyLock",
+  "website": null,
+  "main": "MyLock.MyLockCore",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/0.15.0/mylock/MyLock-1.0.4.jar",
+      "file_name": "MyLock-1.0.4.jar",
+      "sha256": "e0d147bcac89970602eb674993cf89a5236bc980d4654c85c819f9187b21bd4a",
+      "size": 6958,
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/mylock/MyLock-1.0.4.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/相关资源/PE Server 核心/Nukkit v0.15.x/plugins/MyLock V1.0.4.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:33+08:00",
+  "minecraft_version_source": "path"
+}

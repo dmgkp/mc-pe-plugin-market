@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "sfly",
+  "name": "SFly",
+  "display_name": "超级飞行",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.2.1",
+  "author": [
+    "Scallop"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "生存飞行",
+  "website": null,
+  "main": "SFly\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "fly",
+      "description": "改变玩家的飞行状态",
+      "usage": "/fly <玩家>",
+      "permission": "sfly.fly",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "sfly",
+      "description": "允许使用 /fly 命令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/sfly/SFly-0.2.1.phar",
+      "file_name": "SFly-0.2.1.phar",
+      "sha256": "88f1be902fcd9cf943bebd6c5e586d60fde7c93166628828b23e2ee8608d6769",
+      "size": 4768,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/sfly/SFly-0.2.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/超级飞行/超级飞行.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:31+08:00",
+  "minecraft_version_source": "path"
+}

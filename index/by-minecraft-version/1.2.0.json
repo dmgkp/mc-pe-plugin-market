@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-minecraft-version",
+  "minecraft_version": "1.2.0",
+  "count": 12,
+  "plugins": [
+    {
+      "id": "bolirongqi",
+      "name": "bolirongqi",
+      "display_name": "物品展示窗汉化",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "DeBe.ch 汉化cre",
+      "path": "plugins/pocketmine-mp/1.2.0/bolirongqi/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/bolirongqi/bolirongqi-DeBe.ch_cre.phar",
+      "sha256": "7f07a331212c54892e7618a553965b61707798421c02a6db042039473b3ba9e5",
+      "size": 10950,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/bolirongqi/bolirongqi-DeBe.ch_cre.phar"
+      }
+    },
+    {
+      "id": "disguiseme",
+      "name": "DisguiseMe",
+      "display_name": "DisguiseMe",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "1.1",
+      "path": "plugins/pocketmine-mp/1.2.0/disguiseme/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/disguiseme/DisguiseMe-1.1.phar",
+      "sha256": "8f50db9844ef6ec47e736b6ddc8a72de8832f12f7545010c54bb0438cb931752",
+      "size": 7125,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/disguiseme/DisguiseMe-1.1.phar"
+      }
+    },
+    {
+      "id": "economypshop",
+      "name": "EconomyPShop",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "2.0.0",
+      "path": "plugins/pocketmine-mp/1.2.0/economypshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/economypshop/EconomyPShop-2.0.0.phar",
+      "sha256": "1bbdf36be4adf0536f95395a999802b4edff1b0ea5822bacafe42f6b8ab80010",
+      "size": 5978,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/economypshop/EconomyPShop-2.0.0.phar"
+      }
+    },
+    {
+      "id": "furnaceindicator",
+      "name": "FurnaceIndicator",
+      "display_name": "熔炉保护",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "1.0",
+      "path": "plugins/pocketmine-mp/1.2.0/furnaceindicator/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/furnaceindicator/FurnaceIndicator-1.0.phar",
+      "sha256": "c54a2efd025bc606795b2f88537b2a20562aabf96524e01da5e61bdc7697c581",
+      "size": 8354,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/furnaceindicator/FurnaceIndicator-1.0.phar"
+      }
+    },
+    {
+      "id": "icontrolu",
+      "name": "iControlU",
+      "display_name": "新建文件夹",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "1.3",
+      "path": "plugins/pocketmine-mp/1.2.0/icontrolu/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/icontrolu/iControlU-1.3.phar",
+      "sha256": "a0b713fb625e835f116906f53ad931615aef975b64d87a16d599e17c063dca44",
+      "size": 9446,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/icontrolu/iControlU-1.3.phar"
+      }
+    },
+    {
+      "id": "itemcase",
+      "name": "ItemCase",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "DeBe",
+      "path": "plugins/pocketmine-mp/1.2.0/itemcase/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/itemcase/ItemCase-DeBe.phar",
+      "sha256": "dc6ff5715bd038ea993746aab695b464f9d130daf8bff91be988655a3cb532e6",
+      "size": 10952,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/itemcase/ItemCase-DeBe.phar"
+      }
+    },
+    {
+      "id": "plugin",
+      "name": "史蒂夫大战僵尸",
+      "display_name": "史蒂夫大战僵尸",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "2.1.0",
+      "path": "plugins/pocketmine-mp/1.2.0/plugin/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/plugin/file-2.1.0.phar",
+      "sha256": "f4d44626435053ffb1b74e05a6f0065a39466805f15247576596d7779ee86291",
+      "size": 126692,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/plugin/file-2.1.0.phar"
+      }
+    },
+    {
+      "id": "pocketguard-lock",
+      "name": "PocketGuard",
+      "display_name": "密码箱类插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "2.1",
+      "path": "plugins/pocketmine-mp/1.2.0/pocketguard-lock/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/pocketguard-lock/PocketGuard-2.1.phar",
+      "sha256": "419046029876ef3de59e8f9332a2a2f4f23aec56cc71d63a2539033a26ed0579",
+      "size": 5181,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/pocketguard-lock/PocketGuard-2.1.phar"
+      }
+    },
+    {
+      "id": "pocketguard-v2",
+      "name": "PocketGuard",
+      "display_name": "密码箱",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "2.1",
+      "path": "plugins/pocketmine-mp/1.2.0/pocketguard-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/pocketguard-v2/PocketGuard-2.1.phar",
+      "sha256": "1c4a235f077cdcea2d20e7bff83808219001bff5b104305d2d04f3db9042a673",
+      "size": 10938,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/pocketguard-v2/PocketGuard-2.1.phar"
+      }
+    },
+    {
+      "id": "rexachievement",
+      "name": "RexAchievement",
+      "display_name": "成就系统插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/pocketmine-mp/1.2.0/rexachievement/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/rexachievement/RexAchievement-1.2.0.phar",
+      "sha256": "a569cda319fd297ec8e813b7e62e3e00b549abd1b061a4d7c283b3ad76de07cc",
+      "size": 6907,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/rexachievement/RexAchievement-1.2.0.phar"
+      }
+    },
+    {
+      "id": "subinventory",
+      "name": "SubInventory",
+      "display_name": "多背包插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "DeBe",
+      "path": "plugins/pocketmine-mp/1.2.0/subinventory/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/subinventory/SubInventory-DeBe.phar",
+      "sha256": "8733c51cd7b4bfc8a430d5a3d23b80bc8351972c5689faad2ba8d0a992dc2eb8",
+      "size": 7849,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/subinventory/SubInventory-DeBe.phar"
+      }
+    },
+    {
+      "id": "vanillastatus",
+      "name": "VanillaStatus",
+      "display_name": "饥饿与经验插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.2.0",
+      "plugin_version": "0.1",
+      "path": "plugins/pocketmine-mp/1.2.0/vanillastatus/plugin.json",
+      "file": "plugins/pocketmine-mp/1.2.0/vanillastatus/VanillaStatus-0.1.phar",
+      "sha256": "5dbc3a15992684f09069613e16d5b9ef3cdeaa0a261aefa67464a63aa403a500",
+      "size": 21009,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/vanillastatus/VanillaStatus-0.1.phar"
+      }
+    }
+  ]
+}

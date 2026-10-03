@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "id": "siteland",
+  "name": "SiteLand",
+  "display_name": "地皮插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.9",
+  "author": [
+    "MUedsa,Mentha_Haplocalyx"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SiteLand",
+  "website": null,
+  "main": "SiteLand\\SiteLand",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [
+    "[EconomyAPI]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "giveland",
+      "description": "check my RPGinfo",
+      "usage": "/giveland [ 名字 ]",
+      "permission": "uniteland.zzx",
+      "aliases": []
+    },
+    {
+      "name": "guest",
+      "description": "add my guest",
+      "usage": "/guest [ 名字 ]",
+      "permission": "uniteland.zzx",
+      "aliases": []
+    },
+    {
+      "name": "myguest",
+      "description": "check my guests",
+      "usage": "/myguest",
+      "permission": "uniteland.zzx",
+      "aliases": []
+    },
+    {
+      "name": "landinfo",
+      "description": "check land info",
+      "usage": "/landinfo",
+      "permission": "uniteland.zzx",
+      "aliases": []
+    },
+    {
+      "name": "mylands",
+      "description": "check my lands",
+      "usage": "/mylands",
+      "permission": "uniteland.zzx",
+      "aliases": []
+    },
+    {
+      "name": "seelands",
+      "description": "check other's lands",
+      "usage": "/seelands [ 名字 ]",
+      "permission": "uniteland.zzx",
+      "aliases": []
+    },
+    {
+      "name": "tpland",
+      "description": "go to other's land",
+      "usage": "/tpland [ 地皮编号 ]",
+      "permission": "uniteland.zzx",
+      "aliases": []
+    },
+    {
+      "name": "checkhost",
+      "description": "check land's host",
+      "usage": "/checkhost [ 地皮编号 ]",
+      "permission": "uniteland.zzx",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "uniteland.zzx",
+      "description": "Allows access to all UniteRPG features.",
+      "default": "true"
+    },
+    {
+      "name": "uniteland.du",
+      "description": "Allows access to Player UniteRPG features.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/siteland/SiteLand-1.2.9.phar",
+      "file_name": "SiteLand-1.2.9.phar",
+      "sha256": "7300c4d09fbfaf41834367a811efd3916720f4d221859be1e02535e2163896d6",
+      "size": 7290,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/siteland/SiteLand-1.2.9.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/地皮插件/地皮插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:16+08:00",
+  "minecraft_version_source": "api-inferred"
+}

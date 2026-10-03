@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "eaevent",
+  "name": "EAEvent",
+  "display_name": "进服爆炸插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Ehere"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "EAEvent - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "Ehere\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/eaevent/EAEvent-1.0.0.phar",
+      "file_name": "EAEvent-1.0.0.phar",
+      "sha256": "c0d29aa7adfe7c6c9207d809493bbfb57051828843f2ca55e2ed5094a3141877",
+      "size": 1601,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/eaevent/EAEvent-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/EAEvent--进服爆炸插件/EAEvent_v1.0.0--进服爆炸插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

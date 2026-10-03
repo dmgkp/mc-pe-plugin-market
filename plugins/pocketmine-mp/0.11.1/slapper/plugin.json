@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "slapper",
+  "name": "Slapper",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.6.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "jojoe77777"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Adds player NPCs into your world that you can slap to run commands!",
+  "website": null,
+  "main": "slapper\\main",
+  "tags": [
+    "world",
+    "admin",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "slapper",
+      "description": "Create a slappable player!",
+      "usage": "/slapper <name>",
+      "permission": "slapper.create",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "slapper.create",
+      "description": "allow using command /slapper",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/slapper/Slapper-1.0.1.phar",
+      "file_name": "Slapper-1.0.1.phar",
+      "sha256": "013fb69650518dcb34a34aedb2b8447a93b310db3b58c6db4b3db8038c1f7411",
+      "size": 8688,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/slapper/Slapper-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/NPC插件/NPC.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

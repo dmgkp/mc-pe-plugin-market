@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "gtalker",
+  "name": "GTalker",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0bata",
+  "author": [
+    "GAD"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "GTalker - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "GAD\\main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cg",
+      "description": "",
+      "usage": "§c/cg player 颜色代号",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "cgset",
+      "description": "",
+      "usage": "§c/cgset sz 玩家ID 称号 颜色代号",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/gtalker/GTalker-1.0.0bata.phar",
+      "file_name": "GTalker-1.0.0bata.phar",
+      "sha256": "145215f710a378d1c1e54b65388c12369c27e71aff1599e724cc4846612ac464",
+      "size": 7432,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/gtalker/GTalker-1.0.0bata.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/[Go!]GTalker插件/GTalker_v1.0.0bata.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:28+08:00",
+  "minecraft_version_source": "api-inferred"
+}

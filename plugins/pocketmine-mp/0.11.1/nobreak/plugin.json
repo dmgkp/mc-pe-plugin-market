@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "nobreak",
+  "name": "NoBreak",
+  "display_name": "让玩家不能破坏某种物品",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "18wyj2"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "No break block",
+  "website": null,
+  "main": "NoBreak\\MainClass",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "nobreak",
+      "description": "No break block",
+      "usage": "",
+      "permission": "nobreak.commands.nobreak",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "nobreak",
+      "description": "no break block",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/nobreak/NoBreak-1.0.0.phar",
+      "file_name": "NoBreak-1.0.0.phar",
+      "sha256": "f4c35ed9731ea7ef151f08c33108561a4856f11c11e9a2e70cfbbfeced94d19d",
+      "size": 2154,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/nobreak/NoBreak-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/让玩家不能破坏某种物品/让玩家不能破坏某种物品.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:31+08:00",
+  "minecraft_version_source": "path"
+}

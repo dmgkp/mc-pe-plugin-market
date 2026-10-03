@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "at-bh-c-du-fn-1d-2e-3r",
+  "name": "§aT§bh§c§du§fn§1d§2e§3r",
+  "display_name": "霹雳风暴",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "§41.0.0",
+  "author": [
+    "§6Homenear&PIZZLE"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "§6Thunder",
+  "website": null,
+  "main": "Thunder\\Thunder",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "Th",
+      "description": "§6Thunder",
+      "usage": "§6/TH \\n  /Th <player> 1",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/at-bh-c-du-fn-1d-2e-3r/aT_bh_c_du_fn_1d_2e_3r-41.0.0.phar",
+      "file_name": "aT_bh_c_du_fn_1d_2e_3r-41.0.0.phar",
+      "sha256": "4110c4a42ff7ea4899a40aeee4084996b512617613bfe94ef30f680f165b5548",
+      "size": 4877,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/at-bh-c-du-fn-1d-2e-3r/aT_bh_c_du_fn_1d_2e_3r-41.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/霹雳风暴！！/霹雳风暴！.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:31+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "id": "runplay",
+  "name": "RunPlay",
+  "display_name": "极限跑酷",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.0",
+  "author": [
+    "Him188"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Have fun!",
+  "website": null,
+  "main": "RunPlay\\RunPlay",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "runp",
+      "description": "RunPlay",
+      "usage": "Usage: /runp",
+      "permission": "RunPlay.command.runp",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "RunPlay.command.runp",
+      "description": "Allows the user to run this command",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/runplay/RunPlay-3.0.0.phar",
+      "file_name": "RunPlay-3.0.0.phar",
+      "sha256": "35ed7962a614f5d9262f4fdb4eda4e20709043b40d65cdc528fd66479368bb76",
+      "size": 99422,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/runplay/RunPlay-3.0.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "2.0.1": [
+      {
+        "file_name": "RunPlay-2.0.1.phar",
+        "sha256": "114515e4f4edde047ee1d9e9e5726383b9989676be13a71b3bc03ba9504caf82",
+        "size": 179366
+      }
+    ],
+    "2.2.1": [
+      {
+        "file_name": "RunPlay-2.2.1.phar",
+        "sha256": "c9948046f4e7f1f46136398d208f21bf9cf2305a85de4a778c0a27a9f50aa4be",
+        "size": 168746
+      }
+    ],
+    "2.3.1": [
+      {
+        "file_name": "RunPlay-2.3.1.phar",
+        "sha256": "724480831261a352ed95685bc3fea62bb25f8bac15bcffac93311356ae492518",
+        "size": 13511
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/合集/极限跑酷 - RunPlay/RunPlay_v3.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:30+08:00",
+  "minecraft_version_source": "api-inferred"
+}

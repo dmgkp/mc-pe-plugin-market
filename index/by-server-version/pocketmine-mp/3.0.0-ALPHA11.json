@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "3.0.0-ALPHA11",
+  "count": 3,
+  "plugins": [
+    {
+      "id": "playervaults",
+      "name": "PlayerVaults",
+      "display_name": "在线云背包",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.0",
+      "path": "plugins/pocketmine-mp/1.12.0/playervaults/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/playervaults/PlayerVaults-2.0.phar",
+      "sha256": "0b4511813a85b51e46c2143d732b06a7752414a92073709af5a38a54513d14f9",
+      "size": 19829,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/playervaults/PlayerVaults-2.0.phar"
+      }
+    },
+    {
+      "id": "signtransfer",
+      "name": "SignTransfer",
+      "display_name": "跨服木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.0.0_low",
+      "path": "plugins/pocketmine-mp/1.12.0/signtransfer/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/signtransfer/SignTransfer-1.0.0_low.phar",
+      "sha256": "bdf21ff87b7eb5f95f8a163f692b56e9908674538abbc3888248e91640c5dc53",
+      "size": 11334,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/signtransfer/SignTransfer-1.0.0_low.phar"
+      }
+    },
+    {
+      "id": "texter",
+      "name": "Texter",
+      "display_name": "添加浮空字",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.3.2",
+      "path": "plugins/pocketmine-mp/1.12.0/texter/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/texter/Texter-2.3.2.phar",
+      "sha256": "53a21fffadddc047f7eb7fe706f4a1b81b3b81f0af768f57ee9a991ea07403fa",
+      "size": 45566,
+      "tags": [
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/texter/Texter-2.3.2.phar"
+      }
+    }
+  ]
+}

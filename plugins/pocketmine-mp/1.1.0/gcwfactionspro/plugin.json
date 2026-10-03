@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "gcwfactionspro",
+  "name": "GCWFactionsPro",
+  "display_name": "乌兰托娅快乐广场广场舞插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.4.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "Tethered_"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "A Plugin For Easily Managing Factions",
+  "website": null,
+  "main": "FactionsPro\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "舞队",
+      "description": "广场舞队管理命令",
+      "usage": "",
+      "permission": "f.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "f.command",
+      "description": "Allow use of all faction commands",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.1.0/gcwfactionspro/GCWFactionsPro-1.0.1.phar",
+      "file_name": "GCWFactionsPro-1.0.1.phar",
+      "sha256": "66c1c3de8c746351a310776738338855d8b6c84635968ddc671e0caee4b7e8bd",
+      "size": 27264,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.1.0/gcwfactionspro/GCWFactionsPro-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/乌兰托娅快乐广场广场舞插件/快乐广场舞插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:29+08:00",
+  "minecraft_version_source": "api-inferred"
+}

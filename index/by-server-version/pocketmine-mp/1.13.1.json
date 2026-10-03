@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.13.1",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "ride",
+      "name": "ride",
+      "display_name": "骑人插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "Beta_2",
+      "path": "plugins/pocketmine-mp/0.14.0/ride/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/ride/ride-Beta_2.phar",
+      "sha256": "076e3e7ccd41eea76a32245d31acd7a354a0e362adae211ce6e178d3b4d3ef35",
+      "size": 2289,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/ride/ride-Beta_2.phar"
+      }
+    }
+  ]
+}

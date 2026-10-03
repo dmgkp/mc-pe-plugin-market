@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "asign",
+  "name": "Asign",
+  "display_name": "多用木牌",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Kirtv"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Nothing",
+  "website": "null",
+  "main": "kirtv.asign.Asign",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/asign/Asign-1.0.0.jar",
+      "file_name": "Asign-1.0.0.jar",
+      "sha256": "4def8d0647111c720ccb6ebf535b95bd56822814d6551968b2f53dc0f4fc453f",
+      "size": 2791,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/asign/Asign-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/多用木牌/多用木牌.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "api-inferred"
+}

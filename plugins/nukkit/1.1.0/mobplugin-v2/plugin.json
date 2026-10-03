@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "id": "mobplugin-v2",
+  "name": "MobPlugin",
+  "display_name": "生物",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "kniffo80,PikyCZ,CreeperFace,NycuRO"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Spawn a simple mob to the player, that is using this command",
+  "website": null,
+  "main": "com.pikycz.mobplugin.MobPlugin",
+  "tags": [
+    "world",
+    "admin",
+    "gameplay",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "mob",
+      "description": "Spawn a simple mob to the player, that is using this command",
+      "usage": "/mob spawn <mob_name>",
+      "permission": "mob-plugin.command",
+      "aliases": [
+        "mob"
+      ]
+    },
+    {
+      "name": "removemobs",
+      "description": "Remove all living mobs",
+      "usage": "/mob removeall",
+      "permission": "mob-plugin.command",
+      "aliases": [
+        "removeall"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "mob-plugin.command",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/mobplugin-v2/MobPlugin-1.0.jar",
+      "file_name": "MobPlugin-1.0.jar",
+      "sha256": "3800debc84ef4018a57bc4d7510f705b5c0c7ac4704be35ca18228f378f0c261",
+      "size": 2408960,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mobplugin-v2/MobPlugin-1.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/Nukkit插件/生物AI/[生物AI]MobPlugin.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

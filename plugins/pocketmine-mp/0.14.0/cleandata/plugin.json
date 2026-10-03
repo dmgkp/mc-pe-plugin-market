@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "cleandata",
+  "name": "CleanData",
+  "display_name": "自动清理玩家数据插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "guestc"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "CleanData - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "top\\CleanData\\CleanData",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/cleandata/CleanData-1.0.0.phar",
+      "file_name": "CleanData-1.0.0.phar",
+      "sha256": "9d9b0b4aecbe8acd5bd1b8c54bfec13873006062151fb824af486503a82c1be2",
+      "size": 2618,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/cleandata/CleanData-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/CleanData自动清理玩家数据插件/CleanData_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:16+08:00",
+  "minecraft_version_source": "api-inferred"
+}

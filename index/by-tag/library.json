@@ -1,0 +1,921 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-tag",
+  "tag": "library",
+  "count": 47,
+  "plugins": [
+    {
+      "id": "rsfunction",
+      "name": "RsFunction",
+      "display_name": "RsFunction",
+      "server_type": "nukkit",
+      "minecraft_version": "0.15.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/0.15.0/rsfunction/plugin.json",
+      "file": "plugins/nukkit/0.15.0/rsfunction/RsFunction-1.0.2.jar",
+      "sha256": "59d22b9b37452dbaca7b2bd2764390e39d1e8f1af403e1886a34f7119144a2b9",
+      "size": 13329,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/0.15.0/rsfunction/RsFunction-1.0.2.jar"
+      }
+    },
+    {
+      "id": "mr-core",
+      "name": "Mr_CORE",
+      "display_name": "插件核心",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.2.0",
+      "path": "plugins/nukkit/1.1.0/mr-core/plugin.json",
+      "file": "plugins/nukkit/1.1.0/mr-core/Mr_CORE-1.2.0.jar",
+      "sha256": "6ca171fdc9f06b2c37de579110827e1734d6fee9ed49e2ab22178c6575f22409",
+      "size": 4629,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/mr-core/Mr_CORE-1.2.0.jar"
+      }
+    },
+    {
+      "id": "rsfunction",
+      "name": "RsFunction",
+      "display_name": "多语言",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/1.1.0/rsfunction/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsfunction/RsFunction-1.0.2.jar",
+      "sha256": "59d22b9b37452dbaca7b2bd2764390e39d1e8f1af403e1886a34f7119144a2b9",
+      "size": 13329,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsfunction/RsFunction-1.0.2.jar"
+      }
+    },
+    {
+      "id": "rsfunction-v2",
+      "name": "RsFunction",
+      "display_name": "多语言",
+      "server_type": "nukkit",
+      "minecraft_version": "1.1.0",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/1.1.0/rsfunction-v2/plugin.json",
+      "file": "plugins/nukkit/1.1.0/rsfunction-v2/RsFunction-1.0.2.jar",
+      "sha256": "667a842586e780c5c22fe53e0c153f4490caea519c8fe84b6a55f471bc48fc4d",
+      "size": 13836,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/rsfunction-v2/RsFunction-1.0.2.jar"
+      }
+    },
+    {
+      "id": "coreprotect",
+      "name": "CoreProtect",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.0.8",
+      "path": "plugins/nukkit/unknown/coreprotect/plugin.json",
+      "file": "plugins/nukkit/unknown/coreprotect/CoreProtect-2.0.8.jar",
+      "sha256": "aab250a2b540c9d8f10b87f90940db16ab7f46fb772e0f0cd2bbfde7b73fa687",
+      "size": 246269,
+      "tags": [
+        "protection",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/coreprotect/CoreProtect-2.0.8.jar"
+      }
+    },
+    {
+      "id": "scoreboards",
+      "name": "Scoreboards",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/unknown/scoreboards/plugin.json",
+      "file": "plugins/nukkit/unknown/scoreboards/Scoreboards-1.0.2.jar",
+      "sha256": "aecd2f7c14e233dda21298b74876574e1ddfaefd3d57f53e948e91609d24b018",
+      "size": 15894,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/scoreboards/Scoreboards-1.0.2.jar"
+      }
+    },
+    {
+      "id": "essentials",
+      "name": "Essentials",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "Pre2.13.1.2",
+      "path": "plugins/other/unknown/essentials/plugin.json",
+      "file": "plugins/other/unknown/essentials/Essentials-Pre2.13.1.2.jar",
+      "sha256": "afdbcf091cbc20ea4a20f9770159990eb07901777069c77c151118f9c243a836",
+      "size": 954052,
+      "tags": [
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/essentials/Essentials-Pre2.13.1.2.jar"
+      }
+    },
+    {
+      "id": "minepacks",
+      "name": "MinePacks",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.13",
+      "path": "plugins/other/unknown/minepacks/plugin.json",
+      "file": "plugins/other/unknown/minepacks/MinePacks-1.13.jar",
+      "sha256": "9fbb360b303beb7cc5364b1a8662b4a5da90320f013354395db193002dff80ed",
+      "size": 64226,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/minepacks/MinePacks-1.13.jar"
+      }
+    },
+    {
+      "id": "multiverse-core",
+      "name": "Multiverse-Core",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.5-b678",
+      "path": "plugins/other/unknown/multiverse-core/plugin.json",
+      "file": "plugins/other/unknown/multiverse-core/Multiverse-Core-2.5-b678.jar",
+      "sha256": "7e9e33bad4cc53715e234ac24e2c1c5ead0506009346b3193e7c2df8b273e5c4",
+      "size": 1643924,
+      "tags": [
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/multiverse-core/Multiverse-Core-2.5-b678.jar"
+      }
+    },
+    {
+      "id": "vault",
+      "name": "Vault",
+      "display_name": "基础插件",
+      "server_type": "other",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.4.1-b436",
+      "path": "plugins/other/unknown/vault/plugin.json",
+      "file": "plugins/other/unknown/vault/Vault-1.4.1-b436.jar",
+      "sha256": "21ed1c2cd4a5b531b73056fb5c8a445e17486bc7c7649eb58e4417c7cc1fc01a",
+      "size": 337004,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/other/unknown/vault/Vault-1.4.1-b436.jar"
+      }
+    },
+    {
+      "id": "economyapi",
+      "name": "EconomyAPI",
+      "display_name": "EconomyAPI",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.4",
+      "path": "plugins/pocketmine-mp/0.11.0/economyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyapi/EconomyAPI-2.0.4.phar",
+      "sha256": "f5ea2420d14ab0265c306d5a65200e2f7ace6c4bc71b6bfb5890f341bd222313",
+      "size": 96579,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyapi/EconomyAPI-2.0.4.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "EconomyLand",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.11.0/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyland/EconomyLand-2.0.5.phar",
+      "sha256": "fdc002b4416f1759581e7d0341e59a3fa53f3eaf1778c481ce81148765329a32",
+      "size": 42604,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyland/EconomyLand-2.0.5.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "EconomyShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/0.11.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/economyshop/EconomyShop-2.0.3.phar",
+      "sha256": "cf9fdd56f205d2f137c10598c7d1e564d0bf416a062376fca6b83f505c97856d",
+      "size": 18132,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/economyshop/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "mysignshop",
+      "name": "MySignShop",
+      "display_name": "MySignShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.0",
+      "plugin_version": "1.0.1",
+      "path": "plugins/pocketmine-mp/0.11.0/mysignshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.0/mysignshop/MySignShop-1.0.1.phar",
+      "sha256": "51b1948d759e9c26a52f4a09221d83d88d44a1f12026187351ee0c991ba3ec2d",
+      "size": 21690,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/mysignshop/MySignShop-1.0.1.phar"
+      }
+    },
+    {
+      "id": "devtools",
+      "name": "DevTools",
+      "display_name": "插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.8.0_bingshen优化",
+      "path": "plugins/pocketmine-mp/0.11.1/devtools/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/devtools/DevTools-1.8.0_bingshen.phar",
+      "sha256": "58bc2d35c16a17c0cb0a7066484dc05da54c902f92db715cb2da6a5994fbd015",
+      "size": 7414,
+      "tags": [
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/devtools/DevTools-1.8.0_bingshen.phar"
+      }
+    },
+    {
+      "id": "economyapi",
+      "name": "EconomyAPI",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/0.11.1/economyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyapi/EconomyAPI-2.0.7.phar",
+      "sha256": "88f28ab55d883cc1a725121fbb74b7950a25ab2e9afedc0ef8b410f586d10222",
+      "size": 99817,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyapi/EconomyAPI-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/0.11.1/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyland/EconomyLand-2.0.7.phar",
+      "sha256": "03b4b8947c47236887bada709c7a85a65e4a1fd6d4e3ee5c229c6c6a3154187b",
+      "size": 51199,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyland/EconomyLand-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.11.1/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/economyshop/EconomyShop-2.0.5.phar",
+      "sha256": "7eb0b02b0493fd42674f586534bc23e17f199b4c6807c41304907bd8c995fb88",
+      "size": 22063,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/economyshop/EconomyShop-2.0.5.phar"
+      }
+    },
+    {
+      "id": "ld",
+      "name": "ld",
+      "display_name": "领地带显示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "流星优化",
+      "path": "plugins/pocketmine-mp/0.11.1/ld/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/ld/ld-file.phar",
+      "sha256": "1df05e08848bef925e40144105e7fbb54b734d4dee2ab0718087a0bbe51edecf",
+      "size": 50657,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/ld/ld-file.phar"
+      }
+    },
+    {
+      "id": "mysignshop",
+      "name": "MySignShop",
+      "display_name": "个人商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.11.1",
+      "plugin_version": "1.0.7",
+      "path": "plugins/pocketmine-mp/0.11.1/mysignshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.11.1/mysignshop/MySignShop-1.0.7.phar",
+      "sha256": "a1532ba4d592d645ae66d0e51082bb1532fc8d5f51c705380bc643e786184a20",
+      "size": 23232,
+      "tags": [
+        "economy",
+        "world",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/mysignshop/MySignShop-1.0.7.phar"
+      }
+    },
+    {
+      "id": "arcore",
+      "name": "ARCore",
+      "display_name": "多功能插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "0.0.3_2#UNSTABLE",
+      "path": "plugins/pocketmine-mp/0.14.0/arcore/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/arcore/ARCore-0.0.3_2_UNSTABLE.phar",
+      "sha256": "390102624b6e532589dc6a50facbaf23d862203af3e26e208b5adc8c8c9f0895",
+      "size": 305137,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/arcore/ARCore-0.0.3_2_UNSTABLE.phar"
+      }
+    },
+    {
+      "id": "bossbarapi",
+      "name": "BossBarAPI",
+      "display_name": "顶部公告插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.2.2",
+      "path": "plugins/pocketmine-mp/0.14.0/bossbarapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/bossbarapi/BossBarAPI-2.2.2.phar",
+      "sha256": "6506591cc0aaec82c2788501730d957f7b19b7a0e48853c2819f03e12b58df4e",
+      "size": 47771,
+      "tags": [
+        "library",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/bossbarapi/BossBarAPI-2.2.2.phar"
+      }
+    },
+    {
+      "id": "devtools",
+      "name": "DevTools",
+      "display_name": "插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.11.1",
+      "path": "plugins/pocketmine-mp/0.14.0/devtools/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/devtools/DevTools-1.11.1.phar",
+      "sha256": "a074599dca1f49021a45eeabe9831fea92c2aef11d325b519925b379c1dbb567",
+      "size": 34218,
+      "tags": [
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/devtools/DevTools-1.11.1.phar"
+      }
+    },
+    {
+      "id": "economyapi",
+      "name": "EconomyAPI",
+      "display_name": "经济核心插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.9",
+      "path": "plugins/pocketmine-mp/0.14.0/economyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyapi/EconomyAPI-2.0.9.phar",
+      "sha256": "cb5eb3ecb4d4ef9ef4cf49a1f755e3e3c6761cefbbad0cac817db038c9522f14",
+      "size": 97055,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyapi/EconomyAPI-2.0.9.phar"
+      }
+    },
+    {
+      "id": "economyapi-v2",
+      "name": "EconomyAPI",
+      "display_name": "经济核心",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.9",
+      "path": "plugins/pocketmine-mp/0.14.0/economyapi-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyapi-v2/EconomyAPI-2.0.9.phar",
+      "sha256": "1d009782365b0813bd88971a0e9228cfc759b0ab4f6534a36c85d47a5eb2e36b",
+      "size": 35645,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyapi-v2/EconomyAPI-2.0.9.phar"
+      }
+    },
+    {
+      "id": "economyapi-v3",
+      "name": "EconomyAPI",
+      "display_name": "EconomyAPI",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.9",
+      "path": "plugins/pocketmine-mp/0.14.0/economyapi-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyapi-v3/EconomyAPI-2.0.9.phar",
+      "sha256": "c585dc1983ea1caece9459db582c571948a2e5956b23d5af0d4f848389e579b7",
+      "size": 84806,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyapi-v3/EconomyAPI-2.0.9.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "件套",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.14.0/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyland/EconomyLand-2.0.5.phar",
+      "sha256": "34cd490e62505263316d25fca392c247c8371194324444e2a170d6ea86a5abc7",
+      "size": 11279,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyland/EconomyLand-2.0.5.phar"
+      }
+    },
+    {
+      "id": "economyland-v2",
+      "name": "EconomyLand",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.5",
+      "path": "plugins/pocketmine-mp/0.14.0/economyland-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyland-v2/EconomyLand-2.0.5.phar",
+      "sha256": "fdc002b4416f1759581e7d0341e59a3fa53f3eaf1778c481ce81148765329a32",
+      "size": 42604,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyland-v2/EconomyLand-2.0.5.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "经济商店插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/0.14.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/economyshop/EconomyShop-2.0.7.phar",
+      "sha256": "5c40f179fdd9b9525949a7f127085046a7b34595138ed32ccd851447767cb5ea",
+      "size": 15271,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyshop/EconomyShop-2.0.7.phar"
+      }
+    },
+    {
+      "id": "ld",
+      "name": "ld",
+      "display_name": "领地带显示插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "流星优化",
+      "path": "plugins/pocketmine-mp/0.14.0/ld/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/ld/ld-file.phar",
+      "sha256": "1df05e08848bef925e40144105e7fbb54b734d4dee2ab0718087a0bbe51edecf",
+      "size": 50657,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/ld/ld-file.phar"
+      }
+    },
+    {
+      "id": "mysignshop",
+      "name": "MySignShop",
+      "display_name": "京东个人商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.7",
+      "path": "plugins/pocketmine-mp/0.14.0/mysignshop/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/mysignshop/MySignShop-1.0.7.phar",
+      "sha256": "b8298b243f2e0fb53f32837f2010ce392e12bc368ba27522c2a9fe0ea57d2598",
+      "size": 22982,
+      "tags": [
+        "economy",
+        "world",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/mysignshop/MySignShop-1.0.7.phar"
+      }
+    },
+    {
+      "id": "mysignshop-v2",
+      "name": "MySignShop",
+      "display_name": "个人商店",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.7",
+      "path": "plugins/pocketmine-mp/0.14.0/mysignshop-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/mysignshop-v2/MySignShop-1.0.7.phar",
+      "sha256": "a1532ba4d592d645ae66d0e51082bb1532fc8d5f51c705380bc643e786184a20",
+      "size": 23232,
+      "tags": [
+        "economy",
+        "world",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/mysignshop-v2/MySignShop-1.0.7.phar"
+      }
+    },
+    {
+      "id": "rsfunction",
+      "name": "RsFunction",
+      "display_name": "研究用",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/rsfunction/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/rsfunction/RsFunction-1.0.0.phar",
+      "sha256": "e8d33297e8b4a769ba98e740d79fd155cd9343e427567dc0ee69a5194ad5e7a9",
+      "size": 2704,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/rsfunction/RsFunction-1.0.0.phar"
+      }
+    },
+    {
+      "id": "weconomyapi",
+      "name": "WEconomyAPI",
+      "display_name": "全新的经济",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/0.14.0/weconomyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/weconomyapi/WEconomyAPI-1.0.0.phar",
+      "sha256": "d84b315db95be8a6031e06f648c0201128eaf9aae796db61db24922ac5b7f405",
+      "size": 8583,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/weconomyapi/WEconomyAPI-1.0.0.phar"
+      }
+    },
+    {
+      "id": "wulantuoyaland",
+      "name": "WuLanTuoYaLand",
+      "display_name": "乌兰托娅万岁",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "乌兰托娅万岁改造插件",
+      "path": "plugins/pocketmine-mp/0.14.0/wulantuoyaland/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/wulantuoyaland/WuLanTuoYaLand-file.phar",
+      "sha256": "fc3e792c7aa41203fe381a91ca2623a2e908ee6ef6efb6dec0e3dbc993dace77",
+      "size": 50261,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/wulantuoyaland/WuLanTuoYaLand-file.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "件套",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop/EconomyShop-2.0.3.phar",
+      "sha256": "b1ca4732f0d07a730d5f5353e868383f84ac40deed4973d79114060adaf82c9b",
+      "size": 6381,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v2",
+      "name": "EconomyShop",
+      "display_name": "插件预装",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v2/EconomyShop-2.0.3.phar",
+      "sha256": "cf9fdd56f205d2f137c10598c7d1e564d0bf416a062376fca6b83f505c97856d",
+      "size": 18132,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v2/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v3",
+      "name": "EconomyShop",
+      "display_name": "仙术插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v3/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v3/EconomyShop-2.0.3.phar",
+      "sha256": "96e091e26fc0f8b4cff74023a1f2bc63767e44cc105ff463891dc1cbafe14375",
+      "size": 7482,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v3/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v4",
+      "name": "EconomyShop",
+      "display_name": "经济出售商店木牌",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v4/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v4/EconomyShop-2.0.3.phar",
+      "sha256": "660dc750097f6cc457194d2ac95d15d9f6c5ede883d612b4192a176cfe875756",
+      "size": 18969,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v4/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyshop-v5",
+      "name": "EconomyShop",
+      "display_name": "百度贴吧",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.0.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.0.0/economyshop-v5/plugin.json",
+      "file": "plugins/pocketmine-mp/1.0.0/economyshop-v5/EconomyShop-2.0.3.phar",
+      "sha256": "77e909a873eb0e5cf18409213ee9bc82b36b7af790cc2c2d319f0d47e4b8fd48",
+      "size": 18971,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.0.0/economyshop-v5/EconomyShop-2.0.3.phar"
+      }
+    },
+    {
+      "id": "economyapi",
+      "name": "EconomyAPI",
+      "display_name": "EconomyAPI",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "5.7.1-4",
+      "path": "plugins/pocketmine-mp/1.12.0/economyapi/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyapi/EconomyAPI-5.7.1-4.phar",
+      "sha256": "164952181608692882ccebb1f4f6b5a0ea6b5acc52c8ebc70c108c7fa082a475",
+      "size": 36182,
+      "tags": [
+        "economy",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyapi/EconomyAPI-5.7.1-4.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "EconomyLand",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "2.1.1-3",
+      "path": "plugins/pocketmine-mp/1.12.0/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/economyland/EconomyLand-2.1.1-3.phar",
+      "sha256": "30bfa4cfa229b713840610db4bf4ece6240d52a02ea3bcf71ea082a6d42cc9a6",
+      "size": 20370,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/economyland/EconomyLand-2.1.1-3.phar"
+      }
+    },
+    {
+      "id": "myownworld",
+      "name": "MyOwnWorld",
+      "display_name": "的全生物",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.4.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.4.0/myownworld/plugin.json",
+      "file": "plugins/pocketmine-mp/1.4.0/myownworld/MyOwnWorld-1.0.0.phar",
+      "sha256": "713435f29d47cac708f7766f5966f98df7059f9e1919f610a5998efbf7039143",
+      "size": 29784,
+      "tags": [
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.4.0/myownworld/MyOwnWorld-1.0.0.phar"
+      }
+    },
+    {
+      "id": "economyland",
+      "name": "EconomyLand",
+      "display_name": "EconomyLand",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.9",
+      "path": "plugins/pocketmine-mp/1.8.0/economyland/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyland/EconomyLand-2.0.9.phar",
+      "sha256": "ea2ba0871dcd87c2d2a433a1d4f392d586e88f3314d310bed0b9beb529354319",
+      "size": 52206,
+      "tags": [
+        "economy",
+        "world",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyland/EconomyLand-2.0.9.phar"
+      }
+    },
+    {
+      "id": "economyshop",
+      "name": "EconomyShop",
+      "display_name": "京东商城",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/1.8.0/economyshop/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyshop/EconomyShop-2.0.7.phar",
+      "sha256": "cb87247c7d11b1990b386d3bb449c31d6ff74a64efc92d3c3a18d93823459dee",
+      "size": 8251,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyshop/EconomyShop-2.0.7.phar"
+      }
+    },
+    {
+      "id": "economyshop-v2",
+      "name": "EconomyShop",
+      "display_name": "EconomyShop",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "2.0.7",
+      "path": "plugins/pocketmine-mp/1.8.0/economyshop-v2/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/economyshop-v2/EconomyShop-2.0.7.phar",
+      "sha256": "c247349e73c3d5acf3bd2f4ee93cf2af966933e74a35a5f6687096a12dd5c01d",
+      "size": 14376,
+      "tags": [
+        "economy",
+        "admin",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyshop-v2/EconomyShop-2.0.7.phar"
+      }
+    },
+    {
+      "id": "morefunction",
+      "name": "MoreFunction",
+      "display_name": "更多功能",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.8.0",
+      "plugin_version": "3.0",
+      "path": "plugins/pocketmine-mp/1.8.0/morefunction/plugin.json",
+      "file": "plugins/pocketmine-mp/1.8.0/morefunction/MoreFunction-3.0.phar",
+      "sha256": "d7fbfeb8bc2783e995a8a43addf61f7a092b7c697033c0d3c414e3fe0bfff33f",
+      "size": 7481,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/morefunction/MoreFunction-3.0.phar"
+      }
+    }
+  ]
+}

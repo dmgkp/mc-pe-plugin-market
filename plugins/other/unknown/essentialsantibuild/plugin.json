@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "essentialsantibuild",
+  "name": "EssentialsAntiBuild",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "Pre2.13.1.2",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Provides build protection.",
+  "website": "http://tiny.cc/EssentialsCommands",
+  "main": "com.earth2me.essentials.antibuild.EssentialsAntiBuild",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [
+    "[Essentials]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/other/unknown/essentialsantibuild/EssentialsAntiBuild-Pre2.13.1.2.jar",
+      "file_name": "EssentialsAntiBuild-Pre2.13.1.2.jar",
+      "sha256": "a8992e0a68c17bea68717ceaa585eb6fc9696c73ca49ac4e6a550c6aceabfac2",
+      "size": 14519,
+      "download_paths": {
+        "github": "plugins/other/unknown/essentialsantibuild/EssentialsAntiBuild-Pre2.13.1.2.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[基础]EssentialsAntiBuild.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

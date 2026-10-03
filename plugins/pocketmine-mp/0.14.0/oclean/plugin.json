@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "oclean",
+  "name": "Oclean",
+  "display_name": "清道夫",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Orange"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Oclean",
+  "website": null,
+  "main": "Oclean\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "oclean",
+      "description": "Oclean",
+      "usage": "§5扫地的橘子树",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/oclean/Oclean-1.0.0.phar",
+      "file_name": "Oclean-1.0.0.phar",
+      "sha256": "b64c9b15f21060abd77ad47a46a783197a08ee75a01e14b36450126dfe65e015",
+      "size": 3177,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/oclean/Oclean-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/Oclean--清道夫/Oclean_v1.0.0--清道夫.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:48+08:00",
+  "minecraft_version_source": "api-inferred"
+}

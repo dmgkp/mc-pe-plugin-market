@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "id": "residence",
+  "name": "Residence",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.6.6.6",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Cuboid Residence Plugin",
+  "website": null,
+  "main": "com.bekvon.bukkit.residence.ResidenceCommandListener",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[Vault,Essentials,RealPlugin,BOSEconomy,iConomy,bPermissions,PermissionsBukkit,Permissions,WorldEdit,My Worlds]"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "res",
+      "description": "Manage Residences",
+      "usage": "§c/res ? for more info",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "residence",
+      "description": "Manage Residences",
+      "usage": "§c/residence ? for more info",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "resadmin",
+      "description": "Residence admin functions.",
+      "usage": "§c/res ? or /resadmin ? for more info",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "resreload",
+      "description": "Reload the entire residence plugin.",
+      "usage": "§c/resreload",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "resload",
+      "description": "Load the save file again after you have made modifications.",
+      "usage": "§c/resload",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "rc",
+      "description": "§cChat in current residence channel.",
+      "usage": "§c/rc to toggle, or /rc <message>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "resworld",
+      "description": "§cRemoves every residence in a world.",
+      "usage": "§c/resworld remove [world]",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "residence.admin",
+      "description": "Gives you access to /resadmin",
+      "default": "op"
+    },
+    {
+      "name": "residence.admin.tp",
+      "description": "Allows to override tp flag",
+      "default": "op"
+    },
+    {
+      "name": "residence.admin.move",
+      "description": "Allows to override move flag",
+      "default": "op"
+    },
+    {
+      "name": "residence.create",
+      "description": "Allows you to create residences",
+      "default": "op"
+    },
+    {
+      "name": "residence.select",
+      "description": "Allows you to select an area to make residences",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/other/unknown/residence/Residence-2.6.6.6.jar",
+      "file_name": "Residence-2.6.6.6.jar",
+      "sha256": "4c59502c798ffc3d61d8f07d5b45bc262eccde01215fd517cfcb5d056d6f7fad",
+      "size": 400157,
+      "download_paths": {
+        "github": "plugins/other/unknown/residence/Residence-2.6.6.6.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[领地]Residence+for+1.6.x.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

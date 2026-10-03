@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "id": "economypshop",
+  "name": "EconomyPShop",
+  "display_name": "EconomyPShop",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.2.0",
+    "1.8.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.6.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.2",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows all permissions to the player",
+  "website": null,
+  "main": "onebone\\economypshop\\EconomyPShop",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "economypshop.*",
+      "description": "Allows player to destroy others' shop",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/economypshop/EconomyPShop-2.0.2.phar",
+      "file_name": "EconomyPShop-2.0.2.phar",
+      "sha256": "181855c67661ab2a0afd73c11713eb15577b880af577656cc2b32a4349f5dcba",
+      "size": 11259,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economypshop/EconomyPShop-2.0.2.phar"
+      }
+    }
+  ],
+  "history": {
+    "2.0.1": [
+      {
+        "file_name": "EconomyPShop-2.0.1.phar",
+        "sha256": "35a80947f37e7a8d7b46723d57ced03caa68f76c4709ee8a24cf54b75e582d66",
+        "size": 19502
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/005/EconomyPShop_v2.0.2.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "api-inferred"
+}

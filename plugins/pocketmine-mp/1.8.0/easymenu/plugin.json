@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "easymenu",
+  "name": "EasyMenu",
+  "display_name": "简易菜单",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "didou QQ1649980398"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "查看自己的经济状况",
+  "website": null,
+  "main": "EasyMenu\\main",
+  "tags": [
+    "economy"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "经济状况",
+      "description": "查看自己的经济状况",
+      "usage": "",
+      "permission": "didou.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "didou.command",
+      "description": "fuck",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/easymenu/EasyMenu-1.0.0.phar",
+      "file_name": "EasyMenu-1.0.0.phar",
+      "sha256": "b076a316f086089e2b8a0b84e90515ef867a9e6553e28e2a00049e587179af62",
+      "size": 2507,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/easymenu/EasyMenu-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/简易菜单/简易菜单.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:21+08:00",
+  "minecraft_version_source": "api-inferred"
+}

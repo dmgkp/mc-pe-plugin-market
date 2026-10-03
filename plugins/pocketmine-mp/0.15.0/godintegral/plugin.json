@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "godintegral",
+  "name": "GodIntegral",
+  "display_name": "积分插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.15.0",
+  "minecraft_versions": [
+    "0.15.0"
+  ],
+  "minecraft_version_range": ">=0.15.0 <0.16.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.1.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "xiaokai"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "查看积分余额",
+  "website": null,
+  "main": "GodIntegral\\GodIntegral",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "gif",
+      "description": "查看积分余额",
+      "usage": "/gif",
+      "permission": "GodIntegral.command.gif",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "GodIntegral.command.gif",
+      "description": "GodIntegral插件命令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.15.0/godintegral/GodIntegral-1.0.0.phar",
+      "file_name": "GodIntegral-1.0.0.phar",
+      "sha256": "09189ed8d885712370b7b5c70cc51f7352a797b6a8ffd22587532ae713e378cc",
+      "size": 29132,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.15.0/godintegral/GodIntegral-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/你们要的 [精湛补丁]/PocketMine插件/积分插件/积分插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:54+08:00",
+  "minecraft_version_source": "api-inferred"
+}

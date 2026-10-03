@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "supertransfer",
+  "name": "SuperTransfer",
+  "display_name": "指令跨服",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.0",
+  "author": [
+    "SuperXingKong"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SuperTransfer主命令",
+  "website": null,
+  "main": "SuperXingKong\\SuperTransfer\\SuperTransfer",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "transfer",
+      "description": "SuperTransfer主命令",
+      "usage": "/transfer <Address(IP)> <端口(Port)>",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/supertransfer/SuperTransfer-3.0.0.phar",
+      "file_name": "SuperTransfer-3.0.0.phar",
+      "sha256": "5d34e15cb3f2e21392dec77f4c18996ec215705f415b18a2d942a7142ef3e30d",
+      "size": 13635,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/supertransfer/SuperTransfer-3.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/指令跨服/[指令跨服]SuperTransfer.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

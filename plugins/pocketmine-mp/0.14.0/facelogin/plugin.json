@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "facelogin",
+  "name": "FaceLogin",
+  "display_name": "靠脸吃饭",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Muqsit"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Shows player their skin's face on joining.",
+  "website": null,
+  "main": "Muqsit\\FaceLogin",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "facelogin.show",
+      "description": "Shows player their skin's face on joining.",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/facelogin/FaceLogin-1.0.0.phar",
+      "file_name": "FaceLogin-1.0.0.phar",
+      "sha256": "be3da5ec93be2fd777991611a36d51876dd0ace539073f13b9ff90c4bf5a2d4f",
+      "size": 8085,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/facelogin/FaceLogin-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/FaceLogin--靠脸吃饭/FaceLogin_v1.0.0--靠脸吃饭.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:47+08:00",
+  "minecraft_version_source": "api-inferred"
+}

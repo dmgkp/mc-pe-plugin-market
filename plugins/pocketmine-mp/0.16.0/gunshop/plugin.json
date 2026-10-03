@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "gunshop",
+  "name": "GunShop",
+  "display_name": "原创汉化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "0.1",
+  "author": [
+    "BEcraft GamePlay"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "gun store commands",
+  "website": null,
+  "main": "Gun\\Main",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "store",
+      "description": "gun store commands",
+      "usage": "/store list",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/gunshop/GunShop-0.1.phar",
+      "file_name": "GunShop-0.1.phar",
+      "sha256": "838cf4e1a1166cd754576a1cb1a7844e5248f016299387a2b87a53e06ba6e225",
+      "size": 4598,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/gunshop/GunShop-0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/枪械商店 - 原创汉化/[枪械商店]GunShop.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

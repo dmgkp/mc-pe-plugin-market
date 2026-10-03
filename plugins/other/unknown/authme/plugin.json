@@ -1,0 +1,314 @@
+{
+  "schema_version": 1,
+  "id": "authme",
+  "name": "AuthMe",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.4",
+  "author": [
+    "Xephi59"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "AuthMe prevents people, which aren't logged in, from doing stuff like placing blocks, moving, typing commands or seeing the inventory of the current player.",
+  "website": "http://dev.bukkit.org/bukkit-plugins/authme-reloaded/",
+  "main": "fr.xephi.authme.AuthMe",
+  "tags": [
+    "admin",
+    "protection",
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [
+    "[Vault, ChestShop, Spout, Multiverse-Core, Notifications, Citizens, CombatTag, Essentials, EssentialsSpawn]"
+  ],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "register",
+      "description": "Register an account",
+      "usage": "/register password confirmpassword",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "login",
+      "description": "Login into a account",
+      "usage": "/login password",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "changepassword",
+      "description": "Change password of a account",
+      "usage": "/changepassword oldPassword newPassword",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "logout",
+      "description": "Logout",
+      "usage": "/logout",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "unregister",
+      "description": "unregister your account",
+      "usage": "/unregister password",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "passpartu",
+      "description": "compare passpartu token",
+      "usage": "/passpartu token",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "authme",
+      "description": "AuthMe op commands",
+      "usage": "/authme reload|register playername password|changepassword playername password|unregister playername|version",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "email",
+      "description": "Add Email or recover password",
+      "usage": "/email add your@email.com your@email.com|change oldEmail newEmail|recovery your@email.com",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "captcha",
+      "description": "Captcha",
+      "usage": "/captcha theCaptcha",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "authme.player.*",
+      "description": "Gives access to all authme player commands",
+      "default": "true"
+    },
+    {
+      "name": "authme.admin.*",
+      "description": "Gives access to all authme admin commands",
+      "default": ""
+    },
+    {
+      "name": "authme.register",
+      "description": "Register an account",
+      "default": "true"
+    },
+    {
+      "name": "authme.login",
+      "description": "Login into a account",
+      "default": "true"
+    },
+    {
+      "name": "authme.changepassword",
+      "description": "Change password of a account",
+      "default": "true"
+    },
+    {
+      "name": "authme.logout",
+      "description": "Logout",
+      "default": "true"
+    },
+    {
+      "name": "authme.email",
+      "description": "Email",
+      "default": "true"
+    },
+    {
+      "name": "authme.passpartu",
+      "description": "passpartu",
+      "default": "true"
+    },
+    {
+      "name": "authme.allow2accounts",
+      "description": "allow more accounts for same ip",
+      "default": "false"
+    },
+    {
+      "name": "authme.seeOtherAccounts",
+      "description": "display other accounts about a player when he logs in",
+      "default": "false"
+    },
+    {
+      "name": "authme.unregister",
+      "description": "unregister your account",
+      "default": "true"
+    },
+    {
+      "name": "authme.admin.reload",
+      "description": "AuthMe reload commands",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.register",
+      "description": "AuthMe register command",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.changepassword",
+      "description": "AuthMe changepassword command",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.unregister",
+      "description": "AuthMe unregister command",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.purge",
+      "description": "AuthMe unregister command",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.convertflattosql",
+      "description": "Convert File to Sql method",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.convertfromrakamak",
+      "description": "Convert from Rakamak database to AuthMe",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.lastlogin",
+      "description": "Get last login date about a player",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.getemail",
+      "description": "Get last email about a player",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.chgemail",
+      "description": "Change a player email",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.accounts",
+      "description": "Display Players Accounts",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.xauthimport",
+      "description": "Import xAuth Database to AuthMe Database",
+      "default": "op"
+    },
+    {
+      "name": "authme.captcha",
+      "description": "Captcha",
+      "default": "true"
+    },
+    {
+      "name": "authme.admin.setspawn",
+      "description": "Set the AuthMe spawn point",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.spawn",
+      "description": "Teleport to AuthMe spawn point",
+      "default": "op"
+    },
+    {
+      "name": "authme.vip",
+      "description": "Allow vip slot when the server is full",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.purgebannedplayers",
+      "description": "Purge banned players",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.flattosqlite",
+      "description": "Convert File to Sqlite method",
+      "default": "op"
+    },
+    {
+      "name": "authme.bypassforcesurvival",
+      "description": "Bypass all ForceSurvival features",
+      "default": "false"
+    },
+    {
+      "name": "authme.admin.purgelastpos",
+      "description": "Purge last pos of players",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.switchantibot",
+      "description": "Switch AntiBot mode on/off",
+      "default": "op"
+    },
+    {
+      "name": "authme.bypassantibot",
+      "description": "Bypass the AntiBot check",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.royalauth",
+      "description": "Import RoyalAuth database into AuthMe",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.setfirstspawn",
+      "description": "Set the AuthMe First Spawn Point",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.firstspawn",
+      "description": "Teleport to AuthMe First Spawn Point",
+      "default": "op"
+    },
+    {
+      "name": "authme.admin.getip",
+      "description": "Get IP from a player ( fake and real )",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/other/unknown/authme/AuthMe-3.4.jar",
+      "file_name": "AuthMe-3.4.jar",
+      "sha256": "0c7800f95da22e2d7e2dbf6255919d74cf20009a1ea06b3777ea19e32bba2733",
+      "size": 1076298,
+      "download_paths": {
+        "github": "plugins/other/unknown/authme/AuthMe-3.4.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[登陆]AuthMe.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

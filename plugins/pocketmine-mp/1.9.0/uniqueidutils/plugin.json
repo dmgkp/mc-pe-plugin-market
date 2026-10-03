@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "uniqueidutils",
+  "name": "UniqueIdUtils",
+  "display_name": "检测插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.9.0",
+  "minecraft_versions": [
+    "1.9.0"
+  ],
+  "minecraft_version_range": ">=1.9.0 <1.10.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.13.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "64FF00"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows you to check a unique id of a player or your server.",
+  "website": null,
+  "main": "_64FF00\\UniqueIdUtils\\UniqueIdUtils",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "uuid",
+      "description": "Allows you to check a unique id of a player or your server.",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "uuidutils",
+      "description": "Allows you to check your server UUID",
+      "default": ""
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.9.0/uniqueidutils/UniqueIdUtils-1.1.0.phar",
+      "file_name": "UniqueIdUtils-1.1.0.phar",
+      "sha256": "9ea8a9d3536affd34f06b05b2ded3f4dcc97ad84aadd9e06393b8c48f99f8823",
+      "size": 2274,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/uniqueidutils/UniqueIdUtils-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/UUID检测插件/UUID检测插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

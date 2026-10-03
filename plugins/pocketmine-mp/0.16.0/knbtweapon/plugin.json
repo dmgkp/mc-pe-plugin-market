@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "knbtweapon",
+  "name": "KNBTWeapon",
+  "display_name": "加密",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Knight"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "KNBTWeapon指令",
+  "website": null,
+  "main": "KNBTWeapon\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "knw",
+      "description": "KNBTWeapon指令",
+      "usage": "/knw",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/knbtweapon/KNBTWeapon-1.0.0.phar",
+      "file_name": "KNBTWeapon-1.0.0.phar",
+      "sha256": "cc1f21176025f1949b33b2d1d5ca87f272514b54cca78771a56b46181c0e74ca",
+      "size": 20513,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/knbtweapon/KNBTWeapon-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/自定义武器 - 加密/[自定义武器]KNBTWeapon.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

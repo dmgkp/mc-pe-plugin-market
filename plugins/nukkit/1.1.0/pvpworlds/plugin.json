@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "id": "pvpworlds",
+  "name": "PVPWorlds",
+  "display_name": "世界",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "uuuuone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "世界PVP",
+  "website": null,
+  "main": "PVPWorlds.PVPWorlds",
+  "tags": [
+    "world",
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pvpworld",
+      "description": "pvpworld命令集",
+      "usage": "/pvpworld [add/del/list] [world]",
+      "permission": "pvpworld.command.pvpworld",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "pvpworld.command.pvpworld",
+      "description": "允许OP运行/pvpworld 命令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/pvpworlds/PVPWorlds-1.0.0.jar",
+      "file_name": "PVPWorlds-1.0.0.jar",
+      "sha256": "7f9fce2ce885f975bc0dc9d734fc479c517600fa6e023296ccdacfb22ff7acb1",
+      "size": 3700,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/pvpworlds/PVPWorlds-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/NUKKIT插件/NKpvp世界/NKpvp世界.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:12+08:00",
+  "minecraft_version_source": "api-inferred"
+}

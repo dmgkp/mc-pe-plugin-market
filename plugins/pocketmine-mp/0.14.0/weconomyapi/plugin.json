@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "id": "weconomyapi",
+  "name": "WEconomyAPI",
+  "display_name": "全新的经济",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Himpq"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Admin or Player Use commands.",
+  "website": null,
+  "main": "himpq\\economyapi\\main",
+  "tags": [
+    "economy",
+    "admin",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "we",
+      "description": "Admin or Player Use commands.",
+      "usage": "/we",
+      "permission": "economy.help",
+      "aliases": []
+    },
+    {
+      "name": "paymoney",
+      "description": "Pay Money",
+      "usage": "/paymoney <玩家> <金钱>",
+      "permission": "economy.pay",
+      "aliases": []
+    },
+    {
+      "name": "setmoney",
+      "description": "Set Money",
+      "usage": "/setmoney <玩家> <金钱>",
+      "permission": "economy.set",
+      "aliases": []
+    },
+    {
+      "name": "delmoney",
+      "description": "Del Money",
+      "usage": "/delmoney <玩家> <金钱>",
+      "permission": "economy.del",
+      "aliases": []
+    },
+    {
+      "name": "addmoney",
+      "description": "Add Money",
+      "usage": "/addmoney <玩家> <金钱>",
+      "permission": "economy.add",
+      "aliases": []
+    },
+    {
+      "name": "resetmoney",
+      "description": "Remove Set Money",
+      "usage": "/resetmoney <玩家>",
+      "permission": "economy.reset",
+      "aliases": []
+    },
+    {
+      "name": "lookmoney",
+      "description": "Look Money",
+      "usage": "/lookmoney <玩家>",
+      "permission": "economy.look",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/weconomyapi/WEconomyAPI-1.0.0.phar",
+      "file_name": "WEconomyAPI-1.0.0.phar",
+      "sha256": "d84b315db95be8a6031e06f648c0201128eaf9aae796db61db24922ac5b7f405",
+      "size": 8583,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/weconomyapi/WEconomyAPI-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/WEconomyAPI--全新的经济API/WEconomyAPI_v1.0.0--全新的经济API.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "id": "essentialstp",
+  "name": "EssentialsTP",
+  "display_name": "传送插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.9_风鸟优化",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "传送到家",
+  "website": null,
+  "main": "EssentialsTP\\essentialsTP",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "home",
+      "description": "传送到家",
+      "usage": "/home [名称]",
+      "permission": "essentialstp.command.home",
+      "aliases": []
+    },
+    {
+      "name": "sethome",
+      "description": "设置你的家",
+      "usage": "/sethome <名称>",
+      "permission": "essentialstp.command.sethome",
+      "aliases": []
+    },
+    {
+      "name": "delhome",
+      "description": "删除你的家",
+      "usage": "/delhome <名称>",
+      "permission": "essentialstp.command.delhome",
+      "aliases": []
+    },
+    {
+      "name": "back",
+      "description": "传送到上次死亡地点",
+      "usage": "/back",
+      "permission": "essentialstp.command.back",
+      "aliases": []
+    },
+    {
+      "name": "wild",
+      "description": "进行随机传送",
+      "usage": "/wild",
+      "permission": "essentialstp.command.wild",
+      "aliases": []
+    },
+    {
+      "name": "setspawn",
+      "description": "设置世界出生地",
+      "usage": "/setspawn",
+      "permission": "essentialstp.command.setspawn",
+      "aliases": []
+    },
+    {
+      "name": "spawn",
+      "description": "传送到出生地",
+      "usage": "/spawn",
+      "permission": "essentialstp.command.spawn",
+      "aliases": []
+    },
+    {
+      "name": "warp",
+      "description": "传送到地标",
+      "usage": "/warp [名称]",
+      "permission": "essentialstp.command.setwarp",
+      "aliases": []
+    },
+    {
+      "name": "setwarp",
+      "description": "设置传送地标",
+      "usage": "/setwarp <名称>",
+      "permission": "essentialstp.command.setwarp",
+      "aliases": []
+    },
+    {
+      "name": "delwarp",
+      "description": "删除传送地标",
+      "usage": "/delwarp <名称>",
+      "permission": "essentialstp.command.delwarp",
+      "aliases": []
+    },
+    {
+      "name": "tpa",
+      "description": "向别人发送一个传送请求原谅",
+      "usage": "/tpa <玩家>",
+      "permission": "essentialstp.command.tpa",
+      "aliases": []
+    },
+    {
+      "name": "tpahere",
+      "description": "请求别人传送到你这里",
+      "usage": "/tpahere <玩家>",
+      "permission": "essentialstp.command.tpahere",
+      "aliases": []
+    },
+    {
+      "name": "tpaccept",
+      "description": "接受传送请求",
+      "usage": "/tpaccept",
+      "permission": "essentialstp.command.tpaccept",
+      "aliases": []
+    },
+    {
+      "name": "tpdeny",
+      "description": "拒绝所有传送请求",
+      "usage": "/tpdeny",
+      "permission": "essentialstp.command.tpdeny",
+      "aliases": []
+    },
+    {
+      "name": "notp",
+      "description": "设置传送系统禁止传送世界",
+      "usage": "/notp [<add|remove> <世界>|list]",
+      "permission": "essentialstp.command.tpahere",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "essentialstp",
+      "description": "Allows player to break spawn signs",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/essentialstp/EssentialsTP-1.0.9.phar",
+      "file_name": "EssentialsTP-1.0.9.phar",
+      "sha256": "d245ae4afb530184f5798f6d482520ec242c623669d904ab7f588d659bec9665",
+      "size": 11442,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/essentialstp/EssentialsTP-1.0.9.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/传送插件/传送优化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

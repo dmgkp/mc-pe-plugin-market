@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "playervaults",
+  "name": "PlayerVaults",
+  "display_name": "在线云背包",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=1.12.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=3.0.0-ALPHA11"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "PlayerVaults - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "PlayerVaults\\PlayerVaults",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "playervault",
+      "description": "",
+      "usage": "",
+      "permission": "",
+      "aliases": [
+        "pv"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "playervaults.vault.1",
+      "description": "",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/playervaults/PlayerVaults-2.0.phar",
+      "file_name": "PlayerVaults-2.0.phar",
+      "sha256": "0b4511813a85b51e46c2143d732b06a7752414a92073709af5a38a54513d14f9",
+      "size": 19829,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/playervaults/PlayerVaults-2.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/PlayerVaults--在线云背包/PlayerVaults_v2.0.0--在线云背包.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

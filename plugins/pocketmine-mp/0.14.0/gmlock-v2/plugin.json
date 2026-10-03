@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "gmlock-v2",
+  "name": "gmlock",
+  "display_name": "防止乱给创造插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.0",
+  "author": [
+    "lie"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "gmlock - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "plugin\\Main",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/gmlock-v2/gmlock-3.0.0.phar",
+      "file_name": "gmlock-3.0.0.phar",
+      "sha256": "64c3e879522d8a6a9a617864de3e59b7dfecae0d1b7ca6d63d142dbac2e35a5e",
+      "size": 3277,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/gmlock-v2/gmlock-3.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/防止乱给创造插件/防止乱给创造插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:24+08:00",
+  "minecraft_version_source": "api-inferred"
+}

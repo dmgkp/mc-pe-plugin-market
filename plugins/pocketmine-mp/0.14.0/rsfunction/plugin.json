@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "rsfunction",
+  "name": "RsFunction",
+  "display_name": "研究用",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "0.15.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0",
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "zmdd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "RsFunction - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "RsFunction\\RsFunction",
+  "tags": [
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/rsfunction/RsFunction-1.0.0.phar",
+      "file_name": "RsFunction-1.0.0.phar",
+      "sha256": "e8d33297e8b4a769ba98e740d79fd155cd9343e427567dc0ee69a5194ad5e7a9",
+      "size": 2704,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/rsfunction/RsFunction-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/多功能/api1.8版 - 研究用/[公会]RsFunction.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

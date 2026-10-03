@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "cdk",
+  "name": "CDK",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "0.14.0",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Kevin"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "设置CDK",
+  "website": null,
+  "main": "CDK\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cdkset",
+      "description": "设置CDK",
+      "usage": "/cdkset <兑换码> <命令>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "cdk",
+      "description": "兑换CDK",
+      "usage": "/cdk <兑换码>",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/cdk/CDK-1.0.0.phar",
+      "file_name": "CDK-1.0.0.phar",
+      "sha256": "0b50f81adee92ec3a0fca0eb09338f9c991e156531513930c55fa66a41b478e5",
+      "size": 4432,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/cdk/CDK-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/CDK插件/CDK插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:14+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "essentialsspawn",
+  "name": "EssentialsSpawn",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "Pre2.13.1.2",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Provides spawn control commands, utilizing Essentials.",
+  "website": "http://tiny.cc/EssentialsCommands",
+  "main": "com.earth2me.essentials.spawn.EssentialsSpawn",
+  "tags": [
+    "world",
+    "admin"
+  ],
+  "dependencies": [
+    "[Essentials]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "setspawn",
+      "description": "Set the spawnpoint to your current position.",
+      "usage": "/<command> <group>",
+      "permission": "",
+      "aliases": [
+        "esetspawn"
+      ]
+    },
+    {
+      "name": "spawn",
+      "description": "Teleport to the spawnpoint.",
+      "usage": "/<command> [player]",
+      "permission": "",
+      "aliases": [
+        "espawn"
+      ]
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/other/unknown/essentialsspawn/EssentialsSpawn-Pre2.13.1.2.jar",
+      "file_name": "EssentialsSpawn-Pre2.13.1.2.jar",
+      "sha256": "ed41f7282125a683a4f58b55ab9b8e115e4eab93037f83c60300cb88124fb207",
+      "size": 16261,
+      "download_paths": {
+        "github": "plugins/other/unknown/essentialsspawn/EssentialsSpawn-Pre2.13.1.2.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[基础]EssentialsSpawn.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

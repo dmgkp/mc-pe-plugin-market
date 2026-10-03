@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "banitemadd",
+  "name": "BanItemAdd",
+  "display_name": "禁用物品插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.2.1",
+  "author": [
+    "zzx"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "禁用物品插件(可设置管理员)",
+  "website": null,
+  "main": "BanItem\\BanItem",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "banitem",
+      "description": "banitem (item/admin/list) to add/remove",
+      "usage": "/banitem (item/admin/list) to add/remove",
+      "permission": "banitem.command.banitem",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "banitem",
+      "description": "Allows access to the banitem command.",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.0/banitemadd/BanItemAdd-1.2.1.phar",
+      "file_name": "BanItemAdd-1.2.1.phar",
+      "sha256": "86cb9ddbd9c1b5dca394efc708ee5075e00983307874074a8e3b8063063d5b8a",
+      "size": 2192,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.0/banitemadd/BanItemAdd-1.2.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "../../../.openclaw/workspace/_build/zstage/006/0.11.0插件地图核心大全（不含付费）/插件/禁用物品插件/禁用物品插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T16:14:34+08:00",
+  "minecraft_version_source": "path"
+}

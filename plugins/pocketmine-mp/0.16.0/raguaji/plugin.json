@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "raguaji",
+  "name": "RaGUAJI",
+  "display_name": "挂机池",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "定制插件by 158"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "挂机池设置",
+  "website": null,
+  "main": "Ra\\GUAJI",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "rg",
+      "description": "挂机池设置",
+      "usage": "/rg one/two 选取挂机点\\n/rg set [name]设置该区域名字\\n/rg remove [name]删除挂机点",
+      "permission": "Ra.command.guaji",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Ra.command.guaji",
+      "description": "权限点",
+      "default": ""
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/raguaji/RaGUAJI-1.1.0.phar",
+      "file_name": "RaGUAJI-1.1.0.phar",
+      "sha256": "60daeb98cf5404a2711a2d8098306f74fe8d8ee42db497706fc8b9c0b6016799",
+      "size": 3062,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/raguaji/RaGUAJI-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/挂机池/[挂机池]RaGUAJI.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

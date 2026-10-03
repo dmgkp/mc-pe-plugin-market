@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "1.0.5",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "emerald",
+      "name": "Emerald",
+      "display_name": "手持物品附魔",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "0.14.0",
+      "plugin_version": "1.0.5",
+      "path": "plugins/pocketmine-mp/0.14.0/emerald/plugin.json",
+      "file": "plugins/pocketmine-mp/0.14.0/emerald/Emerald-1.0.5.phar",
+      "sha256": "8de1066bd8d8201bcf8cad4e4f3c4161f9ef693db6d87fb4f7eecd1e9f0c6904",
+      "size": 1409,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/emerald/Emerald-1.0.5.phar"
+      }
+    }
+  ]
+}

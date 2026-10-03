@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "id": "serverlovemcpe",
+  "name": "ServerLoveMCPE",
+  "display_name": "恋爱插件汉化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=1.12.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=3.0.0-ALPHA10"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "TheDeibo, ratchetgame98, YYT汉化"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "给你的服务器添加一点浪漫!",
+  "website": null,
+  "main": "ServerLoveMCPE\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "serverlove",
+      "description": "§5ServerLove插件信息",
+      "usage": "§5/serverlove.",
+      "permission": "serverlovemcpe.serverlove",
+      "aliases": []
+    },
+    {
+      "name": "love",
+      "description": "§5 爱一个玩家",
+      "usage": "/爱 <playerName>",
+      "permission": "serverlovemcpe.love",
+      "aliases": [
+        "爱"
+      ]
+    },
+    {
+      "name": "breakup",
+      "description": "§5 和一个玩家分手",
+      "usage": "§5/分手 <playerName>",
+      "permission": "serverlovemcpe.breakup",
+      "aliases": [
+        "分手"
+      ]
+    },
+    {
+      "name": "nolove",
+      "description": "§5设置你是否可以被爱",
+      "usage": "§5/状态 <nolove | love>",
+      "permission": "serverlovemcpe.nolove",
+      "aliases": [
+        "状态"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "serverlovemcpe.serverlove",
+      "description": "§5显示插件信息",
+      "default": "true"
+    },
+    {
+      "name": "serverlovemcpe.love",
+      "description": "§5允许用户爱上另一个玩家",
+      "default": "true"
+    },
+    {
+      "name": "serverlovemcpe.breakup",
+      "description": "§5允许用户与另一个玩家分手",
+      "default": "true"
+    },
+    {
+      "name": "serverlovemcpe.nolove",
+      "description": "§5允许用户被/不被爱",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/serverlovemcpe/ServerLoveMCPE-1.0.1.phar",
+      "file_name": "ServerLoveMCPE-1.0.1.phar",
+      "sha256": "208af845d8d2e21e63863fc77c2aeba4b84253e847d717ac82afef11ffaf3689",
+      "size": 11567,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/serverlovemcpe/ServerLoveMCPE-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/ServerLoveMCPE--恋爱插件汉化/ServerLoveMCPE_v1.0.1--恋爱插件汉化.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:52+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "economyapi",
+  "name": "EconomyAPI",
+  "display_name": "经济核心插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.9",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows to control all of functions in EconomyAPI",
+  "website": null,
+  "main": "onebone\\economyapi\\EconomyAPI",
+  "tags": [
+    "economy",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "economyapi.*",
+      "description": "Allows player to take money from others",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/economyapi/EconomyAPI-2.0.9.phar",
+      "file_name": "EconomyAPI-2.0.9.phar",
+      "sha256": "cb5eb3ecb4d4ef9ef4cf49a1f755e3e3c6761cefbbad0cac817db038c9522f14",
+      "size": 97055,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/economyapi/EconomyAPI-2.0.9.phar"
+      }
+    }
+  ],
+  "history": {
+    "2.0.1汉化by风歌青天": [
+      {
+        "file_name": "EconomyAPI-2.0.1_by.phar",
+        "sha256": "eeb5ff11bff2ed26d699ddb50619828a2327656f13a86912f135b4724f02ccdc",
+        "size": 26384
+      }
+    ],
+    "2.0.4": [
+      {
+        "file_name": "EconomyAPI-2.0.4.phar",
+        "sha256": "40e339c96210abc47be99700bc90b6143f1740f960855ae15461d17d7f35071a",
+        "size": 34366
+      },
+      {
+        "file_name": "EconomyAPI-2.0.4.phar",
+        "sha256": "f5ea2420d14ab0265c306d5a65200e2f7ace6c4bc71b6bfb5890f341bd222313",
+        "size": 96579
+      }
+    ],
+    "2.0.7": [
+      {
+        "file_name": "EconomyAPI-2.0.7.phar",
+        "sha256": "88f28ab55d883cc1a725121fbb74b7950a25ab2e9afedc0ef8b410f586d10222",
+        "size": 99817
+      }
+    ],
+    "2.0.8": [
+      {
+        "file_name": "EconomyAPI-2.0.8.phar",
+        "sha256": "72236a4ad56583a4a9607b7532bc75948d2ea833ec0f870464e3f9b4751722e0",
+        "size": 84806
+      }
+    ],
+    "2.0.9|✘wine汉化": [
+      {
+        "file_name": "EconomyAPI-2.0.9_wine.phar",
+        "sha256": "574d69af9e75db0893b71319b5f0068748bcb5c1207813c5e64a1c8c9d6d89dd",
+        "size": 87453
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/EconomyAPI经济核心插件/EconomyAPI_v2.0.9.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:19+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "zhyjetpack-v2",
+  "name": "ZhyJetPack",
+  "display_name": "喷气背包",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "Zhy"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Make players fly in the sky.",
+  "website": null,
+  "main": "ZhyJetPack\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "givejetpack",
+      "description": "强制生成一个宝箱",
+      "usage": "/givejetpack",
+      "permission": "zhy.jetpack",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "zhy.*",
+      "description": "允许给予一个喷气背包",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/zhyjetpack-v2/ZhyJetPack-1.0.phar",
+      "file_name": "ZhyJetPack-1.0.phar",
+      "sha256": "f65ee4e41a5622f9582f63ec8a4c802224487cce60782c3e47fdf28eda966c86",
+      "size": 4580,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/zhyjetpack-v2/ZhyJetPack-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/喷气背包/喷气背包.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:15+08:00",
+  "minecraft_version_source": "api-inferred"
+}

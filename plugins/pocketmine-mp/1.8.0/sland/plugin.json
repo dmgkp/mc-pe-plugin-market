@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "sland",
+  "name": "SLand",
+  "display_name": "更好的领地",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.7",
+  "author": [
+    "MUedsa(SmallLandGenerator),Homenear(Main)"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "一个领地插件!",
+  "website": null,
+  "main": "SLand\\SLand",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "Sland",
+      "description": "领地插件-_-BY.HomeNear",
+      "usage": "/Sland help",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/sland/SLand-1.1.7.phar",
+      "file_name": "SLand-1.1.7.phar",
+      "sha256": "c7d676ec445197b04807b9b341d5bf06ba87b1a31142e7448afd52e11dda1ba1",
+      "size": 81360,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/sland/SLand-1.1.7.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/更好的领地/更好的领地.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:18+08:00",
+  "minecraft_version_source": "api-inferred"
+}

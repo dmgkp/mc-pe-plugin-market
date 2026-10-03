@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "id": "changeworlds",
+  "name": "ChangeWorlds",
+  "display_name": "世界替换插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Seaside"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "输入指令可以备份整个服务器世界的数据",
+  "website": null,
+  "main": "ChangeWorlds\\ChangeWorlds",
+  "tags": [
+    "world"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "CW",
+      "description": "输入指令可以备份整个服务器世界的数据",
+      "usage": "",
+      "permission": "ChangeWorlds.command.更换资源区",
+      "aliases": []
+    },
+    {
+      "name": "ChangeWorlds.command.更换资源区",
+      "description": "OP有这个权限",
+      "usage": "",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/changeworlds/ChangeWorlds-1.0.0.phar",
+      "file_name": "ChangeWorlds-1.0.0.phar",
+      "sha256": "1f786cab5415524e37290dba943d0555110f68a3c88f71160e7891c9ee93809a",
+      "size": 5732,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/changeworlds/ChangeWorlds-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/ChangeWorlds世界替换插件/ChangeWorlds_v1.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:16+08:00",
+  "minecraft_version_source": "api-inferred"
+}

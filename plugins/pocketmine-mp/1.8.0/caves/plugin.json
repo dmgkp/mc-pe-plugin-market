@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "caves",
+  "name": "Caves",
+  "display_name": "天然矿洞生成器插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.0",
+  "author": [
+    "boybook"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Caves!",
+  "website": null,
+  "main": "boybook\\Caves\\Caves",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cave",
+      "description": "",
+      "usage": "/cave [旋转角度][矿洞长度][分叉数][矿洞强度]",
+      "permission": "Caves.command.cave",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Caves.command.cave",
+      "description": "Allows to ",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/caves/Caves-1.1.0.phar",
+      "file_name": "Caves-1.1.0.phar",
+      "sha256": "5ccfadb23b5a9da69256dc4a4528c09f92250ab4bd7c003df71af10fc39242b8",
+      "size": 16001,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/caves/Caves-1.1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/天然矿洞生成器插件/天然矿洞生成器插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:30+08:00",
+  "minecraft_version_source": "api-inferred"
+}

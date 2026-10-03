@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "id": "ores",
+  "name": "Ores",
+  "display_name": "挖矿管理",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.7.1",
+  "author": [
+    "Lemon_YC"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Ores 总命令",
+  "website": null,
+  "main": "Ores\\Ores",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "ore",
+      "description": "Ores 总命令",
+      "usage": "/ore help",
+      "permission": "Ores.command.ore",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Ores.command.ore",
+      "description": "Ores 总命令",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/ores/Ores-1.7.1.phar",
+      "file_name": "Ores-1.7.1.phar",
+      "sha256": "2c07a7cc059b97297e6a2e485058243ce88142854ceb95d51bd927804a2427ee",
+      "size": 2941,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/ores/Ores-1.7.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/挖矿管理/[挖矿管理]Ores.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:08+08:00",
+  "minecraft_version_source": "api-inferred"
+}

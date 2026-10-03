@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "id": "groupmanager",
+  "name": "GroupManager",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0 (2.12.1) (Phoenix)",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Provides on-the-fly system for permissions system created by Nijikokun. 权限加载于内存并定时保存至文件 汉化 尘曲.",
+  "website": "http://ess.khhq.net/wiki/Group_Manager",
+  "main": "org.anjocaido.groupmanager.GroupManager",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "manuadd",
+      "description": "移动玩家到指定组. (如果不存在会添加至文件)",
+      "usage": "/<command> <玩家> <组> | [世界]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manudel",
+      "description": "移除指定玩家的配置文件, 并移动到默认组.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manuaddsub",
+      "description": "移动玩家到子组.",
+      "usage": "/<command> <玩家> <组>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manudelsub",
+      "description": "将玩家从子组中移出.",
+      "usage": "/<command> <玩家> <组>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangadd",
+      "description": "增加一个权限组.",
+      "usage": "/<command> <组>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangdel",
+      "description": "移除一个权限组, 玩家会被移动到默认组",
+      "usage": "/<command> <组>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manuaddp",
+      "description": "为玩家增加权限.",
+      "usage": "/<command> <玩家> <权限>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manudelp",
+      "description": "为玩家移除权限.",
+      "usage": "/<command> <玩家> <权限>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manuclearp",
+      "description": "移除指定玩家所有权限.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manulistp",
+      "description": "列出玩家全部权限.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manucheckp",
+      "description": "检查玩家是否具有权限并查看来源.",
+      "usage": "/<command> <玩家> <权限>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangaddp",
+      "description": "为组增加权限.",
+      "usage": "/<command> <组> <权限>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangdelp",
+      "description": "为组移除权限.",
+      "usage": "/<command> <组> <权限>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangclearp",
+      "description": "移除权限组全部权限.",
+      "usage": "/<command> <组> <权限>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manglistp",
+      "description": "列出权限组全部权限.",
+      "usage": "/<command> <组>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangcheckp",
+      "description": "检查权限组是否具有权限并查看来源.",
+      "usage": "/<command> <组> <权限>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangaddi",
+      "description": "添加组1到组2的继承列表.",
+      "usage": "/<command> <组1> <组2>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangdeli",
+      "description": "将组1从组2的继承列表中移除.",
+      "usage": "/<command> <组1> <组2>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manuaddv",
+      "description": "添加/替换玩家的变量. 目前支持 prefix 和 suffix.",
+      "usage": "/<command> <玩家> <变量> <值>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manudelv",
+      "description": "移除玩家的变量.",
+      "usage": "/<command> <玩家> <变量>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manulistv",
+      "description": "列出玩家的全部变量.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manucheckv",
+      "description": "查询玩家是否具有变量并查看来源.",
+      "usage": "/<command> <玩家> <变量>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangaddv",
+      "description": "添加/替换组的变量. 目前支持 prefix 和 suffix.",
+      "usage": "/<command> <组> <变量> <值>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangdelv",
+      "description": "移除组的变量.",
+      "usage": "/<command> <组> <变量>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manglistv",
+      "description": "列出组的全部变量",
+      "usage": "/<command> <组>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mangcheckv",
+      "description": "查询组是否具有变量并查看来源.",
+      "usage": "/<command> <组> <变量>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manwhois",
+      "description": "查看玩家属于何组",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tempadd",
+      "description": "为玩家创建一个临时权限拷贝.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tempdel",
+      "description": "移除玩家的临时权限拷贝.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "templist",
+      "description": "列出使用/tempadd进入超载权限模式下的玩家 .",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "tempdelall",
+      "description": "移除所有使用 /tempadd 进入超载模式的玩家.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mansave",
+      "description": "保存权限至文件.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manload",
+      "description": "重载当前世界和配置文件. 或重载指定世界.",
+      "usage": "/<command> [世界]",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "listgroups",
+      "description": "列出可用组.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "manlistg"
+      ]
+    },
+    {
+      "name": "manpromote",
+      "description": "提升同一继承组的玩家到更高级别.",
+      "usage": "/<command> <玩家> <组>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mandemote",
+      "description": "降低同一继承组的玩家到更低级别.",
+      "usage": "/<command> <玩家> <组>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mantogglevalidate",
+      "description": "开启/关闭在线验证.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mantogglesave",
+      "description": "开启/关闭自动保存.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manworld",
+      "description": "查看已选世界名称",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manselect",
+      "description": "选择一个世界以进行后续指令.",
+      "usage": "/<command> <世界>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "manclear",
+      "description": "清空所选世界, 指令将作用在当前世界.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "mancheckw",
+      "description": "查看权限文件保存路径.",
+      "usage": "/<command> <世界>",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/other/unknown/groupmanager/GroupManager-2.0_2.12.1_Phoenix.jar",
+      "file_name": "GroupManager-2.0_2.12.1_Phoenix.jar",
+      "sha256": "fbb6a37c509eae5cdfaace859010dc5c8edfb228fbe26eb4a1d3fc937a1ace1b",
+      "size": 121881,
+      "download_paths": {
+        "github": "plugins/other/unknown/groupmanager/GroupManager-2.0_2.12.1_Phoenix.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[基础]EssentialsGroupManager.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "id": "simpleprison",
+  "name": "SimplePrison",
+  "display_name": "监狱插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.6.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.6.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.7.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.10.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1.1",
+  "author": [
+    "BOX"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "SimplePrison",
+  "website": null,
+  "main": "SimplePrison\\main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "spsp1",
+      "description": "监狱地点一",
+      "usage": "Usage: /spsp1",
+      "permission": "SimplePrison.makepos",
+      "aliases": []
+    },
+    {
+      "name": "spsp2",
+      "description": "监狱地点二",
+      "usage": "Usage: /spsp2",
+      "permission": "SimplePrison.makepos",
+      "aliases": []
+    },
+    {
+      "name": "spsp",
+      "description": "监狱地点中心",
+      "usage": "Usage: /spsp2",
+      "permission": "SimplePrison.makepos",
+      "aliases": []
+    },
+    {
+      "name": "spout",
+      "description": "释放犯人",
+      "usage": "Usage: /spput [playername]",
+      "permission": "SimplePrison.out",
+      "aliases": []
+    },
+    {
+      "name": "spin",
+      "description": "添加犯人",
+      "usage": "Usage: /spin [playername]",
+      "permission": "SimplePrison.out",
+      "aliases": []
+    },
+    {
+      "name": "spupdate",
+      "description": "更新插件",
+      "usage": "Usage: /spupdate",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "SimplePrison.makepos",
+      "description": "Allows the user set SimplePrison's position",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.6.0/simpleprison/SimplePrison-1.1.1.phar",
+      "file_name": "SimplePrison-1.1.1.phar",
+      "sha256": "be46482e7c66b7ccef52e054fcce0b9211f53727c5ad911dfcc23e6a1b9c319b",
+      "size": 18697,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.6.0/simpleprison/SimplePrison-1.1.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/监狱插件/监狱插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:20+08:00",
+  "minecraft_version_source": "api-inferred"
+}

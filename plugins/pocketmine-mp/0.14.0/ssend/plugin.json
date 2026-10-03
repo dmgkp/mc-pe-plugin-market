@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "id": "ssend",
+  "name": "[底部]Ssend",
+  "display_name": "版",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "app"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "结婚 主命令",
+  "website": null,
+  "main": "db\\Main",
+  "tags": [
+    "player"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "结婚",
+      "description": "结婚 主命令",
+      "usage": "/结婚",
+      "permission": "jh.marry",
+      "aliases": []
+    },
+    {
+      "name": "称号",
+      "description": "设置称号",
+      "usage": "/称号 [id] [称号]",
+      "permission": "db.command.op",
+      "aliases": []
+    },
+    {
+      "name": "禁言",
+      "description": "禁言/解禁 玩家",
+      "usage": "/禁言 [id]",
+      "permission": "db.command.op",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "jh.marry",
+      "description": "结婚 主命令",
+      "default": "true"
+    },
+    {
+      "name": "db.command.op",
+      "description": "只有OP可以使用",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/ssend/Ssend-1.0.0.phar",
+      "file_name": "Ssend-1.0.0.phar",
+      "sha256": "b4c7985c1f1b077618452cc5e6d3b57b17918224605805327e398c2793c83706",
+      "size": 30434,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/ssend/Ssend-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/多功能/api3.0版/[底部]Ssend.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

@@ -1,0 +1,191 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-minecraft-version",
+  "minecraft_version": "1.9.0",
+  "count": 10,
+  "plugins": [
+    {
+      "id": "block",
+      "name": "Block",
+      "display_name": "方块追加",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.9.0/block/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/block/Block-1.0.0.phar",
+      "sha256": "d71f7e77ac8445d2a24e8cdec7eda60794a36a3f04661c0d51da0edc9285c325",
+      "size": 4121,
+      "tags": [
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/block/Block-1.0.0.phar"
+      }
+    },
+    {
+      "id": "ghast",
+      "name": "Ghast",
+      "display_name": "恶魂",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "0.1",
+      "path": "plugins/pocketmine-mp/1.9.0/ghast/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/ghast/Ghast-0.1.phar",
+      "sha256": "1849c7cf6851eb3ec3c4667ac3398760592e351c79fb35595393cfc43b92ff90",
+      "size": 3548,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/ghast/Ghast-0.1.phar"
+      }
+    },
+    {
+      "id": "jail",
+      "name": "Jail",
+      "display_name": "监狱",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "2.0.3",
+      "path": "plugins/pocketmine-mp/1.9.0/jail/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/jail/Jail-2.0.3.phar",
+      "sha256": "82b30ab273c91b9ef7fc5a479f3d2006f5b9a923808df10b61c12bb154f8a239",
+      "size": 160357,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/jail/Jail-2.0.3.phar"
+      }
+    },
+    {
+      "id": "loginprompt",
+      "name": "LoginPrompt",
+      "display_name": "宠物蛋插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.9.0/loginprompt/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/loginprompt/LoginPrompt-1.1.0.phar",
+      "sha256": "33bc514bca340b3ca0e157c1bf6f75f11666ce9a1c8cf90bc9dc2c5ab09aa2b7",
+      "size": 24374,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/loginprompt/LoginPrompt-1.1.0.phar"
+      }
+    },
+    {
+      "id": "plugin",
+      "name": "出生点粒子",
+      "display_name": "出生点粒子",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.9.0/plugin/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/plugin/file-1.0.0.phar",
+      "sha256": "c294297d36dab02114db3363e631fef40302960f8bef6705f64beffaa630497d",
+      "size": 20925,
+      "tags": [
+        "world",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/plugin/file-1.0.0.phar"
+      }
+    },
+    {
+      "id": "rgoodpumpkin",
+      "name": "RGoodPumpkin",
+      "display_name": "踩南瓜灯",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "0.1",
+      "path": "plugins/pocketmine-mp/1.9.0/rgoodpumpkin/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/rgoodpumpkin/RGoodPumpkin-0.1.phar",
+      "sha256": "5602cf5465b6704aa02649f29cfd0f819d7a11b22e14e5f71ea4aaee4851c278",
+      "size": 2783,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/rgoodpumpkin/RGoodPumpkin-0.1.phar"
+      }
+    },
+    {
+      "id": "uniqueidutils",
+      "name": "UniqueIdUtils",
+      "display_name": "检测插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "1.1.0",
+      "path": "plugins/pocketmine-mp/1.9.0/uniqueidutils/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/uniqueidutils/UniqueIdUtils-1.1.0.phar",
+      "sha256": "9ea8a9d3536affd34f06b05b2ded3f4dcc97ad84aadd9e06393b8c48f99f8823",
+      "size": 2274,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/uniqueidutils/UniqueIdUtils-1.1.0.phar"
+      }
+    },
+    {
+      "id": "walkingparticles",
+      "name": "WalkingParticles",
+      "display_name": "粒子",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "2.0.0 beta",
+      "path": "plugins/pocketmine-mp/1.9.0/walkingparticles/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/walkingparticles/WalkingParticles-2.0.0_beta.phar",
+      "sha256": "c805e549d790d46fdcb40a3b13d913d9592969b0945709d8a67226eddbb79721",
+      "size": 175660,
+      "tags": [
+        "admin",
+        "cosmetic"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/walkingparticles/WalkingParticles-2.0.0_beta.phar"
+      }
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "display_name": "天气插件",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "1.0.1.4",
+      "path": "plugins/pocketmine-mp/1.9.0/weather/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/weather/Weather-1.0.1.4.phar",
+      "sha256": "2606ec2ba839c2c746115a1061e5654aa896c5cac2f362b16a19581452d73e20",
+      "size": 6562,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/weather/Weather-1.0.1.4.phar"
+      }
+    },
+    {
+      "id": "xfdb",
+      "name": "XFDB",
+      "display_name": "研究用",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.9.0",
+      "plugin_version": "1.0.0",
+      "path": "plugins/pocketmine-mp/1.9.0/xfdb/plugin.json",
+      "file": "plugins/pocketmine-mp/1.9.0/xfdb/XFDB-1.0.0.phar",
+      "sha256": "dae269c5e95ec4d43cfa9adec2db559714ae61285bb225e6baf2c19147a5abf9",
+      "size": 7568,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.9.0/xfdb/XFDB-1.0.0.phar"
+      }
+    }
+  ]
+}

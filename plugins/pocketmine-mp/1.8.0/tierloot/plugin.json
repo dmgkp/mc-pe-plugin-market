@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "tierloot",
+  "name": "TierLoot",
+  "display_name": "宝箱插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "XFuryMCPE"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Find random loot underground",
+  "website": "http://shop.avengetech.net",
+  "main": "xfury\\tl\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/tierloot/TierLoot-1.0.0.phar",
+      "file_name": "TierLoot-1.0.0.phar",
+      "sha256": "d093f569538af7e16cf56e3e4bb81e0c361fcbe240bdf7150eaf3c9d7c264234",
+      "size": 4224,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/tierloot/TierLoot-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/PocketMine插件/TierLoot--宝箱插件/TierLoot_v1.0.0--宝箱插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:49+08:00",
+  "minecraft_version_source": "api-inferred"
+}

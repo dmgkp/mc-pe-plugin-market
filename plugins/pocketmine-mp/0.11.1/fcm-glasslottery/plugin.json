@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "id": "fcm-glasslottery",
+  "name": "FCM_GlassLottery",
+  "display_name": "玻璃抽奖",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "FENGberd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "玻璃抽奖插件主命令",
+  "website": null,
+  "main": "FCM_GlassLottery\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "gly",
+      "description": "玻璃抽奖插件主命令",
+      "usage": "/gly <add [ID]|remove [ID]|reload>",
+      "permission": "FCM_GlassLottery.command",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "FCM_GlassLottery.*",
+      "description": "根权限",
+      "default": "op"
+    },
+    {
+      "name": "FCM_GlassLottery.command",
+      "description": "指令使用权限",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/fcm-glasslottery/FCM_GlassLottery-1.0.1.phar",
+      "file_name": "FCM_GlassLottery-1.0.1.phar",
+      "sha256": "c74470db71cf79a6457c41c7587a4e1526edce8dc56b92ac6f06aa33a92d5727",
+      "size": 2473,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/fcm-glasslottery/FCM_GlassLottery-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/玻璃抽奖/玻璃抽奖.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:29+08:00",
+  "minecraft_version_source": "path"
+}

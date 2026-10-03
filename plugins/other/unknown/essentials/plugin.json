@@ -1,0 +1,1396 @@
+{
+  "schema_version": 1,
+  "id": "essentials",
+  "name": "Essentials",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "Pre2.13.1.2",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Provides an essential, core set of commands for Bukkit.",
+  "website": "http://tiny.cc/EssentialsCommands",
+  "main": "com.earth2me.essentials.Essentials",
+  "tags": [
+    "admin",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "afk",
+      "description": "切换暂离状态.",
+      "usage": "/<command> [玩家]",
+      "permission": "",
+      "aliases": [
+        "eafk",
+        "away",
+        "eaway"
+      ]
+    },
+    {
+      "name": "antioch",
+      "description": "在目标位置放置一个点燃的TNT.",
+      "usage": "/<command> [文本]",
+      "permission": "",
+      "aliases": [
+        "eantioch",
+        "grenade",
+        "egrenade",
+        "tnt",
+        "etnt"
+      ]
+    },
+    {
+      "name": "back",
+      "description": "回到你上次传送(tp/spawn/warp)的地方.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "eback",
+        "return",
+        "ereturn"
+      ]
+    },
+    {
+      "name": "backup",
+      "description": "进行备份.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "ebackup"
+      ]
+    },
+    {
+      "name": "balance",
+      "description": "查看玩家拥有的现金,不输入默认为自己.",
+      "usage": "/<command> [玩家]",
+      "permission": "",
+      "aliases": [
+        "bal",
+        "ebal",
+        "ebalance",
+        "money",
+        "emoney"
+      ]
+    },
+    {
+      "name": "balancetop",
+      "description": "查看服务器财富榜.",
+      "usage": "/<command> <page>",
+      "permission": "",
+      "aliases": [
+        "ebalancetop",
+        "baltop",
+        "ebaltop"
+      ]
+    },
+    {
+      "name": "ban",
+      "description": "封禁一个玩家.",
+      "usage": "/<command> <玩家> [理由]",
+      "permission": "",
+      "aliases": [
+        "eban"
+      ]
+    },
+    {
+      "name": "banip",
+      "description": "封禁一个玩家的IP地址.",
+      "usage": "/<command> <IP地址或玩家名称>",
+      "permission": "",
+      "aliases": [
+        "ebanip"
+      ]
+    },
+    {
+      "name": "book",
+      "description": "允许打开并编辑一本书.",
+      "usage": "/<command> [标题|作者 [名称]]",
+      "permission": "",
+      "aliases": [
+        "ebook"
+      ]
+    },
+    {
+      "name": "break",
+      "description": "破坏掉你面对着的方块.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "ebreak"
+      ]
+    },
+    {
+      "name": "broadcast",
+      "description": "发送一个全服广播.",
+      "usage": "/<command> <文本>",
+      "permission": "",
+      "aliases": [
+        "bc",
+        "ebc",
+        "bcast",
+        "ebcast",
+        "ebroadcast",
+        "shout",
+        "eshout"
+      ]
+    },
+    {
+      "name": "bigtree",
+      "description": "在你的视野内生成一颗大树.",
+      "usage": "/<command> <tree|redwood|jungle>",
+      "permission": "",
+      "aliases": [
+        "ebigtree",
+        "largetree",
+        "elargetree"
+      ]
+    },
+    {
+      "name": "burn",
+      "description": "使玩家着火.",
+      "usage": "/<command> <玩家> <时间(秒)>",
+      "permission": "",
+      "aliases": [
+        "eburn"
+      ]
+    },
+    {
+      "name": "clearinventory",
+      "description": "清空指定玩家背包物品.",
+      "usage": "/<command> [玩家|*] [物品[:<数据值>]|*|**]",
+      "permission": "",
+      "aliases": [
+        "ci",
+        "eci",
+        "clean",
+        "eclean",
+        "clear",
+        "eclear",
+        "clearinvent",
+        "eclearinvent",
+        "eclearinventory"
+      ]
+    },
+    {
+      "name": "compass",
+      "description": "显示当前你的面朝方向.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "ecompass",
+        "direction",
+        "edirection"
+      ]
+    },
+    {
+      "name": "customtext",
+      "description": "允许创建自定义信息指令.",
+      "usage": "/<alias> - 在bukkit.yml中定义",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "delhome",
+      "description": "删除一个家.",
+      "usage": "/<command> [玩家:]<名称>",
+      "permission": "",
+      "aliases": [
+        "edelhome",
+        "remhome",
+        "eremhome",
+        "rmhome",
+        "ermhome"
+      ]
+    },
+    {
+      "name": "deljail",
+      "description": "删除一个监狱.",
+      "usage": "/<command> <监狱名称>",
+      "permission": "",
+      "aliases": [
+        "edeljail",
+        "remjail",
+        "eremjail",
+        "rmjail",
+        "ermjail"
+      ]
+    },
+    {
+      "name": "delwarp",
+      "description": "删除一个地标.",
+      "usage": "/<command> <地标名称>",
+      "permission": "",
+      "aliases": [
+        "edelwarp",
+        "remwarp",
+        "eremwarp",
+        "rmwarp",
+        "ermwarp"
+      ]
+    },
+    {
+      "name": "depth",
+      "description": "查看你所在位置的海拔高度.",
+      "usage": "/depth",
+      "permission": "",
+      "aliases": [
+        "edepth",
+        "height",
+        "eheight"
+      ]
+    },
+    {
+      "name": "eco",
+      "description": "调整玩家的经济状况(给钱|拿钱|设置|重置).",
+      "usage": "/<command> <give|take|set|reset> <玩家> <数量>",
+      "permission": "",
+      "aliases": [
+        "eeco",
+        "economy",
+        "eeconomy"
+      ]
+    },
+    {
+      "name": "enchant",
+      "description": "附魔手中物品.",
+      "usage": "/<command> <附魔名称> [附魔等级]",
+      "permission": "",
+      "aliases": [
+        "eenchant",
+        "enchantment",
+        "eenchantment"
+      ]
+    },
+    {
+      "name": "enderchest",
+      "description": "查看玩家的末影箱. 不输入则为自己.",
+      "usage": "/<command> [玩家]",
+      "permission": "",
+      "aliases": [
+        "echest",
+        "eechest",
+        "eenderchest",
+        "endersee",
+        "eendersee",
+        "ec",
+        "eec"
+      ]
+    },
+    {
+      "name": "essentials",
+      "description": "重载Essentials插件.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "eessentials",
+        "ess",
+        "eess",
+        "essversion"
+      ]
+    },
+    {
+      "name": "exp",
+      "description": "给予,设置,或查看一个玩家的经验值.",
+      "usage": "/<command> [show|set|give] [玩家名称 [数量]]",
+      "permission": "",
+      "aliases": [
+        "eexp",
+        "xp"
+      ]
+    },
+    {
+      "name": "ext",
+      "description": "熄灭玩家身上的火.",
+      "usage": "/<command> [玩家]",
+      "permission": "",
+      "aliases": [
+        "eext",
+        "extinguish",
+        "eextinguish"
+      ]
+    },
+    {
+      "name": "feed",
+      "description": "使玩家饱食度回复满.",
+      "usage": "/<command> [玩家]",
+      "permission": "",
+      "aliases": [
+        "eat",
+        "eeat",
+        "efeed"
+      ]
+    },
+    {
+      "name": "fly",
+      "description": "开启/关闭飞行状态!",
+      "usage": "/<command> [玩家] [on|off]",
+      "permission": "",
+      "aliases": [
+        "efly"
+      ]
+    },
+    {
+      "name": "fireball",
+      "description": "扔出一个火球.",
+      "usage": "/<command> [small|skull]",
+      "permission": "",
+      "aliases": [
+        "efireball",
+        "fireentity",
+        "efireentity",
+        "fireskull",
+        "efireskull"
+      ]
+    },
+    {
+      "name": "firework",
+      "description": "允许你修改手中的烟花",
+      "usage": "/<command> <<meta param>|power [amount]|clear|fire [amount]>",
+      "permission": "",
+      "aliases": [
+        "efirework"
+      ]
+    },
+    {
+      "name": "gamemode",
+      "description": "改变某玩家的游戏模式.",
+      "usage": "/<command> <survival|creative|adventure> [玩家]",
+      "permission": "",
+      "aliases": [
+        "adventure",
+        "eadventure",
+        "adventuremode",
+        "eadventuremode",
+        "creative",
+        "eecreative",
+        "creativemode",
+        "ecreativemode",
+        "egamemode",
+        "gm",
+        "egm",
+        "gma",
+        "egma",
+        "gmc",
+        "egmc",
+        "gms",
+        "egms",
+        "gmt",
+        "egmt",
+        "survival",
+        "esurvival",
+        "survivalmode",
+        "esurvivalmode"
+      ]
+    },
+    {
+      "name": "gc",
+      "description": "报告服务器剩余资源信息.",
+      "usage": "/<command> [all]",
+      "permission": "",
+      "aliases": [
+        "lag",
+        "elag",
+        "egc",
+        "mem",
+        "emem",
+        "memory",
+        "ememory",
+        "uptime",
+        "euptime",
+        "tps",
+        "etps",
+        "entities",
+        "eentities"
+      ]
+    },
+    {
+      "name": "getpos",
+      "description": "查看你或其他玩家的坐标.",
+      "usage": "/<command> [玩家]",
+      "permission": "",
+      "aliases": [
+        "coords",
+        "egetpos",
+        "position",
+        "eposition",
+        "whereami",
+        "ewhereami",
+        "getlocation",
+        "egetlocation",
+        "getloc",
+        "egetloc"
+      ]
+    },
+    {
+      "name": "give",
+      "description": "给某玩家一个物品.",
+      "usage": "/<command> <玩家> <物品|物品ID> [数量 <附魔名称[:附魔等级]> ...]",
+      "permission": "",
+      "aliases": [
+        "egive"
+      ]
+    },
+    {
+      "name": "god",
+      "description": "开启/关闭上帝模式(不受伤害)",
+      "usage": "/<command> [玩家] [on|off]",
+      "permission": "",
+      "aliases": [
+        "egod",
+        "godmode",
+        "egodmode",
+        "tgm",
+        "etgm"
+      ]
+    },
+    {
+      "name": "hat",
+      "description": "将手中物品佩戴头上",
+      "usage": "/<command> [remove]",
+      "permission": "",
+      "aliases": [
+        "ehat",
+        "head",
+        "ehead"
+      ]
+    },
+    {
+      "name": "heal",
+      "description": "治愈某玩家.",
+      "usage": "/<command> [玩家]",
+      "permission": "",
+      "aliases": [
+        "eheal"
+      ]
+    },
+    {
+      "name": "help",
+      "description": "查看帮助命令列表.",
+      "usage": "/<command> [搜索项目] [页数]",
+      "permission": "",
+      "aliases": [
+        "ehelp"
+      ]
+    },
+    {
+      "name": "helpop",
+      "description": "给在线的管理员发送信息.",
+      "usage": "/<command> <文本>",
+      "permission": "",
+      "aliases": [
+        "ac",
+        "eac",
+        "amsg",
+        "eamsg",
+        "ehelpop"
+      ]
+    },
+    {
+      "name": "home",
+      "description": "传送回家.",
+      "usage": "/<command> [玩家:][名称]",
+      "permission": "",
+      "aliases": [
+        "ehome",
+        "homes",
+        "ehomes"
+      ]
+    },
+    {
+      "name": "ignore",
+      "description": "忽略某玩家.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "eignore"
+      ]
+    },
+    {
+      "name": "info",
+      "description": "查看服务器信息.",
+      "usage": "/<command> [章节] [页数]",
+      "permission": "",
+      "aliases": [
+        "about",
+        "eabout",
+        "ifo",
+        "eifo",
+        "einfo",
+        "inform",
+        "einform",
+        "news",
+        "enews"
+      ]
+    },
+    {
+      "name": "invsee",
+      "description": "查看某玩家背包.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "einvsee"
+      ]
+    },
+    {
+      "name": "item",
+      "description": "生成一个物品.",
+      "usage": "/<command> <物品名称|物品ID> [数量 <附魔名称[:附魔等级]> ...]",
+      "permission": "",
+      "aliases": [
+        "i",
+        "eitem",
+        "ei"
+      ]
+    },
+    {
+      "name": "itemdb",
+      "description": "搜索物品.",
+      "usage": "/<command> <物品|物品ID>",
+      "permission": "",
+      "aliases": [
+        "dura",
+        "edura",
+        "durability",
+        "edurability",
+        "eitemdb",
+        "itemno",
+        "eitemno"
+      ]
+    },
+    {
+      "name": "jails",
+      "description": "显示所有监狱的列表.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "ejails"
+      ]
+    },
+    {
+      "name": "jump",
+      "description": "传送到视野尽头.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "j",
+        "ej",
+        "ejump",
+        "jumpto",
+        "ejumpto"
+      ]
+    },
+    {
+      "name": "kick",
+      "description": "把某玩家以某理由从服务器踢出.",
+      "usage": "/<command> <玩家> [理由]",
+      "permission": "",
+      "aliases": [
+        "ekick"
+      ]
+    },
+    {
+      "name": "kickall",
+      "description": "把所有玩家踢出服务器,除了OP.",
+      "usage": "/<command> [理由]",
+      "permission": "",
+      "aliases": [
+        "ekickall"
+      ]
+    },
+    {
+      "name": "kill",
+      "description": "杀死某个玩家.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "ekill"
+      ]
+    },
+    {
+      "name": "kit",
+      "description": "获得指定的工具包,或查看可用的工具包.",
+      "usage": "/<command> [工具包] [玩家]",
+      "permission": "",
+      "aliases": [
+        "ekit",
+        "kits",
+        "ekits"
+      ]
+    },
+    {
+      "name": "kittycannon",
+      "description": "向你的对手扔出一个爆炸的小猫.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "ekittycannon"
+      ]
+    },
+    {
+      "name": "lightning",
+      "description": "神的力量！让闪电劈到准星处或玩家头顶.",
+      "usage": "/<command> [玩家] [威力]",
+      "permission": "",
+      "aliases": [
+        "elightning",
+        "shock",
+        "eshock",
+        "smite",
+        "esmite",
+        "strike",
+        "estrike",
+        "thor",
+        "ethor"
+      ]
+    },
+    {
+      "name": "list",
+      "description": "查看指定组在线玩家. 忽略组则查看全部在线玩家",
+      "usage": "/<command> [组]",
+      "permission": "",
+      "aliases": [
+        "elist",
+        "online",
+        "eonline",
+        "playerlist",
+        "eplayerlist",
+        "plist",
+        "eplist",
+        "who",
+        "ewho"
+      ]
+    },
+    {
+      "name": "mail",
+      "description": "查看/清除/发送 邮件.",
+      "usage": "/<command> [read|clear|send [to] [文本]|sendall [文本]]",
+      "permission": "",
+      "aliases": [
+        "email",
+        "eemail"
+      ]
+    },
+    {
+      "name": "me",
+      "description": "在接下来说的话中添加星号前缀.",
+      "usage": "/<command> <描述>",
+      "permission": "",
+      "aliases": [
+        "action",
+        "eaction",
+        "describe",
+        "edescribe",
+        "eme"
+      ]
+    },
+    {
+      "name": "more",
+      "description": "让手中物品达到最大堆叠.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "emore"
+      ]
+    },
+    {
+      "name": "motd",
+      "description": "查看今日服务器消息.",
+      "usage": "/<command> [章节] [页面]",
+      "permission": "",
+      "aliases": [
+        "emotd"
+      ]
+    },
+    {
+      "name": "msg",
+      "description": "发送一条密语给某玩家.",
+      "usage": "/<command> <玩家> <文本>",
+      "permission": "",
+      "aliases": [
+        "w",
+        "m",
+        "t",
+        "emsg",
+        "tell",
+        "etell",
+        "whisper",
+        "ewhisper"
+      ]
+    },
+    {
+      "name": "mute",
+      "description": "禁言或解禁玩家.",
+      "usage": "/<command> <玩家> [时间]",
+      "permission": "",
+      "aliases": [
+        "emute",
+        "silence",
+        "esilence"
+      ]
+    },
+    {
+      "name": "near",
+      "description": "列出自己身边的玩家, 或列出某玩家附近的其它玩家.",
+      "usage": "/<command> [玩家名称] [半径]",
+      "permission": "",
+      "aliases": [
+        "enear",
+        "nearby",
+        "enearby"
+      ]
+    },
+    {
+      "name": "nick",
+      "description": "改变自己或者别人的昵称.",
+      "usage": "/<command> [玩家] <昵称|off>",
+      "permission": "",
+      "aliases": [
+        "enick",
+        "nickname",
+        "enickname"
+      ]
+    },
+    {
+      "name": "nuke",
+      "description": "发射核武器. 户外玩家均受影响, 慎用.",
+      "usage": "/<command> [玩家]",
+      "permission": "",
+      "aliases": [
+        "enuke"
+      ]
+    },
+    {
+      "name": "pay",
+      "description": "从你的账户中转账付费给某玩家.",
+      "usage": "/<command> <玩家> <钱数>",
+      "permission": "",
+      "aliases": [
+        "epay"
+      ]
+    },
+    {
+      "name": "ping",
+      "description": "啪啪啪啪啪啪啪啪啪!",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "echo",
+        "eecho",
+        "eping",
+        "pong",
+        "epong"
+      ]
+    },
+    {
+      "name": "potion",
+      "description": "为一个药水瓶添加自定义药水效果.",
+      "usage": "/<command> <clear|apply|effect:<效果> power:<强度> duration:<持续时间>>",
+      "permission": "",
+      "aliases": [
+        "epotion",
+        "elixer",
+        "eelixer"
+      ]
+    },
+    {
+      "name": "powertool",
+      "description": "给手中物品指定一个命令.",
+      "usage": "/<command> [l:|a:|r:|c:|d:][命令] [参数] - {玩家} 可以点击玩家的名字所取代.",
+      "permission": "",
+      "aliases": [
+        "epowertool",
+        "pt",
+        "ept"
+      ]
+    },
+    {
+      "name": "powertooltoggle",
+      "description": "开启或关闭当前所有的powertool.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "epowertooltoggle",
+        "ptt",
+        "eptt",
+        "pttoggle",
+        "epttoggle"
+      ]
+    },
+    {
+      "name": "ptime",
+      "description": "专门调整某玩家客户端的时间. 添加 @ 前缀来修复.",
+      "usage": "/<command> [list|reset|day|night|dawn|17:30|4pm|4000ticks] [玩家|*]",
+      "permission": "",
+      "aliases": [
+        "playertime",
+        "eplayertime",
+        "eptime"
+      ]
+    },
+    {
+      "name": "pweather",
+      "description": "修改一位玩家的天气",
+      "usage": "/<command> [list|reset|storm|sun|clear] [player|*]",
+      "permission": "",
+      "aliases": [
+        "playerweather",
+        "eplayerweather",
+        "epweather"
+      ]
+    },
+    {
+      "name": "r",
+      "description": "快速回复别人发给你的信息(邮件/私信).",
+      "usage": "/<command> <文本>",
+      "permission": "",
+      "aliases": [
+        "er",
+        "reply",
+        "ereply"
+      ]
+    },
+    {
+      "name": "realname",
+      "description": "查看某玩家的真名(nick之前的名字).",
+      "usage": "/<command> <昵称>",
+      "permission": "",
+      "aliases": [
+        "erealname"
+      ]
+    },
+    {
+      "name": "recipe",
+      "description": "显示物品的合成配方.",
+      "usage": "/<command> <物品> [数字]",
+      "permission": "",
+      "aliases": [
+        "formula",
+        "eformula",
+        "method",
+        "emethod",
+        "erecipe",
+        "recipes",
+        "erecipes"
+      ]
+    },
+    {
+      "name": "remove",
+      "description": "删除指定世界中的实体(全部|驯服的|掉落的物品|箭|船|矿车|经验|挂画|展示框|末影水晶|怪物|动物|环境生物(目前只有蝙蝠)|怪物|怪物类型|).",
+      "usage": "/<command> <all|tamed|drops|arrows|boats|minecarts|xp|paintings|itemframes|endercrystals|monsters|animals|ambient|mobs|[mobType]> [半径] [世界]",
+      "permission": "",
+      "aliases": [
+        "eremove",
+        "butcher",
+        "ebutcher",
+        "killall",
+        "ekillall",
+        "mobkill",
+        "emobkill"
+      ]
+    },
+    {
+      "name": "repair",
+      "description": "修复<手中|所有>的物品.",
+      "usage": "/<command> [hand|all]",
+      "permission": "",
+      "aliases": [
+        "fix",
+        "efix",
+        "erepair"
+      ]
+    },
+    {
+      "name": "rules",
+      "description": "查看服务器规则.",
+      "usage": "/<command> [章节] [页面]",
+      "permission": "",
+      "aliases": [
+        "erules"
+      ]
+    },
+    {
+      "name": "seen",
+      "description": "查看一位玩家|IP最后登出的时间.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "eseen"
+      ]
+    },
+    {
+      "name": "sell",
+      "description": "把(手中|背包|全部方块)物品出售给系统.",
+      "usage": "/<command> <物品名称|物品ID|hand|inventory|blocks> [-][数量]",
+      "permission": "",
+      "aliases": [
+        "esell"
+      ]
+    },
+    {
+      "name": "sethome",
+      "description": "把你的家设置在这个位置.",
+      "usage": "/<command> [[玩家:]名称]",
+      "permission": "",
+      "aliases": [
+        "esethome",
+        "createhome",
+        "ecreatehome"
+      ]
+    },
+    {
+      "name": "setjail",
+      "description": "在你所在位置设置一个监狱,名称叫 [监狱名称]",
+      "usage": "/<command> <监狱名称>",
+      "permission": "",
+      "aliases": [
+        "esetjail",
+        "createjail",
+        "ecreatejail"
+      ]
+    },
+    {
+      "name": "setwarp",
+      "description": "创建一个新的地标.",
+      "usage": "/<command> <地标名称>",
+      "permission": "",
+      "aliases": [
+        "createwarp",
+        "ecreatewarp",
+        "esetwarp"
+      ]
+    },
+    {
+      "name": "setworth",
+      "description": "设置某个物品的价值.",
+      "usage": "/<command> [物品名称|物品ID] <价格>",
+      "permission": "",
+      "aliases": [
+        "esetworth"
+      ]
+    },
+    {
+      "name": "socialspy",
+      "description": "切换你是否可以看到其他[指定]玩家的私聊和邮件.",
+      "usage": "/<command> [玩家] [on|off]",
+      "permission": "",
+      "aliases": [
+        "esocialspy"
+      ]
+    },
+    {
+      "name": "spawner",
+      "description": "改变一个刷怪笼的类型.",
+      "usage": "/<command> <生物类型> [延迟]",
+      "permission": "",
+      "aliases": [
+        "changems",
+        "echangems",
+        "espawner",
+        "mobspawner",
+        "emobspawner"
+      ]
+    },
+    {
+      "name": "spawnmob",
+      "description": "生成一个生物.",
+      "usage": "/<command> <生物类型>[:data][,<mount>[:data]] [数量] [玩家]",
+      "permission": "",
+      "aliases": [
+        "mob",
+        "emob",
+        "spawnentity",
+        "espawnentity",
+        "espawnmob"
+      ]
+    },
+    {
+      "name": "speed",
+      "description": "改变移动速度.",
+      "usage": "/<command> [类型] <速度值> [玩家]",
+      "permission": "",
+      "aliases": [
+        "flyspeed",
+        "eflyspeed",
+        "fspeed",
+        "efspeed",
+        "espeed",
+        "walkspeed",
+        "ewalkspeed",
+        "wspeed",
+        "ewspeed"
+      ]
+    },
+    {
+      "name": "sudo",
+      "description": "让某玩家强制执行一个命令.",
+      "usage": "/<command> <玩家> <命令 [参数]>",
+      "permission": "",
+      "aliases": [
+        "esudo"
+      ]
+    },
+    {
+      "name": "suicide",
+      "description": "自杀.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "esuicide"
+      ]
+    },
+    {
+      "name": "tempban",
+      "description": "临时封禁一个玩家.",
+      "usage": "/<command> <玩家> <时间>",
+      "permission": "",
+      "aliases": [
+        "etempban"
+      ]
+    },
+    {
+      "name": "thunder",
+      "description": "允许/禁止 自然雷击.",
+      "usage": "/<command> <true/false> [持续时间]",
+      "permission": "",
+      "aliases": [
+        "ethunder"
+      ]
+    },
+    {
+      "name": "time",
+      "description": "显示/改变世界的时间,默认当前世界.",
+      "usage": "/<command> [day|night|dawn|17:30|4pm|4000ticks] [世界名称|all]",
+      "permission": "",
+      "aliases": [
+        "day",
+        "eday",
+        "night",
+        "enight",
+        "etime"
+      ]
+    },
+    {
+      "name": "togglejail",
+      "description": "监禁/解禁一个玩家,并传送他到监狱.",
+      "usage": "/<command> <玩家> <jailname> [datediff]",
+      "permission": "",
+      "aliases": [
+        "jail",
+        "ejail",
+        "tjail",
+        "etjail",
+        "etogglejail",
+        "unjail",
+        "eunjail"
+      ]
+    },
+    {
+      "name": "top",
+      "description": "传送到你所站坐标上的最高方块处.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "etop"
+      ]
+    },
+    {
+      "name": "tp",
+      "description": "强行传送或传送到某玩家.",
+      "usage": "/<command> <玩家> [另一个玩家]",
+      "permission": "",
+      "aliases": [
+        "tele",
+        "etele",
+        "teleport",
+        "eteleport",
+        "etp",
+        "tp2p",
+        "etp2p"
+      ]
+    },
+    {
+      "name": "tpa",
+      "description": "发送一条传送请求,让你传送到对象玩家的地点.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "call",
+        "ecall",
+        "etpa",
+        "tpask",
+        "etpask"
+      ]
+    },
+    {
+      "name": "tpaall",
+      "description": "发送一条传送请求,让所有玩家都传送到你这里.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "etpaall"
+      ]
+    },
+    {
+      "name": "tpaccept",
+      "description": "接受传送请求.",
+      "usage": "/<command> [其他玩家]",
+      "permission": "",
+      "aliases": [
+        "etpaccept",
+        "tpyes",
+        "etpyes"
+      ]
+    },
+    {
+      "name": "tpahere",
+      "description": "发送一条传送请求,让对象玩家传送到你所在的地点.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "etpahere"
+      ]
+    },
+    {
+      "name": "tpall",
+      "description": "强制把所有在线玩家传送到自己的位置.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "etpall"
+      ]
+    },
+    {
+      "name": "tpdeny",
+      "description": "拒绝传送请求.",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "etpdeny",
+        "tpno",
+        "etpno"
+      ]
+    },
+    {
+      "name": "tphere",
+      "description": "强制把一个玩家传送到自己的位置.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "s",
+        "etphere"
+      ]
+    },
+    {
+      "name": "tpo",
+      "description": "强行传送到某玩家,无视拒绝传送.",
+      "usage": "/<command> <玩家> [其他玩家]",
+      "permission": "",
+      "aliases": [
+        "etpo"
+      ]
+    },
+    {
+      "name": "tpohere",
+      "description": "强制把一个玩家传送到自己的位置,无视拒绝传送.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "etpohere"
+      ]
+    },
+    {
+      "name": "tppos",
+      "description": "把自己传送到某个坐标.",
+      "usage": "/<command> <x坐标> <y坐标> <z坐标> [角度] [视角]",
+      "permission": "",
+      "aliases": [
+        "etppos"
+      ]
+    },
+    {
+      "name": "tptoggle",
+      "description": "拒绝所有传送.",
+      "usage": "/<command> [玩家] [on|off]",
+      "permission": "",
+      "aliases": [
+        "etptoggle"
+      ]
+    },
+    {
+      "name": "tree",
+      "description": "在你准心所对的位置生成一颗大树.",
+      "usage": "/<command> <tree|birch|redwood|redmushroom|brownmushroom|jungle|junglebush|swamp>",
+      "permission": "",
+      "aliases": [
+        "etree"
+      ]
+    },
+    {
+      "name": "unban",
+      "description": "解除封禁玩家.",
+      "usage": "/<command> <玩家>",
+      "permission": "",
+      "aliases": [
+        "pardon",
+        "eunban",
+        "epardon"
+      ]
+    },
+    {
+      "name": "unbanip",
+      "description": "解除封禁IP地址.",
+      "usage": "/<command> <address>",
+      "permission": "",
+      "aliases": [
+        "eunbanip",
+        "pardonip",
+        "epardonip"
+      ]
+    },
+    {
+      "name": "unlimited",
+      "description": "允许某玩家无限放置某方块.",
+      "usage": "/<command> <list|item|clear> [玩家]",
+      "permission": "",
+      "aliases": [
+        "eunlimited",
+        "ul",
+        "unl",
+        "eul",
+        "eunl"
+      ]
+    },
+    {
+      "name": "vanish",
+      "description": "进入隐身模式,其他玩家将无法看到你.",
+      "usage": "/<command> [玩家] [on|off]",
+      "permission": "",
+      "aliases": [
+        "v",
+        "ev",
+        "evanish"
+      ]
+    },
+    {
+      "name": "warp",
+      "description": "列出所有的地标,或传送到该地标.",
+      "usage": "/<command> <pagenumber|warp> [玩家]",
+      "permission": "",
+      "aliases": [
+        "ewarp",
+        "warps",
+        "ewarps"
+      ]
+    },
+    {
+      "name": "weather",
+      "description": "设置所在世界的天气.",
+      "usage": "/<command> <storm/sun> [持续时间]",
+      "permission": "",
+      "aliases": [
+        "rain",
+        "erain",
+        "sky",
+        "esky",
+        "storm",
+        "estorm",
+        "sun",
+        "esun",
+        "eweather"
+      ]
+    },
+    {
+      "name": "whois",
+      "description": "在昵称后面显示真名, 并列出玩家信息.",
+      "usage": "/<command> <昵称>",
+      "permission": "",
+      "aliases": [
+        "ewhois"
+      ]
+    },
+    {
+      "name": "workbench",
+      "description": "随时随地开启一个工作台",
+      "usage": "/<command>",
+      "permission": "",
+      "aliases": [
+        "craft",
+        "ecraft",
+        "wb",
+        "ewb",
+        "wbench",
+        "ewbench",
+        "eworkbench"
+      ]
+    },
+    {
+      "name": "world",
+      "description": "在各个世界间同坐标转换.",
+      "usage": "/<command> [世界]",
+      "permission": "",
+      "aliases": [
+        "eworld"
+      ]
+    },
+    {
+      "name": "worth",
+      "description": "查看某物品的价值.",
+      "usage": "/<command> [物品] [数量]",
+      "permission": "",
+      "aliases": [
+        "eprice",
+        "price",
+        "eworth"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "essentials.*",
+      "description": "Give players with op everything by default",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/other/unknown/essentials/Essentials-Pre2.13.1.2.jar",
+      "file_name": "Essentials-Pre2.13.1.2.jar",
+      "sha256": "afdbcf091cbc20ea4a20f9770159990eb07901777069c77c151118f9c243a836",
+      "size": 954052,
+      "download_paths": {
+        "github": "plugins/other/unknown/essentials/Essentials-Pre2.13.1.2.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[基础]Essentials.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "speedclickgame",
+  "name": "SpeedClickGame",
+  "display_name": "插件",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.4.0",
+  "author": [
+    "PiZzle_zZau"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "极速点击",
+  "website": null,
+  "main": "HomeAndPiZzle\\SpeedClickGame",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "scg",
+      "description": "极速点击",
+      "usage": "/scg <set/remove> 设置/删除游戏",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/speedclickgame/SpeedClickGame-1.4.0.phar",
+      "file_name": "SpeedClickGame-1.4.0.phar",
+      "sha256": "48068e86ff018064dba2fae591e4cdb4c847b85b86f2ad0e3b7898ed5b2e8f89",
+      "size": 12546,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/speedclickgame/SpeedClickGame-1.4.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/SpeedClick极速点击Ⅱ插件/SpeedClickGame_v1.4.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:26+08:00",
+  "minecraft_version_source": "api-inferred"
+}

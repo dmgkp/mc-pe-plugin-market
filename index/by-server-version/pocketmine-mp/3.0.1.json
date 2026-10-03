@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-version",
+  "server_type": "pocketmine-mp",
+  "server_version": "3.0.1",
+  "count": 1,
+  "plugins": [
+    {
+      "id": "bettergen",
+      "name": "BetterGen",
+      "display_name": "高逼格地图生成器",
+      "server_type": "pocketmine-mp",
+      "minecraft_version": "1.12.0",
+      "plugin_version": "1.1",
+      "path": "plugins/pocketmine-mp/1.12.0/bettergen/plugin.json",
+      "file": "plugins/pocketmine-mp/1.12.0/bettergen/BetterGen-1.1.phar",
+      "sha256": "44763be902b00ea224c2efe58f0d6831e1d53a5261b929e7bc8f8b2228a32d2a",
+      "size": 19997501,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/bettergen/BetterGen-1.1.phar"
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "id": "cclearchat",
+  "name": "CClearChat",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "other",
+  "server_types": [
+    "other"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "other": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.7",
+  "author": [
+    "unknown"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Lets you clear chat whenever you want!",
+  "website": null,
+  "main": "me.r0m3x.cclearchat.CC",
+  "tags": [
+    "chat",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "cc",
+      "description": "Main command for cc",
+      "usage": "/cc [command]",
+      "permission": "cc.use",
+      "aliases": [
+        "cclearchat",
+        "clearchat"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "cc.*",
+      "description": "Access of using cc!",
+      "default": "op"
+    },
+    {
+      "name": "cc.use",
+      "description": "Allows you to use /cc",
+      "default": "op"
+    },
+    {
+      "name": "cc.me",
+      "description": "Lets you clear your own chat",
+      "default": "op"
+    },
+    {
+      "name": "cc.other",
+      "description": "Lets you another player's chat",
+      "default": "op"
+    },
+    {
+      "name": "cc.all",
+      "description": "Lets you clean everyone's chat",
+      "default": "op"
+    },
+    {
+      "name": "cc.lock",
+      "description": "Lets you lock the chat",
+      "default": "op"
+    },
+    {
+      "name": "cc.lock.bypass",
+      "description": "Lets you chat if chat is locked",
+      "default": "op"
+    },
+    {
+      "name": "cc.prefix",
+      "description": "",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/other/unknown/cclearchat/CClearChat-1.7.jar",
+      "file_name": "CClearChat-1.7.jar",
+      "sha256": "0e422f55da78c5186c41bb115e0f46dd6f4a6851ee6682b9af9f9b9309975f86",
+      "size": 7438,
+      "download_paths": {
+        "github": "plugins/other/unknown/cclearchat/CClearChat-1.7.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/[清屏]CClearChat.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}

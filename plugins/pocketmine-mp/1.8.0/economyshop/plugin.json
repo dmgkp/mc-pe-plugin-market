@@ -1,0 +1,97 @@
+{
+  "schema_version": 1,
+  "id": "economyshop",
+  "name": "EconomyShop",
+  "display_name": "京东商城",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.0.0",
+    "1.8.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.7",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows all functions in EconomyShop",
+  "website": null,
+  "main": "onebone\\economyshop\\EconomyShop",
+  "tags": [
+    "economy",
+    "admin",
+    "library"
+  ],
+  "dependencies": [
+    "[EconomyAPI]"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "economyshop.*",
+      "description": "Allows player to remove shop",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/economyshop/EconomyShop-2.0.7.phar",
+      "file_name": "EconomyShop-2.0.7.phar",
+      "sha256": "cb87247c7d11b1990b386d3bb449c31d6ff74a64efc92d3c3a18d93823459dee",
+      "size": 8251,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/economyshop/EconomyShop-2.0.7.phar"
+      }
+    }
+  ],
+  "history": {
+    "2.0.5": [
+      {
+        "file_name": "EconomyShop-2.0.5.phar",
+        "sha256": "7eb0b02b0493fd42674f586534bc23e17f199b4c6807c41304907bd8c995fb88",
+        "size": 22063
+      }
+    ],
+    "2.0.6": [
+      {
+        "file_name": "EconomyShop-2.0.6.phar",
+        "sha256": "87086f11c77b0372e7297185147ba255aa976531531015e769e813899b777f75",
+        "size": 22899
+      }
+    ],
+    "2.0.7|✘wine汉化": [
+      {
+        "file_name": "EconomyShop-2.0.7_wine.phar",
+        "sha256": "4485ae1bfe405d04d9ffc342f7c1ccd980752c44764e9bdcf95029094be482c8",
+        "size": 14906
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/京东商城/京东商城.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:30+08:00",
+  "minecraft_version_source": "api-inferred"
+}

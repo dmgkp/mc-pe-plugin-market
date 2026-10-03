@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "pvplevels",
+  "name": "PvPLevels",
+  "display_name": "原创汉化",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.16.0",
+  "minecraft_versions": [
+    "0.16.0"
+  ],
+  "minecraft_version_range": ">=0.16.0 <0.17.0",
+  "server_versions": {
+    "pocketmine-mp": ">=2.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0",
+  "author": [
+    "corytortoise"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Stores PvP stats and enables leveling for kills.",
+  "website": null,
+  "main": "corytortoise\\PvPLevels\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "pvpstats",
+      "description": "Shows PvP Statistics",
+      "usage": "/pvpstats [player]",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.16.0/pvplevels/PvPLevels-1.0.phar",
+      "file_name": "PvPLevels-1.0.phar",
+      "sha256": "a6ebf6a531bba3a56b3af33027e7a94f39d4c597b33541368c2c7afbda6e868c",
+      "size": 15622,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.16.0/pvplevels/PvPLevels-1.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/PvP等级 - 原创汉化/[PvP等级]PvPLevels.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

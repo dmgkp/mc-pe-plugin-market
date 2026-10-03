@@ -1,0 +1,302 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-03T20:43:11+08:00",
+  "index": "by-server-type/version",
+  "server_type": "nukkit",
+  "minecraft_version": "unknown",
+  "count": 16,
+  "plugins": [
+    {
+      "id": "ancientgates",
+      "name": "AncientGates",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.8.0",
+      "path": "plugins/nukkit/unknown/ancientgates/plugin.json",
+      "file": "plugins/nukkit/unknown/ancientgates/AncientGates-1.8.0.jar",
+      "sha256": "41721f1f080d18e3663178ff6d516fd400f56c0e5da1353e8febace5bb51560e",
+      "size": 231529,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/ancientgates/AncientGates-1.8.0.jar"
+      }
+    },
+    {
+      "id": "banitem",
+      "name": "BanItem",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.8",
+      "path": "plugins/nukkit/unknown/banitem/plugin.json",
+      "file": "plugins/nukkit/unknown/banitem/BanItem-2.8.jar",
+      "sha256": "1e7490f1efbb14458096b349b0cdb44132ba1798a620b637a9561d612b6534b7",
+      "size": 31025,
+      "tags": [
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/banitem/BanItem-2.8.jar"
+      }
+    },
+    {
+      "id": "chairstairs",
+      "name": "ChairStairs",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.1",
+      "path": "plugins/nukkit/unknown/chairstairs/plugin.json",
+      "file": "plugins/nukkit/unknown/chairstairs/ChairStairs-1.1.jar",
+      "sha256": "642a87cd23023321c96f555f37cb7bfb59ffb759f31fe8ccec1c88a204538d1a",
+      "size": 5098,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/chairstairs/ChairStairs-1.1.jar"
+      }
+    },
+    {
+      "id": "chestcommands",
+      "name": "ChestCommands",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "3.1.2",
+      "path": "plugins/nukkit/unknown/chestcommands/plugin.json",
+      "file": "plugins/nukkit/unknown/chestcommands/ChestCommands-3.1.2.jar",
+      "sha256": "6e5354509993849ac2b9d024f99c9557e747f05612a74cf443fa30bfead01015",
+      "size": 127348,
+      "tags": [
+        "admin",
+        "protection"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/chestcommands/ChestCommands-3.1.2.jar"
+      }
+    },
+    {
+      "id": "colormotd",
+      "name": "ColorMOTD",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.3",
+      "path": "plugins/nukkit/unknown/colormotd/plugin.json",
+      "file": "plugins/nukkit/unknown/colormotd/ColorMOTD-1.3.jar",
+      "sha256": "d726a3304d68bfdbdd38a32b3755af9f5014fb3fbecb1c5022fb00a28d60e970",
+      "size": 85827,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/colormotd/ColorMOTD-1.3.jar"
+      }
+    },
+    {
+      "id": "coreprotect",
+      "name": "CoreProtect",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "2.0.8",
+      "path": "plugins/nukkit/unknown/coreprotect/plugin.json",
+      "file": "plugins/nukkit/unknown/coreprotect/CoreProtect-2.0.8.jar",
+      "sha256": "aab250a2b540c9d8f10b87f90940db16ab7f46fb772e0f0cd2bbfde7b73fa687",
+      "size": 246269,
+      "tags": [
+        "protection",
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/coreprotect/CoreProtect-2.0.8.jar"
+      }
+    },
+    {
+      "id": "limitlogin",
+      "name": "LimitLogin",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.0",
+      "path": "plugins/nukkit/unknown/limitlogin/plugin.json",
+      "file": "plugins/nukkit/unknown/limitlogin/LimitLogin-1.0.jar",
+      "sha256": "8cc330381caf79c8d39602840b4da5251aa8bf7878d50b5fe5b947c5d5e3fc56",
+      "size": 6502,
+      "tags": [
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/limitlogin/LimitLogin-1.0.jar"
+      }
+    },
+    {
+      "id": "loginmessage",
+      "name": "LoginMessage",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.1",
+      "path": "plugins/nukkit/unknown/loginmessage/plugin.json",
+      "file": "plugins/nukkit/unknown/loginmessage/LoginMessage-1.1.jar",
+      "sha256": "59d2cb3ec6c12c39cacb37c155e7394c56b4543d585c29417e061cfb41063036",
+      "size": 4301,
+      "tags": [
+        "chat",
+        "player"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/loginmessage/LoginMessage-1.1.jar"
+      }
+    },
+    {
+      "id": "neverlag",
+      "name": "NeverLag",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.3.0",
+      "path": "plugins/nukkit/unknown/neverlag/plugin.json",
+      "file": "plugins/nukkit/unknown/neverlag/NeverLag-1.3.0.jar",
+      "sha256": "75f5d8640c899730784c736f29b99dd536de44a896e3030ca9136e9f9f8aa0fb",
+      "size": 64175,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/neverlag/NeverLag-1.3.0.jar"
+      }
+    },
+    {
+      "id": "plotme",
+      "name": "[地皮]PlotMe",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "0.13e",
+      "path": "plugins/nukkit/unknown/plotme/plugin.json",
+      "file": "plugins/nukkit/unknown/plotme/PlotMe-0.13e.jar",
+      "sha256": "c99a96256ae3b293113ec148af271ae3ab082f3662981d67c4ffb62203343751",
+      "size": 160870,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/plotme/PlotMe-0.13e.jar"
+      }
+    },
+    {
+      "id": "pvptoggle",
+      "name": "PvPToggle",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "3.0.0",
+      "path": "plugins/nukkit/unknown/pvptoggle/plugin.json",
+      "file": "plugins/nukkit/unknown/pvptoggle/PvPToggle-3.0.0.jar",
+      "sha256": "11e10d44ceb84ad3c72ea4576c2c434292ac80853b8441e529b8ec25d8e6c676",
+      "size": 47227,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/pvptoggle/PvPToggle-3.0.0.jar"
+      }
+    },
+    {
+      "id": "quickshop",
+      "name": "QuickShop",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "4.5 #Beta",
+      "path": "plugins/nukkit/unknown/quickshop/plugin.json",
+      "file": "plugins/nukkit/unknown/quickshop/QuickShop-4.5_Beta.jar",
+      "sha256": "bf782a278e9fe6592f816ce5688afb61776b688f9286960a6a08e0ffaf85b8ba",
+      "size": 119051,
+      "tags": [
+        "economy",
+        "admin"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/quickshop/QuickShop-4.5_Beta.jar"
+      }
+    },
+    {
+      "id": "scoreboards",
+      "name": "Scoreboards",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.0.2",
+      "path": "plugins/nukkit/unknown/scoreboards/plugin.json",
+      "file": "plugins/nukkit/unknown/scoreboards/Scoreboards-1.0.2.jar",
+      "sha256": "aecd2f7c14e233dda21298b74876574e1ddfaefd3d57f53e948e91609d24b018",
+      "size": 15894,
+      "tags": [
+        "library"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/scoreboards/Scoreboards-1.0.2.jar"
+      }
+    },
+    {
+      "id": "serverrestarter",
+      "name": "ServerRestarter",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "0.48",
+      "path": "plugins/nukkit/unknown/serverrestarter/plugin.json",
+      "file": "plugins/nukkit/unknown/serverrestarter/ServerRestarter-0.48.jar",
+      "sha256": "e85a6b5bb082055fb617cac6d952bd5f3a10724bb2318e55847aedd1fc89f473",
+      "size": 33740,
+      "tags": [
+        "gameplay"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/serverrestarter/ServerRestarter-0.48.jar"
+      }
+    },
+    {
+      "id": "worldborder",
+      "name": "WorldBorder",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "1.8.1",
+      "path": "plugins/nukkit/unknown/worldborder/plugin.json",
+      "file": "plugins/nukkit/unknown/worldborder/WorldBorder-1.8.1.jar",
+      "sha256": "427c4eea85a3efd91a7015b0ed7daeda80e1f57a0b97722eb4e91b33e5f23cb5",
+      "size": 110088,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/worldborder/WorldBorder-1.8.1.jar"
+      }
+    },
+    {
+      "id": "worldedit",
+      "name": "WorldEdit",
+      "display_name": "基础插件",
+      "server_type": "nukkit",
+      "minecraft_version": "unknown",
+      "plugin_version": "5.6.3",
+      "path": "plugins/nukkit/unknown/worldedit/plugin.json",
+      "file": "plugins/nukkit/unknown/worldedit/WorldEdit-5.6.3.jar",
+      "sha256": "01e0e53bbea9fc7fb73ebe2fb1d7b8fc248ddb64ca9e638c2b81db221ce159ea",
+      "size": 944414,
+      "tags": [
+        "world"
+      ],
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/worldedit/WorldEdit-5.6.3.jar"
+      }
+    }
+  ]
+}

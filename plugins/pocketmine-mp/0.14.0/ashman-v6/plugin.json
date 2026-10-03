@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "ashman-v6",
+  "name": "AshMan",
+  "display_name": "不清生物",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "FENGberd,Alcatraz_Du"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "FCleaner主命令",
+  "website": null,
+  "main": "FCleaner\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "clean",
+      "description": "FCleaner主命令",
+      "usage": "/clean <clean|reload>",
+      "permission": "FCleaner.command.clean",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "FCleaner.*",
+      "description": "清理掉落物命令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/ashman-v6/AshMan-1.0.1.phar",
+      "file_name": "AshMan-1.0.1.phar",
+      "sha256": "40dae2b3ba101826a7c9bd86d0ec52759b2c4b997896f7e4b424ad76f480c728",
+      "size": 4933,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/ashman-v6/AshMan-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/定时清掉落物(不清生物)/[清掉落]Clear.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

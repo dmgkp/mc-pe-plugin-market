@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "id": "vipparticle",
+  "name": "VIPParticle",
+  "display_name": "粒子",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "Kirt"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "VIP粒子总开关",
+  "website": null,
+  "main": "VIPParticle\\VIPParticle",
+  "tags": [
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "vipp",
+      "description": "VIP粒子总开关",
+      "usage": "/vipp",
+      "permission": "vipparticle.command.vip",
+      "aliases": []
+    },
+    {
+      "name": "svipp",
+      "description": "SVIP粒子总开关",
+      "usage": "/svipp",
+      "permission": "vipparticle.command.svip",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "vipparticle.*",
+      "description": "SVIP粒子总开关",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/vipparticle/VIPParticle-1.0.0.phar",
+      "file_name": "VIPParticle-1.0.0.phar",
+      "sha256": "de04bc334dcd917b0f4437daa3ab5a329ad5eaf9d98e974484e597f839041251",
+      "size": 2956,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/vipparticle/VIPParticle-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/ALLVIP粒子/ALLVIP粒子.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

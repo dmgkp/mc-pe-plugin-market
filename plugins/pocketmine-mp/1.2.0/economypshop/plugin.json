@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "economypshop",
+  "name": "EconomyPShop",
+  "display_name": "经济",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.2.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.2.0",
+    "1.8.0",
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.6.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.0",
+  "author": [
+    "onebone"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Allows all permissions to the player",
+  "website": null,
+  "main": "onebone\\economypshop\\EconomyPShop",
+  "tags": [
+    "economy",
+    "admin"
+  ],
+  "dependencies": [
+    "EconomyAPI",
+    "ItemCloud"
+  ],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [
+    {
+      "name": "economypshop.*",
+      "description": "Allows player to destroy others' shop",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.2.0/economypshop/EconomyPShop-2.0.0.phar",
+      "file_name": "EconomyPShop-2.0.0.phar",
+      "sha256": "1bbdf36be4adf0536f95395a999802b4edff1b0ea5822bacafe42f6b8ab80010",
+      "size": 5978,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.2.0/economypshop/EconomyPShop-2.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/经济5.5/EconomyPShop_v2.0.0.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:21+08:00",
+  "minecraft_version_source": "api-inferred"
+}

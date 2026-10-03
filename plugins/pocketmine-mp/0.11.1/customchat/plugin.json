@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "id": "customchat",
+  "name": "CustomChat",
+  "display_name": "CustomChat",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.7.1"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.3.2",
+  "author": [
+    "[Praxthisnovcht]"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Adds options on the discution salon",
+  "website": null,
+  "main": "Praxthisnovcht\\CustomChat\\ccMain",
+  "tags": [
+    "chat",
+    "cosmetic"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "setprefix",
+      "description": "sets prefix for player",
+      "usage": "",
+      "permission": "customchat.plugin.setprefix",
+      "aliases": []
+    },
+    {
+      "name": "defprefix",
+      "description": "sets default prefix for new players",
+      "usage": "",
+      "permission": "customchat.plugin.defprefix",
+      "aliases": []
+    },
+    {
+      "name": "delprefix",
+      "description": "set player's prefix to default",
+      "usage": "",
+      "permission": "customchat.plugin.delprefix",
+      "aliases": []
+    },
+    {
+      "name": "setnick",
+      "description": "sets player's nick",
+      "usage": "",
+      "permission": "customchat.plugin.setnick",
+      "aliases": []
+    },
+    {
+      "name": "delnick",
+      "description": "returns players's real name",
+      "usage": "",
+      "permission": "customchat.plugin.delnick",
+      "aliases": []
+    },
+    {
+      "name": "mute",
+      "description": "mute player from chat",
+      "usage": "",
+      "permission": "customchat.plugin.mute",
+      "aliases": []
+    },
+    {
+      "name": "unmute",
+      "description": "unmute player from chat",
+      "usage": "",
+      "permission": "customchat.plugin.unmute",
+      "aliases": []
+    },
+    {
+      "name": "disablechat",
+      "description": "disable chat for all players",
+      "usage": "",
+      "permission": "customchat.plugin.offchat",
+      "aliases": []
+    },
+    {
+      "name": "enablechat",
+      "description": "enable chat for all player",
+      "usage": "",
+      "permission": "customchat.plugin.onchat",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/customchat/CustomChat-1.3.2.phar",
+      "file_name": "CustomChat-1.3.2.phar",
+      "sha256": "5a12e5a1121dfd2099ffb657209a5354aacd98714046a0e0db3f70591296a171",
+      "size": 7880,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/customchat/CustomChat-1.3.2.phar"
+      }
+    }
+  ],
+  "history": {
+    "INDEV": [
+      {
+        "file_name": "CustomChat-INDEV.phar",
+        "sha256": "f45c7b3fa8ab697cd0edcedd1d730d5086533c1c257c18cc4a81005155370c84",
+        "size": 37617
+      }
+    ],
+    "1.1.2": [
+      {
+        "file_name": "CustomChat-1.1.2.phar",
+        "sha256": "8dcb6fd754ccf4acb43d5a4c8e7989799c07c77033e8115f1c21b014e2c6a45b",
+        "size": 11867
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/RVIP/假名插件.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:26+08:00",
+  "minecraft_version_source": "path"
+}

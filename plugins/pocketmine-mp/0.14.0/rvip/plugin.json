@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "id": "rvip",
+  "name": "RVIP",
+  "display_name": "研究用",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "0.14.0",
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.2.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0",
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "3.0.0",
+  "author": [
+    "zmdd"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "RVIP插件主命令",
+  "website": null,
+  "main": "RVIP\\RVIP",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "vip",
+      "description": "RVIP插件主命令",
+      "usage": "/vip add/remove/day/sign/prefix",
+      "permission": "Rvip.command.vip",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "Rvip.command.vip",
+      "description": "RVIP插件主权限",
+      "default": "true"
+    },
+    {
+      "name": "Rvip.command.vip.sign",
+      "description": "Bug",
+      "default": "false"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/rvip/RVIP-3.0.0.phar",
+      "file_name": "RVIP-3.0.0.phar",
+      "sha256": "e338506985f9c63936e59bc0378d1823fa70d13187e897bd6ed9478ff1638644",
+      "size": 18495,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/rvip/RVIP-3.0.0.phar"
+      }
+    }
+  ],
+  "history": {
+    "bate 1.0.0": [
+      {
+        "file_name": "RVIP-bate_1.0.0.phar",
+        "sha256": "b276ded1a4d53bcc779e7c68594407c90d1fa824fdd2eb306b0f8a3b66766555",
+        "size": 3505
+      }
+    ]
+  },
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[官方正版]YuIoPluginBag0.1.4.1/YuIoPluginBag/插件/PocketMine插件/多功能/api1.8版 - 研究用/[VIP]RVIP.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:07+08:00",
+  "minecraft_version_source": "api-inferred"
+}

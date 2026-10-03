@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "id": "tempbanui",
+  "name": "TempBanUI",
+  "display_name": "玩家封禁",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.12.0",
+  "minecraft_versions": [
+    "1.12.0"
+  ],
+  "minecraft_version_range": ">=1.12.0 <1.13.0",
+  "server_versions": {
+    "pocketmine-mp": ">=3.0.0-ALPHA10"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.1",
+  "author": [
+    "SonsaYT"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "开启玩家封禁表单",
+  "website": null,
+  "main": "TempBanUI\\Main",
+  "tags": [
+    "admin"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "tban",
+      "description": "开启玩家封禁表单",
+      "usage": "",
+      "permission": "use.tban",
+      "aliases": []
+    },
+    {
+      "name": "tcheck",
+      "description": "检查封禁玩家列表",
+      "usage": "",
+      "permission": "use.tcheck",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "use.tban",
+      "description": "Use /tban command",
+      "default": "op"
+    },
+    {
+      "name": "use.tcheck",
+      "description": "Use /tcheck command",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.12.0/tempbanui/TempBanUI-1.1.phar",
+      "file_name": "TempBanUI-1.1.phar",
+      "sha256": "f185e9df98783fbb29f92328ac1390a90a102e686598ad72e67fc04d6a5402ff",
+      "size": 32093,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.12.0/tempbanui/TempBanUI-1.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.4] Lunchs插件包更新！-- LUGG/1.6.4/PocketMine插件/TempBanUI--玩家封禁UI/TempBanUI_v1.1--玩家封禁UI.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:53+08:00",
+  "minecraft_version_source": "api-inferred"
+}

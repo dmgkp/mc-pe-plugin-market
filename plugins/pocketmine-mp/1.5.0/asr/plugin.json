@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "id": "asr",
+  "name": "ASR",
+  "display_name": "自动重启",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.5.0",
+  "minecraft_versions": [
+    "0.11.1",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.1 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.1",
+  "author": [
+    "iJoshuaHD"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Restarts your server at given interval.",
+  "website": null,
+  "main": "iJoshuaHD\\iMCPE\\ASR\\Loader",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "asr",
+      "description": "Set ASR Time",
+      "usage": "",
+      "permission": "asr.command.asr",
+      "aliases": []
+    },
+    {
+      "name": "restart",
+      "description": "Check ASR Status",
+      "usage": "",
+      "permission": "asr.command.restart",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "asr.command.asr",
+      "description": "Usage: /asr <value>",
+      "default": "op"
+    },
+    {
+      "name": "asr.command.restart",
+      "description": "Usage: /restart",
+      "default": "true"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.5.0/asr/ASR-2.0.1.phar",
+      "file_name": "ASR-2.0.1.phar",
+      "sha256": "b80d6e7dc68b39815b3aa311932688d22cc92f399e038f5c7f099e141be22102",
+      "size": 15228,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/asr/ASR-2.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/自动重启/自动重启.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:22+08:00",
+  "minecraft_version_source": "api-inferred"
+}

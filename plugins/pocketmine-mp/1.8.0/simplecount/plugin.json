@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "simplecount",
+  "name": "SimpleCount",
+  "display_name": "百度贴吧",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.8.0",
+  "minecraft_versions": [
+    "1.8.0"
+  ],
+  "minecraft_version_range": ">=1.8.0 <1.9.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.12.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.4.7",
+  "author": [
+    "Anapopo"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "简单计数",
+  "website": null,
+  "main": "Anapopo\\SimpleCount",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "setmode",
+      "description": "设置底部显示模式",
+      "usage": "用法：输入/setmode <数字>",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.8.0/simplecount/SimpleCount-1.4.7.phar",
+      "file_name": "SimpleCount-1.4.7.phar",
+      "sha256": "dcc7d1755057aa9c4e30ab739c8f47d592ff9d791172813306be037dfb956f40",
+      "size": 59800,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.8.0/simplecount/SimpleCount-1.4.7.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/[S]SimpleCount_v1.4.7.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:32+08:00",
+  "minecraft_version_source": "api-inferred"
+}

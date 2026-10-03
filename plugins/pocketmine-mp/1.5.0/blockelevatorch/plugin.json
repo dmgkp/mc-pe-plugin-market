@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "blockelevatorch",
+  "name": "BlockElevatorCH",
+  "display_name": "自动上台阶",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "1.5.0",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "0.14.0",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.1",
+  "author": [
+    "Mentha Haplocalyx Alcatraz_Du"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "BlockElevatorCH - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "BlockElevator\\BlockElevator",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/1.5.0/blockelevatorch/BlockElevatorCH-1.0.1.phar",
+      "file_name": "BlockElevatorCH-1.0.1.phar",
+      "sha256": "e12501c48863f8e77f800ddcab32dd558716c481d915726f32dd1b4e8249762d",
+      "size": 3172,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/1.5.0/blockelevatorch/BlockElevatorCH-1.0.1.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "Go!极致插件包v2.3.0/PocketMine's 插件/PocketMine-插件/自动上台阶/自动上台阶 (1).phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:31+08:00",
+  "minecraft_version_source": "api-inferred"
+}

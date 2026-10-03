@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "qinventory",
+  "name": "QInventory",
+  "display_name": "背包查询",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.14.0",
+  "minecraft_versions": [
+    "0.14.0"
+  ],
+  "minecraft_version_range": ">=0.14.0 <0.15.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "qitu"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "Inventory Plugin",
+  "website": null,
+  "main": "QInventory\\Main",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "Look",
+      "description": "QInventory命令",
+      "usage": "",
+      "permission": "QInventory.command.Look",
+      "aliases": [
+        "QInventory"
+      ]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "QInventory.command.Look",
+      "description": "QInventory插件命令",
+      "default": "op"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.14.0/qinventory/QInventory-1.0.0.phar",
+      "file_name": "QInventory-1.0.0.phar",
+      "sha256": "57285a8af4629f932c4e6f042ae27fdf347c66b56009cd0f47f8cecdcc4ea21c",
+      "size": 11838,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.14.0/qinventory/QInventory-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PM插件/背包查询/背包查询.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:22+08:00",
+  "minecraft_version_source": "api-inferred"
+}

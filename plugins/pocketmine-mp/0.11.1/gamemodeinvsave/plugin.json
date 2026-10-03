@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "gamemodeinvsave",
+  "name": "GamemodeInvSave",
+  "display_name": "切换模式保存背包",
+  "edition": "bedrock",
+  "server_type": "pocketmine-mp",
+  "server_types": [
+    "pocketmine-mp"
+  ],
+  "minecraft_version": "0.11.1",
+  "minecraft_versions": [
+    "0.11.0",
+    "0.11.1",
+    "1.5.0"
+  ],
+  "minecraft_version_range": ">=0.11.0 <1.6.0",
+  "server_versions": {
+    "pocketmine-mp": ">=1.9.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "64FF00"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "GamemodeInvSave - Minecraft Bedrock plugin for pocketmine-mp.",
+  "website": null,
+  "main": "_64FF00\\GamemodeInvSave\\GamemodeInvSave",
+  "tags": [
+    "gameplay"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/pocketmine-mp/0.11.1/gamemodeinvsave/GamemodeInvSave-1.0.0.phar",
+      "file_name": "GamemodeInvSave-1.0.0.phar",
+      "sha256": "8aa059bc47bd0ab5374a4b8ea439e904290366d78d03bff52c152215253df70b",
+      "size": 2632,
+      "download_paths": {
+        "github": "plugins/pocketmine-mp/0.11.1/gamemodeinvsave/GamemodeInvSave-1.0.0.phar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "百度贴吧/0.11.1插件『带使用方法』/切换模式保存背包/切换模式保存背包.phar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:27+08:00",
+  "minecraft_version_source": "path"
+}

@@ -1,0 +1,42 @@
+{
+  "data": {
+    "count": 282,
+    "bytes": 303190
+  },
+  "document": {
+    "count": 930,
+    "bytes": 3851294
+  },
+  "other": {
+    "count": 32,
+    "bytes": 143894
+  },
+  "server-core": {
+    "count": 80,
+    "bytes": 176373799
+  },
+  "source": {
+    "count": 413,
+    "bytes": 2150235
+  },
+  "app": {
+    "count": 11,
+    "bytes": 25317418
+  },
+  "map": {
+    "count": 809,
+    "bytes": 518564324
+  },
+  "image": {
+    "count": 88,
+    "bytes": 44463122
+  },
+  "archive": {
+    "count": 52,
+    "bytes": 303303330
+  },
+  "audio": {
+    "count": 173,
+    "bytes": 2488678
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "anticheat",
+  "name": "AntiCheat",
+  "display_name": "反作弊",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "1.1.0",
+  "minecraft_versions": [
+    "1.1.0"
+  ],
+  "minecraft_version_range": ">=1.1.0 <1.2.0",
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "1.0.0",
+  "author": [
+    "WetABQ"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": "AntiCheat Plugin",
+  "website": null,
+  "main": "top.dreamcity.AntiCheat.AntiCheat",
+  "tags": [
+    "protection"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [],
+  "permissions": [],
+  "files": [
+    {
+      "path": "plugins/nukkit/1.1.0/anticheat/AntiCheat-1.0.0.jar",
+      "file_name": "AntiCheat-1.0.0.jar",
+      "sha256": "922eb99ecb47306394eb99cc45ac2652ba41c37ddcf8c8154fb5737b10de7fa8",
+      "size": 26443,
+      "download_paths": {
+        "github": "plugins/nukkit/1.1.0/anticheat/AntiCheat-1.0.0.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "[1.6.3]Lunchs插件包更新！--有生之年____/1.6.3/Nukkit插件/AntiCheat--反作弊/AntiCheat_v1.0.0--反作弊.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:00:46+08:00",
+  "minecraft_version_source": "api-inferred"
+}

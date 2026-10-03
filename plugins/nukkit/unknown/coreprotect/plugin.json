@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "id": "coreprotect",
+  "name": "CoreProtect",
+  "display_name": "基础插件",
+  "edition": "bedrock",
+  "server_type": "nukkit",
+  "server_types": [
+    "nukkit"
+  ],
+  "minecraft_version": "unknown",
+  "minecraft_versions": [
+    "unknown"
+  ],
+  "minecraft_version_range": null,
+  "server_versions": {
+    "nukkit": ">=1.0.0"
+  },
+  "server_version_source": "plugin.yml api",
+  "plugin_version": "2.0.8",
+  "author": [
+    "Intelli"
+  ],
+  "license": "NOASSERTION",
+  "license_status": "unknown",
+  "description": ">",
+  "website": "http://coreprotect.net",
+  "main": "net.coreprotect.CoreProtect",
+  "tags": [
+    "protection",
+    "library"
+  ],
+  "dependencies": [],
+  "soft_dependencies": [],
+  "conflicts": [],
+  "commands": [
+    {
+      "name": "core",
+      "description": "Utilize the plugin",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "coreprotect",
+      "description": "Utilize the plugin",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    },
+    {
+      "name": "co",
+      "description": "Utilize the plugin",
+      "usage": "|",
+      "permission": "",
+      "aliases": []
+    }
+  ],
+  "permissions": [
+    {
+      "name": "coreprotect.*",
+      "description": "Gives access to all CoreProtect actions and commands",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.lookup",
+      "description": "Has permission to use the lookup command",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.lookup.chat",
+      "description": "Has permission to lookup chat messages",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.lookup.command",
+      "description": "Has permission to lookup player commands",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.lookup.session",
+      "description": "Has permission to lookup player sessions",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.lookup.block",
+      "description": "Has permission to lookup block data",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.lookup.click",
+      "description": "Has permission to lookup player interactions",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.lookup.container",
+      "description": "Has permission to lookup container transactions",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.lookup.container",
+      "description": "Has permission to lookup entity kills",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.rollback",
+      "description": "Has permission to perform rollbacks",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.restore",
+      "description": "Has permission to perform restores",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.inspect",
+      "description": "Has permission to use the inspector",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.help",
+      "description": "Has permission to use the help command",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.purge",
+      "description": "Has permission to use the purge command",
+      "default": "false"
+    },
+    {
+      "name": "coreprotect.reload",
+      "description": "Has permission to use the reload command",
+      "default": "false"
+    }
+  ],
+  "files": [
+    {
+      "path": "plugins/nukkit/unknown/coreprotect/CoreProtect-2.0.8.jar",
+      "file_name": "CoreProtect-2.0.8.jar",
+      "sha256": "aab250a2b540c9d8f10b87f90940db16ab7f46fb772e0f0cd2bbfde7b73fa687",
+      "size": 246269,
+      "download_paths": {
+        "github": "plugins/nukkit/unknown/coreprotect/CoreProtect-2.0.8.jar"
+      }
+    }
+  ],
+  "history": null,
+  "readme": "README.md",
+  "changelog": "CHANGELOG.md",
+  "icon": null,
+  "status": "stable",
+  "source": {
+    "archive_layout": "pack",
+    "original_relative_path": "流星插件包/PC基础插件/CoreProtect_2.08-CB1.6.1-汉化-by-橙子.jar"
+  },
+  "mirror_base": "https://raw.githubusercontent.com/dmgkp/mc-pe-plugin-market/main/",
+  "updated_at": "2026-10-03T15:01:13+08:00",
+  "minecraft_version_source": "unknown"
+}
